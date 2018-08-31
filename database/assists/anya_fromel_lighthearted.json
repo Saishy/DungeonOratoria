@@ -1,0 +1,40 @@
+{
+	"id": "anya_fromel_lighthearted",
+	"title": "Lighthearted",
+	"name": "Anya Fromel",
+	"stars": 3,
+	"limited": false,
+	"stats": {
+		"hp": [538, 0, 0, 0, 0, 838],
+		"mp": [96, 0, 0, 0, 0, 146],
+		"physical_attack": [118, 0, 0, 0, 0, 198],
+		"magic_attack": [95, 0, 0, 0, 0, 175],
+		"defense": [84, 0, 0, 0, 0, 140],
+		"strength": [118, 0, 0, 0, 0, 198],
+		"endurance": [84, 0, 0, 0, 0, 14],
+		"dexterity": [139, 0, 0, 0, 0, 224],
+		"agility": [217, 0, 0, 0, 0, 357],
+		"magic": [95, 0, 0, 0, 0, 175]
+	},
+	"skills": [
+		{
+			"name": "Cheerful Support+",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "seal_resist",
+					"modifier": "+75%"
+				}
+			]
+		}, {
+			"name": "Cheerful Support++",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "seal_resist",
+					"modifier": "+100%"
+				}
+			]
+		}
+	]
+}

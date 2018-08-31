@@ -1,0 +1,119 @@
+{
+	"id": "tiona_hiryute_summer_swim",
+	"title": "Summer Swim",
+	"name": "Tiona Hiryute",
+	"type": "physical_type",
+	"stars": 4,
+	"limited": true,
+	"stats": {
+		"hp": [1560, 1744, 1940, 2148, 2370, 2610],
+		"mp": [118, 130, 142, 154, 166, 178],
+		"physical_attack": [477, 571, 665, 853, 1041, 1229],
+		"magic_attack": [107, 177, 247, 247, 247, 317],
+		"defense": [155, 216, 278, 339, 401, 401],
+		"strength": [477, 571, 665, 853, 1041, 1229],
+		"endurance": [155, 216, 278, 339, 401, 401],
+		"dexterity": [192, 267, 342, 417, 492, 492],
+		"agility": [291, 375, 458, 542, 625, 793],
+		"magic": [107, 177, 247, 247, 247, 317]
+	},
+	"skills": {
+		"special": {
+			"id": "intense_heat",
+			"name": "Intense Heat",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "physical_attack"
+				}
+			]
+		},
+		"combat": [
+			{
+				"id": "tres_rodirro",
+				"name": "Tres Rodirro",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "physical_attack"
+					}
+				]
+			}, {
+				"id": "amazoness_ira",
+				"name": "Amazoness Ira",
+				"effects": [
+					{
+						"target": "self",
+						"attribute": "strength",
+						"modifier": "+75%"
+					}, {
+						"target": "self",
+						"attribute": "physical_resist",
+						"modifier": "-15%"
+					}
+				]
+			}, {
+				"name": "Skill 3 Placeholder",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "physical_attack"
+					}, {
+						"target": "foes",
+						"attribute": "stun",
+						"modifier": "15%"
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Hunter: I",
+				"effects": [
+					{
+						"attribute": "ability",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Indomitable: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Courageous: I",
+				"effects": [
+					{
+						"attribute": "strength",
+						"modifier": "+4%"
+					}
+				]
+			}, {
+				"name": "Fist Strike: G",
+				"effects": [
+					{
+						"attribute": "strength",
+						"modifier": "+4%"
+					}
+				]
+			}, {
+				"name": "Crush: G",
+				"effects": [
+					{
+						"attribute": "strength",
+						"modifier": "+4%"
+					}
+				]
+			}
+		]
+	}
+}

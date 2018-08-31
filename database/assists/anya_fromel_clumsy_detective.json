@@ -1,0 +1,40 @@
+{
+	"id": "anya_fromel_clumsy_detective",
+	"title": "Clumsy Detective",
+	"name": "Anya Fromel",
+	"stars": 4,
+	"limited": false,
+	"stats": {
+		"hp": [756, 0, 0, 0, 0, 1216],
+		"mp": [75, 0, 0, 0, 0, 115],
+		"physical_attack": [179, 0, 0, 0, 0, 545],
+		"magic_attack": [119, 0, 0, 0, 0, 218],
+		"defense": [152, 0, 0, 0, 0, 282],
+		"strength": [279, 0, 0, 0, 0, 545],
+		"endurance": [152, 0, 0, 0, 0, 282],
+		"dexterity": [164, 0, 0, 0, 0, 308],
+		"agility": [199, 0, 0, 0, 0, 369],
+		"magic": [119, 0, 0, 0, 0, 218]
+	},
+	"skills": [
+		{
+			"name": "By Instinct+",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "physical_resist",
+					"modifier": "-15%"
+				}
+			]
+		}, {
+			"name": "By Instinct++",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "physical_resist",
+					"modifier": "-20%"
+				}
+			]
+		}
+	]
+}

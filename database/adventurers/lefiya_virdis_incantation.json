@@ -1,0 +1,119 @@
+{
+	"id": "lefiya_virdis_incantation",
+	"title": "Incantation",
+	"name": "Lefiya Virdis",
+	"type": "magic_type",
+	"stars": 4,
+	"limited": false,
+	"stats": {
+		"hp": [1056, 1168, 1286, 1410, 1540, 1676],
+		"mp": [181, 197, 153, 213, 251, 271],
+		"physical_attack": [121, 195, 269, 343, 343, 343],
+		"magic_attack": [477, 562, 648, 734, 905, 1247],
+		"defense": [127, 209, 290, 371, 371, 371],
+		"strength": [121, 195, 269, 343, 343, 343],
+		"endurance": [127, 209, 290, 371, 371, 371],
+		"dexterity": [214, 302, 390, 478, 566, 566],
+		"agility": [248, 320, 392, 464, 608, 680],
+		"magic": [477, 562, 648, 734, 905, 1247]
+	},
+	"skills": {
+		"special": {
+			"name": "Elf Ring",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "ice_magic_attack"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Arcs Ray",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "light_magic_attack"
+					}
+				]
+			}, {
+				"name": "Lux Maleficium",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "light_magic_attack"
+					}, {
+						"target": "foes",
+						"attribute": "light_resist",
+						"modifier": "-10%",
+						"duration": 4
+					}
+				]
+			}, {
+				"name": "Anemos Fotia",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "fire_magic_attack"
+					}, {
+						"target": "foes",
+						"attribute": "magic_resist",
+						"modifier": "-10%",
+						"duration": 4
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Material Killer",
+				"effects": [
+					{
+						"attribute": "material_killer",
+						"modifier": "+50%"
+					}
+				]
+			}, {
+				"name": "Mage: H",
+				"effects": [
+					{
+						"attribute": "magic",
+						"modifier": "+7%"
+					}
+				]
+			}, {
+				"name": "Status Resist: I",
+				"effects": [
+					{
+						"attribute": "ailment_resist",
+						"modifier": "+15%"
+					}
+				]
+			}, {
+				"name": "Chef: I",
+				"effects": [
+					{
+						"attribute": "dexterity",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Unbreakable: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+10%"
+					}
+				]
+			}
+		]
+	}
+}

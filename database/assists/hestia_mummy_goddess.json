@@ -1,0 +1,40 @@
+{
+	"id": "hestia_mummy_goddess",
+	"title": "Mummy Goddess",
+	"name": "Hestia",
+	"stars": 4,
+	"limited": true,
+	"stats": {
+		"hp": [618, 0, 0, 0, 0, 0],
+		"mp": [104, 0, 0, 0, 0, 0],
+		"physical_attack": [204, 0, 0, 0, 0, 0],
+		"magic_attack": [161, 0, 0, 0, 0, 0],
+		"defense": [219, 0, 0, 0, 0, 0],
+		"strength": [204, 0, 0, 0, 0, 0],
+		"endurance": [219, 0, 0, 0, 0, 0],
+		"dexterity": [187, 0, 0, 0, 0, 0],
+		"agility": [126, 0, 0, 0, 0, 0],
+		"magic": [161, 0, 0, 0, 0, 0]
+	},
+	"skills": [
+		{
+			"name": "Mummy Guidance+",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "counter_rate",
+					"modifier": "+8%"
+				}
+			]
+		}, {
+			"name": "Mummy Guidance++",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "counter_rate",
+					"modifier": "+10%"
+				}
+			]
+		}
+	]
+}

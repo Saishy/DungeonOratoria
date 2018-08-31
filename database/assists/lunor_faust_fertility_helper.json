@@ -1,0 +1,40 @@
+{
+	"id": "lunor_faust_fertility_helper",
+	"title": "Fertility Helper",
+	"name": "Lunor Faust",
+	"stars": 2,
+	"limited": false,
+	"stats": {
+		"hp": [518, 0, 0, 0, 0, 818],
+		"mp": [91, 0, 0, 0, 0, 141],
+		"physical_attack": [84, 0, 0, 0, 0, 144],
+		"magic_attack": [76, 0, 0, 0, 0, 132],
+		"defense": [74, 0, 0, 0, 0, 118],
+		"strength": [84, 0, 0, 0, 0, 14],
+		"endurance": [74, 0, 0, 0, 0, 118],
+		"dexterity": [181, 0, 0, 0, 0, 286],
+		"agility": [110, 0, 0, 0, 0, 175],
+		"magic": [76, 0, 0, 0, 0, 132]
+	},
+	"skills": [
+		{
+			"name": "Cleaning Skills+",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "critical_rate",
+					"modifier": "-10%"
+				}
+			]
+		}, {
+			"name": "Cleaning Skills++",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "critical_rate",
+					"modifier": "-15%"
+				}
+			]
+		}
+	]
+}

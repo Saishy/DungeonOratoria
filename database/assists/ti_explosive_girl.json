@@ -1,0 +1,48 @@
+{
+	"id": "ti_explosive_girl",
+	"title": "Explosive Girl",
+	"name": "Ti",
+	"stars": 4,
+	"limited": true,
+	"stats": {
+		"hp": [776, 0, 0, 0, 0, 1236],
+		"mp": [75, 0, 0, 0, 0, 115],
+		"physical_attack": [288, 0, 0, 0, 0, 554],
+		"magic_attack": [114, 0, 0, 0, 0, 213],
+		"defense": [154, 0, 0, 0, 0, 284],
+		"strength": [288, 0, 0, 0, 0, 554],
+		"endurance": [154, 0, 0, 0, 0, 284],
+		"dexterity": [168, 0, 0, 0, 0, 312],
+		"agility": [200, 0, 0, 0, 0, 370],
+		"magic": [114, 0, 0, 0, 0, 213]
+	},
+	"skills": [
+		{
+			"name": "It's Alright Now+",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "strength",
+					"modifier": "+8%"
+				}, {
+					"target": "allies",
+					"attribute": "critical_rate",
+					"modifier": "+8%"
+				}
+			]
+		}, {
+			"name": "It's Alright Now++",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "strength",
+					"modifier": "+10%"
+				}, {
+					"target": "allies",
+					"attribute": "critical_rate",
+					"modifier": "+10%"
+				}
+			]
+		}
+	]
+}

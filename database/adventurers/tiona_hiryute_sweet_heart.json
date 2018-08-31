@@ -1,0 +1,126 @@
+{
+	"id": "tiona_hiryute_sweet_heart",
+	"title": "Sweet Heart",
+	"name": "Tiona Hiryute",
+	"type": "physical_type",
+	"stars": 4,
+	"limited": true,
+	"stats": {
+		"hp": [1560, 1744, 1940, 2148, 2370, 2610],
+		"mp": [118, 130, 142, 154, 166, 178],
+		"physical_attack": [620, 719, 818, 917, 1115, 1412],
+		"magic_attack": [108, 178, 248, 318, 318, 318],
+		"defense": [178, 242, 305, 369, 433, 433],
+		"strength": [620, 719, 818, 917, 1115, 1412],
+		"endurance": [178, 242, 305, 369, 433, 433],
+		"dexterity": [192, 267, 342, 417, 492, 492],
+		"agility": [312, 396, 479, 563, 646, 814],
+		"magic": [108, 178, 248, 318, 318, 318]
+	},
+	"skills": {
+		"special": {
+			"id": "chocolata_soltar",
+			"name": "Chocolata Soltar",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "physical_attack"
+				}, {
+					"target": "skill",
+					"attribute": "strength",
+					"modifier": "boost"
+				}
+			]
+		},
+		"combat": [
+			{
+				"id": "pecado_merienda",
+				"name": "Pecado Merienda",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "physical_attack"
+					}, {
+						"target": "foes",
+						"attribute": "charm",
+						"modifier": "15%"
+					}
+				]
+			}, {
+				"id": "bonito_ruptura",
+				"name": "Bonito Ruptura",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "physical_attack"
+					}, {
+						"target": "foes",
+						"attribute": "magic",
+						"modifier": "-30%",
+						"duration": 4
+					}
+				]
+			}, {
+				"id": "bravo_gusto",
+				"name": "Bravo Gusto",
+				"effects": [
+					{
+						"target": "self",
+						"attribute": "magic_resist",
+						"modifier": "+50%",
+						"duration": 4
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Hunter: I",
+				"effects": [
+					{
+						"attribute": "agility",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Indomitable: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Courageous: I",
+				"effects": [
+					{
+						"attribute": "strength",
+						"modifier": "+5%"
+					}
+				]
+			}, {
+				"name": "Crush: I",
+				"effects": [
+					{
+						"attribute": "strength",
+						"modifier": "+5%"
+					}
+				]
+			}, {
+				"name": "Status Resist: H",
+				"effects": [
+					{
+						"attribute": "ailment_resist",
+						"modifier": "+15%"
+					}
+				]
+			}
+		]
+	}
+}

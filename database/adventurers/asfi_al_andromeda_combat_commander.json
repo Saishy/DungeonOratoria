@@ -1,0 +1,81 @@
+{
+	"id": "asfi_al_andromeda_combat_commander",
+	"title": "Combat Commander",
+	"name": "Asfi Al Andromeda",
+	"type": "balance_type",
+	"stars": 3,
+	"limited": false,
+	"stats": {
+		"hp": [1246, 0, 0, 0, 0, 2306],
+		"mp": [142, 0, 0, 0, 0, 202],
+		"physical_attack": [169, 0, 0, 0, 0, 419],
+		"magic_attack": [175, 0, 0, 0, 0, 427],
+		"defense": [121, 0, 0, 0, 0, 301],
+		"strength": [169, 0, 0, 0, 0, 419],
+		"endurance": [121, 0, 0, 0, 0, 301],
+		"dexterity": [214, 0, 0, 0, 0, 506],
+		"agility": [165, 0, 0, 0, 0, 412],
+		"magic": [175, 0, 0, 0, 0, 427]
+	},
+	"skills": {
+		"special": {
+			"name": "Special Placeholder",
+			"effects": [
+				{
+					"target": "self",
+					"attribute": "strength",
+					"modifier": "+0%"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Skill 1 Placeholder",
+				"effects": [
+					{
+						"target": "self",
+						"attribute": "strength",
+						"modifier": "+0%"
+					}
+				]
+			}, {
+				"name": "Skill 2 Placeholder",
+				"effects": [
+					{
+						"target": "self",
+						"attribute": "strength",
+						"modifier": "+0%"
+					}
+				]
+			}, {
+				"name": "Skill 3 Placeholder",
+				"effects": [
+					{
+						"target": "self",
+						"attribute": "strength",
+						"modifier": "+0%"
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Placeholder: I",
+				"effects": [
+					{
+						"attribute": "dexterity",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "PlaceholderTwo: I",
+				"effects": [
+					{
+						"attribute": "agility",
+						"modifier": "+10%"
+					}
+				]
+			}
+		]
+	}
+}

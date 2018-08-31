@@ -1,0 +1,40 @@
+{
+	"id": "lunor_faust_prideful_waitress",
+	"title": "Prideful Waitress",
+	"name": "Lunor Faust",
+	"stars": 3,
+	"limited": false,
+	"stats": {
+		"hp": [656, 0, 0, 0, 0, 1126],
+		"mp": [70, 0, 0, 0, 0, 110],
+		"physical_attack": [213, 0, 0, 0, 0, 353],
+		"magic_attack": [79, 0, 0, 0, 0, 139],
+		"defense": [106, 0, 0, 0, 0, 176],
+		"strength": [213, 0, 0, 0, 0, 353],
+		"endurance": [106, 0, 0, 0, 0, 176],
+		"dexterity": [122, 0, 0, 0, 0, 202],
+		"agility": [138, 0, 0, 0, 0, 133],
+		"magic": [79, 0, 0, 0, 0, 139]
+	},
+	"skills": [
+		{
+			"name": "Service Skills+",
+			"effects": [
+				{
+					"target": "self",
+					"attribute": "dexterity",
+					"modifier": "+12%"
+				}
+			]
+		}, {
+			"name": "Service Skills++",
+			"effects": [
+				{
+					"target": "self",
+					"attribute": "dexterity",
+					"modifier": "+15%"
+				}
+			]
+		}
+	]
+}

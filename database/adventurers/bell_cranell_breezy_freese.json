@@ -1,0 +1,81 @@
+{
+	"id": "bell_cranel_breezy_freese",
+	"title": "Breezy Freese",
+	"name": "Bell Cranel",
+	"type": "magic_type",
+	"stars": 4,
+	"limited": false,
+	"stats": {
+		"hp": [1390, 0, 0, 0, 0, 2450],
+		"mp": [140, 0, 0, 0, 0, 200],
+		"physical_attack": [321, 0, 0, 0, 0, 848],
+		"magic_attack": [338, 0, 0, 0, 0, 829],
+		"defense": [142, 0, 0, 0, 0, 390],
+		"strength": [321, 0, 0, 0, 0, 848],
+		"endurance": [142, 0, 0, 0, 0, 390],
+		"dexterity": [115, 0, 0, 0, 0, 354],
+		"agility": [358, 0, 0, 0, 0, 878],
+		"magic": [338, 0, 0, 0, 0, 829]
+	},
+	"skills": {
+		"special": {
+			"name": "Special Placeholder",
+			"effects": [
+				{
+					"target": "self",
+					"attribute": "strength",
+					"modifier": "+0%"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Skill 1 Placeholder",
+				"effects": [
+					{
+						"target": "self",
+						"attribute": "strength",
+						"modifier": "+0%"
+					}
+				]
+			}, {
+				"name": "Skill 2 Placeholder",
+				"effects": [
+					{
+						"target": "self",
+						"attribute": "strength",
+						"modifier": "+0%"
+					}
+				]
+			}, {
+				"name": "Skill 3 Placeholder",
+				"effects": [
+					{
+						"target": "self",
+						"attribute": "strength",
+						"modifier": "+0%"
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Placeholder: I",
+				"effects": [
+					{
+						"attribute": "dexterity",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "PlaceholderTwo: I",
+				"effects": [
+					{
+						"attribute": "agility",
+						"modifier": "+10%"
+					}
+				]
+			}
+		]
+	}
+}

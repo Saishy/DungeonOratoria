@@ -1,0 +1,40 @@
+{
+	"id": "eina_tulle_minstrel_elf",
+	"title": "Minstrel Elf",
+	"name": "Eina Tulle",
+	"stars": 4,
+	"limited": false,
+	"stats": {
+		"hp": 				[614, 	670, 	726, 	786, 	850, 	914],
+		"mp": 				[100, 	108, 	116, 	126, 	138, 	150],
+		"physical_attack": 	[113, 	145, 	177, 	209, 	209, 	209],
+		"magic_attack": 	[336, 	369, 	402, 	468, 	534, 	600],
+		"defense": 			[112, 	137, 	162, 	162, 	187, 	212],
+		"strength": 		[113, 	145, 	177, 	209, 	209, 	209],
+		"endurance": 		[112, 	137, 	162, 	162, 	187, 	212],
+		"dexterity": 		[181, 	213, 	245, 	277, 	341, 	341],
+		"agility": 			[178, 	211, 	244, 	277, 	277, 	310],
+		"magic": 			[336, 	369, 	402, 	468, 	534, 	600]
+	},
+	"skills": [
+		{
+			"name": "Song of Honor+",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "null_magic_attack_no_special",
+					"modifier": "x1"
+				}
+			]
+		}, {
+			"name": "Song of Honor++",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "null_magic_attack_no_special",
+					"modifier": "x2"
+				}
+			]
+		}
+	]
+}

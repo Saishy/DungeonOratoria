@@ -1,0 +1,48 @@
+{
+	"id": "riveria_ljos_alf_little_dame",
+	"title": "Little Dame",
+	"name": "Riveria Ljos Alf",
+	"stars": 4,
+	"limited": true,
+	"stats": {
+		"hp": [598, 0, 0, 0, 0, 898],
+		"mp": [106, 0, 0, 0, 0, 156],
+		"physical_attack": [215, 0, 0, 0, 0, 380],
+		"magic_attack": [172, 0, 0, 0, 0, 304],
+		"defense": [214, 0, 0, 0, 0, 396],
+		"strength": [215, 0, 0, 0, 0, 380],
+		"endurance": [214, 0, 0, 0, 0, 396],
+		"dexterity": [177, 0, 0, 0, 0, 332],
+		"agility": [120, 0, 0, 0, 0, 222],
+		"magic": [172, 0, 0, 0, 0, 304]
+	},
+	"skills": [
+		{
+			"name": "My name is Alf!+",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "strength",
+					"modifier": "+8%"
+				}, {
+					"target": "allies",
+					"attribute": "magic",
+					"modifier": "+8%"
+				}
+			]
+		}, {
+			"name": "My name is Alf!++",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "strength",
+					"modifier": "+10%"
+				}, {
+					"target": "allies",
+					"attribute": "magic",
+					"modifier": "+10%"
+				}
+			]
+		}
+	]
+}

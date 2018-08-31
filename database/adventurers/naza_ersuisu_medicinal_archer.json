@@ -1,0 +1,122 @@
+{
+	"id": "naza_ersuisu_medicinal_archer",
+	"title": "Medicinal Archer",
+	"name": "Naza Ersuisu",
+	"type": "balance_type",
+	"stars": 4,
+	"limited": false,
+	"stats": {
+		"hp": [1412, 1588, 1782, 1994, 2224, 2472],
+		"mp": [160, 172, 184, 196, 208, 220],
+		"physical_attack": [347, 539, 635, 731, 827, 923],
+		"magic_attack": [401, 497, 593, 689, 785, 977],
+		"defense": [193, 193, 249, 305, 361, 418],
+		"strength": [347, 539, 635, 731, 827, 923],
+		"endurance": [193, 193, 249, 305, 361, 418],
+		"dexterity": [229, 307, 385, 463, 541, 619],
+		"agility": [211, 287, 363, 438, 514, 514],
+		"magic": [401, 497, 593, 689, 785, 977]
+	},
+	"skills": {
+		"special": {
+			"name": "Gatling Arrow",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "physical_attack"
+				}, {
+					"target": "foes",
+					"attribute": "seal",
+					"modifier": "30%"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Trick Arrow",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "physical_attack"
+					}, {
+						"target": "foes",
+						"attribute": "magic",
+						"modifier": "-30%",
+						"duration": 4
+					}
+				]
+			}, {
+				"name": "Buster Arrow",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "physical_attack"
+					}, {
+						"target": "skill",
+						"attribute": "life_steal",
+						"modifier": "30%"
+					}
+				]
+			}, {
+				"name": "Hiding Position",
+				"effects": [
+					{
+						"target": "allies",
+						"attribute": "magic_resist",
+						"modifier": "+30%",
+						"duration": 4
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Acceleration: I",
+				"effects": [
+					{
+						"attribute": "agility",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Unbreakable: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Defense: I",
+				"effects": [
+					{
+						"attribute": "physical_resist",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Magic Resistance: I",
+				"effects": [
+					{
+						"attribute": "magic_resist",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Status Resist: I",
+				"effects": [
+					{
+						"attribute": "ailment_resist",
+						"modifier": "+15%"
+					}
+				]
+			}
+		]
+	}
+}

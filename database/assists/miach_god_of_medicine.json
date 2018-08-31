@@ -1,0 +1,40 @@
+{
+	"id": "miach_god_of_medicine",
+	"title": "God of Medicine",
+	"name": "Miach",
+	"stars": 3,
+	"limited": false,
+	"stats": {
+		"hp": [428, 0, 0, 0, 0, 688],
+		"mp": [158, 0, 0, 0, 0, 218],
+		"physical_attack": [83, 0, 0, 0, 0, 140],
+		"magic_attack": [227, 0, 0, 0, 0, 379],
+		"defense": [81, 0, 0, 0, 0, 137],
+		"strength": [83, 0, 0, 0, 0, 140],
+		"endurance": [81, 0, 0, 0, 0, 137],
+		"dexterity": [133, 0, 0, 0, 0, 218],
+		"agility": [104, 0, 0, 0, 0, 176],
+		"magic": [227, 0, 0, 0, 0, 379]
+	},
+	"skills": [
+		{
+			"name": "Medi-God's Grace+",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "poison",
+					"modifier": "5%"
+				}
+			]
+		}, {
+			"name": "Medi-God's Grace++",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "poison",
+					"modifier": "7%"
+				}
+			]
+		}
+	]
+}

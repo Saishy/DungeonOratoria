@@ -1,0 +1,40 @@
+{
+	"id": "mia_grand_overwhelm",
+	"title": "Overwhelm",
+	"name": "Mia Grand",
+	"stars": 3,
+	"limited": false,
+	"stats": {
+		"hp": [726, 0, 0, 0, 0, 1186],
+		"mp": [67, 0, 0, 0, 0, 107],
+		"physical_attack": [138, 0, 0, 0, 0, 233],
+		"magic_attack": [98, 0, 0, 0, 0, 174],
+		"defense": [159, 0, 0, 0, 0, 257],
+		"strength": [138, 0, 0, 0, 0, 233],
+		"endurance": [159, 0, 0, 0, 0, 257],
+		"dexterity": [127, 0, 0, 0, 0, 217],
+		"agility": [79, 0, 0, 0, 0, 133],
+		"magic": [98, 0, 0, 0, 0, 174]
+	},
+	"skills": [
+		{
+			"name": "Straighten Up!+",
+			"effects": [
+				{
+					"target": "self",
+					"attribute": "endurance",
+					"modifier": "+8%"
+				}
+			]
+		}, {
+			"name": "Straighten Up!++",
+			"effects": [
+				{
+					"target": "self",
+					"attribute": "endurance",
+					"modifier": "+10%"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,127 @@
+{
+	"id": "asfi_al_andromeda_sailor_princess",
+	"title": "Sailor Princess",
+	"name": "Asfi Al Andromeda",
+	"type": "balance_type",
+	"stars": 4,
+	"limited": false,
+	"stats": {
+		"hp": 				[1341,	1517,	1711,	1923,	2153,	2401],
+		"mp": 				[149,	161,	173,	185,	197,	209],
+		"physical_attack": 	[225,	309,	392,	476,	559,	643],
+		"magic_attack": 	[379,	508,	637,	766,	895,	1025],
+		"defense":			[165,	221,	277,	333,	389,	445],
+		"strength": 		[225,	309,	392,	476,	559,	643],
+		"endurance": 		[165,	221,	277,	333,	389,	445],
+		"dexterity": 		[268,	354,	440,	525,	611,	697],
+		"agility": 			[213,	289,	365,	441,	517,	592],
+		"magic": 			[379,	508,	637,	766,	895,	1025]
+	},
+	"skills": {
+		"special": {
+			"name": "Chemistal Burst",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "dark_magic_attack"
+				}, {
+					"target": "foes",
+					"attribute": "poison",
+					"modifier": "10%"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Hypno Mist",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "dark_magic_attack"
+					}, {
+						"target": "foes",
+						"attribute": "sleep",
+						"modifier": "15%"
+					}
+				]
+			}, {
+				"name": "Plague Sting",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "dark_magic_attack"
+					}, {
+						"target": "foe",
+						"attribute": "guard_rate",
+						"modifier": "-50%",
+						"duration": 4
+					}
+				]
+			}, {
+				"name": "Illness Miasma",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "dark_magic_attack"
+					}, {
+						"target": "foes",
+						"attribute": "magic_resist",
+						"modifier": "-20%",
+						"duration": 4
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Wisdom: I",
+				"effects": [
+					{
+						"attribute": "all_status",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Defense: I",
+				"effects": [
+					{
+						"attribute": "physical_resist",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Enlightenment: I",
+				"effects": [
+					{
+						"attribute": "magic",
+						"modifier": "+60%"
+					}
+				]
+			}, {
+				"name": "Magic Resistance: I",
+				"effects": [
+					{
+						"attribute": "magic_resist",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Status Resist: I",
+				"effects": [
+					{
+						"attribute": "ailment_resist",
+						"modifier": "+15%"
+					}
+				]
+			}
+		]
+	}
+}

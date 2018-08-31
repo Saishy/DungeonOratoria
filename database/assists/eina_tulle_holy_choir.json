@@ -1,0 +1,48 @@
+{
+	"id": "eina_tulle_holy_choir",
+	"title": "Holy Choir",
+	"name": "Eina Tulle",
+	"stars": 4,
+	"limited": true,
+	"stats": {
+		"hp": [488, 0, 0, 0, 0, 748],
+		"mp": [164, 0, 0, 0, 0, 22],
+		"physical_attack": [122, 0, 0, 0, 0, 218],
+		"magic_attack": [316, 0, 0, 0, 0, 580],
+		"defense": [122, 0, 0, 0, 0, 222],
+		"strength": [122, 0, 0, 0, 0, 218],
+		"endurance": [122, 0, 0, 0, 0, 222],
+		"dexterity": [200, 0, 0, 0, 0, 360],
+		"agility": [155, 0, 0, 0, 0, 287],
+		"magic": [316, 0, 0, 0, 0, 580]
+	},
+	"skills": [
+		{
+			"name": "Blessing Carols+",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "physical_resist",
+					"modifier": "+8%"
+				}, {
+					"target": "foes",
+					"attribute": "critical_rate",
+					"modifier": "-10%"
+				}
+			]
+		}, {
+			"name": "Blessing Carols++",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "physical_resist",
+					"modifier": "+10%"
+				}, {
+					"target": "foes",
+					"attribute": "critical_rate",
+					"modifier": "-15%"
+				}
+			]
+		}
+	]
+}

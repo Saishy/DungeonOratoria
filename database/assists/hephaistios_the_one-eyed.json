@@ -1,0 +1,40 @@
+{
+	"id": "hephaistios_the_one-eyed",
+	"title": "The One-Eyed",
+	"name": "Hephaistios",
+	"stars": 2,
+	"limited": false,
+	"stats": {
+		"hp": [676, 0, 0, 0, 0, 1136],
+		"mp": [62, 0, 0, 0, 0, 102],
+		"physical_attack": [106, 0, 0, 0, 0, 176],
+		"magic_attack": [84, 0, 0, 0, 0, 140],
+		"defense": [135, 0, 0, 0, 0, 212],
+		"strength": [106, 0, 0, 0, 0, 176],
+		"endurance": [135, 0, 0, 0, 0, 212],
+		"dexterity": [107, 0, 0, 0, 0, 177],
+		"agility": [66, 0, 0, 0, 0, 108],
+		"magic": [84, 0, 0, 0, 0, 140]
+	},
+	"skills": [
+		{
+			"name": "Steel Guard+",
+			"effects": [
+				{
+					"target": "self",
+					"attribute": "physical_resist",
+					"modifier": "+8%"
+				}
+			]
+		}, {
+			"name": "Steel Guard++",
+			"effects": [
+				{
+					"target": "self",
+					"attribute": "physical_resist",
+					"modifier": "+10%"
+				}
+			]
+		}
+	]
+}

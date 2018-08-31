@@ -1,0 +1,40 @@
+{
+	"id": "demeter_harvest_goddess",
+	"title": "Harvest Goddess",
+	"name": "Demeter",
+	"stars": 2,
+	"limited": false,
+	"stats": {
+		"hp": [428, 0, 0, 0, 0, 688],
+		"mp": [153, 0, 0, 0, 0, 213],
+		"physical_attack": [667, 0, 0, 0, 0, 109],
+		"magic_attack": [175, 0, 0, 0, 0, 287],
+		"defense": [68, 0, 0, 0, 0, 112],
+		"strength": [67, 0, 0, 0, 0, 109],
+		"endurance": [68, 0, 0, 0, 0, 112],
+		"dexterity": [107, 0, 0, 0, 0, 172],
+		"agility": [91, 0, 0, 0, 0, 147],
+		"magic": [175, 0, 0, 0, 0, 287]
+	},
+	"skills": [
+		{
+			"name": "Harvest's Grace+",
+			"effects": [
+				{
+					"target": "self",
+					"attribute": "guard_rate",
+					"modifier": "+15%"
+				}
+			]
+		}, {
+			"name": "Harvest's Grace++",
+			"effects": [
+				{
+					"target": "self",
+					"attribute": "guard_rate",
+					"modifier": "+20%"
+				}
+			]
+		}
+	]
+}

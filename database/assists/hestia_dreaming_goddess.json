@@ -1,0 +1,48 @@
+{
+	"id": "hestia_dreaming_goddess",
+	"title": "Dreaming Goddess",
+	"name": "Hestia",
+	"stars": 4,
+	"limited": true,
+	"stats": {
+		"hp": [508, 0, 0, 0, 0, 0],
+		"mp": [161, 0, 0, 0, 0, 0],
+		"physical_attack": [124, 0, 0, 0, 0, 0],
+		"magic_attack": [316, 0, 0, 0, 0, 0],
+		"defense": [129, 0, 0, 0, 0, 0],
+		"strength": [124, 0, 0, 0, 0, 0],
+		"endurance": [129, 0, 0, 0, 0, 0],
+		"dexterity": [192, 0, 0, 0, 0, 0],
+		"agility": [154, 0, 0, 0, 0, 0],
+		"magic": [316, 0, 0, 0, 0, 0]
+	},
+	"skills": [
+		{
+			"name": "Rise and Shine+",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "sleep_resist",
+					"modifier": "+75%"
+				}, {
+					"target": "foes",
+					"attribute": "magic_resist",
+					"modifier": "-12%"
+				}
+			]
+		}, {
+			"name": "Rise and Shine++",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "sleep_resist",
+					"modifier": "+100%"
+				}, {
+					"target": "foes",
+					"attribute": "magic_resist",
+					"modifier": "-15%"
+				}
+			]
+		}
+	]
+}

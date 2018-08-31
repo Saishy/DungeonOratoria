@@ -1,0 +1,125 @@
+{
+	"id": "shizu&riku_wondering_man",
+	"title": "Wondering Man",
+	"name": "Shizu&Riku",
+	"type": "physical_type",
+	"stars": 4,
+	"limited": true,
+	"stats": {
+		"hp": [1610, 1794, 1990, 2198, 2420, 2660],
+		"mp": [124, 136, 148, 160, 172, 184],
+		"physical_attack": [622, 721, 820, 919, 1117, 1414],
+		"magic_attack": [103, 173, 243, 313, 313, 313],
+		"defense": [167, 231, 294, 358, 422, 422],
+		"strength": [622, 721, 820, 919, 1117, 1414],
+		"endurance": [167, 231, 294, 358, 422, 422],
+		"dexterity": [226, 309, 391, 474, 556, 556],
+		"agility": [311, 394, 478, 562, 645, 812],
+		"magic": [103, 173, 243, 313, 313, 313]
+	},
+	"skills": {
+		"special": {
+			"id": "one-bladed_bisection",
+			"name": "One-Bladed Bisection",
+			"effects": [
+				{
+					"target": "foe",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "physical_attack"
+				}, {
+					"target": "skill",
+					"attribute": "strength",
+					"modifier": "boost"
+				}
+			]
+		},
+		"combat": [
+			{
+				"id": "headwind",
+				"name": "Headwind",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "physical_attack"
+					}, {
+						"target": "skill",
+						"attribute": "strength",
+						"modifier": "boost"
+					}
+				]
+			}, {
+				"id": "artisan_sword",
+				"name": "Artisan Sword",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "physical_attack"
+					}, {
+						"target": "foe",
+						"attribute": "physical_resist_buff_removal_no_assist",
+						"modifier": ""
+					}
+				]
+			}, {
+				"id": "concentration",
+				"name": "Concentration",
+				"effects": [
+					{
+						"target": "self",
+						"attribute": "critical_rate",
+						"modifier": "+50%",
+						"duration": 4
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Saboteur: I",
+				"effects": [
+					{
+						"attribute": "dexterity",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Acceleration: I",
+				"effects": [
+					{
+						"attribute": "agility",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Unbreakable: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Swordsman: I",
+				"effects": [
+					{
+						"attribute": "strength",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Status Resist: I",
+				"effects": [
+					{
+						"attribute": "ailment_resist",
+						"modifier": "+15%"
+					}
+				]
+			}
+		]
+	}
+}

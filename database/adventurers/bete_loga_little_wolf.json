@@ -1,0 +1,134 @@
+{
+	"id": "bete_loga_little_wolf",
+	"title": "Little Wolf",
+	"name": "Bete Loga",
+	"type": "physical_type",
+	"stars": 4,
+	"limited": true,
+	"stats": {
+		"hp": [1530, 1714, 1910, 2118, 2340, 2580],
+		"mp": [126, 138, 150, 162, 174, 186],
+		"physical_attack": [629, 728, 827, 926, 1124, 1421],
+		"magic_attack": [124, 194, 264, 334, 334, 334],
+		"defense": [175, 236, 297, 358, 418, 418],
+		"strength": [629, 728, 827, 926, 1124, 1421],
+		"endurance": [175, 236, 297, 385, 418, 418],
+		"dexterity": [183, 258, 333, 408, 483, 483],
+		"agility": [290, 374, 457, 541, 624, 792],
+		"magic": [124, 194, 264, 334, 334, 334]
+	},
+	"skills": {
+		"special": {
+			"id": "rumble_growl",
+			"name": "Rumble Growl",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "physical_attack"
+				}, {
+					"target": "skill",
+					"attribute": "strength",
+					"modifier": "boost"
+				}
+			]
+		},
+		"combat": [
+			{
+				"id": "rufen_mut",
+				"name": "Rufen Mut",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "low",
+						"type": "physical_attack"
+					}, {
+						"target": "skill",
+						"attribute": "life_steal",
+						"modifier": "20%"
+					}
+				]
+			}, {
+				"id": "grand_barrage",
+				"name": "Grand Barrage",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "physical_attack"
+					}, {
+						"target": "foes",
+						"attribute": "agility",
+						"modifier": "-15%",
+						"duration": 4
+					}
+				]
+			}, {
+				"id": "erde_angriff",
+				"name": "Erde Angriff",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "physical_attack"
+					}, {
+						"target": "skill",
+						"attribute": "unguard_rate",
+						"modifier": "ultra"
+					}, {
+						"target": "skill",
+						"attribute": "strength",
+						"modifier": "boost"
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Insane Speed: I",
+				"effects": [
+					{
+						"attribute": "agility",
+						"modifier": "+5%"
+					}
+				]
+			}, {
+				"name": "Fist Strike: G",
+				"effects": [
+					{
+						"attribute": "strength",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Magic Resistance: G",
+				"effects": [
+					{
+						"attribute": "magic_resist",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Tough: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+5%"
+					}
+				]
+			}, {
+				"name": "Hunter: G",
+				"effects": [
+					{
+						"attribute": "strength",
+						"modifier": "+10%"
+					}
+				]
+			}
+		]
+	}
+}

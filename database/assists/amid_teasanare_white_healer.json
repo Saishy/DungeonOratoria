@@ -1,0 +1,39 @@
+{
+	"id": "amid_teasanare_white_healer",
+	"title": "White Healer",
+	"name": "Amid Teasanare",
+	"stars": 4,
+	"stats": {
+		"hp": [488, 536, 584, 636, 692, 748],
+		"mp": [164, 176, 188, 200, 212, 224],
+		"physical_attack": [114, 146, 178, 210, 210, 210],
+		"magic_attack": [305, 338, 371, 437, 503, 569],
+		"defense": [117, 142, 167, 167, 192, 217],
+		"strength": [114, 146, 178, 210, 210, 210],
+		"endurance": [117, 142, 167, 167, 192, 217],
+		"dexterity": [187, 219, 251, 283, 347, 347],
+		"agility": [147, 180, 213, 246, 246, 279],
+		"magic": [305, 338, 371, 437, 503, 569]
+	},
+	"skills": [
+		{
+			"name": "Nurse's Healing+",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "hp_regen",
+					"modifier": "+15%"
+				}
+			]
+		}, {
+			"name": "Nurse's Healing++",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "hp_regen",
+					"modifier": "+20%"
+				}
+			]
+		}
+	]
+}

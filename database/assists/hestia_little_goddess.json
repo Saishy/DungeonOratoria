@@ -1,0 +1,48 @@
+{
+	"id": "hestia_little_goddess",
+	"title": "Little Goddess",
+	"name": "Hestia",
+	"stars": 4,
+	"limited": true,
+	"stats": {
+		"hp": [658, 0, 0, 0, 0, 0],
+		"mp": [89, 0, 0, 0, 0, 0],
+		"physical_attack": [155, 0, 0, 0, 0, 0],
+		"magic_attack": [155, 0, 0, 0, 0, 0],
+		"defense": [152, 0, 0, 0, 0, 0],
+		"strength": [155, 0, 0, 0, 0, 0],
+		"endurance": [152, 0, 0, 0, 0, 0],
+		"dexterity": [188, 0, 0, 0, 0, 0],
+		"agility": [303, 0, 0, 0, 0, 0],
+		"magic": [155, 0, 0, 0, 0, 0]
+	},
+	"skills": [
+		{
+			"name": "Help of Child God+",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "stun",
+					"modifier": "30%"
+				}, {
+					"target": "foes",
+					"attribute": "magic_resist",
+					"modifier": "-8%"
+				}
+			]
+		}, {
+			"name": "Help of Child God++",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "stun",
+					"modifier": "45%"
+				}, {
+					"target": "foes",
+					"attribute": "magic_resist",
+					"modifier": "-10%"
+				}
+			]
+		}
+	]
+}

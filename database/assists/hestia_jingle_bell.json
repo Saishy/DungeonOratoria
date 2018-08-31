@@ -1,0 +1,48 @@
+{
+	"id": "hestia_jingle_bell",
+	"title": "Jingle Bell",
+	"name": "Hestia",
+	"stars": 4,
+	"limited": true,
+	"stats": {
+		"hp": [488, 0, 0, 0, 0, 0],
+		"mp": [164, 0, 0, 0, 0, 0],
+		"physical_attack": [121, 0, 0, 0, 0, 0],
+		"magic_attack": [314, 0, 0, 0, 0, 0],
+		"defense": [127, 0, 0, 0, 0, 0],
+		"strength": [121, 0, 0, 0, 0, 0],
+		"endurance": [127, 0, 0, 0, 0, 0],
+		"dexterity": [196, 0, 0, 0, 0, 0],
+		"agility": [157, 0, 0, 0, 0, 0],
+		"magic": [314, 0, 0, 0, 0, 0]
+	},
+	"skills": [
+		{
+			"name": "God's Present+",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "strength",
+					"modifier": "-10%"
+				}, {
+					"target": "foes",
+					"attribute": "counter_rate",
+					"modifier": "-10%"
+				}
+			]
+		}, {
+			"name": "God's Present++",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "strength",
+					"modifier": "-15%"
+				}, {
+					"target": "foes",
+					"attribute": "counter_rate",
+					"modifier": "-15%"
+				}
+			]
+		}
+	]
+}

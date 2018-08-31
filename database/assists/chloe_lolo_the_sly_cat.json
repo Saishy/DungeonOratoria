@@ -1,0 +1,39 @@
+{
+	"id": "chloe_lolo_the_sly_cat",
+	"title": "The Sly Cat",
+	"name": "Chloe Lolo",
+	"stars": 4,
+	"stats": {
+		"hp": [756, 0, 0, 0, 0, 0],
+		"mp": [75, 0, 0, 0, 0, 0],
+		"physical_attack": [282, 0, 0, 0, 0, 0],
+		"magic_attack": [117, 0, 0, 0, 0, 0],
+		"defense": [149, 0, 0, 0, 0, 0],
+		"strength": [282, 0, 0, 0, 0, 0],
+		"endurance": [149, 0, 0, 0, 0, 0],
+		"dexterity": [166, 0, 0, 0, 0, 0],
+		"agility": [199, 0, 0, 0, 0, 0],
+		"magic": [117, 0, 0, 0, 0, 0]
+	},
+	"skills": [
+		{
+			"name": "Black Cat Inspection+",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "null_physical_attack_no_special",
+					"modifier": "x1"
+				}
+			]
+		}, {
+			"name": "Black Cat Inspection++",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "null_physical_attack_no_special",
+					"modifier": "x2"
+				}
+			]
+		}
+	]
+}

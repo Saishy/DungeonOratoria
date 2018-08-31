@@ -1,0 +1,107 @@
+{
+	"id": "tione_hiryute_twinkle_stream",
+	"title": "Twinkle Stream",
+	"name": "Tione Hiryute",
+	"type": "balance_type",
+	"stars": 4,
+	"limited": false,
+	"stats": {
+		"hp": [1401, 1577, 1771, 1983, 2213, 2461],
+		"mp": [144, 156, 168, 180, 192, 204],
+		"physical_attack": [246, 330, 413, 497, 580, 664],
+		"magic_attack": [196, 272, 348, 424, 500, 576],
+		"defense": [170, 226, 282, 338, 394, 451],
+		"strength": [246, 330, 413, 497, 580, 664],
+		"endurance": [170, 226, 282, 338, 394, 451],
+		"dexterity": [241, 319, 397, 475, 553, 631],
+		"agility": [218, 294, 370, 446, 522, 598],
+		"magic": [196, 272, 348, 424, 500, 576]
+	},
+	"skills": {
+		"special": {
+			"name": "Karna Lassa",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "seal",
+					"modifier": "ultra"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Forte Grans",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "physical_attack"
+					}
+				]
+			}, {
+				"name": "Stela Scudo",
+				"effects": [
+					{
+						"target": "allies",
+						"attribute": "physical_resist",
+						"modifier": "+20%",
+						"duration": 4
+					}
+				]
+			}, {
+				"name": "Luna Pleghierra",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "str_buff_removal_no_assist",
+						"modifier": ""
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "First Strike: I",
+				"effects": [
+					{
+						"attribute": "strength",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Status Resist: H",
+				"effects": [
+					{
+						"attribute": "agility",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Insane Speed: I",
+				"effects": [
+					{
+						"attribute": "agility",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Tough: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Healing Power: I",
+				"effects": [
+					{
+						"attribute": "hp_regen",
+						"modifier": "+1%"
+					}
+				]
+			}
+		]
+	}
+}

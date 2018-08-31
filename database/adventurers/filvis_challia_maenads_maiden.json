@@ -1,0 +1,81 @@
+{
+	"id": "filvis_challia_maenads_maiden",
+	"title": "Maenad's Maiden",
+	"name": "Filvis Challia",
+	"type": "magic_type",
+	"stars": 4,
+	"limited": false,
+	"stats": {
+		"hp": [1440, 0, 0, 0, 0, 2490],
+		"mp": [179, 0, 0, 0, 0, 269],
+		"physical_attack": [119, 0, 0, 0, 0, 341],
+		"magic_attack": [507, 0, 0, 0, 0, 1320],
+		"defense": [130, 0, 0, 0, 0, 375],
+		"strength": [119, 0, 0, 0, 0, 341],
+		"endurance": [130, 0, 0, 0, 0, 375],
+		"dexterity": [188, 0, 0, 0, 0, 508],
+		"agility": [287, 0, 0, 0, 0, 784],
+		"magic": [507, 0, 0, 0, 0, 1320]
+	},
+	"skills": {
+		"special": {
+			"name": "Special Placeholder",
+			"effects": [
+				{
+					"target": "self",
+					"attribute": "strength",
+					"modifier": "+0%"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Skill 1 Placeholder",
+				"effects": [
+					{
+						"target": "self",
+						"attribute": "strength",
+						"modifier": "+0%"
+					}
+				]
+			}, {
+				"name": "Skill 2 Placeholder",
+				"effects": [
+					{
+						"target": "self",
+						"attribute": "strength",
+						"modifier": "+0%"
+					}
+				]
+			}, {
+				"name": "Skill 3 Placeholder",
+				"effects": [
+					{
+						"target": "self",
+						"attribute": "strength",
+						"modifier": "+0%"
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Placeholder: I",
+				"effects": [
+					{
+						"attribute": "dexterity",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "PlaceholderTwo: I",
+				"effects": [
+					{
+						"attribute": "agility",
+						"modifier": "+10%"
+					}
+				]
+			}
+		]
+	}
+}

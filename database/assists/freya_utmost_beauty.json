@@ -1,0 +1,48 @@
+{
+	"id": "freya_utmost_beauty",
+	"title": "Utmost Beauty",
+	"name": "Freya",
+	"stars": 4,
+	"limited": false,
+	"stats": {
+		"hp": 				[720, 	800, 	880, 	972, 	1076, 	1180],
+		"mp": 				[79, 	87, 	95, 	103, 	111, 	119],
+		"physical_attack": 	[186, 	219, 	252, 	285, 	318, 	351],
+		"magic_attack": 	[219, 	285, 	318, 	351, 	351, 	351],
+		"defense": 			[209, 	235, 	261, 	287, 	339, 	391],
+		"strength": 		[186, 	219, 	252, 	285, 	318, 	351],
+		"endurance": 		[209, 	235, 	261, 	287, 	339, 	391],
+		"dexterity": 		[176, 	207, 	238, 	269, 	300, 	331],
+		"agility": 			[113, 	113, 	147, 	181, 	215, 	215],
+		"magic": 			[219, 	285, 	318, 	351, 	351, 	351]
+	},
+	"skills": [
+		{
+			"name": "Regina Coeli+",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "charm_resist",
+					"modifier": "+75%"
+				}, {
+					"target": "foes",
+					"attribute": "endurance",
+					"modifier": "-6%"
+				}
+			]
+		}, {
+			"name": "Regina Coeli++",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "charm_resist",
+					"modifier": "+100%"
+				}, {
+					"target": "foes",
+					"attribute": "endurance",
+					"modifier": "-8%"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,122 @@
+{
+	"id": "finn_deimne_masked_braver",
+	"title": "Masked Braver",
+	"name": "Finn Deimne",
+	"type": "balance_type",
+	"stars": 4,
+	"limited": false,
+	"stats": {
+		"hp": [1366, 1542, 1736, 1948, 2178, 2426],
+		"mp": [144, 156, 168, 180, 192, 204],
+		"physical_attack": [246, 330, 413, 497, 580, 664],
+		"magic_attack": [201, 277, 353, 429, 505, 581],
+		"defense": [152, 203, 254, 305, 356, 407],
+		"strength": [246, 330, 413, 497, 580, 664],
+		"endurance": [152, 203, 254, 305, 356, 407],
+		"dexterity": [268, 354, 440, 525, 611, 697],
+		"agility": [213, 2889, 365, 441, 517, 592],
+		"magic": [201, 277, 353, 429, 505, 581]
+	},
+	"skills": {
+		"special": {
+			"name": "Hell Finegas",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "physical_attack"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Trample Lance",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "physical_attack"
+					}, {
+						"target": "skill",
+						"attribute": "strength",
+						"modifier": "boost"
+					}, {
+						"target": "skill",
+						"attribute": "penetration_rate",
+						"modifier": "ultra"
+					}
+				]
+			}, {
+				"name": "Braver Order",
+				"effects": [
+					{
+						"target": "allies",
+						"attribute": "critical_rate",
+						"modifier": "+30%",
+						"duration": 4
+					}
+				]
+			}, {
+				"name": "Destructor",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "physical_attack"
+					}, {
+						"target": "foes",
+						"attribute": "critical_rate",
+						"modifier": "-20%",
+						"duration": 4
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Swordsman: I",
+				"effects": [
+					{
+						"attribute": "strength",
+						"modifier": "+5%"
+					}
+				]
+			}, {
+				"name": "Aching Thumb",
+				"effects": [
+					{
+						"attribute": "dexterity",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Crush: I",
+				"effects": [
+					{
+						"attribute": "strength",
+						"modifier": "+5%"
+					}
+				]
+			}, {
+				"name": "Hunter: I",
+				"effects": [
+					{
+						"attribute": "agility",
+						"modifier": "+5%"
+					}
+				]
+			}, {
+				"name": "Acceleration: I",
+				"effects": [
+					{
+						"attribute": "agility",
+						"modifier": "+5%"
+					}
+				]
+			}
+		]
+	}
+}

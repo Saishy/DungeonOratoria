@@ -1,0 +1,40 @@
+{
+	"id": "syr_flover_fertility_staff",
+	"title": "Fertility Staff",
+	"name": "Syr Flover",
+	"stars": 2,
+	"limited": false,
+	"stats": {
+		"hp": [448, 0, 0, 0, 0, 708],
+		"mp": [150, 0, 0, 0, 0, 210],
+		"physical_attack": [103, 0, 0, 0, 0, 173],
+		"magic_attack": [87, 0, 0, 0, 0, 143],
+		"defense": [134, 0, 0, 0, 0, 211],
+		"strength": [103, 0, 0, 0, 0, 173],
+		"endurance": [34, 0, 0, 0, 0, 211],
+		"dexterity": [107, 0, 0, 0, 0, 177],
+		"agility": [67, 0, 0, 0, 0, 109],
+		"magic": [87, 0, 0, 0, 0, 143]
+	},
+	"skills": [
+		{
+			"name": "Fertility's Gift+",
+			"effects": [
+				{
+					"target": "self",
+					"attribute": "endurance",
+					"modifier": "+4%"
+				}
+			]
+		}, {
+			"name": "Fertility's Gift++",
+			"effects": [
+				{
+					"target": "self",
+					"attribute": "endurance",
+					"modifier": "+5%"
+				}
+			]
+		}
+	]
+}

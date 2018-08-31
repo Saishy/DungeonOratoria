@@ -1,0 +1,40 @@
+{
+	"id": "anya_fromel_cat-ears",
+	"title": "Cat-Ears",
+	"name": "Anya Fromel",
+	"stars": 2,
+	"limited": false,
+	"stats": {
+		"hp": [518, 0, 0, 0, 0, 818],
+		"mp": [91, 0, 0, 0, 0, 141],
+		"physical_attack": [89, 0, 0, 0, 0, 149],
+		"magic_attack": [73, 0, 0, 0, 0, 133],
+		"defense": [72, 0, 0, 0, 0, 116],
+		"strength": [89, 0, 0, 0, 0, 149],
+		"endurance": [72, 0, 0, 0, 0, 116],
+		"dexterity": [111, 0, 0, 0, 0, 181],
+		"agility": [182, 0, 0, 0, 0, 287],
+		"magic": [73, 0, 0, 0, 0, 133]
+	},
+	"skills": [
+		{
+			"name": "Cat's Aid+",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "seal_resist",
+					"modifier": "+60%"
+				}
+			]
+		}, {
+			"name": "Cat's Aid++",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "seal_resist",
+					"modifier": "+80%"
+				}
+			]
+		}
+	]
+}

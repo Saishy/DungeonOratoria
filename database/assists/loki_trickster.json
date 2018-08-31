@@ -1,0 +1,40 @@
+{
+	"id": "loki_trickster",
+	"title": "Trickster",
+	"name": "Loki",
+	"stars": 3,
+	"limited": false,
+	"stats": {
+		"hp": [538, 0, 0, 0, 0, 838],
+		"mp": [95, 0, 0, 0, 0, 148],
+		"physical_attack": [115, 0, 0, 0, 0, 195],
+		"magic_attack": [100, 0, 0, 0, 0, 180],
+		"defense": [83, 0, 0, 0, 0, 139],
+		"strength": [115, 0, 0, 0, 0, 195],
+		"endurance": [83, 0, 0, 0, 0, 139],
+		"dexterity": [141, 0, 0, 0, 0, 226],
+		"agility": [215, 0, 0, 0, 0, 355],
+		"magic": [100, 0, 0, 0, 0, 180]
+	},
+	"skills": [
+		{
+			"name": "The Masked Grin+",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "magic_resist",
+					"modifier": "-12%"
+				}
+			]
+		}, {
+			"name": "The Masked Grin++",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "magic_resist",
+					"modifier": "-15%"
+				}
+			]
+		}
+	]
+}

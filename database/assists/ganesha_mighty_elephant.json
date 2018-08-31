@@ -1,0 +1,40 @@
+{
+	"id": "ganesha_mighty_elephant",
+	"title": "Mighty Elephant",
+	"name": "Ganesha",
+	"stars": 3,
+	"limited": false,
+	"stats": {
+		"hp": [726, 0, 0, 0, 0, 1186],
+		"mp": [66, 0, 0, 0, 0, 106],
+		"physical_attack": [137, 0, 0, 0, 0, 232],
+		"magic_attack": [100, 0, 0, 0, 0, 176],
+		"defense": [159, 0, 0, 0, 0, 257],
+		"strength": [137, 0, 0, 0, 0, 232],
+		"endurance": [159, 0, 0, 0, 0, 257],
+		"dexterity": [128, 0, 0, 0, 0, 218],
+		"agility": [81, 0, 0, 0, 0, 135],
+		"magic": [100, 0, 0, 0, 0, 176]
+	},
+	"skills": [
+		{
+			"name": "Grand Order+",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "strength",
+					"modifier": "-8%"
+				}
+			]
+		}, {
+			"name": "Grand Order++",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "strength",
+					"modifier": "-10%"
+				}
+			]
+		}
+	]
+}

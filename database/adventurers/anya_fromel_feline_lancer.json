@@ -1,0 +1,133 @@
+{
+	"id": "anya_fromel_feline_lancer",
+	"title": "Feline Lancer",
+	"name": "Anya Fromel",
+	"type": "physical_type",
+	"stars": 4,
+	"limited": false,
+	"stats": {
+		"hp": [1530, 1714, 1910, 2118, 2340, 2580],
+		"mp": [126, 138, 150, 162, 174, 186],
+		"physical_attack": [602, 701, 800, 899, 1097, 1394],
+		"magic_attack": [113, 183, 253, 323, 323, 323],
+		"defense": [168, 232, 295, 359, 423, 423],
+		"strength": [602, 701, 800, 899, 1097, 1394],
+		"endurance": [168, 232, 295, 359, 423, 423],
+		"dexterity": [181, 256, 331, 406, 481, 481],
+		"agility": [287, 370, 454, 537, 621, 788],
+		"magic": [113, 183, 253, 323, 323, 323]
+	},
+	"skills": {
+		"special": {
+			"id": "geiravor_dens",
+			"name": "Geiravor Dens",
+			"effects": [
+				{
+					"target": "foe",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "physical_attack"
+				}, {
+					"target": "skill",
+					"attribute": "indexed_to",
+					"modifier": "strength"
+				}, {
+					"target": "skill",
+					"attribute": "penetration_rate",
+					"modifier": "ultra"
+				}
+			]
+		},
+		"combat": [
+			{
+				"id": "cat_spike",
+				"name": "Cat Spike",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "low",
+						"type": "physical_attack"
+					}
+				]
+			}, {
+				"id": "quick_revenge",
+				"name": "Quick Revenge",
+				"effects": [
+					{
+						"target": "self",
+						"attribute": "prevent_ko",
+						"modifier": "x1",
+						"duration": "only when hp >= 20%"
+					}, {
+						"target": "skill",
+						"attribute": "speed",
+						"modifier": "fast"
+					}
+				]
+			}, {
+				"id": "charge_growl",
+				"name": "Charge Growl",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "physical_attack"
+					}, {
+						"target": "foe",
+						"attribute": "physical_resist",
+						"modifier": "-20%"
+					}, {
+						"target": "skill",
+						"attribute": "strength",
+						"modifier": "boost"
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Crush: I",
+				"effects": [
+					{
+						"attribute": "strength",
+						"modifier": "+5%"
+					}
+				]
+			}, {
+				"name": "Acceleration: I",
+				"effects": [
+					{
+						"attribute": "agility",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Swordsman: I",
+				"effects": [
+					{
+						"attribute": "strength",
+						"modifier": "+5%"
+					}
+				]
+			}, {
+				"name": "Defense: I",
+				"effects": [
+					{
+						"attribute": "physical_resist",
+						"modifier": "+8%"
+					}
+				]
+			}, {
+				"name": "Tough: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+10%"
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,81 @@
+{
+	"id": "ais_wallenstein_bathroom_princess",
+	"title": "Bathroom Princess",
+	"name": "Ais Wallenstein",
+	"type": "balance_type",
+	"stars": 4,
+	"limited": false,
+	"stats": {
+		"hp": [1388, 0, 0, 0, 0, 2448],
+		"mp": [140, 0, 0, 0, 0, 200],
+		"physical_attack": [329, 0, 0, 0, 0, 905],
+		"magic_attack": [484, 0, 0, 0, 0, 1117],
+		"defense": [182, 0, 0, 0, 0, 407],
+		"strength": [329, 0, 0, 0, 0, 905],
+		"endurance": [182, 0, 0, 0, 0, 407],
+		"dexterity": [258, 0, 0, 0, 0, 687],
+		"agility": [175, 0, 0, 0, 0, 451],
+		"magic": [484, 0, 0, 0, 0, 1117]
+	},
+	"skills": {
+		"special": {
+			"name": "Special Placeholder",
+			"effects": [
+				{
+					"target": "self",
+					"attribute": "strength",
+					"modifier": "+0%"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Skill 1 Placeholder",
+				"effects": [
+					{
+						"target": "self",
+						"attribute": "strength",
+						"modifier": "+0%"
+					}
+				]
+			}, {
+				"name": "Skill 2 Placeholder",
+				"effects": [
+					{
+						"target": "self",
+						"attribute": "strength",
+						"modifier": "+0%"
+					}
+				]
+			}, {
+				"name": "Skill 3 Placeholder",
+				"effects": [
+					{
+						"target": "self",
+						"attribute": "strength",
+						"modifier": "+0%"
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Placeholder: I",
+				"effects": [
+					{
+						"attribute": "dexterity",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "PlaceholderTwo: I",
+				"effects": [
+					{
+						"attribute": "agility",
+						"modifier": "+10%"
+					}
+				]
+			}
+		]
+	}
+}

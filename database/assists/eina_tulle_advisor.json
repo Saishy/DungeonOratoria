@@ -1,0 +1,40 @@
+{
+	"id": "eina_tulle_advisor",
+	"title": "Advisor",
+	"name": "Eina Tulle",
+	"stars": 3,
+	"limited": false,
+	"stats": {
+		"hp": [428, 0, 0, 0, 0, 668],
+		"mp": [153, 0, 0, 0, 0, 213],
+		"physical_attack": [108, 0, 0, 0, 0, 184],
+		"magic_attack": [91, 0, 0, 0, 0, 167],
+		"defense": [95, 0, 0, 0, 0, 155],
+		"strength": [108, 0, 0, 0, 0, 184],
+		"endurance": [95, 0, 0, 0, 0, 155],
+		"dexterity": [206, 0, 0, 0, 0, 346],
+		"agility": [140, 0, 0, 0, 0, 230],
+		"magic": [91, 0, 0, 0, 0, 167]
+	},
+	"skills": [
+		{
+			"name": "Guild's Advice+",
+			"effects": [
+				{
+					"target": "self",
+					"attribute": "critical_rate",
+					"modifier": "+25%"
+				}
+			]
+		}, {
+			"name": "Guild's Advice++",
+			"effects": [
+				{
+					"target": "self",
+					"attribute": "critical_rate",
+					"modifier": "+35%"
+				}
+			]
+		}
+	]
+}

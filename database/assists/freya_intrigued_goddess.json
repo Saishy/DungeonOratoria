@@ -1,0 +1,40 @@
+{
+	"id": "freya_intrigued_goddess",
+	"title": "Intrigued Goddess",
+	"name": "Freya",
+	"stars": 2,
+	"limited": false,
+	"stats": {
+		"hp": [408, 0, 0, 0, 0, 668],
+		"mp": [153, 0, 0, 0, 0, 213],
+		"physical_attack": [66, 0, 0, 0, 0, 108],
+		"magic_attack": [176, 0, 0, 0, 0, 288],
+		"defense": [67, 0, 0, 0, 0, 111],
+		"strength": [66, 0, 0, 0, 0, 108],
+		"endurance": [67, 0, 0, 0, 0, 111],
+		"dexterity": [107, 0, 0, 0, 0, 172],
+		"agility": [92, 0, 0, 0, 0, 148],
+		"magic": [176, 0, 0, 0, 0, 288]
+	},
+	"skills": [
+		{
+			"name": "In the Shadows+",
+			"effects": [
+				{
+					"target": "self",
+					"attribute": "magic",
+					"modifier": "+15%"
+				}
+			]
+		}, {
+			"name": "In the Shadows++",
+			"effects": [
+				{
+					"target": "self",
+					"attribute": "magic",
+					"modifier": "+20%"
+				}
+			]
+		}
+	]
+}

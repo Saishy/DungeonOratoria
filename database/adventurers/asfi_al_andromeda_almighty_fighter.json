@@ -1,0 +1,121 @@
+{
+	"id": "asfi_al_andromeda_almighty_fighter",
+	"title": "Almighty Fighter",
+	"name": "Asfi Al Andromeda",
+	"type": "balance_type",
+	"stars": 4,
+	"limited": false,
+	"stats": {
+		"hp": 				[1452, 	1628, 	1822, 	2034, 	2264, 	2512],
+		"mp": 				[150, 	162, 	174, 	186, 	198, 	210],
+		"physical_attack": 	[343, 	535, 	631, 	727, 	823, 	919],
+		"magic_attack": 	[434, 	530, 	626, 	722, 	818, 	1010],
+		"defense":			[176, 	176, 	232, 	288, 	344, 	400],
+		"strength": 		[343, 	535, 	631, 	727, 	823, 	919],
+		"endurance": 		[176, 	176, 	232, 	288, 	344, 	400],
+		"dexterity": 		[229, 	307, 	385, 	463, 	541, 	619],
+		"agility": 			[196, 	272, 	348, 	424, 	500, 	500],
+		"magic": 			[434, 	530, 	626, 	722, 	818, 	1010]
+	},
+	"skills": {
+		"special": {
+			"name": "Throwing Mastery",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "physical_attack"
+				}, {
+					"target": "foes",
+					"attribute": "poison",
+					"modifier": "25%"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Noxious Sting",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "physical_attack"
+					}
+				]
+			}, {
+				"name": "Vanishing Shroud",
+				"effects": [
+					{
+						"target": "allies",
+						"attribute": "all_damage_resist",
+						"modifier": "+30%",
+						"duration": 3
+					}, {
+						"target": "skill",
+						"attribute": "speed",
+						"modifier": "fast"
+					}
+				]
+			}, {
+				"name": "Maker's Insight",
+				"effects": [
+					{
+						"target": "allies",
+						"attribute": "heal",
+						"modifier": "medium"
+					}, {
+						"target": "allies",
+						"attribute": "counter_rate",
+						"modifier": "+30%",
+						"duration": 2
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Acceleration: I",
+				"effects": [
+					{
+						"attribute": "agility",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Unbreakable: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Defense: I",
+				"effects": [
+					{
+						"attribute": "physical_resist",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Magic Resistance: I",
+				"effects": [
+					{
+						"attribute": "magic_resist",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Status Resist: I",
+				"effects": [
+					{
+						"attribute": "ailment_resist",
+						"modifier": "+15%"
+					}
+				]
+			}
+		]
+	}
+}

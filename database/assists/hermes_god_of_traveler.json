@@ -1,0 +1,39 @@
+{
+	"id": "hermes_god_of_traveler",
+	"title": "God of Traveler",
+	"name": "Hermes",
+	"stars": 2,
+	"stats": {
+		"hp": [518, 0, 0, 0, 0, 0],
+		"mp": [95, 0, 0, 0, 0, 0],
+		"physical_attack": [85, 0, 0, 0, 0, 0],
+		"magic_attack": [75, 0, 0, 0, 0, 0],
+		"defense": [74, 0, 0, 0, 0, 0],
+		"strength": [85, 0, 0, 0, 0, 0],
+		"endurance": [74, 0, 0, 0, 0, 0],
+		"dexterity": [181, 0, 0, 0, 0, 0],
+		"agility": [110, 0, 0, 0, 0, 0],
+		"magic": [75, 0, 0, 0, 0, 0]
+	},
+	"skills": [
+		{
+			"name": "Travel God's Grace+",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "sleep_resist",
+					"modifier": "+60%"
+				}
+			]
+		}, {
+			"name": "Travel God's Grace++",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "sleep_resist",
+					"modifier": "+80%"
+				}
+			]
+		}
+	]
+}

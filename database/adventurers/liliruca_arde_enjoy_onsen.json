@@ -1,0 +1,81 @@
+{
+	"id": "liliruca_arde_enjoy_onsen",
+	"title": "Enjoy Onsen",
+	"name": "Liliruca Arde",
+	"type": "magic_type",
+	"stars": 4,
+	"limited": false,
+	"stats": {
+		"hp": [1460, 0, 0, 0, 0, 2510],
+		"mp": [180, 0, 0, 0, 0, 270],
+		"physical_attack": [123, 0, 0, 0, 0, 345],
+		"magic_attack": [521, 0, 0, 0, 0, 1313],
+		"defense": [137, 0, 0, 0, 0, 381],
+		"strength": [123, 0, 0, 0, 0, 345],
+		"endurance": [137, 0, 0, 0, 0, 381],
+		"dexterity": [216, 0, 0, 0, 0, 568],
+		"agility": [292, 0, 0, 0, 0, 767],
+		"magic": [521, 0, 0, 0, 0, 1313]
+	},
+	"skills": {
+		"special": {
+			"name": "Special Placeholder",
+			"effects": [
+				{
+					"target": "self",
+					"attribute": "strength",
+					"modifier": "+0%"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Skill 1 Placeholder",
+				"effects": [
+					{
+						"target": "self",
+						"attribute": "strength",
+						"modifier": "+0%"
+					}
+				]
+			}, {
+				"name": "Skill 2 Placeholder",
+				"effects": [
+					{
+						"target": "self",
+						"attribute": "strength",
+						"modifier": "+0%"
+					}
+				]
+			}, {
+				"name": "Skill 3 Placeholder",
+				"effects": [
+					{
+						"target": "self",
+						"attribute": "strength",
+						"modifier": "+0%"
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Placeholder: I",
+				"effects": [
+					{
+						"attribute": "dexterity",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "PlaceholderTwo: I",
+				"effects": [
+					{
+						"attribute": "agility",
+						"modifier": "+10%"
+					}
+				]
+			}
+		]
+	}
+}

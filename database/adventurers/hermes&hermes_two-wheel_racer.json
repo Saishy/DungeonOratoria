@@ -1,0 +1,130 @@
+{
+	"id": "hermes&hermes_two-wheel_racer",
+	"title": "Two-Wheel Racer",
+	"name": "Hermes&Hermes",
+	"type": "physical_type",
+	"stars": 4,
+	"limited": true,
+	"stats": {
+		"hp": [1464, 0, 0, 0, 0, 0],
+		"mp": [147, 0, 0, 0, 0, 0],
+		"physical_attack": [376, 0, 0, 0, 0, 0],
+		"magic_attack": [400, 0, 0, 0, 0, 0],
+		"defense": [172, 0, 0, 0, 0, 0],
+		"strength": [376, 0, 0, 0, 0, 0],
+		"endurance": [172, 0, 0, 0, 0, 0],
+		"dexterity": [247, 0, 0, 0, 0, 0],
+		"agility": [243, 0, 0, 0, 0, 0],
+		"magic": [400, 0, 0, 0, 0, 0]
+	},
+	"skills": {
+		"special": {
+			"id": "biker_bash",
+			"name": "Biker Bash",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "physical_attack"
+				}, {
+					"target": "foes",
+					"attribute": "stun",
+					"modifier": "30%"
+				}
+			]
+		},
+		"combat": [
+			{
+				"id": "rev-up",
+				"name": "Rev Up",
+				"effects": [
+					{
+						"target": "self",
+						"attribute": "agility",
+						"modifier": "+75%",
+						"duration": 4
+					}, {
+						"target": "foes",
+						"attribute": "stun_resist",
+						"modifier": "-75%",
+						"duration": 4
+					}
+				]
+			}, {
+				"id": "burn_out",
+				"name": "Burn Out",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "physical_attack"
+					}, {
+						"target": "foe",
+						"attribute": "stun",
+						"modifier": "30%"
+					}
+				]
+			}, {
+				"id": "traction_burst",
+				"name": "Traction Burst",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "physical_attack"
+					}, {
+						"target": "foes",
+						"attribute": "stun",
+						"modifier": "15%"
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Crafter: I",
+				"effects": [
+					{
+						"attribute": "dexterity",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Acceleration: I",
+				"effects": [
+					{
+						"attribute": "agility",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Unbreakable: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Crush: I",
+				"effects": [
+					{
+						"attribute": "strength",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Status Resist: I",
+				"effects": [
+					{
+						"attribute": "ailment_resist",
+						"modifier": "+15%"
+					}
+				]
+			}
+		]
+	}
+}

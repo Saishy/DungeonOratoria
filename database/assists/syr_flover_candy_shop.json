@@ -1,0 +1,48 @@
+{
+	"id": "syr_flover_candy_shop",
+	"title": "Candy Shop",
+	"name": "Syr Flover",
+	"stars": 4,
+	"limited": true,
+	"stats": {
+		"hp": [488, 0, 0, 0, 0, 748],
+		"mp": [164, 0, 0, 0, 0, 224],
+		"physical_attack": [120, 0, 0, 0, 0, 216],
+		"magic_attack": [317, 0, 0, 0, 0, 581],
+		"defense": [131, 0, 0, 0, 0, 231],
+		"strength": [120, 0, 0, 0, 0, 216],
+		"endurance": [131, 0, 0, 0, 0, 231],
+		"dexterity": [194, 0, 0, 0, 0, 354],
+		"agility": [153, 0, 0, 0, 0, 285],
+		"magic": [317, 0, 0, 0, 0, 581]
+	},
+	"skills": [
+		{
+			"name": "Chocomint Fertility+",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "magic",
+					"modifier": "+10%"
+				}, {
+					"target": "foes",
+					"attribute": "fire_resist",
+					"modifier": "-10%"
+				}
+			]
+		}, {
+			"name": "Chocomint Fertility++",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "magic",
+					"modifier": "+15%"
+				}, {
+					"target": "foes",
+					"attribute": "fire_resist",
+					"modifier": "-15%"
+				}
+			]
+		}
+	]
+}

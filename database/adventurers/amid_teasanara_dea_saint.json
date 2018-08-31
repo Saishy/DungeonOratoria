@@ -1,0 +1,114 @@
+{
+	"id": "amid_teasanara_dea_saint",
+	"title": "Dea Saint",
+	"name": "Amid Teasanara",
+	"type": "healer_type",
+	"stars": 4,
+	"limited": false,
+	"stats": {
+		"hp": [1246, 0, 0, 0, 0, 2231],
+		"mp": [161, 0, 0, 0, 0, 241],
+		"physical_attack": [154, 0, 0, 0, 0, 434],
+		"magic_attack": [414, 0, 0, 0, 0, 1097],
+		"defense": [103, 0, 0, 0, 0, 321],
+		"strength": [154, 0, 0, 0, 0, 434],
+		"endurance": [103, 0, 0, 0, 0, 321],
+		"dexterity": [260, 0, 0, 0, 0, 716],
+		"agility": [242, 0, 0, 0, 0, 660],
+		"magic": [414, 0, 0, 0, 0, 1097]
+	},
+	"skills": {
+		"special": {
+			"name": "Tera Sagrado",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "heal",
+					"modifier": "high"
+				}, {
+					"target": "allies",
+					"attribute": "mp_heal",
+					"modifier": "50"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Dea Animus",
+				"effects": [
+					{
+						"target": "allies",
+						"attribute": "heal",
+						"modifier": "medium"
+					}
+				]
+			}, {
+				"name": "Dea Templum",
+				"effects": [
+					{
+						"target": "self",
+						"attribute": "seal_resist",
+						"modifier": "+50%",
+						"duration": 4
+					}
+				]
+			}, {
+				"name": "Gehenna Croce",
+				"effects": [
+					{
+						"target": "allies",
+						"attribute": "heal",
+						"modifier": "slight"
+					}, {
+						"target": "allies",
+						"attribute": "curse_cure",
+						"modifier": ""
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Mage: I",
+				"effects": [
+					{
+						"attribute": "magic",
+						"modifier": "+3%"
+					}
+				]
+			}, {
+				"name": "Tough: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+5%"
+					}
+				]
+			}, {
+				"name": "Enlightenment: I",
+				"effects": [
+					{
+						"attribute": "magic",
+						"modifier": "+8%"
+					}
+				]
+			}, {
+				"name": "Insane Speed: I",
+				"effects": [
+					{
+						"attribute": "agility",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Status Resist: I",
+				"effects": [
+					{
+						"attribute": "ailment_resist",
+						"modifier": "+10%"
+					}
+				]
+			}
+		]
+	}
+}

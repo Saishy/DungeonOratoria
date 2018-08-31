@@ -1,0 +1,39 @@
+{
+	"id": "hermes_banquet_attire",
+	"title": "Banquet Attire",
+	"name": "Hermes",
+	"stars": 4,
+	"stats": {
+		"hp": [483, 0, 0, 0, 0, 0],
+		"mp": [169, 0, 0, 0, 0, 0],
+		"physical_attack": [115, 0, 0, 0, 0, 0],
+		"magic_attack": [302, 0, 0, 0, 0, 0],
+		"defense": [116, 0, 0, 0, 0, 0],
+		"strength": [115, 0, 0, 0, 0, 0],
+		"endurance": [116, 0, 0, 0, 0, 0],
+		"dexterity": [189, 0, 0, 0, 0, 0],
+		"agility": [148, 0, 0, 0, 0, 0],
+		"magic": [302, 0, 0, 0, 0, 0]
+	},
+	"skills": [
+		{
+			"name": "Smooth Talk+",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "magic_resist",
+					"modifier": "-15%"
+				}
+			]
+		}, {
+			"name": "Smooth Talk++",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "magic_resist",
+					"modifier": "-20%"
+				}
+			]
+		}
+	]
+}

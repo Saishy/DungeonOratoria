@@ -1,0 +1,40 @@
+{
+	"id": "loki_crafty_goddess",
+	"title": "Crafty Goddess",
+	"name": "Loki",
+	"stars": 2,
+	"limited": false,
+	"stats": {
+		"hp": [518, 0, 0, 0, 0, 818],
+		"mp": [95, 0, 0, 0, 0, 145],
+		"physical_attack": [86, 0, 0, 0, 0, 146],
+		"magic_attack": [77, 0, 0, 0, 0, 137],
+		"defense": [73, 0, 0, 0, 0, 117],
+		"strength": [86, 0, 0, 0, 0, 146],
+		"endurance": [73, 0, 0, 0, 0, 117],
+		"dexterity": [111, 0, 0, 0, 0, 181],
+		"agility": [181, 0, 0, 0, 0, 286],
+		"magic": [77, 0, 0, 0, 0, 137]
+	},
+	"skills": [
+		{
+			"name": "Jester's Policy+",
+			"effects": [
+				{
+					"target": "self",
+					"attribute": "magic_resist",
+					"modifier": "+8%"
+				}
+			]
+		}, {
+			"name": "Jester's Policy++",
+			"effects": [
+				{
+					"target": "self",
+					"attribute": "magic_resist",
+					"modifier": "+10%"
+				}
+			]
+		}
+	]
+}

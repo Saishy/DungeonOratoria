@@ -1,0 +1,118 @@
+{
+	"id": "kino_traveler",
+	"title": "Traveler",
+	"name": "Kino",
+	"type": "physical_type",
+	"stars": 3,
+	"limited": false,
+	"stats": {
+		"hp": [1537, 1541, 1737, 1945, 2176, 2407],
+		"mp": [131, 143, 155, 167, 179, 191],
+		"physical_attack": [312, 363, 415, 519, 623, 726],
+		"magic_attack": [66, 108, 150, 150, 150, 150],
+		"defense": [102, 137, 171, 206, 240, 240],
+		"strength": [312, 363, 415, 519, 623, 726],
+		"endurance": [102, 137, 171, 206, 240, 240],
+		"dexterity": [156, 198, 240, 282, 325, 367],
+		"agility": [207, 253, 300, 346, 393, 486],
+		"magic": [66, 108, 150, 150, 150, 150]
+	},
+	"skills": {
+		"special": {
+			"id": "cannon_shot",
+			"name": "Cannon Shot",
+			"effects": [
+				{
+					"target": "foe",
+					"attribute": "damage",
+					"modifier": "high",
+					"type": "physical_attack"
+				}
+			]
+		},
+		"combat": [
+			{
+				"id": "persuader",
+				"name": "Persuader",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "physical_attack"
+					}
+				]
+			}, {
+				"id": "first_chance",
+				"name": "First Chance",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "physical_attack"
+					}, {
+						"target": "foe",
+						"attribute": "physical_resist",
+						"modifier": "-20%",
+						"duration": 2
+					}
+				]
+			}, {
+				"id": "stance_square",
+				"name": "Stance Square",
+				"effects": [
+					{
+						"target": "self",
+						"attribute": "strength",
+						"modifier": "+50%",
+						"duration": 4
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Saboteur: I",
+				"effects": [
+					{
+						"attribute": "dexterity",
+						"modifier": "+8%"
+					}
+				]
+			}, {
+				"name": "Acceleration: I",
+				"effects": [
+					{
+						"attribute": "agility",
+						"modifier": "+8%"
+					}
+				]
+			}, {
+				"name": "Unbreakable: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+8%"
+					}
+				]
+			}, {
+				"name": "Crush: I",
+				"effects": [
+					{
+						"attribute": "strength",
+						"modifier": "+8%"
+					}
+				]
+			}, {
+				"name": "Status Resist: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+10%"
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,40 @@
+{
+	"id": "eina_tulle_elfs_gift",
+	"title": "Elf's Gift",
+	"name": "Eina Tulle",
+	"stars": 4,
+	"limited": false,
+	"stats": {
+		"hp": [488, 0, 0, 0, 0, 748],
+		"mp": [158, 0, 0, 0, 0, 218],
+		"physical_attack": [155, 0, 0, 0, 0, 307],
+		"magic_attack": [145, 0, 0, 0, 0, 277],
+		"defense": [131, 0, 0, 0, 0, 239],
+		"strength": [155, 0, 0, 0, 0, 307],
+		"endurance": [131, 0, 0, 0, 0, 239],
+		"dexterity": [282, 0, 0, 0, 0, 513],
+		"agility": [189, 0, 0, 0, 0, 344],
+		"magic": [145, 0, 0, 0, 0, 277]
+	},
+	"skills": [
+		{
+			"name": "Small Devotion+",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "critical_rate",
+					"modifier": "+15%"
+				}
+			]
+		}, {
+			"name": "Small Devotion++",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "critical_rate",
+					"modifier": "+20%"
+				}
+			]
+		}
+	]
+}

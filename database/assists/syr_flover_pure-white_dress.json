@@ -1,0 +1,40 @@
+{
+	"id": "syr_flover_pure-white_dress",
+	"title": "Pure-White Dress",
+	"name": "Syr Flover",
+	"stars": 4,
+	"limited": false,
+	"stats": {
+		"hp": 				[568, 616, 664, 716, 772, 828],
+		"mp": 				[159, 171, 183, 195, 207, 219],
+		"physical_attack": 	[189, 222, 255, 288, 321, 354],
+		"magic_attack": 	[150, 216, 249, 282, 282, 282],
+		"defense": 			[210, 236, 262, 288, 340, 392],
+		"strength": 		[189, 222, 255, 288, 321, 354],
+		"endurance": 		[210, 236, 262, 288, 340, 392],
+		"dexterity": 		[184, 215, 246, 277, 308, 339],
+		"agility": 			[117, 117, 151, 185, 219, 219],
+		"magic": 			[150, 216, 249, 282, 282, 282]
+	},
+	"skills": [
+		{
+			"name": "Innocent Blessing+",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "endurance",
+					"modifier": "+15%"
+				}
+			]
+		}, {
+			"name": "Innocent Blessing++",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "endurance",
+					"modifier": "+20%"
+				}
+			]
+		}
+	]
+}

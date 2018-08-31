@@ -1,0 +1,126 @@
+{
+	"id": "riveria_ljos_alf_holy_white_royal",
+	"title": "Holy White Royal",
+	"name": "Riveria Ljos Alf",
+	"type": "magic_type",
+	"stars": 4,
+	"limited": false,
+	"stats": {
+		"hp": 				[1392, 	1568, 	1762, 	1974, 	2204, 	2452],
+		"mp": 				[165,	177, 	189, 	201, 	213, 	225],
+		"physical_attack": 	[324, 	516, 	612, 	708, 	804, 	900],
+		"magic_attack": 	[466, 	562, 	658, 	754, 	850, 	1042],
+		"defense":			[181, 	181, 	237, 	293, 	349, 	405],
+		"strength": 		[324, 	516, 	612, 	708, 	804, 	900],
+		"endurance": 		[181, 	181, 	237, 	293, 	349, 	405],
+		"dexterity": 		[220, 	298, 	376, 	454, 	532, 	610],
+		"agility": 			[187, 	262, 	338, 	414, 	490, 	490],
+		"magic": 			[466, 	562, 	658, 	754, 	850, 	1042]
+	},
+	"skills": {
+		"special": {
+			"name": "Pillar of Heavens",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "light_magic_attack"
+				}, {
+					"target": "foes",
+					"attribute": "seal",
+					"modifier": "30%"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Brightnening Weapon",
+				"effects": [
+					{
+						"target": "allies",
+						"attribute": "magic",
+						"modifier": "+45%",
+						"duration": 4
+					}
+				]
+			}, {
+				"name": "Lucent Force",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "light_magic_attack"
+					}, {
+						"target": "foes",
+						"attribute": "stun",
+						"modifier": "15%"
+					}, {
+						"target": "skill",
+						"attribute": "speed",
+						"modifier": "fast"
+					}
+				]
+			}, {
+				"name": "Zenith Sanction",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "light_magic_attack"
+					}, {
+						"target": "foes",
+						"attribute": "light_resist",
+						"modifier": "-25%",
+						"duration": 4
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Acceleration: I",
+				"effects": [
+					{
+						"attribute": "dexterity",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Unbreakable: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Defense: I",
+				"effects": [
+					{
+						"attribute": "physical_resist",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Magic Resistance: I",
+				"effects": [
+					{
+						"attribute": "magic_resist",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Status Resist: I",
+				"effects": [
+					{
+						"attribute": "ailment_resist",
+						"modifier": "+15%"
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,48 @@
+{
+	"id": "freya_elegant_queen",
+	"title": "Elegant Queen",
+	"name": "Freya",
+	"stars": 4,
+	"limited": true,
+	"stats": {
+		"hp": [478, 0, 0, 0, 0, 738],
+		"mp": [164, 0, 0, 0, 0, 224],
+		"physical_attack": [121, 0, 0, 0, 0, 217],
+		"magic_attack": [320, 0, 0, 0, 0, 584],
+		"defense": [123, 0, 0, 0, 0, 223],
+		"strength": [121, 0, 0, 0, 0, 217],
+		"endurance": [123, 0, 0, 0, 0, 223],
+		"dexterity": [195, 0, 0, 0, 0, 355],
+		"agility": [156, 0, 0, 0, 0, 288],
+		"magic": [320, 0, 0, 0, 0, 584]
+	},
+	"skills": [
+		{
+			"name": "Ceremonial Sensation+",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "magic",
+					"modifier": "+10%"
+				}, {
+					"target": "foes",
+					"attribute": "light_resist",
+					"modifier": "-10%"
+				}
+			]
+		}, {
+			"name": "Ceremonial Sensation++",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "magic",
+					"modifier": "+15%"
+				}, {
+					"target": "foes",
+					"attribute": "light_resist",
+					"modifier": "-15%"
+				}
+			]
+		}
+	]
+}

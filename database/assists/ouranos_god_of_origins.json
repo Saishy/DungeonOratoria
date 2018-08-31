@@ -1,0 +1,40 @@
+{
+	"id": "ouranos_god_of_origins",
+	"title": "God of Origins",
+	"name": "Ouranos",
+	"stars": 4,
+	"limited": false,
+	"stats": {
+		"hp": [528, 0, 0, 0, 0, 788],
+		"mp": [159, 0, 0, 0, 0, 219],
+		"physical_attack": [120, 0, 0, 0, 0, 216],
+		"magic_attack": [299, 0, 0, 0, 0, 563],
+		"defense": [122, 0, 0, 0, 0, 222],
+		"strength": [120, 0, 0, 0, 0, 216],
+		"endurance": [122, 0, 0, 0, 0, 222],
+		"dexterity": [186, 0, 0, 0, 0, 346],
+		"agility": [142, 0, 0, 0, 0, 274],
+		"magic": [299, 0, 0, 0, 0, 563]
+	},
+	"skills": [
+		{
+			"name": "Giant's Prayer+",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "endurance",
+					"modifier": "-12%"
+				}
+			]
+		}, {
+			"name": "Giant's Prayer++",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "endurance",
+					"modifier": "-15%"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,120 @@
+{
+	"id": "fels_the_shadow",
+	"title": "The Shadow",
+	"name": "Fels",
+	"type": "healer_type",
+	"stars": 4,
+	"limited": false,
+	"stats": {
+		"hp": [1266, 0, 0, 0, 0, 2251],
+		"mp": [159, 0, 0, 0, 0, 239],
+		"physical_attack": [152, 0, 0, 0, 0, 432],
+		"magic_attack": [430, 0, 0, 0, 0, 1138],
+		"defense": [100, 0, 0, 0, 0, 307],
+		"strength": [152, 0, 0, 0, 0, 432],
+		"endurance": [100, 0, 0, 0, 0, 307],
+		"dexterity": [259, 0, 0, 0, 0, 715],
+		"agility": [221, 0, 0, 0, 0, 601],
+		"magic": [430, 0, 0, 0, 0, 1138]
+	},
+	"skills": {
+		"special": {
+			"name": "Verite Amour",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "heal",
+					"modifier": "high"
+				}, {
+					"target": "allies",
+					"attribute": "debuff_removal_no_assist",
+					"modifier": ""
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Hekma Irada",
+				"effects": [
+					{
+						"target": "allies",
+						"attribute": "heal",
+						"modifier": "medium"
+					}, {
+						"target": "allies",
+						"attribute": "ailment_cure",
+						"modifier": ""
+					}
+				]
+			}, {
+				"name": "Nadam Reruabado",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "thunder_magic_attack"
+					}
+				]
+			}, {
+				"name": "God's Theorem",
+				"effects": [
+					{
+						"target": "allies",
+						"attribute": "physical_resist",
+						"modifier": "+20%",
+						"duration": 4
+					}, {
+						"target": "allies",
+						"attribute": "ailment_resist",
+						"modifier": "+20%",
+						"duration": 4
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Mage: I",
+				"effects": [
+					{
+						"attribute": "magic",
+						"modifier": "+7.5%"
+					}
+				]
+			}, {
+				"name": "Enlightenment: I",
+				"effects": [
+					{
+						"attribute": "magic",
+						"modifier": "+7.5%"
+					}
+				]
+			}, {
+				"name": "Status Resist: I",
+				"effects": [
+					{
+						"attribute": "ailment_resist",
+						"modifier": "+15%"
+					}
+				]
+			}, {
+				"name": "Magic Resistance: I",
+				"effects": [
+					{
+						"attribute": "magic_resist",
+						"modifier": "+8%"
+					}
+				]
+			}, {
+				"name": "Defense: I",
+				"effects": [
+					{
+						"attribute": "physical_resist",
+						"modifier": "+8%"
+					}
+				]
+			}
+		]
+	}
+}

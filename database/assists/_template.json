@@ -1,0 +1,20 @@
+{
+	"id": "template_assist",
+	"title": "Title",
+	"name": "Name",
+	"stars": 0,
+	"limited": false,
+	"stats": {
+		"hp": [0, 0, 0, 0, 0, 0],
+		"mp": [0, 0, 0, 0, 0, 0],
+		"physical_attack": [0, 0, 0, 0, 0, 0],
+		"magic_attack": [0, 0, 0, 0, 0, 0],
+		"defense": [0, 0, 0, 0, 0, 0],
+		"strength": [0, 0, 0, 0, 0, 0],
+		"endurance": [0, 0, 0, 0, 0, 0],
+		"dexterity": [0, 0, 0, 0, 0, 0],
+		"agility": [0, 0, 0, 0, 0, 0],
+		"magic": [0, 0, 0, 0, 0, 0]
+	},
+	"skills": ["skill+", "skill+", "skill+", "skill+", "skill+", "skill++"]
+}

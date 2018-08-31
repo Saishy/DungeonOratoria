@@ -1,0 +1,137 @@
+{
+	"id": "tsubaki_collbrande_iron_warrior",
+	"title": "Iron Warrior",
+	"name": "Tsubaki Collbrande",
+	"type": "physical_type",
+	"stars": 4,
+	"limited": false,
+	"stats": {
+		"hp": [1516, 1700, 1896, 2104, 2326, 2566],
+		"mp": [130, 142, 154, 166, 178, 190],
+		"physical_attack": [604, 702, 799, 896, 1090, 1382],
+		"magic_attack": [109, 179, 249, 319, 319, 319],
+		"defense": [191, 255, 319, 382, 446, 446],
+		"strength": [604, 702, 799, 896, 1090, 1382],
+		"endurance": [191, 255, 319, 382, 446, 446],
+		"dexterity": [221, 302, 383, 464, 545, 545],
+		"agility": [262, 338, 414, 490, 566, 718],
+		"magic": [109, 179, 249, 319, 319, 319]
+	},
+	"skills": {
+		"special": {
+			"id": "iron_glaive",
+			"name": "Iron Galive",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "physical_attack"
+				}, {
+					"target": "skill",
+					"attribute": "strength",
+					"modifier": "boost"
+				}
+			]
+		},
+		"combat": [
+			{
+				"id": "oniyuri",
+				"name": "Oniyuri",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "physical_attack"
+					}, {
+						"target": "foes",
+						"attribute": "strength",
+						"modifier": "-20%",
+						"duration": 4
+					}, {
+						"target": "skill",
+						"attribute": "strength",
+						"modifier": "boost"
+					}
+				]
+			}, {
+				"id": "suzuran",
+				"name": "Suzuran",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "physical_attack"
+					}, {
+						"target": "skill",
+						"attribute": "strength",
+						"modifier": "boost"
+					}
+				]
+			}, {
+				"id": "hitujigusa",
+				"name": "Hitujigusa",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "physical_attack"
+					}, {
+						"target": "foe",
+						"attribute": "magic_buff_removal_no_assist",
+						"modifier": ""
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Tough: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Defense: I",
+				"effects": [
+					{
+						"attribute": "physical_resist",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Status Resist: I",
+				"effects": [
+					{
+						"attribute": "ailment_resist",
+						"modifier": "+15%"
+					}
+				]
+			}, {
+				"name": "Battle Arts: I",
+				"effects": [
+					{
+						"attribute": "strength",
+						"modifier": "+8%"
+					}, {
+						"attribute": "dexterity",
+						"modifier": "+8%"
+					}
+				]
+			}, {
+				"name": "Dragon Killer",
+				"effects": [
+					{
+						"attribute": "dragon_killer",
+						"modifier": "+50%"
+					}
+				]
+			}
+		]
+	}
+}

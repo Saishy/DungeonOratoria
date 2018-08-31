@@ -1,0 +1,40 @@
+{
+	"id": "misha_flot_guild_worker",
+	"title": "Guild Worker",
+	"name": "Misha Flot",
+	"stars": 2,
+	"limited": false,
+	"stats": {
+		"hp": [498, 0, 0, 0, 0, 798],
+		"mp": [91, 0, 0, 0, 0, 141],
+		"physical_attack": [184, 0, 0, 0, 0, 289],
+		"magic_attack": [55, 0, 0, 0, 0, 100],
+		"defense": [82, 0, 0, 0, 0, 137],
+		"strength": [184, 0, 0, 0, 0, 289],
+		"endurance": [82, 0, 0, 0, 0, 137],
+		"dexterity": [103, 0, 0, 0, 0, 163],
+		"agility": [118, 0, 0, 0, 0, 188],
+		"magic": [55, 0, 0, 0, 0, 100]
+	},
+	"skills": [
+		{
+			"name": "Critical Hint+",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "stun_resist",
+					"modifier": "+60%"
+				}
+			]
+		}, {
+			"name": "Critical Hint++",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "stun_resist",
+					"modifier": "+80%"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,39 @@
+{
+	"id": "hestia_part-time_goddess",
+	"title": "Part-time Goddess",
+	"name": "Hestia",
+	"stars": 4,
+	"stats": {
+		"hp": [618, 0, 0, 0, 0, 0],
+		"mp": [104, 0, 0, 0, 0, 0],
+		"physical_attack": [282, 0, 0, 0, 0, 0],
+		"magic_attack": [115, 0, 0, 0, 0, 0],
+		"defense": [151, 0, 0, 0, 0, 0],
+		"strength": [282, 0, 0, 0, 0, 0],
+		"endurance": [151, 0, 0, 0, 0, 0],
+		"dexterity": [168, 0, 0, 0, 0, 0],
+		"agility": [197, 0, 0, 0, 0, 0],
+		"magic": [115, 0, 0, 0, 0, 0]
+	},
+	"skills": [
+		{
+			"name": "Hilarious Service+",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "strength",
+					"modifier": "+10%"
+				}
+			]
+		}, {
+			"name": "Hilarious Service++",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "strength",
+					"modifier": "+15%"
+				}
+			]
+		}
+	]
+}

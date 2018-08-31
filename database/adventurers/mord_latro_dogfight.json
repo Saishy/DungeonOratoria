@@ -1,0 +1,113 @@
+{
+	"id": "mord_latro_dogfight",
+	"title": "Dogfight",
+	"name": "Mord Latro",
+	"type": "physical_type",
+	"stars": 3,
+	"limited": false,
+	"stats": {
+		"hp": [1410, 1594, 1790, 1998, 2220, 2460],
+		"mp": [124, 136, 148, 160, 172, 184],
+		"physical_attack": [336, 394, 452, 568, 684, 800],
+		"magic_attack": [75, 123, 171, 171, 171, 171],
+		"defense": [112, 153, 194, 235, 276, 276],
+		"strength": [336, 394, 452, 568, 684, 800],
+		"endurance": [112, 153, 194, 235, 276, 276],
+		"dexterity": [150, 200, 250, 300, 350, 400],
+		"agility": [211, 264, 317, 369, 422, 527],
+		"magic": [75, 123, 171, 171, 171, 171]
+	},
+	"skills": {
+		"special": {
+			"name": "Invisible Slayer",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "high",
+					"type": "physical_attack"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Short Ripper",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "low",
+						"type": "physical_attack"
+					}, {
+						"target": "foe",
+						"attribute": "taunt",
+						"modifier": "30%"
+					}
+				]
+			}, {
+				"name": "Massive Force",
+				"effects": [
+					{
+						"target": "self",
+						"attribute": "strength",
+						"modifier": "+75%",
+						"duration": 4
+					}
+				]
+			}, {
+				"name": "Wide Slash",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "physical_attack"
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Defense: I",
+				"effects": [
+					{
+						"attribute": "physical_resist",
+						"modifier": "+8%"
+					}
+				]
+			}, {
+				"name": "Insane Speed: I",
+				"effects": [
+					{
+						"attribute": "agility",
+						"modifier": "7.5%"
+					}
+				]
+			}, {
+				"name": "Indomitable: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+7.5%"
+					}
+				]
+			}, {
+				"name": "Status Resist: I",
+				"effects": [
+					{
+						"attribute": "ailment_resist",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Swordsman: I",
+				"effects": [
+					{
+						"attribute": "strength",
+						"modifier": "+7.5%"
+					}
+				]
+			}
+		]
+	}
+}

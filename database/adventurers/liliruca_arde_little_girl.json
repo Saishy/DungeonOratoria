@@ -1,0 +1,81 @@
+{
+	"id": "liliruca_arde_little_girl",
+	"title": "Little Girl",
+	"name": "Liliruca Arde",
+	"type": "magic_type",
+	"stars": 4,
+	"limited": false,
+	"stats": {
+		"hp": [1460, 0, 0, 0, 0, 2510],
+		"mp": [180, 0, 0, 0, 0, 270],
+		"physical_attack": [114, 0, 0, 0, 0, 336],
+		"magic_attack": [522, 0, 0, 0, 0, 1314],
+		"defense": [136, 0, 0, 0, 0, 380],
+		"strength": [114, 0, 0, 0, 0, 336],
+		"endurance": [136, 0, 0, 0, 0, 380],
+		"dexterity": [222, 0, 0, 0, 0, 574],
+		"agility": [270, 0, 0, 0, 0, 702],
+		"magic": [522, 0, 0, 0, 0, 1314]
+	},
+	"skills": {
+		"special": {
+			"name": "Special Placeholder",
+			"effects": [
+				{
+					"target": "self",
+					"attribute": "strength",
+					"modifier": "+0%"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Skill 1 Placeholder",
+				"effects": [
+					{
+						"target": "self",
+						"attribute": "strength",
+						"modifier": "+0%"
+					}
+				]
+			}, {
+				"name": "Skill 2 Placeholder",
+				"effects": [
+					{
+						"target": "self",
+						"attribute": "strength",
+						"modifier": "+0%"
+					}
+				]
+			}, {
+				"name": "Skill 3 Placeholder",
+				"effects": [
+					{
+						"target": "self",
+						"attribute": "strength",
+						"modifier": "+0%"
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Placeholder: I",
+				"effects": [
+					{
+						"attribute": "dexterity",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "PlaceholderTwo: I",
+				"effects": [
+					{
+						"attribute": "agility",
+						"modifier": "+10%"
+					}
+				]
+			}
+		]
+	}
+}

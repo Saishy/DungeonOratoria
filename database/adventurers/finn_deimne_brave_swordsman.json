@@ -1,0 +1,126 @@
+{
+	"id": "finn_deimne_brave_swordsman",
+	"title": "Brave Swordsman",
+	"name": "Finn Deimne",
+	"type": "physical_type",
+	"stars": 4,
+	"limited": false,
+	"stats": {
+		"hp": 				[1626, 	1810, 	2006, 	2214, 	2436, 	2676],
+		"mp": 				[120, 	132, 	144, 	156, 	168, 	180],
+		"physical_attack": 	[631, 	730, 	829, 	928, 	1126, 	1423],
+		"magic_attack": 	[105, 	175, 	245, 	315, 	315, 	315],
+		"defense":			[174, 	238, 	302, 	366, 	430, 	430],
+		"strength": 		[631, 	730, 	829, 	928, 	1126, 	1423],
+		"endurance": 		[174, 	238, 	302, 	366, 	430, 	430],
+		"dexterity": 		[218, 	301, 	383, 	466, 	548, 	548],
+		"agility": 			[300, 	383, 	476, 	551, 	634, 	801],
+		"magic": 			[105, 	175, 	245, 	315, 	315, 	315]
+	},
+	"skills": {
+		"special": {
+			"name": "Furious Brave",
+			"effects": [
+				{
+					"target": "foe",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "physical_attack"
+				}, {
+					"target": "skill",
+					"attribute": "penetration_rate",
+					"modifier": "ultra"
+				}, {
+					"target": "skill",
+					"attribute": "strength",
+					"modifier": "boost"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Heightened Strike",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "physical_attack"
+					}, {
+						"target": "skill",
+						"attribute": "strength",
+						"modifier": "boost"
+					}
+				]
+			}, {
+				"name": "Slash Cleave",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "physical_attack"
+					}
+				]
+			}, {
+				"name": "Enrage",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "low",
+						"type": "physical_attack"
+					}, {
+						"target": "self",
+						"attribute": "strength",
+						"modifier": "+75%",
+						"duration": 4
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Aching Thumb",
+				"effects": [
+					{
+						"attribute": "dexterity",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Acceleration: I",
+				"effects": [
+					{
+						"attribute": "agility",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Unbreakable: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Crush: I",
+				"effects": [
+					{
+						"attribute": "strength",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Status Resist: I",
+				"effects": [
+					{
+						"attribute": "ailment_resist",
+						"modifier": "+15%"
+					}
+				]
+			}
+		]
+	}
+}

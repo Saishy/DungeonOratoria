@@ -1,0 +1,39 @@
+{
+	"id": "dianceht_vigorous_medi-god",
+	"title": "Vigorous Medi-God",
+	"name": "Dianceht",
+	"stars": 3,
+	"stats": {
+		"hp": [500, 556, 612, 672, 736, 800],
+		"mp": [101, 109, 117, 127, 139, 151 ],
+		"physical_attack": [73, 90, 107, 124, 124, 124],
+		"magic_attack": [218, 250, 266, 282, 314, 346],
+		"defense": [82, 95, 108, 121, 121, 134],
+		"strength": [73, 90, 107, 124, 124, 124],
+		"endurance": [82, 95, 108, 121, 121, 134],
+		"dexterity": [117, 131, 145, 159, 187, 187],
+		"agility": [96, 96, 112, 128, 144, 160],
+		"magic": [218, 250, 266, 282, 314, 346]
+	},
+	"skills": [
+		{
+			"name": "Thank Me, Peasants!+",
+			"effects": [
+				{
+					"target": "self",
+					"attribute": "ailment_resist",
+					"modifier": "+40%"
+				}
+			]
+		}, {
+			"name": "Thank Me, Peasants!++",
+			"effects": [
+				{
+					"target": "self",
+					"attribute": "ailment_resist",
+					"modifier": "+60%"
+				}
+			]
+		}
+	]
+}

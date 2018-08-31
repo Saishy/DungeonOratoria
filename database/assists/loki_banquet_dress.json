@@ -1,0 +1,40 @@
+{
+	"id": "loki_banquet_dress",
+	"title": "Banquet Dress",
+	"name": "Loki",
+	"stars": 4,
+	"limited": false,
+	"stats": {
+		"hp": [618, 0, 0, 0, 0, 918],
+		"mp": [104, 0, 0, 0, 0, 154],
+		"physical_attack": [159, 0, 0, 0, 0, 299],
+		"magic_attack": [154, 0, 0, 0, 0, 294],
+		"defense": [118, 0, 0, 0, 0, 218],
+		"strength": [159, 0, 0, 0, 0, 299],
+		"endurance": [118, 0, 0, 0, 0, 218],
+		"dexterity": [196, 0, 0, 0, 0, 361],
+		"agility": [275, 0, 0, 0, 0, 527],
+		"magic": [154, 0, 0, 0, 0, 294]
+	},
+	"skills": [
+		{
+			"name": "Trickster's Skills+",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "magic_resist",
+					"modifier": "+12%"
+				}
+			]
+		}, {
+			"name": "Trickster's Skills++",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "magic_resist",
+					"modifier": "+15%"
+				}
+			]
+		}
+	]
+}

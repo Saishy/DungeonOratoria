@@ -1,0 +1,113 @@
+{
+	"id": "yamato_mikoto_samurai_kunoichi",
+	"title": "Samurai Kunoichi",
+	"name": "Yamato Mikoto",
+	"type": "balance_type",
+	"stars": 4,
+	"limited": false,
+	"stats": {
+		"hp": [1346, 1522, 1716, 1928, 2158, 2406],
+		"mp": [144, 156, 168, 180, 192, 204],
+		"physical_attack": [242, 325, 409, 492, 576, 660],
+		"magic_attack": [205, 281, 357, 433, 509, 585],
+		"defense": [166, 223, 279, 336, 392, 449],
+		"strength": [242, 325, 409, 492, 576, 660],
+		"endurance": [166, 223, 279, 336, 392, 449],
+		"dexterity": [268, 354, 440, 525, 611, 697],
+		"agility": [192, 261, 330, 399, 468, 537],
+		"magic": [205, 281, 357, 433, 509, 585]
+	},
+	"skills": {
+		"special": {
+			"name": "Tenka-chizan",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "physical_attack"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Brutal Slash Kai",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "physical_attack"
+					}, {
+						"target": "skill",
+						"attribute": "uncounter_rate",
+						"modifier": "ultra"
+					}
+				]
+			}, {
+				"name": "Kagenui Yonshiki",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "agility",
+						"modifier": "-35%",
+						"duration": 4
+					}
+				]
+			}, {
+				"name": "Skill 3 Placeholder",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "strength",
+						"modifier": "-35%",
+						"duration": 4
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Status Resist: I",
+				"effects": [
+					{
+						"attribute": "ailment_resist",
+						"modifier": "+15%"
+					}
+				]
+			}, {
+				"name": "Crafter: I",
+				"effects": [
+					{
+						"attribute": "dexterity",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Tough: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+5.5%"
+					}
+				]
+			}, {
+				"name": "Swordsman: I",
+				"effects": [
+					{
+						"attribute": "strength",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Indomitable: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+5.5%"
+					}
+				]
+			}
+		]
+	}
+}
