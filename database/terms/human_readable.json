@@ -33,6 +33,8 @@
 	"thunder_magic_attack": "Thunder M.Attack",
 	"prevent_ko": "Avoids K.O",
 	"null_physical_attack_no_special": "Null P.Attack exc Special Arts",
+	"null_magic_attack_no_special": "Null M.Attack exc Special Arts",
+	"null_ailment": "Null Ailments",
 	"physical_resist_buff_removal_no_assist": "removes all P.Resist Buffs exc Assist Skills",
 	"str_buff_removal_no_assist": "removes all Str. Buffs exc Assist Skills",
 	"magic_buff_removal_no_assist": "removes all Mag. Buffs exc Assist Skills",
