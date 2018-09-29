@@ -1,0 +1,112 @@
+{
+	"id": "shakti_varma_fist_fighter",
+	"title": "Fist Fighter",
+	"name": "Shakti Varma",
+	"type": "physical_type",
+	"stars": 3,
+	"limited": false,
+	"stats": {
+		"hp": 				[1401, 	1585, 	1781, 	1989, 	2211, 	2451],
+		"mp": 				[120, 	132, 	144, 	156, 	168, 	180],
+		"physical_attack": 	[313, 	365, 	416, 	520, 	624, 	727],
+		"magic_attack": 	[66, 	108, 	150, 	150, 	150, 	150],
+		"defense":			[109, 	143, 	178, 	212, 	247, 	247],
+		"strength": 		[313, 	365, 	416, 	520, 	624, 	727],
+		"endurance": 		[109, 	143, 	178, 	212, 	247, 	247],
+		"dexterity": 		[150, 	192, 	234, 	276, 	318, 	360],
+		"agility": 			[206, 	252, 	299, 	345, 	392, 	484],
+		"magic": 			[66, 	108, 	150, 	150, 	150, 	150]
+	},
+	"skills": {
+		"special": {
+			"name": "Muthee Sagrama",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "high",
+					"type": "physical_attack"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Visana",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "physical_attack"
+					}, {
+						"target": "skill",
+						"attribute": "strength",
+						"modifier": "boost"
+					}
+				]
+			}, {
+				"name": "Udayati",
+				"effects": [
+					{
+						"target": "self",
+						"attribute": "strength",
+						"modifier": "+50%",
+						"duration": 4
+					}
+				]
+			}, {
+				"name": "Dharana",
+				"effects": [
+					{
+						"target": "self",
+						"attribute": "mp_heal",
+						"modifier": "+30%"
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Crafter: I",
+				"effects": [
+					{
+						"attribute": "dexterity",
+						"modifier": "+8%"
+					}
+				]
+			}, {
+				"name": "Insane Speed: I",
+				"effects": [
+					{
+						"attribute": "agility",
+						"modifier": "+8%"
+					}
+				]
+			}, {
+				"name": "Unbreakable: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+8%"
+					}
+				]
+			}, {
+				"name": "Fist Strike: I",
+				"effects": [
+					{
+						"attribute": "strength",
+						"modifier": "+8%"
+					}
+				]
+			}, {
+				"name": "Spirit Healing: I",
+				"effects": [
+					{
+						"attribute": "mp_regen",
+						"modifier": "+1%"
+					}
+				]
+			}
+		]
+	}
+}

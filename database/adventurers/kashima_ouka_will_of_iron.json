@@ -1,0 +1,125 @@
+{
+	"id": "kashima_ouka_will_of_iron",
+	"title": "Will of Iron",
+	"name": "Kashima Ouka",
+	"type": "defense_type",
+	"stars": 4,
+	"limited": false,
+	"stats": {
+		"hp": [1846, 2078, 2331, 2605, 2900, 3216],
+		"mp": [111, 123, 135, 147, 159, 171],
+		"physical_attack": [328, 426, 524, 622, 720, 818],
+		"magic_attack": [122, 192, 262, 262, 332, 332],
+		"defense": [329, 381, 433, 537, 641, 797],
+		"strength": [328, 426, 524, 622, 720, 818],
+		"endurance": [329, 381, 433, 537, 641, 797],
+		"dexterity": [205, 282, 359, 436, 513, 590],
+		"agility": [111, 188, 265, 342, 342, 342],
+		"magic": [122, 192, 262, 262, 332, 332]
+	},
+	"skills": {
+		"special": {
+			"name": "Ouka-Nisouren",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "physical_attack"
+				}, {
+					"target": "foes",
+					"attribute": "penetration_rate",
+					"modifier": "-45%"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Spear of Absolute Bravery",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "physical_attack"
+					}, {
+						"target": "skill",
+						"attribute": "indexed_to",
+						"modifier": "hp"
+					}
+				]
+			}, {
+				"name": "Fair and Square",
+				"effects": [
+					{
+						"target": "self",
+						"attribute": "cover",
+						"modifier": "1",
+						"duration": 1
+					}, {
+						"target": "self",
+						"attribute": "heal",
+						"modifier": "20%"
+					}
+				]
+			}, {
+				"name": "Do or Die Resistance",
+				"effects": [
+					{
+						"target": "allies",
+						"attribute": "endurance",
+						"modifier": "+20%",
+						"duration": 4
+					}, {
+						"target": "skill",
+						"attribute": "speed",
+						"modifier": "fast"
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Saboteur: I",
+				"effects": [
+					{
+						"attribute": "dexterity",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Courageous: I",
+				"effects": [
+					{
+						"attribute": "strength",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Insane Speed: I",
+				"effects": [
+					{
+						"attribute": "agility",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Healing Power: I",
+				"effects": [
+					{
+						"attribute": "hp_regen",
+						"modifier": "+3%"
+					}
+				]
+			}, {
+				"name": "Status Resist: I",
+				"effects": [
+					{
+						"attribute": "ailment_resist",
+						"modifier": "+15%"
+					}
+				]
+			}
+		]
+	}
+}

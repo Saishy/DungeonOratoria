@@ -1,0 +1,127 @@
+{
+	"id": "ryu_lion_gale",
+	"title": "Gale",
+	"name": "Ryu Lion",
+	"type": "balance_type",
+	"stars": 4,
+	"limited": false,
+	"stats": {
+		"hp": 				[1366, 	1542, 	1736, 	1948, 	2178, 	2426],
+		"mp":				[146, 	158, 	170, 	182, 	194, 	206],
+		"physical_attack": 	[216, 	292, 	368, 	444, 	520, 	596],
+		"magic_attack": 	[227, 	311, 	394, 	478, 	562, 	645],
+		"defense": 			[165, 	221, 	277, 	333, 	389, 	445],
+		"strength": 		[216, 	292, 	368, 	444, 	520, 	596],
+		"endurance": 		[165, 	221, 	277, 	333, 	389, 	445],
+		"dexterity": 		[270, 	356, 	442, 	528, 	613, 	699],
+		"agility": 			[217, 	293, 	369, 	445, 	521,	597],
+		"magic": 			[227, 	311, 	394, 	478, 	562, 	645]
+	},
+	"skills": {
+		"special": {
+			"name": "Luminous Wind",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "wind_magic_attack"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Noah Heal",
+				"effects": [
+					{
+						"target": "allies",
+						"attribute": "heal",
+						"modifier": "medium"
+					}
+				]
+			}, {
+				"name": "Vindblitz",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "wind_magic_attack"
+					}, {
+						"target": "skill",
+						"attribute": "magic",
+						"modifier": "boost"
+					}, {
+						"target": "skill",
+						"attribute": "penetration",
+						"modifier": "ultra"
+					}
+				]
+			}, {
+				"name": "Teal Wind",
+				"effects": [
+					{
+						"target": "allies",
+						"attribute": "agility",
+						"modifier": "+30%",
+						"duration": 4
+					}, {
+						"target": "allies",
+						"attribute": "magic",
+						"modifier": "+30%",
+						"duration": 4
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Magic Resistance: I",
+				"effects": [
+					{
+						"attribute": "magic_resist",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Purpose: I",
+				"effects": [
+					{
+						"attribute": "magic",
+						"modifier": "+10%"
+					}, {
+						"attribute": "endurance",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Defense: I",
+				"effects": [
+					{
+						"attribute": "physical_resist",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Concentrate: I",
+				"effects": [
+					{
+						"attribute": "agility",
+						"modifier": "+10%"
+					}, {
+						"attribute": "dexterity",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Status Resist: G",
+				"effects": [
+					{
+						"attribute": "ailment_resist",
+						"modifier": "+15%"
+					}
+				]
+			}
+		]
+	}
+}

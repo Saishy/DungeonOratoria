@@ -1,0 +1,40 @@
+{
+	"id": "takemikazuchi_war_incarnation",
+	"title": "War Incarnation",
+	"name": "Takemikazuchi",
+	"stars": 3,
+	"limited": false,
+	"stats": {
+		"hp": [706, 0, 0, 0, 0, 1166],
+		"mp": [69, 0, 0, 0, 0, 109],
+		"physical_attack": [215, 0, 0, 0, 0, 355],
+		"magic_attack": [73, 0, 0, 0, 0, 133],
+		"defense": [107, 0, 0, 0, 0, 177],
+		"strength": [215, 0, 0, 0, 0, 355],
+		"endurance": [107, 0, 0, 0, 0, 177],
+		"dexterity": [122, 0, 0, 0, 0, 202],
+		"agility": [138, 0, 0, 0, 0, 233],
+		"magic": [73, 0, 0, 0, 0, 133]
+	},
+	"skills": [
+		{
+			"name": "War Rampage+",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "counter_rate",
+					"modifier": "-8%"
+				}
+			]
+		}, {
+			"name": "War Rampage++",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "counter_rate",
+					"modifier": "-10%"
+				}
+			]
+		}
+	]
+}

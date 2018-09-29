@@ -1,0 +1,118 @@
+{
+	"id": "finn_deimne_classy_gentleman",
+	"title": "Classy Gentleman",
+	"name": "Finn Deimne",
+	"type": "physical_type",
+	"stars": 4,
+	"limited": false,
+	"stats": {
+		"hp": [1492, 1676, 1872, 2080, 2302, 2542],
+		"mp": [129, 141, 153, 165, 177, 189],
+		"physical_attack": [433, 525, 618, 803, 987, 1172],
+		"magic_attack": [117, 187, 257, 257, 257, 327],
+		"defense": [125, 181, 237, 293, 349, 349],
+		"strength": [433, 525, 618, 803, 987, 1172],
+		"endurance": [125, 181, 237, 293, 349, 349],
+		"dexterity": [200, 282, 365, 447, 530, 530],
+		"agility": [271, 351, 431, 511, 591, 750],
+		"magic": [117, 187, 257, 257, 257, 327]
+	},
+	"skills": {
+		"special": {
+			"id": "tactical_tuxedo",
+			"name": "Tactical Tuxedo",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "critical_rate",
+					"modifier": "+100%",
+					"duration": 4
+				}
+			]
+		},
+		"combat": [
+			{
+				"id": "rush_spear",
+				"name": "Rush Spear",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "physical_attack",
+						"speed": "fast"
+					}
+				]
+			}, {
+				"id": "buster_edge",
+				"name": "Buster Edge",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"type": "physical_attack",
+						"modifier": "low"
+					}, {
+						"target": "skill",
+						"attribute": "life_steal",
+						"modifier": "20%"
+					}
+				]
+			}, {
+				"id": "destructor",
+				"name": "Destructor",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"type": "physical_attack",
+						"modifier": "high"
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Swordsman: I",
+				"effects": [
+					{
+						"attribute": "strength",
+						"modifier": "+5%"
+					}
+				]
+			}, {
+				"name": "Aching Thumb: I",
+				"effects": [
+					{
+						"attribute": "dexterity",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Crush: I",
+				"effects": [
+					{
+						"attribute": "strength",
+						"modifier": "+5%"
+					}
+				]
+			}, {
+				"name": "Hunter: I",
+				"effects": [
+					{
+						"attribute": "agility",
+						"modifier": "+5%"
+					}
+				]
+			}, {
+				"name": "Spirit Healing: G",
+				"effects": [
+					{
+						"attribute": "mp_regen",
+						"modifier": "+5%"
+					}
+				]
+			}
+		]
+	}
+}

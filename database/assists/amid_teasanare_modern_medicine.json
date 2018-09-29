@@ -1,0 +1,39 @@
+{
+	"id": "amid_teasanare_modern_medicine",
+	"title": "Modern Medicine",
+	"name": "Amid Teasanare",
+	"stars": 3,
+	"stats": {
+		"hp": [642, 722, 802, 894, 998, 1102],
+		"mp": [71, 79, 87, 95, 103, 111],
+		"physical_attack": [130, 149, 168, 187, 206, 225],
+		"magic_attack": [130, 168, 187, 206, 206, 206],
+		"defense": [155, 169, 183, 197, 225, 253],
+		"strength": [130, 149, 168, 187, 206, 225],
+		"endurance": [155, 169, 183, 197, 225, 253],
+		"dexterity": [128, 143, 161, 197, 347, 215],
+		"agility": [79, 79, 97, 115, 133, 133],
+		"magic": [130, 168, 187, 206, 206, 206]
+	},
+	"skills": [
+		{
+			"name": "Scholar Mind Trick+",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "poison_resist",
+					"modifier": "+75%"
+				}
+			]
+		}, {
+			"name": "Scholar Mind Trick++",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "poison_resist",
+					"modifier": "+100%"
+				}
+			]
+		}
+	]
+}

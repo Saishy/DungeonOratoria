@@ -1,0 +1,116 @@
+{
+	"id": "tione_hiryute_suntan_girl",
+	"title": "Suntan Girl",
+	"name": "Tione Hiryute",
+	"type": "physical_type",
+	"stars": 4,
+	"limited": true,
+	"stats": {
+		"hp": [1560, 1744, 1940, 2148, 2370, 2610],
+		"mp": [118, 130, 142, 154, 166, 178],
+		"physical_attack": [473, 565, 657, 842, 1027, 1212],
+		"magic_attack": [109, 179, 249, 249, 249, 319],
+		"defense": [155, 216, 278, 339, 401, 401],
+		"strength": [473, 565, 657, 842, 1027, 1212],
+		"endurance": [155, 216, 278, 339, 401, 401],
+		"dexterity": [190, 265, 340, 415, 490, 490],
+		"agility": [287, 370, 454, 537, 621, 788],
+		"magic": [109, 179, 249, 249, 249, 319]
+	},
+	"skills": {
+		"special": {
+			"id": "backdraft",
+			"name": "Backdraft",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "physical_attack"
+				}
+			]
+		},
+		"combat": [
+			{
+				"id": "furious_espada",
+				"name": "Furious Espada",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "physical_attack"
+					}
+				]
+			}, {
+				"id": "list_iorum",
+				"name": "List Iorum",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "seal",
+						"modifier": "15%"
+					}
+				]
+			}, {
+				"id": "rampage_grans",
+				"name": "Rampage Grans",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "physical_attack"
+					}, {
+						"target": "foes",
+						"attribute": "taunt",
+						"modifier": "50%"
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "First Strike: G",
+				"effects": [
+					{
+						"attribute": "strength",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Status Resist: H",
+				"effects": [
+					{
+						"attribute": "ailment_resist",
+						"modifier": "+15%"
+					}
+				]
+			}, {
+				"name": "Insane Speed: I",
+				"effects": [
+					{
+						"attribute": "agility",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Tough: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Healing Power: I",
+				"effects": [
+					{
+						"attribute": "hp_regen",
+						"modifier": "+1%"
+					}
+				]
+			}
+		]
+	}
+}

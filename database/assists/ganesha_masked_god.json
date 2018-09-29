@@ -1,0 +1,40 @@
+{
+	"id": "ganesha_masked_god",
+	"title": "Masked God",
+	"name": "Ganesha",
+	"stars": 3,
+	"limited": false,
+	"stats": {
+		"hp": [588, 0, 0, 0, 0, 888],
+		"mp": [94, 0, 0, 0, 0, 144],
+		"physical_attack": [137, 0, 0, 0, 0, 232],
+		"magic_attack": [100, 0, 0, 0, 0, 176],
+		"defense": [163, 0, 0, 0, 0, 261],
+		"strength": [137, 0, 0, 0, 0, 232],
+		"endurance": [163, 0, 0, 0, 0, 261],
+		"dexterity": [128, 0, 0, 0, 0, 218],
+		"agility": [81, 0, 0, 0, 0, 135],
+		"magic": [100, 0, 0, 0, 0, 176]
+	},
+	"skills": [
+		{
+			"name": "Cry of a God+",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "taunt_resist",
+					"modifier": "+75%"
+				}
+			]
+		}, {
+			"name": "Cry of a God++",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "taunt_resist",
+					"modifier": "+100%"
+				}
+			]
+		}
+	]
+}

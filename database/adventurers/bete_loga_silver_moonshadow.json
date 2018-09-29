@@ -1,0 +1,125 @@
+{
+	"id": "bete_loga_silver_moonshadow",
+	"title": "Silver Moonshadow",
+	"name": "Bete Loga",
+	"type": "physical_type",
+	"stars": 4,
+	"limited": false,
+	"stats": {
+		"hp": [1560, 1744, 1940, 2148, 2370, 2610],
+		"mp": [123, 135, 147, 159, 171, 183],
+		"physical_attack": [433, 525, 618, 803, 987, 1172],
+		"magic_attack": [105, 175, 245, 245, 245, 315],
+		"defense": [133, 192, 250, 309, 368, 368],
+		"strength": [433, 525, 618, 803, 987, 1172],
+		"endurance": [133, 192, 250, 309, 368, 368],
+		"dexterity": [180, 255, 330, 405, 480, 480],
+		"agility": [291, 375, 458, 542, 625, 793],
+		"magic": [105, 175, 245, 245, 245, 315]
+	},
+	"skills": {
+		"special": {
+			"id": "ulfheoinn",
+			"name": "Ulfheoinn",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "fire_magic_attack"
+				}, {
+					"target": "skill",
+					"attribute": "indexed_to",
+					"modifier": "strength"
+				}
+			]
+		},
+		"combat": [
+			{
+				"id": "wolfskehl",
+				"name": "Wolfskehl",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "physical_attack"
+					}
+				]
+			}, {
+				"id": "ulfr_rogi",
+				"name": "Ulfr rogi",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "fire_magic_attack"
+					}, {
+						"target": "skill",
+						"attribute": "indexed_to",
+						"modifier": "strength"
+					}
+				]
+			}, {
+				"id": "fenris_wolf",
+				"name": "Fenris Wolf",
+				"effects": [
+					{
+						"target": "self",
+						"attribute": "agility",
+						"modifier": "+75%",
+						"duration": 4
+					}, {
+						"target": "self",
+						"attribute": "strength",
+						"modifier": "+75%"
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Beast Killer",
+				"effects": [
+					{
+						"attribute": "beast_killer",
+						"modifier": "+50%"
+					}
+				]
+			}, {
+				"name": "Insane Speed: I",
+				"effects": [
+					{
+						"attribute": "agility",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Fist Strike: G",
+				"effects": [
+					{
+						"attribute": "strength",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Magic Resistance: G",
+				"effects": [
+					{
+						"attribute": "magic_resist",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Tough: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+5%"
+					}
+				]
+			}
+		]
+	}
+}

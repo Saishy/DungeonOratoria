@@ -1,0 +1,39 @@
+{
+	"id": "hestia_paradise_mood",
+	"title": "Paradise Mood",
+	"name": "Hestia",
+	"stars": 4,
+	"stats": {
+		"hp": [433, 0, 0, 0, 0, 0],
+		"mp": [170, 0, 0, 0, 0, 0],
+		"physical_attack": [120, 0, 0, 0, 0, 0],
+		"magic_attack": [316, 0, 0, 0, 0, 0],
+		"defense": [136, 0, 0, 0, 0, 0],
+		"strength": [120, 0, 0, 0, 0, 0],
+		"endurance": [136, 0, 0, 0, 0, 0],
+		"dexterity": [193, 0, 0, 0, 0, 0],
+		"agility": [155, 0, 0, 0, 0, 0],
+		"magic": [316, 0, 0, 0, 0, 0]
+	},
+	"skills": [
+		{
+			"name": "Onsen Effect+",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "strength",
+					"modifier": "-15%"
+				}
+			]
+		}, {
+			"name": "Onsen Effect++",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "strength",
+					"modifier": "-20%"
+				}
+			]
+		}
+	]
+}

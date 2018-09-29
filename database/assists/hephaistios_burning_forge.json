@@ -1,0 +1,40 @@
+{
+	"id": "hephaistios_burning_forge",
+	"title": "Burning Forge",
+	"name": "Hephaistios",
+	"stars": 3,
+	"limited": false,
+	"stats": {
+		"hp": [706, 0, 0, 0, 0, 1166],
+		"mp": [66, 0, 0, 0, 0, 106],
+		"physical_attack": [135, 0, 0, 0, 0, 230],
+		"magic_attack": [102, 0, 0, 0, 0, 178],
+		"defense": [160, 0, 0, 0, 0, 258],
+		"strength": [135, 0, 0, 0, 0, 230],
+		"endurance": [160, 0, 0, 0, 0, 258],
+		"dexterity": [131, 0, 0, 0, 0, 221],
+		"agility": [81, 0, 0, 0, 0, 135],
+		"magic": [102, 0, 0, 0, 0, 178]
+	},
+	"skills": [
+		{
+			"name": "Melody of Steel+",
+			"effects": [
+				{
+					"target": "self",
+					"attribute": "physical_resist",
+					"modifier": "+12%"
+				}
+			]
+		}, {
+			"name": "Melody of Steel++",
+			"effects": [
+				{
+					"target": "self",
+					"attribute": "physical_resist",
+					"modifier": "+15%"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,112 @@
+{
+	"id": "tiona_hiryute_dancing_blessing",
+	"title": "Dancing Blessing",
+	"name": "Tiona Hiryute",
+	"type": "balance_type",
+	"stars": 4,
+	"limited": false,
+	"stats": {
+		"hp": [1401, 1577, 1771, 1983, 2213, 2461],
+		"mp": [144, 156, 168, 180, 192, 204],
+		"physical_attack": [248, 333, 418, 504, 589, 674],
+		"magic_attack": [195, 271, 347, 423, 499, 575],
+		"defense": [171, 227, 283, 339, 396, 452],
+		"strength": [248, 333, 418, 504, 589, 674],
+		"endurance": [171, 227, 283, 339, 396, 452],
+		"dexterity": [242, 320, 398, 476, 554, 632],
+		"agility": [218, 294, 370, 446, 522, 598],
+		"magic": [195, 271, 347, 423, 499, 575]
+	},
+	"skills": {
+		"special": {
+			"name": "Vila Lassa",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "penetration_rate",
+					"modifier": "+100%",
+					"duration": 4
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Pololokka Rodirro",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "physical_attack"
+					}, {
+						"target": "foes",
+						"attribute": "stun",
+						"modifier": "15%"
+					}
+				]
+			}, {
+				"name": "Stela Defesa",
+				"effects": [
+					{
+						"target": "allies",
+						"attribute": "magic_resist",
+						"modifier": "+20%",
+						"duration": 4
+					}
+				]
+			}, {
+				"name": "Luna Pregare",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "magic_buff_removal_no_assist",
+						"modifier": ""
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Hunter: I",
+				"effects": [
+					{
+						"attribute": "agility",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Indomitable: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Courageous: I",
+				"effects": [
+					{
+						"attribute": "strength",
+						"modifier": "+4%"
+					}
+				]
+			}, {
+				"name": "Fist Strike: G",
+				"effects": [
+					{
+						"attribute": "strength",
+						"modifier": "+4%"
+					}
+				]
+			}, {
+				"name": "Crush: G",
+				"effects": [
+					{
+						"attribute": "strength",
+						"modifier": "+4%"
+					}
+				]
+			}
+		]
+	}
+}

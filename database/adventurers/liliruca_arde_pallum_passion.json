@@ -1,0 +1,115 @@
+{
+	"id": "liliruca_arde_pallum_passion",
+	"title": "Pallum Passion",
+	"name": "Liliruca Arde",
+	"type": "healer_type",
+	"stars": 4,
+	"limited": true,
+	"stats": {
+		"hp": [1246, 1410, 1589, 1785, 1999, 2231],
+		"mp": [158, 174, 190, 206, 222, 238],
+		"physical_attack": [149, 219, 289, 359, 429, 429],
+		"magic_attack": [441, 537, 634, 828, 1021, 1118],
+		"defense": [120, 193, 265, 265, 265, 338],
+		"strength": [149, 219, 289, 359, 429, 429],
+		"endurance": [120, 193, 265, 265, 265, 338],
+		"dexterity": [264, 340, 416, 492, 568, 720],
+		"agility": [255, 338, 422, 506, 589, 673],
+		"magic": [441, 537, 634, 828, 1021, 1118]
+	},
+	"skills": {
+		"special": {
+			"name": "Bursting Affection",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "fire_magic_attack"
+				}, {
+					"target": "foes",
+					"attribute": "charm",
+					"modifier": "30%"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Lively Heart",
+				"effects": [
+					{
+						"target": "allies",
+						"attribute": "heal",
+						"modifier": "medium"
+					}, {
+						"target": "allies",
+						"attribute": "ailment_cure",
+						"modifier": ""
+					}
+				]
+			}, {
+				"name": "Warm Heart",
+				"effects": [
+					{
+						"target": "allies",
+						"attribute": "heal_modifier",
+						"modifier": "+20%"
+					}
+				]
+			}, {
+				"name": "Shy Burn",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "fire_magic_attack"
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Spirit Healing: G",
+				"effects": [
+					{
+						"attribute": "mp_regen",
+						"modifier": "+1%"
+					}
+				]
+			}, {
+				"name": "Enlightenment: I",
+				"effects": [
+					{
+						"attribute": "magic",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Tough: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+5.5%"
+					}
+				]
+			}, {
+				"name": "Acceleration: I",
+				"effects": [
+					{
+						"attribute": "agility",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Status Resist: I",
+				"effects": [
+					{
+						"attribute": "ailment_resist",
+						"modifier": "+15%"
+					}
+				]
+			}
+		]
+	}
+}

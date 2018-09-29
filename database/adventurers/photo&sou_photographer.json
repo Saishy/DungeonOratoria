@@ -1,0 +1,125 @@
+{
+	"id": "photo&sou_photographer",
+	"title": "Photographer",
+	"name": "Photo&Sou",
+	"type": "healer_type",
+	"stars": 4,
+	"limited": true,
+	"stats": {
+		"hp": [1332, 0, 0, 0, 0, 2317],
+		"mp": [180, 0, 0, 0, 0, 260],
+		"physical_attack": [145, 0, 0, 0, 0, 425],
+		"magic_attack": [408, 0, 0, 0, 0, 1085],
+		"defense": [118, 0, 0, 0, 0, 346],
+		"strength": [145, 0, 0, 0, 0, 425],
+		"endurance": [118, 0, 0, 0, 0, 346],
+		"dexterity": [284, 0, 0, 0, 0, 786],
+		"agility": [304, 0, 0, 0, 0, 722],
+		"magic": [408, 0, 0, 0, 0, 1085]
+	},
+	"skills": {
+		"special": {
+			"id": "strobe_light",
+			"name": "Strobe Light",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "physical_resist",
+					"modifier": "-30%",
+					"duration": 4
+				}, {
+					"target": "foes",
+					"attribute": "magic_resist",
+					"modifier": "-30%",
+					"duration": 4
+				}
+			]
+		},
+		"combat": [
+			{
+				"id": "full_throttle",
+				"name": "Full Throttle",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "physical_attack"
+					}, {
+						"target": "skill",
+						"attribute": "indexed_to",
+						"modifier": "magic"
+					}
+				]
+			}, {
+				"id": "pharmacy",
+				"name": "Pharmacy",
+				"effects": [
+					{
+						"target": "allies",
+						"attribute": "heal",
+						"modifier": "medium"
+					}, {
+						"target": "allies",
+						"attribute": "guard_rate",
+						"modifier": "+30%",
+						"duration": 2
+					}
+				]
+			}, {
+				"id": "voice_of_poplar_street",
+				"name": "Voice of Poplar Street",
+				"effects": [
+					{
+						"target": "allies",
+						"attribute": "heal_modifier",
+						"modifier": "+20%"
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Crafter: I",
+				"effects": [
+					{
+						"attribute": "dexterity",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Acceleration: I",
+				"effects": [
+					{
+						"attribute": "agility",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Unbreakable: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Mind's Eye: I",
+				"effects": [
+					{
+						"attribute": "magic",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Status Resist: I",
+				"effects": [
+					{
+						"attribute": "ailment_resist",
+						"modifier": "+15%"
+					}
+				]
+			}
+		]
+	}
+}

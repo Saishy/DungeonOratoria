@@ -1,0 +1,40 @@
+{
+	"id": "dionysus_classy_god",
+	"title": "Classy God",
+	"name": "Dionysus",
+	"stars": 3,
+	"limited": false,
+	"stats": {
+		"hp": [448, 0, 0, 0, 0, 708],
+		"mp": [156, 0, 0, 0, 0, 216],
+		"physical_attack": [82, 0, 0, 0, 0, 139],
+		"magic_attack": [224, 0, 0, 0, 0, 376],
+		"defense": [81, 0, 0, 0, 0, 137],
+		"strength": [82, 0, 0, 0, 0, 139],
+		"endurance": [81, 0, 0, 0, 0, 137],
+		"dexterity": [134, 0, 0, 0, 0, 219],
+		"agility": [104, 0, 0, 0, 0, 176],
+		"magic": [224, 0, 0, 0, 0, 376]
+	},
+	"skills": [
+		{
+			"name": "Grace of Cups+",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "sleep",
+					"modifier": "25%"
+				}
+			]
+		}, {
+			"name": "Grace of Cups++",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "sleep",
+					"modifier": "30%"
+				}
+			]
+		}
+	]
+}

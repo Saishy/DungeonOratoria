@@ -1,0 +1,114 @@
+{
+	"id": "ais_wallenstein_gorgeous_princess",
+	"title": "Gorgeous Princess",
+	"name": "Ais Wallenstein",
+	"type": "balance_type",
+	"stars": 4,
+	"limited": false,
+	"stats": {
+		"hp": 				[1396,	1572,	1766,	1978,	2208,	2456],
+		"mp": 				[146,	158,	170,	182,	194,	206],
+		"physical_attack": 	[377,	506,	635,	765,	894,	1023],
+		"magic_attack":		[218,	302,	386,	469,	553,	636],
+		"defense":			[169,	225,	281,	337,	393,	449],
+		"strength":			[377,	506,	635,	765,	894,	1023],
+		"endurance":		[169,	225,	281,	337,	393,	449],
+		"dexterity":		[266,	352,	437,	523,	609,	695],
+		"agility":			[217,	293,	369,	445,	521,	597],
+		"magic":			[218,	302,	386,	469,	553,	636]
+	},
+	"skills": {
+		"special": {
+			"name": "Amazon Lil Rafaga",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "physical_attack"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Calma Lovushka",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "physical_attack"
+					}, {
+						"target": "foes",
+						"attribute": "guard_rate",
+						"modifier": "-30%",
+						"duration": 4
+					}
+				]
+			}, {
+				"name": "Force Wind",
+				"effects": [
+					{
+						"target": "allies",
+						"attribute": "strength",
+						"modifier": "+35%",
+						"duration": 4
+					}
+				]
+			}, {
+				"name": "Veter Escudo",
+				"effects": [
+					{
+						"target": "allies",
+						"attribute": "wind_resist",
+						"modifier": "+50%",
+						"duration": 4
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Wisdom: I",
+				"effects": [
+					{
+						"attribute": "all_status",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Magic Resistance: I",
+				"effects": [
+					{
+						"attribute": "magic_resist",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Swordsman: I",
+				"effects": [
+					{
+						"attribute": "strength",
+						"modifier": "+60%"
+					}
+				]
+			}, {
+				"name": "Status Resist: G",
+				"effects": [
+					{
+						"attribute": "ailment_resist",
+						"modifier": "+15%"
+					}
+				]
+			}, {
+				"name": "Spirit Healing: I",
+				"effects": [
+					{
+						"attribute": "mp_regen",
+						"modifier": "+1%"
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,125 @@
+{
+	"id": "anya_fromel_hyper_energetic",
+	"title": "Hyper Energetic",
+	"name": "Anya Fromel",
+	"type": "physical_type",
+	"stars": 4,
+	"limited": true,
+	"stats": {
+		"hp": [1555, 1739, 1935, 2143, 2365, 2605],
+		"mp": [120, 132, 144, 156, 168, 180],
+		"physical_attack": [621, 720, 819, 918, 1116, 1413],
+		"magic_attack": [111, 181, 251, 321, 321, 321],
+		"defense": [182, 246, 310, 374, 437, 437],
+		"strength": [621, 720, 819, 918, 1116, 1413],
+		"endurance": [182, 246, 310, 374, 437, 437],
+		"dexterity": [203, 286, 368, 451, 533, 533],
+		"agility": [311, 394, 478, 562, 645, 812],
+		"magic": [111, 181, 251, 321, 321, 321]
+	},
+	"skills": {
+		"special": {
+			"id": "scratch_frantically",
+			"name": "Scratch Frantically",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "physical_attack"
+				}, {
+					"target": "skill",
+					"attribute": "strength",
+					"modifier": "boost"
+				}
+			]
+		},
+		"combat": [
+			{
+				"id": "charge_stake",
+				"name": "Charge Stake",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "physical_attack"
+					}, {
+						"target": "foe",
+						"attribute": "heal_modifier",
+						"modifier": "-35%"
+					}
+				]
+			}, {
+				"id": "rapid_scure",
+				"name": "Rapid Scure",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "physical_attack"
+					}, {
+						"target": "foes",
+						"attribute": "counter_rate",
+						"modifier": "-30%"
+					}
+				]
+			}, {
+				"id": "cat_inspire",
+				"name": "Cat Inspire",
+				"effects": [
+					{
+						"target": "self",
+						"attribute": "prevent_ko",
+						"modifier": "x1",
+						"duration": "hp>=20%"
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Saboteur: I",
+				"effects": [
+					{
+						"attribute": "dexterity",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Acceleration: I",
+				"effects": [
+					{
+						"attribute": "agility",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Tough: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Crush: I",
+				"effects": [
+					{
+						"attribute": "strength",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Status Resist: I",
+				"effects": [
+					{
+						"attribute": "ailment_resist",
+						"modifier": "+15%"
+					}
+				]
+			}
+		]
+	}
+}

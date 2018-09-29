@@ -1,0 +1,81 @@
+{
+	"id": "bell_cranel_a_fresh_start",
+	"title": "A Fresh Start",
+	"name": "Bell Cranel",
+	"type": "physical_type",
+	"stars": 4,
+	"limited": false,
+	"stats": {
+		"hp": [1366, 0, 0, 0, 0, 2426],
+		"mp": [134, 0, 0, 0, 0, 194],
+		"physical_attack": [608, 0, 0, 0, 0, 1407],
+		"magic_attack": [133, 0, 0, 0, 0, 353],
+		"defense": [182, 0, 0, 0, 0, 439],
+		"strength": [608, 0, 0, 0, 0, 1407],
+		"endurance": [182, 0, 0, 0, 0, 439],
+		"dexterity": [204, 0, 0, 0, 0, 519],
+		"agility": [306, 0, 0, 0, 0, 812],
+		"magic": [133, 0, 0, 0, 0, 353]
+	},
+	"skills": {
+		"special": {
+			"name": "Special Placeholder",
+			"effects": [
+				{
+					"target": "self",
+					"attribute": "strength",
+					"modifier": "+0%"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Skill 1 Placeholder",
+				"effects": [
+					{
+						"target": "self",
+						"attribute": "strength",
+						"modifier": "+0%"
+					}
+				]
+			}, {
+				"name": "Skill 2 Placeholder",
+				"effects": [
+					{
+						"target": "self",
+						"attribute": "strength",
+						"modifier": "+0%"
+					}
+				]
+			}, {
+				"name": "Skill 3 Placeholder",
+				"effects": [
+					{
+						"target": "self",
+						"attribute": "strength",
+						"modifier": "+0%"
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Placeholder: I",
+				"effects": [
+					{
+						"attribute": "dexterity",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "PlaceholderTwo: I",
+				"effects": [
+					{
+						"attribute": "agility",
+						"modifier": "+10%"
+					}
+				]
+			}
+		]
+	}
+}

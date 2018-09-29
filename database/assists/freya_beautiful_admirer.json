@@ -1,0 +1,48 @@
+{
+	"id": "freya_beautiful_admirer",
+	"title": "Beautiful Admirer",
+	"name": "Freya",
+	"stars": 4,
+	"limited": false,
+	"stats": {
+		"hp": [590, 0, 0, 0, 0, 890],
+		"mp": [106, 0, 0, 0, 0, 156],
+		"physical_attack": [186, 0, 0, 0, 0, 351],
+		"magic_attack": [219, 0, 0, 0, 0, 351],
+		"defense": [211, 0, 0, 0, 0, 393],
+		"strength": [186, 0, 0, 0, 0, 351],
+		"endurance": [211, 0, 0, 0, 0, 393],
+		"dexterity": [175, 0, 0, 0, 0, 330],
+		"agility": [112, 0, 0, 0, 0, 214],
+		"magic": [219, 0, 0, 0, 0, 351]
+	},
+	"skills": [
+		{
+			"name": "Queen's Nightgown+",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "sleep_resist",
+					"modifier": "+75%"
+				}, {
+					"target": "foes",
+					"attribute": "endurance",
+					"modifier": "-6%"
+				}
+			]
+		}, {
+			"name": "Queen's Nightgown++",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "sleep_resist",
+					"modifier": "+100%"
+				}, {
+					"target": "foes",
+					"attribute": "endurance",
+					"modifier": "-8%"
+				}
+			]
+		}
+	]
+}

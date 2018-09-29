@@ -1,0 +1,126 @@
+{
+	"id": "ais_wallenstein_little_princess",
+	"title": "Little Princess",
+	"name": "Ais Wallenstein",
+	"type": "physical_type",
+	"stars": 4,
+	"limited": true,
+	"stats": {
+		"hp": [1550, 1734, 1930, 2138, 2360, 2600],
+		"mp": [124, 136, 148, 160, 172, 184],
+		"physical_attack": [621, 720, 819, 918, 1116, 1413],
+		"magic_attack": [127, 197, 267, 337, 337, 337],
+		"defense": [172, 236, 300, 364, 427, 427],
+		"strength": [621, 720, 819, 918, 1116, 1413],
+		"endurance": [172, 236, 300, 364, 427, 427],
+		"dexterity": [185, 260, 335, 410, 485, 485],
+		"agility": [303, 387, 470, 554, 638, 805],
+		"magic": [127, 197, 267, 337, 337, 337]
+	},
+	"skills": {
+		"special": {
+			"id": "innocent_lil_rafaga",
+			"name": "Innocent Lil Rafaga",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "physical_attack"
+				}, {
+					"target": "skill",
+					"attribute": "strength",
+					"modifier": "boost"
+				}
+			]
+		},
+		"combat": [
+			{
+				"id": "miliy_piercer",
+				"name": "Miliy Piercer",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "physical_attack"
+					}, {
+						"target": "foe",
+						"attribute": "heal_modifier",
+						"modifier": "-50%",
+						"duration": 4
+					}
+				]
+			}, {
+				"id": "sheet_volya",
+				"name": "Sheet Volya",
+				"effects": [
+					{
+						"target": "self",
+						"attribute": "magic_resist",
+						"modifier": "+50%",
+						"duration": 4
+					}
+				]
+			}, {
+				"id": "miliy_mech",
+				"name": "Miliy Mech",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "physical_attack"
+					}, {
+						"target": "skill",
+						"attribute": "strength",
+						"modifier": "boost"
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Hunter: G",
+				"effects": [
+					{
+						"attribute": "agility",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Tough: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Swordsman: I",
+				"effects": [
+					{
+						"attribute": "strength",
+						"modifier": "+5%"
+					}
+				]
+			}, {
+				"name": "Status Resist: G",
+				"effects": [
+					{
+						"attribute": "ailment_resist",
+						"modifier": "+15%"
+					}
+				]
+			}, {
+				"name": "Crush: I",
+				"effects": [
+					{
+						"attribute": "strength",
+						"modifier": "+5%"
+					}
+				]
+			}
+		]
+	}
+}

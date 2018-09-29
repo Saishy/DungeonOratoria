@@ -1,0 +1,40 @@
+{
+	"id": "goibniu_godly_swordsmith",
+	"title": "Godly Swordsmith",
+	"name": "Goibniu",
+	"stars": 3,
+	"limited": false,
+	"stats": {
+		"hp": [538, 0, 0, 0, 0, 838],
+		"mp": [98, 0, 0, 0, 0, 148],
+		"physical_attack": [214, 0, 0, 0, 0, 354],
+		"magic_attack": [74, 0, 0, 0, 0, 134],
+		"defense": [108, 0, 0, 0, 0, 178],
+		"strength": [214, 0, 0, 0, 0, 354],
+		"endurance": [108, 0, 0, 0, 0, 178],
+		"dexterity": [124, 0, 0, 0, 0, 204],
+		"agility": [138, 0, 0, 0, 0, 233],
+		"magic": [74, 0, 0, 0, 0, 134]
+	},
+	"skills": [
+		{
+			"name": "Smith God's Eye+",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "critical_rate",
+					"modifier": "-15%"
+				}
+			]
+		}, {
+			"name": "Smith God's Eye++",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "critical_rate",
+					"modifier": "-20%"
+				}
+			]
+		}
+	]
+}

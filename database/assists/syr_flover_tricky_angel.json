@@ -1,0 +1,40 @@
+{
+	"id": "syr_flover_tricky_angel",
+	"title": "Tricky Angel",
+	"name": "Syr Flover",
+	"stars": 4,
+	"limited": true,
+	"stats": {
+		"hp": [658, 0, 0, 0, 0, 958],
+		"mp": [104, 0, 0, 0, 0, 154],
+		"physical_attack": [201, 0, 0, 0, 0, 366],
+		"magic_attack": [159, 0, 0, 0, 0, 291],
+		"defense": [220, 0, 0, 0, 0, 402],
+		"strength": [201, 0, 0, 0, 0, 266],
+		"endurance": [220, 0, 0, 0, 0, 402],
+		"dexterity": [187, 0, 0, 0, 0, 342],
+		"agility": [130, 0, 0, 0, 0, 232],
+		"magic": [159, 0, 0, 0, 0, 291]
+	},
+	"skills": [
+		{
+			"name": "Angelic Fertility+",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "magic",
+					"modifier": "+10%"
+				}
+			]
+		}, {
+			"name": "Angelic Fertility++",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "magic",
+					"modifier": "+15%"
+				}
+			]
+		}
+	]
+}

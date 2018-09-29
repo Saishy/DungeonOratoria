@@ -1,0 +1,48 @@
+{
+	"id": "syr_flover_pure_white",
+	"title": "Pure White",
+	"name": "Syr Flover",
+	"stars": 4,
+	"limited": true,
+	"stats": {
+		"hp": [488, 0, 0, 0, 0, 748],
+		"mp": [164, 0, 0, 0, 0, 225],
+		"physical_attack": [122, 0, 0, 0, 0, 218],
+		"magic_attack": [315, 0, 0, 0, 0, 579],
+		"defense": [131, 0, 0, 0, 0, 231],
+		"strength": [122, 0, 0, 0, 0, 218],
+		"endurance": [131, 0, 0, 0, 0, 231],
+		"dexterity": [196, 0, 0, 0, 0, 356],
+		"agility": [151, 0, 0, 0, 0, 283],
+		"magic": [315, 0, 0, 0, 0, 576]
+	},
+	"skills": [
+		{
+			"name": "Snow Gift+",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "magic",
+					"modifier": "+10%"
+				}, {
+					"target": "foes",
+					"attribute": "ice_resist",
+					"modifier": "-10%"
+				}
+			]
+		}, {
+			"name": "Snow Gift++",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "magic",
+					"modifier": "+15%"
+				}, {
+					"target": "foes",
+					"attribute": "ice_resist",
+					"modifier": "-15%"
+				}
+			]
+		}
+	]
+}

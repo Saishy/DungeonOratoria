@@ -1,0 +1,116 @@
+{
+	"id": "liliruca_arde_disguised_pallum",
+	"title": "Disguised Pallum",
+	"name": "Liliruca Arde",
+	"type": "healer_type",
+	"stars": 4,
+	"limited": false,
+	"stats": {
+		"hp": [1246, 1410, 1589, 1785, 1999, 2231],
+		"mp": [158, 174, 190, 206, 222, 238],
+		"physical_attack": [151, 221, 291, 361, 431, 431],
+		"magic_attack": [390, 483, 576, 761, 947, 1040],
+		"defense": [104, 177, 250, 250, 250, 322],
+		"strength": [151, 221, 291, 361, 431, 431],
+		"endurance": [104, 177, 250, 250, 250, 322],
+		"dexterity": [292, 376, 459, 543, 627, 794],
+		"agility": [238, 322, 405, 489, 573, 656],
+		"magic": [390, 483, 576, 761, 947, 1040]
+	},
+	"skills": {
+		"special": {
+			"name": "Powering Arrow",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "light_magic_attack"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Heal Medicine",
+				"effects": [
+					{
+						"target": "allies",
+						"attribute": "heal",
+						"modifier": "low"
+					}, {
+						"target": "allies",
+						"attribute": "ailment_cure",
+						"modifier": ""
+					}
+				]
+			}, {
+				"name": "Chaos Pale",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "low",
+						"type": "dark_magic_attack"
+					}, {
+						"target": "foe",
+						"attribute": "poison",
+						"modifier": "10%"
+					}
+				]
+			}, {
+				"name": "Flaming Blade",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "fire_magic_attack"
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Enlightenment: I",
+				"effects": [
+					{
+						"attribute": "magic",
+						"modifier": "+5.5%"
+					}
+				]
+			}, {
+				"name": "Crafter: I",
+				"effects": [
+					{
+						"attribute": "dexterity",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Acceleration: I",
+				"effects": [
+					{
+						"attribute": "agility",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Status Resist: I",
+				"effects": [
+					{
+						"attribute": "ailment_resist",
+						"modifier": "+15%"
+					}
+				]
+			}, {
+				"name": "Tough: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+5.5%"
+					}
+				]
+			}
+		]
+	}
+}

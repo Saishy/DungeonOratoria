@@ -1,0 +1,40 @@
+{
+	"id": "syr_flover_brightened_pub",
+	"title": "Brightened Pub",
+	"name": "Syr Flover",
+	"stars": 3,
+	"limited": false,
+	"stats": {
+		"hp": [478, 0, 0, 0, 0, 738],
+		"mp": [154, 0, 0, 0, 0, 214],
+		"physical_attack": [132, 0, 0, 0, 0, 227],
+		"magic_attack": [105, 0, 0, 0, 0, 181],
+		"defense": [159, 0, 0, 0, 0, 257],
+		"strength": [132, 0, 0, 0, 0, 227],
+		"endurance": [159, 0, 0, 0, 0, 257],
+		"dexterity": [131, 0, 0, 0, 0, 221],
+		"agility": [82, 0, 0, 0, 0, 136],
+		"magic": [105, 0, 0, 0, 0, 181]
+	},
+	"skills": [
+		{
+			"name": "Heartful Smile+",
+			"effects": [
+				{
+					"target": "self",
+					"attribute": "magic",
+					"modifier": "+25%"
+				}
+			]
+		}, {
+			"name": "Heartful Smile++",
+			"effects": [
+				{
+					"target": "self",
+					"attribute": "magic",
+					"modifier": "+30%"
+				}
+			]
+		}
+	]
+}

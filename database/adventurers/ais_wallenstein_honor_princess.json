@@ -1,0 +1,142 @@
+{
+	"id": "ais_wallenstein_honor_princess",
+	"title": "Honor Princess",
+	"name": "Ais Wallenstein",
+	"type": "physical_type",
+	"stars": 4,
+	"limited": false,
+	"stats": {
+		"hp": 				[1600, 	1784, 	1980, 	2188, 	2410, 	2650],
+		"mp": 				[127, 	139, 	151, 	163, 	175, 	187],
+		"physical_attack": 	[653, 	756, 	860, 	963, 	1170, 	1481],
+		"magic_attack": 	[118, 	188, 	258, 	328, 	328, 	328],
+		"defense":			[183, 	247, 	311, 	375, 	438, 	438],
+		"strength": 		[653, 	756, 	860, 	963, 	1170, 	1481],
+		"endurance": 		[183, 	247, 	311, 	375, 	438, 	438],
+		"dexterity": 		[210, 	292, 	375, 	457, 	540, 	540],
+		"agility": 			[292, 	376, 	459, 	543, 	627, 	794],
+		"magic": 			[118, 	188, 	258, 	328, 	328, 	328]
+	},
+	"skills": {
+		"special": {
+			"name": "Radiant Lil Rafaga",
+			"effects": [
+				{
+					"target": "foe",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "physical_attack"
+				}, {
+					"target": "skill",
+					"attribute": "strength",
+					"modifier": "boost"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Blade Dance",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "physical_attack"
+					}, {
+						"target": "skill",
+						"attribute": "strength",
+						"modifier": "boost"
+					}, {
+						"target": "foe",
+						"attribute": "strength",
+						"modifier": "-30%",
+						"duration": 4
+					}
+				]
+			}, {
+				"name": "Phase Slicer",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "physical_attack"
+					}, {
+						"target": "skill",
+						"attribute": "strength",
+						"modifier": "boost"
+					}, {
+						"target": "foe",
+						"attribute": "physical_resist",
+						"modifier": "-20%",
+						"duration": 4
+					}
+				]
+			}, {
+				"name": "Stiletto",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "low",
+						"type": "physical_attack"
+					}, {
+						"target": "self",
+						"attribute": "strength",
+						"modifier": "75%",
+						"duration": 4
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Sword Fighter: I",
+				"effects": [
+					{
+						"attribute": "strength",
+						"modifier": "+15%"
+					}
+				]
+			}, {
+				"name": "Rigid: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+10%"
+					}, {
+						"attribute": "agility",
+						"modifier": "+10%"
+					}, {
+						"attribute": "dexterity",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Spirit Healing: I",
+				"effects": [
+					{
+						"attribute": "mp_regen",
+						"modifier": "+3%"
+					}
+				]
+			}, {
+				"name": "Status Resist: I",
+				"effects": [
+					{
+						"attribute": "ailment_resist",
+						"modifier": "+15%"
+					}
+				]
+			}, {
+				"name": "Poison Resist: S",
+				"effects": [
+					{
+						"attribute": "poison_resist",
+						"modifier": "+100%"
+					}
+				]
+			}
+		]
+	}
+}

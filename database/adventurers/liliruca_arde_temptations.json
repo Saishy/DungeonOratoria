@@ -1,0 +1,120 @@
+{
+	"id": "liliruca_arde_temptations",
+	"title": "Temptations",
+	"name": "Liliruca Arde",
+	"type": "healer_type",
+	"stars": 4,
+	"limited": true,
+	"stats": {
+		"hp": [1246, 1410, 1589, 1785, 1999, 2231],
+		"mp": [158, 174, 190, 206, 222, 238],
+		"physical_attack": [167, 245, 323, 400, 478, 478],
+		"magic_attack": [404, 492, 580, 756, 932, 1020],
+		"defense": [116, 185, 254, 254, 254, 323],
+		"strength": [167, 245, 323, 400, 478, 478],
+		"endurance": [116, 185, 254, 254, 254, 323],
+		"dexterity": [294, 378, 462, 545, 629, 796],
+		"agility": [243, 326, 410, 493, 577, 661],
+		"magic": [404, 492, 580, 756, 932, 1020]
+	},
+	"skills": {
+		"special": {
+			"name": "Sunshine Ray",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "light_magic_attack"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Heal Medicine",
+				"effects": [
+					{
+						"target": "allies",
+						"attribute": "heal",
+						"modifier": "low"
+					}, {
+						"target": "allies",
+						"attribute": "ailment_cure",
+						"modifier": ""
+					}
+				]
+			}, {
+				"name": "Hypnotic Arrow",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "low",
+						"type": "physical_attack"
+					}, {
+						"target": "foe",
+						"attribute": "sleep",
+						"modifier": "30%"
+					}
+				]
+			}, {
+				"name": "Ether Assist",
+				"effects": [
+					{
+						"target": "allies",
+						"attribute": "magic_resist",
+						"modifier": "+10%",
+						"duration": 4
+					}, {
+						"target": "allies",
+						"attribute": "heal",
+						"modifier": "slight"
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Supporter's Strength: I",
+				"effects": [
+					{
+						"attribute": "strength",
+						"modifier": "+5.5%"
+					}
+				]
+			}, {
+				"name": "Crafter: I",
+				"effects": [
+					{
+						"attribute": "dexterity",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Acceleration: I",
+				"effects": [
+					{
+						"attribute": "agility",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Status Resist: I",
+				"effects": [
+					{
+						"attribute": "ailment_resist",
+						"modifier": "+15%"
+					}
+				]
+			}, {
+				"name": "Crush: I",
+				"effects": [
+					{
+						"attribute": "strength",
+						"modifier": "+5.5%"
+					}
+				]
+			}
+		]
+	}
+}

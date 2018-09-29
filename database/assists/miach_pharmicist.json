@@ -1,0 +1,40 @@
+{
+	"id": "miach_pharmicist",
+	"title": "Pharmicist",
+	"name": "Miach",
+	"stars": 2,
+	"limited": false,
+	"stats": {
+		"hp": [408, 0, 0, 0, 0, 668],
+		"mp": [153, 0, 0, 0, 0, 213],
+		"physical_attack": [68, 0, 0, 0, 0, 110],
+		"magic_attack": [175, 0, 0, 0, 0, 287],
+		"defense": [67, 0, 0, 0, 0, 111],
+		"strength": [68, 0, 0, 0, 0, 110],
+		"endurance": [67, 0, 0, 0, 0, 111],
+		"dexterity": [108, 0, 0, 0, 0, 173],
+		"agility": [90, 0, 0, 0, 0, 146],
+		"magic": [175, 0, 0, 0, 0, 287]
+	},
+	"skills": [
+		{
+			"name": "Secret Potion+",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "poison",
+					"modifier": "4%"
+				}
+			]
+		}, {
+			"name": "Secret Potion++",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "poison",
+					"modifier": "6%"
+				}
+			]
+		}
+	]
+}

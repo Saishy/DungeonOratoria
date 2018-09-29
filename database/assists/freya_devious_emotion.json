@@ -1,0 +1,40 @@
+{
+	"id": "freya_devious_emotion",
+	"title": "Devious Emotion",
+	"name": "Freya",
+	"stars": 3,
+	"limited": false,
+	"stats": {
+		"hp": [676, 0, 0, 0, 0, 1136],
+		"mp": [69, 0, 0, 0, 0, 109],
+		"physical_attack": [214, 0, 0, 0, 0, 354],
+		"magic_attack": [76, 0, 0, 0, 0, 136],
+		"defense": [107, 0, 0, 0, 0, 177],
+		"strength": [214, 0, 0, 0, 0, 354],
+		"endurance": [107, 0, 0, 0, 0, 177],
+		"dexterity": [124, 0, 0, 0, 0, 204],
+		"agility": [138, 0, 0, 0, 0, 233],
+		"magic": [76, 0, 0, 0, 0, 136]
+	},
+	"skills": [
+		{
+			"name": "Mad Love+",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "endurance",
+					"modifier": "-8%"
+				}
+			]
+		}, {
+			"name": "Mad Love++",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "endurance",
+					"modifier": "-10%"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,48 @@
+{
+	"id": "hephaistios_young_blacksmith",
+	"title": "Young Blacksmith",
+	"name": "Hephaistios",
+	"stars": 4,
+	"limited": true,
+	"stats": {
+		"hp": [468, 0, 0, 0, 0, 728],
+		"mp": [165, 0, 0, 0, 0, 225],
+		"physical_attack": [113, 0, 0, 0, 0, 209],
+		"magic_attack": [326, 0, 0, 0, 0, 590],
+		"defense": [131, 0, 0, 0, 0, 231],
+		"strength": [113, 0, 0, 0, 0, 209],
+		"endurance": [131, 0, 0, 0, 0, 231],
+		"dexterity": [190, 0, 0, 0, 0, 350],
+		"agility": [160, 0, 0, 0, 0, 292],
+		"magic": [326, 0, 0, 0, 0, 590]
+	},
+	"skills": [
+		{
+			"name": "Child Blacksmith's Crafting+",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "poison_resist",
+					"modifier": "+75%"
+				}, {
+					"target": "allies",
+					"attribute": "physical_resist",
+					"modifier": "+8%"
+				}
+			]
+		}, {
+			"name": "Child Blacksmith's Crafting++",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "poison_resist",
+					"modifier": "+100%"
+				}, {
+					"target": "allies",
+					"attribute": "physical_resist",
+					"modifier": "+10%"
+				}
+			]
+		}
+	]
+}

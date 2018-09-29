@@ -1,0 +1,47 @@
+{
+	"id": "hestia_all_abroad",
+	"title": "All Abroad",
+	"name": "Hestia",
+	"stars": 4,
+	"stats": {
+		"hp": [764, 844, 924, 1016, 1120, 1224],
+		"mp": [68, 76, 84, 92, 100, 108],
+		"physical_attack": [185, 218, 251, 284, 317, 350],
+		"magic_attack": [218, 284, 317, 350, 350, 350],
+		"defense": [208, 234, 260, 286, 338, 390],
+		"strength": [185, 218, 251, 284, 317, 350],
+		"endurance": [208, 234, 260, 286, 338, 390],
+		"dexterity": [175, 206, 237, 268, 299, 330],
+		"agility": [117, 117, 151, 185, 219, 219],
+		"magic": [218, 284, 317, 350, 350, 350]
+	},
+	"skills": [
+		{
+			"name": "Lucky Tour+",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "stun_resist",
+					"modifier": "+75%"
+				}, {
+					"target": "foes",
+					"attribute": "endurance",
+					"modifier": "-6%"
+				}
+			]
+		}, {
+			"name": "Lucky Tour++",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "stun_resist",
+					"modifier": "+100%"
+				}, {
+					"target": "foes",
+					"attribute": "endurance",
+					"modifier": "-8%"
+				}
+			]
+		}
+	]
+}

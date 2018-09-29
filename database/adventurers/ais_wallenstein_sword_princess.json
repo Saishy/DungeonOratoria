@@ -1,0 +1,118 @@
+{
+	"id": "ais_wallenstein_sword_princess",
+	"title": "Sword Princess",
+	"name": "Ais Wallenstein",
+	"type": "physical_type",
+	"stars": 3,
+	"limited": false,
+	"stats": {
+		"hp": [1430, 1614, 1810, 2018, 2240, 2480],
+		"mp": [122, 134, 146, 158, 170, 182],
+		"physical_attack": [336, 394, 452, 568, 684, 800],
+		"magic_attack": [75, 123, 171, 171, 171, 171],
+		"defense": [109, 150, 191, 232, 273, 273],
+		"strength": [336, 394, 452, 568, 684, 800],
+		"endurance": [109, 150, 191, 332, 273, 273],
+		"dexterity": [151, 201, 251, 301, 351, 401],
+		"agility": [213, 266, 319, 371, 424, 529],
+		"magic": [75, 123, 171, 171, 171, 171]
+	},
+	"skills": {
+		"special": {
+			"name": "Lil Rafaga",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "high",
+					"type": "wind_magic_attack"
+				}, {
+					"target": "skill",
+					"attribute": "indexed_to",
+					"modifier": "strength"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Ariel",
+				"effects": [
+					{
+						"target": "self",
+						"attribute": "strength",
+						"modifier": "+50%",
+						"duration": 4
+					}, {
+						"target": "self",
+						"attribute": "physical_resist",
+						"modifier": "+5%",
+						"duration": 4
+					}
+				]
+			}, {
+				"name": "Tres Piercer",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "low",
+						"type": "physical_attack"
+					}
+				]
+			}, {
+				"name": "Veter Mech",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "low",
+						"type": "physical_attack"
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Hunter: G",
+				"effects": [
+					{
+						"attribute": "agility",
+						"modifier": "+7.5%"
+					}
+				]
+			}, {
+				"name": "Tough: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+7.5%"
+					}
+				]
+			}, {
+				"name": "Swordsman: I",
+				"effects": [
+					{
+						"attribute": "strength",
+						"modifier": "+7.5%"
+					}
+				]
+			}, {
+				"name": "Status Resist: G",
+				"effects": [
+					{
+						"attribute": "ailment_resist",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Spirit Healing: I",
+				"effects": [
+					{
+						"attribute": "mp_regen",
+						"modifier": "+1%"
+					}
+				]
+			}
+		]
+	}
+}

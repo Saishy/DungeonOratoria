@@ -1,0 +1,135 @@
+{
+	"id": "kino&hermes_foreign_traveler",
+	"title": "Foreign Traveler",
+	"name": "Kino&Hermes",
+	"type": "physical_type",
+	"stars": 4,
+	"limited": true,
+	"stats": {
+		"hp": [1550, 1734, 1930, 2138, 2360, 2600],
+		"mp": [139, 151, 163, 175, 187, 199],
+		"physical_attack": [625, 724, 823, 922, 1120, 1417],
+		"magic_attack": [103, 173, 243, 313, 313, 313],
+		"defense": [166, 229, 293, 357, 421, 421],
+		"strength": [625, 724, 823, 922, 1120, 1417],
+		"endurance": [166, 229, 293, 357, 421, 421],
+		"dexterity": [227, 310, 392, 475, 557, 557],
+		"agility": [308, 391, 475, 558, 642, 809],
+		"magic": [103, 173, 243, 313, 313, 313]
+	},
+	"skills": {
+		"special": {
+			"id": "flute_shot",
+			"name": "Flute Shot",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "physical_attack"
+				}, {
+					"target": "skill",
+					"attribute": "strength",
+					"modifier": "boost"
+				}
+			]
+		},
+		"combat": [
+			{
+				"id": "projected_trajectory_shot",
+				"name": "Projected Trajectory Shot",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "physical_attack"
+					}, {
+						"target": "foe",
+						"attribute": "critical_rate",
+						"modifier": "ultra"
+					}
+				]
+			}, {
+				"id": "bolting_assault_shot",
+				"name": "Bolting Assault Shot",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "physical_attack"
+					}, {
+						"target": "foes",
+						"attribute": "strength",
+						"modifier": "-20%",
+						"duration": 4
+					}, {
+						"target": "foes",
+						"attribute": "magic",
+						"modifier": "-20%",
+						"duration": 4
+					}
+				]
+			}, {
+				"id": "target_focused_shot",
+				"name": "Target Focused Shot",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "physical_attack"
+					}, {
+						"target": "foes",
+						"attribute": "seal",
+						"modifier": "15%"
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Saboteur: I",
+				"effects": [
+					{
+						"attribute": "dexterity",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Acceleration: I",
+				"effects": [
+					{
+						"attribute": "agility",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Unbreakable: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Crush: I",
+				"effects": [
+					{
+						"attribute": "strength",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Status Resist: I",
+				"effects": [
+					{
+						"attribute": "ailment_resist",
+						"modifier": "+15%"
+					}
+				]
+			}
+		]
+	}
+}

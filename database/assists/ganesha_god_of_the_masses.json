@@ -1,0 +1,40 @@
+{
+	"id": "ganesha_god_of_the_masses",
+	"title": "God of the Masses",
+	"name": "Ganesha",
+	"stars": 2,
+	"limited": false,
+	"stats": {
+		"hp": [696, 0, 0, 0, 0, 1156],
+		"mp": [62, 0, 0, 0, 0, 102],
+		"physical_attack": [108, 0, 0, 0, 0, 178],
+		"magic_attack": [83, 0, 0, 0, 0, 139],
+		"defense": [132, 0, 0, 0, 0, 209],
+		"strength": [108, 0, 0, 0, 0, 178],
+		"endurance": [132, 0, 0, 0, 0, 209],
+		"dexterity": [105, 0, 0, 0, 0, 175],
+		"agility": [67, 0, 0, 0, 0, 109],
+		"magic": [83, 0, 0, 0, 0, 139]
+	},
+	"skills": [
+		{
+			"name": "I am Ganesha!+",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "strength",
+					"modifier": "-4%"
+				}
+			]
+		}, {
+			"name": "I am Ganesha!++",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "strength",
+					"modifier": "-5%"
+				}
+			]
+		}
+	]
+}

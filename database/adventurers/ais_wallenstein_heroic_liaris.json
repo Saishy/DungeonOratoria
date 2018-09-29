@@ -1,0 +1,125 @@
+{
+	"id": "ais_wallenstein_heroic_liaris",
+	"title": "Heroic Liaris",
+	"name": "Ais Wallenstein",
+	"type": "physical_type",
+	"stars": 4,
+	"limited": false,
+	"stats": {
+		"hp": [1530, 1714, 1910, 2118, 2340, 2580],
+		"mp": [126, 138, 150, 162, 174, 186],
+		"physical_attack": [431, 523, 616, 800, 985, 1170],
+		"magic_attack": [117, 187, 257, 257, 257, 327],
+		"defense": [135, 196, 258, 320, 381, 381],
+		"strength": [431, 523, 616, 800, 985, 1170],
+		"endurance": [135, 196, 258, 320, 381, 381],
+		"dexterity": [184, 259, 334, 409, 484, 484],
+		"agility": [287, 370, 454, 537, 621, 788],
+		"magic": [117, 187, 257, 257, 257, 327]
+	},
+	"skills": {
+		"special": {
+			"id": "tempest_lil_rafaga",
+			"name": "Tempest Lil Rafaga",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "physical_type"
+				}, {
+					"target": "skill",
+					"attribute": "indexed_to",
+					"modifier": "strength"
+				}
+			]
+		},
+		"combat": [
+			{
+				"id": "ariel",
+				"name": "Ariel",
+				"effects": [
+					{
+						"target": "self",
+						"attribute": "strength",
+						"modifier": "+75%",
+						"duration": 4
+					}, {
+						"target": "self",
+						"attribute": "physical_resist",
+						"modifier": "+10%",
+						"duration": 4
+					}
+				]
+			}, {
+				"id": "tres_piercer",
+				"name": "Tres Piercer",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "physical_attack"
+					}
+				]
+			}, {
+				"id": "veter_mech",
+				"name": "Veter Mech",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "physical_attack"
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Insect Killer",
+				"effects": [
+					{
+						"attribute": "insect_killer",
+						"modifier": "+50%"
+					}
+				]
+			}, {
+				"name": "Tough: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Swift: I",
+				"effects": [
+					{
+						"attribute": "strength",
+						"modifier": "+10%"
+					}, {
+						"attribute": "agility",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Status Resist: G",
+				"effects": [
+					{
+						"attribute": "ailment_resist",
+						"modifier": "+15%"
+					}
+				]
+			}, {
+				"name": "Spirit Healing: I",
+				"effects": [
+					{
+						"attribute": "mp_regen",
+						"modifier": "+1%"
+					}
+				]
+			}
+		]
+	}
+}

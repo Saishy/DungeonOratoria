@@ -1,0 +1,112 @@
+{
+	"id": "hitachi_chigusa_fushi-kaden",
+	"title": "Fushi-Kaden",
+	"name": "Hitachi Chigusa",
+	"type": "balance_type",
+	"stars": 4,
+	"limited": false,
+	"stats": {
+		"hp": [1432, 1608, 1802, 2014, 2244, 2492],
+		"mp": [155, 167, 179, 191, 203, 215],
+		"physical_attack": [322, 514, 610, 706, 802, 898],
+		"magic_attack": [499, 605, 710, 816, 921, 1133],
+		"defense": [176, 176, 232, 288, 344, 400],
+		"strength": [322, 514, 610, 706, 802, 898],
+		"endurance": [176, 176, 232, 288, 344, 400],
+		"dexterity": [215, 293, 371, 449, 527, 605],
+		"agility": [194, 263, 332, 401, 470, 470],
+		"magic": [499, 605, 710, 816, 921, 1133]
+	},
+	"skills": {
+		"special": {
+			"name": "Narukami Sakura",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "thunder_magic_attack"
+				}, {
+					"target": "foes",
+					"attribute": "charm",
+					"modifier": "30%"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Shunrai Shigure",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "physical_attack"
+					}
+				]
+			}, {
+				"name": "Shinobigoi Yukidoke",
+				"effects": [
+					{
+						"target": "allies",
+						"attribute": "heal",
+						"modifier": "low"
+					}
+				]
+			}, {
+				"name": "Kushimitama Kagura",
+				"effects": [
+					{
+						"target": "allies",
+						"attribute": "strength",
+						"modifier": "+35%",
+						"duration": 4
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Enlightenment: I",
+				"effects": [
+					{
+						"attribute": "magic",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Defense: I",
+				"effects": [
+					{
+						"attribute": "physical_resist",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Magic Resistance: I",
+				"effects": [
+					{
+						"attribute": "magic_resist",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Unbreakable: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Abnormal Resistance: ?",
+				"effects": [
+					{
+						"attribute": "ailment_resist",
+						"modifier": "+15%"
+					}
+				]
+			}
+		]
+	}
+}

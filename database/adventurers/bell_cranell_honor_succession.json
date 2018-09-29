@@ -1,0 +1,138 @@
+{
+	"id": "bell_cranel_honor_succession",
+	"title": "Honor Succession",
+	"name": "Bell Cranel",
+	"type": "physical_type",
+	"stars": 4,
+	"limited": false,
+	"stats": {
+		"hp": 				[1460, 	1636, 	1830, 	2042, 	2272, 	2520],
+		"mp": 				[133, 	145, 	157, 	169, 	181, 	193],
+		"physical_attack": 	[653, 	756, 	860, 	963, 	1170, 	1481],
+		"magic_attack": 	[129, 	206, 	283, 	360, 	360, 	360],
+		"defense":			[179, 	243, 	306, 	370, 	434, 	434],
+		"strength": 		[653, 	756, 	860, 	963, 	1170, 	1481],
+		"endurance": 		[179, 	243, 	306, 	370, 	434, 	434],
+		"dexterity": 		[210, 	292, 	375, 	457, 	540, 	540],
+		"agility": 			[297, 	380, 	464, 	547, 	631, 	798],
+		"magic": 			[129, 	206, 	283, 	360, 	360, 	360]
+	},
+	"skills": {
+		"special": {
+			"name": "Argonaut Incarnation",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "fire_magic_attack"
+				}, {
+					"target": "skill",
+					"attribute": "indexed_to",
+					"modifier": "strength"
+				}, {
+					"target": "skill",
+					"attribute": "strength",
+					"modifier": "boost"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Sharpness",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "low",
+						"type": "physical_attack"
+					}, {
+						"target": "self",
+						"attribute": "strength",
+						"modifier": "75%",
+						"duration": 4
+					}
+				]
+			}, {
+				"name": "Molten Spike",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "physical_attack"
+					}, {
+						"target": "skill",
+						"attribute": "strength",
+						"modifier": "boost"
+					}
+				]
+			}, {
+				"name": "Sweeping Strike",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "physical_attack"
+					}, {
+						"target": "skill",
+						"attribute": "strength",
+						"modifier": "boost"
+					}, {
+						"target": "foes",
+						"attribute": "physical_resist",
+						"modifier": "-10%",
+						"duration": 4
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Liaris Freese",
+				"effects": [
+					{
+						"attribute": "fast_growth",
+						"modifier": ""
+					}, {
+						"attribute": "null_charm",
+						"modifier": ""
+					}
+				]
+			}, {
+				"name": "Courageous: I",
+				"effects": [
+					{
+						"attribute": "strength",
+						"modifier": "+5%"
+					}
+				]
+			}, {
+				"name": "Healing Power: I",
+				"effects": [
+					{
+						"attribute": "hp_regen",
+						"modifier": "+3%"
+					}
+				]
+			}, {
+				"name": "Status Resist: I",
+				"effects": [
+					{
+						"attribute": "ailment_resist",
+						"modifier": "+15%"
+					}
+				]
+			}, {
+				"name": "Luck: I",
+				"effects": [
+					{
+						"attribute": "all_status",
+						"modifier": "+10%"
+					}
+				]
+			}
+		]
+	}
+}

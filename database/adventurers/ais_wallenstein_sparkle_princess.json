@@ -1,0 +1,128 @@
+{
+	"id": "ais_wallenstein_sparkle_princess",
+	"title": "Sparkle Princess",
+	"name": "Ais Wallenstein",
+	"type": "physical_type",
+	"stars": 4,
+	"limited": false,
+	"stats": {
+		"hp": [1582, 1766, 1962, 2170, 2392, 2632],
+		"mp": [131, 143, 155, 167, 179, 191],
+		"physical_attack": [639, 738, 837, 936, 1134, 1431],
+		"magic_attack": [118, 195, 272, 349, 349, 349],
+		"defense": [184, 248, 312, 376, 440, 440],
+		"strength": [639, 738, 837, 936, 1134, 1431],
+		"endurance": [184, 248, 312, 376, 440, 440],
+		"dexterity": [209, 291, 374, 456, 539, 539],
+		"agility": [289, 372, 456, 540, 623, 790],
+		"magic": [118, 195, 272, 349, 349, 349]
+	},
+	"skills": {
+		"special": {
+			"name": "Eternal Lil Rafaga",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "physical_attack"
+				}, {
+					"target": "foes",
+					"attribute": "stun",
+					"modifier": "30%"
+				}, {
+					"target": "skill",
+					"attribute": "strength",
+					"modifier": "boost"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Syvet Mech",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "physical_attack"
+					}, {
+						"target": "skill",
+						"attribute": "strength",
+						"modifier": "boost"
+					}
+				]
+			}, {
+				"name": "Syvet Shpaga",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "physical_attack"
+					}, {
+						"target": "skill",
+						"attribute": "strength",
+						"modifier": "boost"
+					}
+				]
+			}, {
+				"name": "Lasvete Nyeba",
+				"effects": [
+					{
+						"target": "self",
+						"attribute": "mp_regen",
+						"modifier": "15%"
+					}, {
+						"target": "self",
+						"attribute": "ailment_cure",
+						"modifier": ""
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Wisdom: I",
+				"effects": [
+					{
+						"attribute": "all_status",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Magic Resistance: I",
+				"effects": [
+					{
+						"attribute": "magic_resist",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Spirit Healing: I",
+				"effects": [
+					{
+						"attribute": "mp_regen",
+						"modifier": "+3%"
+					}
+				]
+			}, {
+				"name": "Status Resist: I",
+				"effects": [
+					{
+						"attribute": "ailment_resist",
+						"modifier": "+15%"
+					}
+				]
+			}, {
+				"name": "Spirit Killer",
+				"effects": [
+					{
+						"attribute": "spirit_killer",
+						"modifier": "+50%"
+					}
+				]
+			}
+		]
+	}
+}

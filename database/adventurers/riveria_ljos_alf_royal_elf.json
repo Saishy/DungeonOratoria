@@ -1,0 +1,122 @@
+{
+	"id": "riveria_ljos_alf_royal_elf",
+	"title": "Royal Elf",
+	"name": "Riveria Ljos Alf",
+	"type": "healer_type",
+	"stars": 4,
+	"limited": false,
+	"stats": {
+		"hp": [1246, 1410, 1589, 1785, 1999, 2231],
+		"mp": [161, 177, 193, 209, 225, 241],
+		"physical_attack": [154, 224, 294, 364, 434, 434],
+		"magic_attack": [414, 511, 609, 804, 1000, 1097],
+		"defense": [99, 168, 237, 237, 237, 306],
+		"strength": [154, 224, 294, 364, 434, 434],
+		"endurance": [99, 168, 237, 237, 237, 306],
+		"dexterity": [260, 336, 412, 488, 564, 716],
+		"agility": [220, 296, 372, 448, 524, 600],
+		"magic": [414, 511, 609, 804, 1000, 1097]
+	},
+	"skills": {
+		"special": {
+			"name": "Rea Laevateinn",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "fire_magic_attack"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Luna Aldis",
+				"effects": [
+					{
+						"target": "allies",
+						"attribute": "heal",
+						"modifier": "medium"
+					}, {
+						"target": "allies",
+						"attribute": "endurance",
+						"modifier": "+10%",
+						"duration": 2
+					}
+				]
+			}, {
+				"name": "Veil Breath",
+				"effects": [
+					{
+						"target": "allies",
+						"attribute": "physical_resist",
+						"modifier": "+10%",
+						"duration": 4
+					}, {
+						"target": "allies",
+						"attribute": "heal",
+						"modifier": "slight"
+					}
+				]
+			}, {
+				"name": "Wynn Fimbulvetr",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "ice_magic_attack"
+					}, {
+						"target": "foes",
+						"attribute": "endurance",
+						"modifier": "-10%",
+						"duration": 2
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Magic Resistance: I",
+				"effects": [
+					{
+						"attribute": "magic_resist",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Status Resist: G",
+				"effects": [
+					{
+						"attribute": "ailment_resist",
+						"modifier": "+15%"
+					}
+				]
+			}, {
+				"name": "Mage: D",
+				"effects": [
+					{
+						"attribute": "magic",
+						"modifier": "+11%"
+					}
+				]
+			}, {
+				"name": "Healing Power: D",
+				"effects": [
+					{
+						"attribute": "hp_regen",
+						"modifier": "+1%"
+					}
+				]
+			}, {
+				"name": "Spirit Healing: G",
+				"effects": [
+					{
+						"attribute": "mp_regen",
+						"modifier": "+1%"
+					}
+				]
+			}
+		]
+	}
+}

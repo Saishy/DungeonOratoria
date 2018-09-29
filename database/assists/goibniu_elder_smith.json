@@ -1,0 +1,40 @@
+{
+	"id": "goibniu_elder_smith",
+	"title": "Elder Smith",
+	"name": "Goibniu",
+	"stars": 2,
+	"limited": false,
+	"stats": {
+		"hp": [538, 0, 0, 0, 0, 838],
+		"mp": [91, 0, 0, 0, 0, 141],
+		"physical_attack": [184, 0, 0, 0, 0, 289],
+		"magic_attack": [50, 0, 0, 0, 0, 95],
+		"defense": [86, 0, 0, 0, 0, 141],
+		"strength": [184, 0, 0, 0, 0, 289],
+		"endurance": [86, 0, 0, 0, 0, 141],
+		"dexterity": [104, 0, 0, 0, 0, 164],
+		"agility": [117, 0, 0, 0, 0, 187],
+		"magic": [50, 0, 0, 0, 0, 95]
+	},
+	"skills": [
+		{
+			"name": "Cunning Advice+",
+			"effects": [
+				{
+					"target": "self",
+					"attribute": "physical_resist",
+					"modifier": "+8%"
+				}
+			]
+		}, {
+			"name": "Cunning Advice++",
+			"effects": [
+				{
+					"target": "self",
+					"attribute": "physical_resist",
+					"modifier": "+10%"
+				}
+			]
+		}
+	]
+}

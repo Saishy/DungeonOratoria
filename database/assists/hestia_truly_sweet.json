@@ -1,0 +1,48 @@
+{
+	"id": "hestia_truly_sweet",
+	"title": "Truly Sweet",
+	"name": "Hestia",
+	"stars": 4,
+	"limited": true,
+	"stats": {
+		"hp": [488, 0, 0, 0, 0, 0],
+		"mp": [164, 0, 0, 0, 0, 0],
+		"physical_attack": [120, 0, 0, 0, 0, 0],
+		"magic_attack": [313, 0, 0, 0, 0, 0],
+		"defense": [135, 0, 0, 0, 0, 0],
+		"strength": [120, 0, 0, 0, 0, 0],
+		"endurance": [135, 0, 0, 0, 0, 0],
+		"dexterity": [192, 0, 0, 0, 0, 0],
+		"agility": [155, 0, 0, 0, 0, 0],
+		"magic": [313, 0, 0, 0, 0, 0]
+	},
+	"skills": [
+		{
+			"name": "Candy-Coated+",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "magic",
+					"modifier": "-10%"
+				}, {
+					"target": "foes",
+					"attribute": "heal_modifier",
+					"modifier": "-8%"
+				}
+			]
+		}, {
+			"name": "Candy-Coated++",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "magic",
+					"modifier": "-15%"
+				}, {
+					"target": "foes",
+					"attribute": "heal_modifier",
+					"modifier": "-10%"
+				}
+			]
+		}
+	]
+}

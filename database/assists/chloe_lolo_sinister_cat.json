@@ -1,0 +1,39 @@
+{
+	"id": "chloe_lolo_sinister_cat",
+	"title": "Sinister Cat",
+	"name": "Chloe Lolo",
+	"stars": 2,
+	"stats": {
+		"hp": [538, 0, 0, 0, 0, 0],
+		"mp": [91, 0, 0, 0, 0, 0],
+		"physical_attack": [89, 0, 0, 0, 0, 0],
+		"magic_attack": [72, 0, 0, 0, 0, 0],
+		"defense": [73, 0, 0, 0, 0, 0],
+		"strength": [89, 0, 0, 0, 0, 0],
+		"endurance": [73, 0, 0, 0, 0, 0],
+		"dexterity": [112, 0, 0, 0, 0, 0],
+		"agility": [181, 0, 0, 0, 0, 0],
+		"magic": [72, 0, 0, 0, 0, 0]
+	},
+	"skills": [
+		{
+			"name": "Killer's Trickery+",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "guard_rate",
+					"modifier": "-10%"
+				}
+			]
+		}, {
+			"name": "Killer's Trickery++",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "guard_rate",
+					"modifier": "-15%"
+				}
+			]
+		}
+	]
+}

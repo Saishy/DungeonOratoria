@@ -1,0 +1,133 @@
+{
+	"id": "asfi_al_andromeda_onsen_princess",
+	"title": "Onsen Princess",
+	"name": "Asfi Al Andromeda",
+	"type": "physical_type",
+	"stars": 4,
+	"limited": false,
+	"stats": {
+		"hp": [1520, 1704, 1900, 2108, 2330, 2570],
+		"mp": [129, 141, 153, 165, 177, 189],
+		"physical_attack": [609, 708, 807, 906, 1104, 1401],
+		"magic_attack": [114, 184, 254, 324, 324, 324],
+		"defense": [177, 240, 304, 368, 432, 432],
+		"strength": [609, 708, 807, 906, 1104, 1401],
+		"endurance": [177, 240, 304, 368, 432, 432],
+		"dexterity": [222, 304, 387, 469, 552, 552],
+		"agility": [306, 390, 474, 557, 641, 808],
+		"magic": [114, 184, 254, 324, 324, 324]
+	},
+	"skills": {
+		"special": {
+			"id": "crack_burst",
+			"name": "Crack Burst",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "physical_attack"
+				}, {
+					"target": "skill",
+					"attribute": "strength",
+					"modifier": "boost"
+				}
+			]
+		},
+		"combat": [
+			{
+				"id": "division_knife",
+				"name": "Division Knife",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "physical_attack"
+					}, {
+						"target": "foes",
+						"attribute": "magic",
+						"modifier": "-20%",
+						"duration": 4
+					}, {
+						"target": "skill",
+						"attribute": "strength",
+						"modifier": "boost"
+					}
+				]
+			}, {
+				"id": "foresight_dagger",
+				"name": "Foresight Dagger",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "physical_attack"
+					}, {
+						"target": "foe",
+						"attribute": "seal",
+						"modifier": "30%"
+					}, {
+						"target": "skill",
+						"attribute": "strength",
+						"modifier": "boost"
+					}
+				]
+			}, {
+				"id": "flash_knowledge",
+				"name": "Flash Knowledge",
+				"effects": [
+					{
+						"target": "self",
+						"attribute": "null_physical_attack_no_special",
+						"modifier": "x2"
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Mystery: ?",
+				"effects": [
+					{
+						"attribute": "dexterity",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Acceleration: I",
+				"effects": [
+					{
+						"attribute": "agility",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Tough: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Courageous: I",
+				"effects": [
+					{
+						"attribute": "strength",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Status Resist: I",
+				"effects": [
+					{
+						"attribute": "ailment_resist",
+						"modifier": "+15%"
+					}
+				]
+			}
+		]
+	}
+}

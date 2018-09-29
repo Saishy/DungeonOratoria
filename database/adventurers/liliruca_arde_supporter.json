@@ -1,0 +1,81 @@
+{
+	"id": "liliruca_arde_supporter",
+	"title": "Supporter",
+	"name": "Liliruca Arde",
+	"type": "healer_type",
+	"stars": 2,
+	"limited": false,
+	"stats": {
+		"hp": [1166, 0, 0, 0, 0, 2151],
+		"mp": [152, 0, 0, 0, 0, 232],
+		"physical_attack": [109, 0, 0, 0, 0, 261],
+		"magic_attack": [230, 0, 0, 0, 0, 526],
+		"defense": [67, 0, 0, 0, 0, 175],
+		"strength": [109, 0, 0, 0, 0, 261],
+		"endurance": [67, 0, 0, 0, 0, 175],
+		"dexterity": [179, 0, 0, 0, 0, 373],
+		"agility": [142, 0, 0, 0, 0, 331],
+		"magic": [230, 0, 0, 0, 0, 526]
+	},
+	"skills": {
+		"special": {
+			"name": "Special Placeholder",
+			"effects": [
+				{
+					"target": "self",
+					"attribute": "strength",
+					"modifier": "+0%"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Skill 1 Placeholder",
+				"effects": [
+					{
+						"target": "self",
+						"attribute": "strength",
+						"modifier": "+0%"
+					}
+				]
+			}, {
+				"name": "Skill 2 Placeholder",
+				"effects": [
+					{
+						"target": "self",
+						"attribute": "strength",
+						"modifier": "+0%"
+					}
+				]
+			}, {
+				"name": "Skill 3 Placeholder",
+				"effects": [
+					{
+						"target": "self",
+						"attribute": "strength",
+						"modifier": "+0%"
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Placeholder: I",
+				"effects": [
+					{
+						"attribute": "dexterity",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "PlaceholderTwo: I",
+				"effects": [
+					{
+						"attribute": "agility",
+						"modifier": "+10%"
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,40 @@
+{
+	"id": "mia_grand_fertiltys_mom",
+	"title": "Fertilty's Mom",
+	"name": "Mia Grand",
+	"stars": 2,
+	"limited": false,
+	"stats": {
+		"hp": [696, 0, 0, 0, 0, 1156],
+		"mp": [62, 0, 0, 0, 0, 102],
+		"physical_attack": [109, 0, 0, 0, 0, 179],
+		"magic_attack": [80, 0, 0, 0, 0, 136],
+		"defense": [136, 0, 0, 0, 0, 213],
+		"strength": [109, 0, 0, 0, 0, 179],
+		"endurance": [136, 0, 0, 0, 0, 213],
+		"dexterity": [103, 0, 0, 0, 0, 173],
+		"agility": [64, 0, 0, 0, 0, 106],
+		"magic": [80, 0, 0, 0, 0, 136]
+	},
+	"skills": [
+		{
+			"name": "Fertility's Cheer+",
+			"effects": [
+				{
+					"target": "self",
+					"attribute": "endurance",
+					"modifier": "+4%"
+				}
+			]
+		}, {
+			"name": "Fertility's Cheer++",
+			"effects": [
+				{
+					"target": "self",
+					"attribute": "endurance",
+					"modifier": "+5%"
+				}
+			]
+		}
+	]
+}

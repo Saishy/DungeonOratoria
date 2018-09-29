@@ -1,0 +1,81 @@
+{
+	"id": "tsubaki_collbrande_cyclops_new_year",
+	"title": "Cyclop's New Year",
+	"name": "Tsubaki Collbrande",
+	"type": "physical_type",
+	"stars": 3,
+	"limited": false,
+	"stats": {
+		"hp": [1450, 0, 0, 0, 0, 2500],
+		"mp": [120, 0, 0, 0, 0, 180],
+		"physical_attack": [311, 0, 0, 0, 0, 724],
+		"magic_attack": [69, 0, 0, 0, 0, 453],
+		"defense": [105, 0, 0, 0, 0, 239],
+		"strength": [311, 0, 0, 0, 0, 724],
+		"endurance": [105, 0, 0, 0, 0, 239],
+		"dexterity": [136, 0, 0, 0, 0, 331],
+		"agility": [182, 0, 0, 0, 0, 440],
+		"magic": [69, 0, 0, 0, 0, 153]
+	},
+	"skills": {
+		"special": {
+			"name": "Special Placeholder",
+			"effects": [
+				{
+					"target": "self",
+					"attribute": "strength",
+					"modifier": "+0%"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Skill 1 Placeholder",
+				"effects": [
+					{
+						"target": "self",
+						"attribute": "strength",
+						"modifier": "+0%"
+					}
+				]
+			}, {
+				"name": "Skill 2 Placeholder",
+				"effects": [
+					{
+						"target": "self",
+						"attribute": "strength",
+						"modifier": "+0%"
+					}
+				]
+			}, {
+				"name": "Skill 3 Placeholder",
+				"effects": [
+					{
+						"target": "self",
+						"attribute": "strength",
+						"modifier": "+0%"
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Placeholder: I",
+				"effects": [
+					{
+						"attribute": "dexterity",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "PlaceholderTwo: I",
+				"effects": [
+					{
+						"attribute": "agility",
+						"modifier": "+10%"
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,48 @@
+{
+	"id": "freya_banquet_queen",
+	"title": "Banquet Queen",
+	"name": "Freya",
+	"stars": 4,
+	"limited": false,
+	"stats": {
+		"hp": [488, 0, 0, 0, 0, 748],
+		"mp": [164, 0, 0, 0, 0, 224],
+		"physical_attack": [115, 0, 0, 0, 0, 211],
+		"magic_attack": [304, 0, 0, 0, 0, 568],
+		"defense": [114, 0, 0, 0, 0, 214],
+		"strength": [115, 0, 0, 0, 0, 211],
+		"endurance": [114, 0, 0, 0, 0, 214],
+		"dexterity": [189, 0, 0, 0, 0, 349],
+		"agility": [148, 0, 0, 0, 0, 281],
+		"magic": [304, 0, 0, 0, 0, 568]
+	},
+	"skills": [
+		{
+			"name": "Wicked Temptation+",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "magic",
+					"modifier": "+10%"
+				}, {
+					"target": "allies",
+					"attribute": "agility",
+					"modifier": "+8%"
+				}
+			]
+		}, {
+			"name": "Wicked Temptation++",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "magic",
+					"modifier": "+15%"
+				}, {
+					"target": "allies",
+					"attribute": "agility",
+					"modifier": "+10%"
+				}
+			]
+		}
+	]
+}

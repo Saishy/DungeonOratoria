@@ -1,0 +1,40 @@
+{
+	"id": "eina_tulle_receptionist",
+	"title": "Receptionist",
+	"name": "Eina Tulle",
+	"stars": 2,
+	"limited": false,
+	"stats": {
+		"hp": [408, 0, 0, 0, 0, 668],
+		"mp": [148, 0, 0, 0, 0, 208],
+		"physical_attack": [82, 0, 0, 0, 0, 142],
+		"magic_attack": [76, 0, 0, 0, 0, 132],
+		"defense": [75, 0, 0, 0, 0, 119],
+		"strength": [82, 0, 0, 0, 0, 142],
+		"endurance": [75, 0, 0, 0, 0, 119],
+		"dexterity": [181, 0, 0, 0, 0, 286],
+		"agility": [111, 0, 0, 0, 0, 176],
+		"magic": [76, 0, 0, 0, 0, 132]
+	},
+	"skills": [
+		{
+			"name": "Advice+",
+			"effects": [
+				{
+					"target": "self",
+					"attribute": "critical_rate",
+					"modifier": "+15%"
+				}
+			]
+		}, {
+			"name": "Advice++",
+			"effects": [
+				{
+					"target": "self",
+					"attribute": "critical_rate",
+					"modifier": "+25%"
+				}
+			]
+		}
+	]
+}

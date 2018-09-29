@@ -1,0 +1,48 @@
+{
+	"id": "loki_oni_demon",
+	"title": "Oni Demon",
+	"name": "Loki",
+	"stars": 4,
+	"limited": false,
+	"stats": {
+		"hp": [578, 0, 0, 0, 0, 878],
+		"mp": [109, 0, 0, 0, 0, 159],
+		"physical_attack": [188, 0, 0, 0, 0, 353],
+		"magic_attack": [156, 0, 0, 0, 0, 288],
+		"defense": [203, 0, 0, 0, 0, 385],
+		"strength": [188, 0, 0, 0, 0, 353],
+		"endurance": [203, 0, 0, 0, 0, 385],
+		"dexterity": [184, 0, 0, 0, 0, 339],
+		"agility": [122, 0, 0, 0, 0, 224],
+		"magic": [156, 0, 0, 0, 0, 288]
+	},
+	"skills": [
+		{
+			"name": "Just for Fun+",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "seal_resist",
+					"modifier": "+75%"
+				}, {
+					"target": "foes",
+					"attribute": "endurance",
+					"modifier": "-6%"
+				}
+			]
+		}, {
+			"name": "Just for Fun++",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "seal_resist",
+					"modifier": "+100%"
+				}, {
+					"target": "foes",
+					"attribute": "endurance",
+					"modifier": "-8%"
+				}
+			]
+		}
+	]
+}

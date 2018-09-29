@@ -1,0 +1,81 @@
+{
+	"id": "liliruca_arde_artel_tart",
+	"title": "Artel Tart",
+	"name": "Liliruca Arde",
+	"type": "magic_type",
+	"stars": 3,
+	"limited": false,
+	"stats": {
+		"hp": [1360, 0, 0, 0, 0, 2410],
+		"mp": [176, 0, 0, 0, 0, 266],
+		"physical_attack": [69, 0, 0, 0, 0, 156],
+		"magic_attack": [347, 0, 0, 0, 0, 824],
+		"defense": [103, 0, 0, 0, 0, 241],
+		"strength": [69, 0, 0, 0, 0, 156],
+		"endurance": [103, 0, 0, 0, 0, 241],
+		"dexterity": [143, 0, 0, 0, 0, 315],
+		"agility": [179, 0, 0, 0, 0, 437],
+		"magic": [347, 0, 0, 0, 0, 824]
+	},
+	"skills": {
+		"special": {
+			"name": "Special Placeholder",
+			"effects": [
+				{
+					"target": "self",
+					"attribute": "strength",
+					"modifier": "+0%"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Skill 1 Placeholder",
+				"effects": [
+					{
+						"target": "self",
+						"attribute": "strength",
+						"modifier": "+0%"
+					}
+				]
+			}, {
+				"name": "Skill 2 Placeholder",
+				"effects": [
+					{
+						"target": "self",
+						"attribute": "strength",
+						"modifier": "+0%"
+					}
+				]
+			}, {
+				"name": "Skill 3 Placeholder",
+				"effects": [
+					{
+						"target": "self",
+						"attribute": "strength",
+						"modifier": "+0%"
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Placeholder: I",
+				"effects": [
+					{
+						"attribute": "dexterity",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "PlaceholderTwo: I",
+				"effects": [
+					{
+						"attribute": "agility",
+						"modifier": "+10%"
+					}
+				]
+			}
+		]
+	}
+}

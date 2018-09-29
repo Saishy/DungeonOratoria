@@ -1,0 +1,48 @@
+{
+	"id": "lefiya_viridis_elven_childhood",
+	"title": "Elven Childhood",
+	"name": "Lefiya Viridis",
+	"stars": 4,
+	"limited": true,
+	"stats": {
+		"hp": [468, 0, 0, 0, 0, 728],
+		"mp": [165, 0, 0, 0, 0, 225],
+		"physical_attack": [119, 0, 0, 0, 0, 215],
+		"magic_attack": [323, 0, 0, 0, 0, 587],
+		"defense": [122, 0, 0, 0, 0, 222],
+		"strength": [119, 0, 0, 0, 0, 215],
+		"endurance": [122, 0, 0, 0, 0, 222],
+		"dexterity": [191, 0, 0, 0, 0, 351],
+		"agility": [160, 0, 0, 0, 0, 292],
+		"magic": [323, 0, 0, 0, 0, 587]
+	},
+	"skills": [
+		{
+			"name": "Cutie Canon+",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "stun_resist",
+					"modifier": "+75%"
+				}, {
+					"target": "foes",
+					"attribute": "magic_resist",
+					"modifier": "-12%"
+				}
+			]
+		}, {
+			"name": "Cutie Canon++",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "stun_resist",
+					"modifier": "+100%"
+				}, {
+					"target": "foes",
+					"attribute": "magic_resist",
+					"modifier": "-15%"
+				}
+			]
+		}
+	]
+}

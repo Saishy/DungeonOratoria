@@ -1,0 +1,40 @@
+{
+	"id": "takemikazuchi_battle_god",
+	"title": "Battle God",
+	"name": "Takemikazuchi",
+	"stars": 2,
+	"limited": false,
+	"stats": {
+		"hp": [676, 0, 0, 0, 0, 1136],
+		"mp": [64, 0, 0, 0, 0, 104],
+		"physical_attack": [185, 0, 0, 0, 0, 290],
+		"magic_attack": [51, 0, 0, 0, 0, 96],
+		"defense": [88, 0, 0, 0, 0, 143],
+		"strength": [185, 0, 0, 0, 0, 290],
+		"endurance": [88, 0, 0, 0, 0, 143],
+		"dexterity": [102, 0, 0, 0, 0, 162],
+		"agility": [117, 0, 0, 0, 0, 187],
+		"magic": [51, 0, 0, 0, 0, 96]
+	},
+	"skills": [
+		{
+			"name": "War God's Grace+",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "physical_resist",
+					"modifier": "-4%"
+				}
+			]
+		}, {
+			"name": "War God's Grace++",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "physical_resist",
+					"modifier": "-5%"
+				}
+			]
+		}
+	]
+}

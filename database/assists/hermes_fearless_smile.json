@@ -1,0 +1,39 @@
+{
+	"id": "hermes_fearless_smile",
+	"title": "Fearless Smile",
+	"name": "Hermes",
+	"stars": 3,
+	"stats": {
+		"hp": [538, 0, 0, 0, 0, 0],
+		"mp": [98, 0, 0, 0, 0, 0],
+		"physical_attack": [111, 0, 0, 0, 0, 0],
+		"magic_attack": [89, 0, 0, 0, 0, 0],
+		"defense": [94, 0, 0, 0, 0, 0],
+		"strength": [111, 0, 0, 0, 0, 0],
+		"endurance": [94, 0, 0, 0, 0, 0],
+		"dexterity": [207, 0, 0, 0, 0, 0],
+		"agility": [138, 0, 0, 0, 0, 0],
+		"magic": [89, 0, 0, 0, 0, 0]
+	},
+	"skills": [
+		{
+			"name": "Secret Intuition+",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "sleep_resist",
+					"modifier": "+75%"
+				}
+			]
+		}, {
+			"name": "Secret Intuition++",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "sleep_resist",
+					"modifier": "+100%"
+				}
+			]
+		}
+	]
+}

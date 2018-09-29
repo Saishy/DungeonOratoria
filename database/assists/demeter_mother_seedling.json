@@ -1,0 +1,40 @@
+{
+	"id": "demeter_mother_seedling",
+	"title": "Mother Seedling",
+	"name": "Demeter",
+	"stars": 3,
+	"limited": false,
+	"stats": {
+		"hp": [448, 0, 0, 0, 0, 708],
+		"mp": [156, 0, 0, 0, 0, 216],
+		"physical_attack": [82, 0, 0, 0, 0, 139],
+		"magic_attack": [226, 0, 0, 0, 0, 378],
+		"defense": [82, 0, 0, 0, 0, 138],
+		"strength": [82, 0, 0, 0, 0, 139],
+		"endurance": [82, 0, 0, 0, 0, 138],
+		"dexterity": [131, 0, 0, 0, 0, 216],
+		"agility": [106, 0, 0, 0, 0, 178],
+		"magic": [226, 0, 0, 0, 0, 378]
+	},
+	"skills": [
+		{
+			"name": "Mother Bounty+",
+			"effects": [
+				{
+					"target": "self",
+					"attribute": "guard_rate",
+					"modifier": "+25%"
+				}
+			]
+		}, {
+			"name": "Mother Bounty++",
+			"effects": [
+				{
+					"target": "self",
+					"attribute": "guard_rate",
+					"modifier": "+35%"
+				}
+			]
+		}
+	]
+}

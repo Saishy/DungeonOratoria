@@ -1,0 +1,117 @@
+{
+	"id": "ryu_lion_beach_winds",
+	"title": "Beach Winds",
+	"name": "Ryu Lion",
+	"type": "physical_type",
+	"stars": 3,
+	"limited": true,
+	"stats": {
+		"hp": [1390, 1574, 1770, 1978, 2200, 2440],
+		"mp": [121, 133, 145, 157, 169, 181],
+		"physical_attack": [291, 339, 387, 483, 579, 675],
+		"magic_attack": [76, 122, 167, 167, 167, 167],
+		"defense": [94, 126, 158, 190, 222, 222],
+		"strength": [291, 339, 387, 483, 579, 675],
+		"endurance": [94, 126, 158, 190, 222, 222],
+		"dexterity": [138, 177, 216, 255, 294, 333],
+		"agility": [203, 249, 295, 342, 388, 481],
+		"magic": [76, 122, 167, 167, 167, 167]
+	},
+	"skills": {
+		"special": {
+			"id": "milenas_wind",
+			"name": "Milenas Wind",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "high",
+					"type": "wind_magic_attack"
+				}, {
+					"target": "skill",
+					"attribute": "indexed_to",
+					"modifier": "strength"
+				}
+			]
+		},
+		"combat": [
+			{
+				"id": "shockwave_tempest",
+				"name": "Shockwave Tempest",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "physical_attack"
+					}
+				]
+			}, {
+				"id": "tempest_reverberato",
+				"name": "Tempest Reverberato",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "low",
+						"type": "physical_attack"
+					}
+				]
+			}, {
+				"id": "elven_protection",
+				"name": "Elven Protection",
+				"effects": [
+					{
+						"target": "allies",
+						"attribute": "penetration_rate",
+						"modifier": "+20%%",
+						"duration": 4
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Magic Resistance: I",
+				"effects": [
+					{
+						"attribute": "magic_resist",
+						"modifier": "+8%"
+					}
+				]
+			}, {
+				"name": "Insane Speed: I",
+				"effects": [
+					{
+						"attribute": "agility",
+						"modifier": "+4%"
+					}
+				]
+			}, {
+				"name": "Mind's Eye: I",
+				"effects": [
+					{
+						"attribute": "magic",
+						"modifier": "+8%"
+					}
+				]
+			}, {
+				"name": "Hunter: G",
+				"effects": [
+					{
+						"attribute": "agility",
+						"modifier": "+4%"
+					}
+				]
+			}, {
+				"name": "Status Resist: G",
+				"effects": [
+					{
+						"attribute": "ailment_resist",
+						"modifier": "+10%"
+					}
+				]
+			}
+		]
+	}
+}

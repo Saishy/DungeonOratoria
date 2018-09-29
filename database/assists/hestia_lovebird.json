@@ -1,0 +1,39 @@
+{
+	"id": "hestia_lovebird",
+	"title": "Lovebird",
+	"name": "Hestia",
+	"stars": 3,
+	"stats": {
+		"hp": [538, 0, 0, 0, 0, 0],
+		"mp": [98, 0, 0, 0, 0, 0],
+		"physical_attack": [214, 0, 0, 0, 0, 0],
+		"magic_attack": [76, 0, 0, 0, 0, 0],
+		"defense": [104, 0, 0, 0, 0, 0],
+		"strength": [214, 0, 0, 0, 0, 0],
+		"endurance": [104, 0, 0, 0, 0, 0],
+		"dexterity": [124, 0, 0, 0, 0, 0],
+		"agility": [140, 0, 0, 0, 0, 0],
+		"magic": [76, 0, 0, 0, 0, 0]
+	},
+	"skills": [
+		{
+			"name": "My Heart to You+",
+			"effects": [
+				{
+					"target": "self",
+					"attribute": "dexterity",
+					"modifier": "+12%"
+				}
+			]
+		}, {
+			"name": "My Heart to You++",
+			"effects": [
+				{
+					"target": "self",
+					"attribute": "dexterity",
+					"modifier": "+15%"
+				}
+			]
+		}
+	]
+}

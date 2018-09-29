@@ -1,0 +1,40 @@
+{
+	"id": "ryu_lion_elven_employee",
+	"title": "Elven Employee",
+	"name": "Ryu Lion",
+	"stars": 3,
+	"limited": false,
+	"stats": {
+		"hp": [538, 0, 0, 0, 0, 838],
+		"mp": [95, 0, 0, 0, 0, 148],
+		"physical_attack": [116, 0, 0, 0, 0, 196],
+		"magic_attack": [100, 0, 0, 0, 0, 180],
+		"defense": [83, 0, 0, 0, 0, 139],
+		"strength": [116, 0, 0, 0, 0, 196],
+		"endurance": [83, 0, 0, 0, 0, 139],
+		"dexterity": [138, 0, 0, 0, 0, 223],
+		"agility": [218, 0, 0, 0, 0, 358],
+		"magic": [100, 0, 0, 0, 0, 180]
+	},
+	"skills": [
+		{
+			"name": "Chivalry's Lesson+",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "counter_rate",
+					"modifier": "+12%"
+				}
+			]
+		}, {
+			"name": "Chivalry's Lesson++",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "counter_rate",
+					"modifier": "+15%"
+				}
+			]
+		}
+	]
+}

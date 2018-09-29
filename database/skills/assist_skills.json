@@ -1,0 +1,405 @@
+{
+	"skills": [
+		{
+			"name": "Flame of Hope+",
+			"effects": [
+				{
+					"target": "self",
+					"attribute": "strength",
+					"modifier": "+10%"
+				}
+			]
+		}, {
+			"name": "Flame of Hope++",
+			"effects": [
+				{
+					"target": "self",
+					"attribute": "strength",
+					"modifier": "+15%"
+				}
+			]
+		}, {
+			"name": "Aid of Divine Fire+",
+			"effects": [
+				{
+					"target": "self",
+					"attribute": "strength",
+					"modifier": "+15%"
+				}
+			]
+		}, {
+			"name": "Aid of Divine Fire++",
+			"effects": [
+				{
+					"target": "self",
+					"attribute": "strength",
+					"modifier": "+20%"
+				}
+			]
+		}, {
+			"name": "Maiden's Protection+",
+			"effects": [
+				{
+					"target": "self",
+					"attribute": "strength",
+					"modifier": "+25%"
+				}
+			]
+		}, {
+			"name": "Maiden's Protection++",
+			"effects": [
+				{
+					"target": "self",
+					"attribute": "strength",
+					"modifier": "+30%"
+				}
+			]
+		}, {
+			"name": "My Heart to You+",
+			"effects": [
+				{
+					"target": "self",
+					"attribute": "dexterity",
+					"modifier": "+12%"
+				}
+			]
+		}, {
+			"name": "My Heart to You++",
+			"effects": [
+				{
+					"target": "self",
+					"attribute": "dexterity",
+					"modifier": "+15%"
+				}
+			]
+		}, {
+			"name": "Dazzling Wish+",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "mp_regen",
+					"modifier": "+3"
+				}
+			]
+		}, {
+			"name": "Dazzling Wish++",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "mp_regen",
+					"modifier": "+5"
+				}
+			]
+		}, {
+			"name": "Hilarious Service+",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "strength",
+					"modifier": "+10%"
+				}
+			]
+		}, {
+			"name": "Hilarious Service++",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "strength",
+					"modifier": "+15%"
+				}
+			]
+		}, {
+			"name": "Bouncing Blessing+",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "strength",
+					"modifier": "-15%"
+				}
+			]
+		}, {
+			"name": "Bouncing Blessing++",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "strength",
+					"modifier": "-20%"
+				}
+			]
+		}, {
+			"name": "Mummy Guidance+",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "counter_rate",
+					"modifier": "+8%"
+				}
+			]
+		}, {
+			"name": "Mummy Guidance++",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "counter_rate",
+					"modifier": "+10%"
+				}
+			]
+		}, {
+			"name": "God's Present+",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "strength",
+					"modifier": "-10%"
+				}, {
+					"target": "foes",
+					"attribute": "counter_rate",
+					"modifier": "-10%"
+				}
+			]
+		}, {
+			"name": "God's Present++",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "strength",
+					"modifier": "-15%"
+				}, {
+					"target": "foes",
+					"attribute": "counter_rate",
+					"modifier": "-15%"
+				}
+			]
+		}, {
+			"name": "Rise and Shine+",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "sleep_resist",
+					"modifier": "+75%"
+				}, {
+					"target": "foes",
+					"attribute": "magic_resist",
+					"modifier": "-12%"
+				}
+			]
+		}, {
+			"name": "Rise and Shine++",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "sleep_resist",
+					"modifier": "+100%"
+				}, {
+					"target": "foes",
+					"attribute": "magic_resist",
+					"modifier": "-15%"
+				}
+			]
+		}, {
+			"name": "Candy-Coated+",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "magic",
+					"modifier": "-10%"
+				}, {
+					"target": "foes",
+					"attribute": "heal_modifier",
+					"modifier": "-8%"
+				}
+			]
+		}, {
+			"name": "Candy-Coated++",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "magic",
+					"modifier": "-15%"
+				}, {
+					"target": "foes",
+					"attribute": "heal_modifier",
+					"modifier": "-10%"
+				}
+			]
+		}, {
+			"name": "Onsen Effect+",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "strength",
+					"modifier": "-15%"
+				}
+			]
+		}, {
+			"name": "Onsen Effect++",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "strength",
+					"modifier": "-20%"
+				}
+			]
+		}, {
+			"name": "Sparkling Smile+",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "physical_resist",
+					"modifier": "+8%"
+				}, {
+					"target": "allies",
+					"attribute": "guard_rate",
+					"modifier": "+8%"
+				}
+			]
+		}, {
+			"name": "Sparkling Smile++",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "physical_resist",
+					"modifier": "+10%"
+				}, {
+					"target": "allies",
+					"attribute": "guard_rate",
+					"modifier": "+10%"
+				}
+			]
+		}, {
+			"name": "Help of Child God+",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "stun",
+					"modifier": "30%"
+				}, {
+					"target": "foes",
+					"attribute": "magic_resist",
+					"modifier": "-8%"
+				}
+			]
+		}, {
+			"name": "Help of Child God++",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "stun",
+					"modifier": "45%"
+				}, {
+					"target": "foes",
+					"attribute": "magic_resist",
+					"modifier": "-10%"
+				}
+			]
+		}, {
+			"name": "Killer's Trickery+",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "guard_rate",
+					"modifier": "-10%"
+				}
+			]
+		}, {
+			"name": "Killer's Trickery++",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "guard_rate",
+					"modifier": "-15%"
+				}
+			]
+		}, {
+			"name": "Black Cat Inspection+",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "null_physical_attack_no_special",
+					"modifier": "x1"
+				}
+			]
+		}, {
+			"name": "Black Cat Inspection++",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "null_physical_attack_no_special",
+					"modifier": "x2"
+				}
+			]
+		}, {
+			"name": "Travel God's Grace+",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "sleep_resist",
+					"modifier": "+60%"
+				}
+			]
+		}, {
+			"name": "Travel God's Grace++",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "sleep_resist",
+					"modifier": "+80%"
+				}
+			]
+		}, {
+			"name": "Secret Intuition+",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "sleep_resist",
+					"modifier": "+75%"
+				}
+			]
+		}, {
+			"name": "Secret Intuition++",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "sleep_resist",
+					"modifier": "+100%"
+				}
+			]
+		}, {
+			"name": "Smooth Talk+",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "magic_resist",
+					"modifier": "-15%"
+				}
+			]
+		}, {
+			"name": "Smooth Talk++",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "magic_resist",
+					"modifier": "-20%"
+				}
+			]
+		}, {
+			"name": "Nurse's Healing+",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "hp_regen",
+					"modifier": "+15%"
+				}
+			]
+		}, {
+			"name": "Nurse's Healing++",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "hp_regen",
+					"modifier": "+20%"
+				}
+			]
+		}
+	]
+}

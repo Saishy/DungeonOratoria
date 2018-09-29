@@ -1,0 +1,40 @@
+{
+	"id": "misha_flot_workplace_gossip",
+	"title": "Workplace Gossip",
+	"name": "Misha Flot",
+	"stars": 3,
+	"limited": false,
+	"stats": {
+		"hp": [518, 0, 0, 0, 0, 818],
+		"mp": [96, 0, 0, 0, 0, 146],
+		"physical_attack": [212, 0, 0, 0, 0, 352],
+		"magic_attack": [78, 0, 0, 0, 0, 1338],
+		"defense": [103, 0, 0, 0, 0, 173],
+		"strength": [212, 0, 0, 0, 0, 352],
+		"endurance": [103, 0, 0, 0, 0, 173],
+		"dexterity": [123, 0, 0, 0, 0, 203],
+		"agility": [140, 0, 0, 0, 0, 235],
+		"magic": [78, 0, 0, 0, 0, 138]
+	},
+	"skills": [
+		{
+			"name": "Rumor Hunter+",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "stun_resist",
+					"modifier": "+75%"
+				}
+			]
+		}, {
+			"name": "Rumor Hunter++",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "stun_resist",
+					"modifier": "+100%"
+				}
+			]
+		}
+	]
+}

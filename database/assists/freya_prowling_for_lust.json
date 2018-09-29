@@ -1,0 +1,40 @@
+{
+	"id": "freya_prowling_for_lust",
+	"title": "Prowling for Lust",
+	"name": "Freya",
+	"stars": 3,
+	"limited": false,
+	"stats": {
+		"hp": [428, 0, 0, 0, 0, 688],
+		"mp": [158, 0, 0, 0, 0, 218],
+		"physical_attack": [80, 0, 0, 0, 0, 137],
+		"magic_attack": [227, 0, 0, 0, 0, 379],
+		"defense": [80, 0, 0, 0, 0, 136],
+		"strength": [80, 0, 0, 0, 0, 137],
+		"endurance": [80, 0, 0, 0, 0, 136],
+		"dexterity": [132, 0, 0, 0, 0, 217],
+		"agility": [107, 0, 0, 0, 0, 179],
+		"magic": [227, 0, 0, 0, 0, 379]
+	},
+	"skills": [
+		{
+			"name": "Rampant Compassion+",
+			"effects": [
+				{
+					"target": "self",
+					"attribute": "magic",
+					"modifier": "+25%"
+				}
+			]
+		}, {
+			"name": "Rampant Compassion++",
+			"effects": [
+				{
+					"target": "self",
+					"attribute": "magic",
+					"modifier": "+30%"
+				}
+			]
+		}
+	]
+}

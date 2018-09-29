@@ -1,0 +1,131 @@
+{
+	"id": "lefiya_virdis_bashful_elf",
+	"title": "Bashful Elf",
+	"name": "Lefiya Virdis",
+	"type": "magic_type",
+	"stars": 4,
+	"limited": false,
+	"stats": {
+		"hp": 				[1056, 	1168, 	1286, 	1410, 	1540, 	1676],
+		"mp": 				[181, 	197, 	213, 	231, 	251, 	271],
+		"physical_attack": 	[125, 	199, 	273, 	347, 	347, 	347],
+		"magic_attack": 	[493, 	581, 	669, 	757, 	933, 	1285],
+		"defense": 			[127, 	209, 	290, 	371, 	371, 	371],
+		"strength": 		[125, 	199, 	273, 	347, 	347, 	347],
+		"endurance": 		[127, 	209, 	290, 	371, 	371, 	371],
+		"dexterity": 		[212, 	300, 	388, 	476, 	564, 	564],
+		"agility": 			[272, 	352, 	431, 	510, 	668, 	748],
+		"magic": 			[493, 	581, 	669, 	757, 	933, 	1285]
+	},
+	"skills": {
+		"special": {
+			"name": "Elf Ring",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "fire_magic_attack"
+				}, {
+					"target": "skill",
+					"attribute": "magic",
+					"modifier": "boost"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Karpos Dallos",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "fire_magic_attack"
+					}, {
+						"target": "skill",
+						"attribute": "magic",
+						"modifier": "boost"
+					}
+				]
+			}, {
+				"name": "Karpos Pyr",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "fire_magic_attack"
+					}, {
+						"target": "foes",
+						"attribute": "seal",
+						"modifier": "15%"
+					}
+				]
+			}, {
+				"name": "Anemos Fotia",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "fire_magic_attack"
+					}, {
+						"target": "skill",
+						"attribute": "magic",
+						"modifier": "boost"
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Rouse: I",
+				"effects": [
+					{
+						"attribute": "magic",
+						"modifier": "+10%"
+					}, {
+						"attribute": "endurance",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Status Resist: I",
+				"effects": [
+					{
+						"attribute": "ailment_resist",
+						"modifier": "+15%"
+					}
+				]
+			}, {
+				"name": "Defense: I",
+				"effects": [
+					{
+						"attribute": "physical_resist",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Magic Resistance: I",
+				"effects": [
+					{
+						"attribute": "magic_resist",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Instinct: I",
+				"effects": [
+					{
+						"attribute": "agility",
+						"modifier": "+10%"
+					}, {
+						"attribute": "dexterity",
+						"modifier": "+10%"
+					}
+				]
+			}
+		]
+	}
+}

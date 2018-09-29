@@ -1,0 +1,40 @@
+{
+	"id": "hephaistios_artless",
+	"title": "Artless",
+	"name": "Hephaistios",
+	"stars": 4,
+	"limited": false,
+	"stats": {
+		"hp": [796, 0, 0, 0, 0, 1256],
+		"mp": [72, 0, 0, 0, 0, 112],
+		"physical_attack": [193, 0, 0, 0, 0, 358],
+		"magic_attack": [145, 0, 0, 0, 0, 277],
+		"defense": [212, 0, 0, 0, 0, 394],
+		"strength": [193, 0, 0, 0, 0, 358],
+		"endurance": [212, 0, 0, 0, 0, 394],
+		"dexterity": [184, 0, 0, 0, 0, 339],
+		"agility": [117, 0, 0, 0, 0, 219],
+		"magic": [145, 0, 0, 0, 0, 277]
+	},
+	"skills": [
+		{
+			"name": "Wrought Iron+",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "physical_resist",
+					"modifier": "+12%"
+				}
+			]
+		}, {
+			"name": "Wrought Iron++",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "physical_resist",
+					"modifier": "+15%"
+				}
+			]
+		}
+	]
+}

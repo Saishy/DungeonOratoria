@@ -1,0 +1,40 @@
+{
+	"id": "dionysus_tipsy_gaze",
+	"title": "Tipsy Gaze",
+	"name": "Dionysus",
+	"stars": 3,
+	"limited": false,
+	"stats": {
+		"hp": [588, 0, 0, 0, 0, 888],
+		"mp": [95, 0, 0, 0, 0, 145],
+		"physical_attack": [137, 0, 0, 0, 0, 232],
+		"magic_attack": [100, 0, 0, 0, 0, 176],
+		"defense": [159, 0, 0, 0, 0, 257],
+		"strength": [137, 0, 0, 0, 0, 232],
+		"endurance": [159, 0, 0, 0, 0, 257],
+		"dexterity": [128, 0, 0, 0, 0, 218],
+		"agility": [81, 0, 0, 0, 0, 135],
+		"magic": [100, 0, 0, 0, 0, 176]
+	},
+	"skills": [
+		{
+			"name": "Sweet Smile+",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "charm_resist",
+					"modifier": "+75%"
+				}
+			]
+		}, {
+			"name": "Sweet Smile++",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "charm_resist",
+					"modifier": "+100%"
+				}
+			]
+		}
+	]
+}

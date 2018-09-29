@@ -1,0 +1,125 @@
+{
+	"id": "ottarl_king",
+	"title": "King",
+	"name": "Ottarl",
+	"type": "physical_type",
+	"stars": 4,
+	"limited": false,
+	"stats": {
+		"hp": [1580, 1764, 1960, 2168, 2390, 2630],
+		"mp": [125, 137, 149, 161, 173, 185],
+		"physical_attack": [605, 704, 803, 902, 1100, 1397],
+		"magic_attack": [107, 177, 247, 317, 317, 317],
+		"defense": [172, 236, 300, 364, 427, 427],
+		"strength": [605, 704, 803, 902, 1100, 1397],
+		"endurance": [172, 236, 300, 364, 427, 427],
+		"dexterity": [182, 257, 332, 407, 482, 482],
+		"agility": [255, 331, 407, 483, 559, 711],
+		"magic": [107, 177, 247, 317, 317, 317]
+	},
+	"skills": {
+		"special": {
+			"id": "kings_war_cry",
+			"name": "King's War Cry",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "physical_attack"
+				}, {
+					"target": "skill",
+					"attribute": "strength",
+					"modifier": "boost"
+				}
+			]
+		},
+		"combat": [
+			{
+				"id": "providence_eye",
+				"name": "Providence Eye",
+				"effects": [
+					{
+						"target": "self",
+						"attribute": "counter_rate",
+						"modifier": "+25%",
+						"duration": 3
+					}
+				]
+			}, {
+				"id": "raging_impact",
+				"name": "Raging Impact",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "physical_attack"
+					}, {
+						"target": "skill",
+						"attribute": "strength",
+						"modifier": "boost"
+					}
+				]
+			}, {
+				"id": "conquerers_strike",
+				"name": "Conquerer's Strike",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "physical_attack"
+					}, {
+						"target": "skill",
+						"attribute": "strength",
+						"modifier": "boost"
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Magic Resistance: I",
+				"effects": [
+					{
+						"attribute": "magic_resist",
+						"modifier": "+8%"
+					}
+				]
+			}, {
+				"name": "Defense: I",
+				"effects": [
+					{
+						"attribute": "physical_resist",
+						"modifier": "+8%"
+					}
+				]
+			}, {
+				"name": "Status Resist: I",
+				"effects": [
+					{
+						"attribute": "ailment_resist",
+						"modifier": "+15%"
+					}
+				]
+			}, {
+				"name": "Swordsman: I",
+				"effects": [
+					{
+						"attribute": "strength",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Tough: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+10%"
+					}
+				]
+			}
+		]
+	}
+}

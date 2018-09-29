@@ -1,0 +1,81 @@
+{
+	"id": "ais_wallenstein_battle_princess",
+	"title": "Battle Princess",
+	"name": "Ais Wallenstein",
+	"type": "physical_type",
+	"stars": 2,
+	"limited": false,
+	"stats": {
+		"hp": [1400, 0, 0, 0, 0, 2450],
+		"mp": [118, 0, 0, 0, 0, 178],
+		"physical_attack": [268, 0, 0, 0, 0, 618],
+		"magic_attack": [59, 0, 0, 0, 0, 131],
+		"defense": [81, 0, 0, 0, 0, 195],
+		"strength": [268, 0, 0, 0, 0, 618],
+		"endurance": [81, 0, 0, 0, 0, 195],
+		"dexterity": [122, 0, 0, 0, 0, 270],
+		"agility": [175, 0, 0, 0, 0, 402],
+		"magic": [59, 0, 0, 0, 0, 131]
+	},
+	"skills": {
+		"special": {
+			"name": "Special Placeholder",
+			"effects": [
+				{
+					"target": "self",
+					"attribute": "strength",
+					"modifier": "+0%"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Skill 1 Placeholder",
+				"effects": [
+					{
+						"target": "self",
+						"attribute": "strength",
+						"modifier": "+0%"
+					}
+				]
+			}, {
+				"name": "Skill 2 Placeholder",
+				"effects": [
+					{
+						"target": "self",
+						"attribute": "strength",
+						"modifier": "+0%"
+					}
+				]
+			}, {
+				"name": "Skill 3 Placeholder",
+				"effects": [
+					{
+						"target": "self",
+						"attribute": "strength",
+						"modifier": "+0%"
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Placeholder: I",
+				"effects": [
+					{
+						"attribute": "dexterity",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "PlaceholderTwo: I",
+				"effects": [
+					{
+						"attribute": "agility",
+						"modifier": "+10%"
+					}
+				]
+			}
+		]
+	}
+}

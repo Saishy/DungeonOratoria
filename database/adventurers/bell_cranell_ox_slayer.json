@@ -1,0 +1,122 @@
+{
+	"id": "bell_cranel_ox_slayer",
+	"title": "Ox Slayer",
+	"name": "Bell Cranel",
+	"type": "physical_type",
+	"stars": 3,
+	"limited": false,
+	"stats": {
+		"hp": [1276, 1452, 1646, 1858, 2088, 2336],
+		"mp": [126, 138, 150, 162, 174, 186],
+		"physical_attack": [244, 303, 361, 420, 479, 597],
+		"magic_attack": [217, 269, 321, 373, 425, 529],
+		"defense": [105, 143, 182, 220, 258, 258],
+		"strength": [244, 303, 361, 420, 479, 597],
+		"endurance": [105, 143, 182, 220, 258, 258],
+		"dexterity": [104, 104, 104, 157, 210, 263],
+		"agility": [225, 332, 439, 492, 546, 546],
+		"magic": [217, 269, 321, 373, 425, 529]
+	},
+	"skills": {
+		"special": {
+			"name": "Argonaut Firebolt",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "high",
+					"type": "fire_magic_attack"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Firebolt",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "fire_magic_attack"
+					},
+					{
+						"target": "skill",
+						"attribute": "speed",
+						"modifier": "fast"
+					}
+				]
+			}, {
+				"name": "Tri-Slicer",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "physical_attack"
+					}
+				]
+			}, {
+				"name": "Argonaut",
+				"effects": [
+					{
+						"target": "self",
+						"attribute": "strength",
+						"modifier": "+50%",
+						"duration": 4
+					}, {
+						"target": "self",
+						"attribute": "magic",
+						"modifier": "+50%",
+						"duration": 4
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Liaris Freese",
+				"effects": [
+					{
+						"attribute": "fast_growth",
+						"modifier": ""
+					}, {
+						"attribute": "null_charm",
+						"modifier": ""
+					}
+				]
+			}, {
+				"name": "Acceleration: I",
+				"effects": [
+					{
+						"attribute": "agility",
+						"modifier": "+5%"
+					}
+				]
+			}, {
+				"name": "Tough: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+5%"
+					}
+				]
+			}, {
+				"name": "Crush: I",
+				"effects": [
+					{
+						"attribute": "strength",
+						"modifier": "+5%"
+					}
+				]
+			}, {
+				"name": "Luck: I",
+				"effects": [
+					{
+						"attribute": "all_status",
+						"modifier": "+4%"
+					}
+				]
+			}
+		]
+	}
+}

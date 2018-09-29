@@ -1,0 +1,105 @@
+{
+	"id": "template_adventurer",
+	"title": "Title",
+	"name": "Name",
+	"type": "physical_type",
+	"stars": 0,
+	"limited": false,
+	"stats": {
+		"hp": [0, 0, 0, 0, 0, 0],
+		"mp": [0, 0, 0, 0, 0, 0],
+		"physical_attack": [0, 0, 0, 0, 0, 0],
+		"magic_attack": [0, 0, 0, 0, 0, 0],
+		"defense": [0, 0, 0, 0, 0, 0],
+		"strength": [0, 0, 0, 0, 0, 0],
+		"endurance": [0, 0, 0, 0, 0, 0],
+		"dexterity": [0, 0, 0, 0, 0, 0],
+		"agility": [0, 0, 0, 0, 0, 0],
+		"magic": [0, 0, 0, 0, 0, 0]
+	},
+	"skills": {
+		"special": {
+			"id": "specialplaceholder",
+			"name": "SpecialPlaceholder",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "physical_attack"
+				}, {
+					"target": "foes",
+					"attribute": "stun",
+					"modifier": "30%"
+				}
+			]
+		},
+		"combat": [
+			{
+				"id": "skill1",
+				"name": "Skill1",
+				"effects": [
+					{
+						"target": "self",
+						"attribute": "agility",
+						"modifier": "+75%",
+						"duration": 4
+					}, {
+						"target": "foes",
+						"attribute": "stun_resist",
+						"modifier": "-75%"
+					}
+				]
+			}, {
+				"id": "skill2",
+				"name": "skill2",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "physical_attack"
+					}, {
+						"target": "foe",
+						"attribute": "stun",
+						"modifier": "30%"
+					}
+				]
+			}, {
+				"id": "skill3",
+				"name": "skill3",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "physical_attack"
+					}, {
+						"target": "foes",
+						"attribute": "stun",
+						"modifier": "15%"
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Placeholder: I",
+				"effects": [
+					{
+						"attribute": "dexterity",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "PlaceholderTwo: I",
+				"effects": [
+					{
+						"attribute": "agility",
+						"modifier": "+10%"
+					}
+				]
+			}
+		]
+	}
+}

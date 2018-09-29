@@ -1,0 +1,81 @@
+{
+	"id": "liliruca_arde_sweet_devil",
+	"title": "Sweet Devil",
+	"name": "Liliruca Arde",
+	"type": "magic_type",
+	"stars": 4,
+	"limited": false,
+	"stats": {
+		"hp": [1081, 0, 0, 0, 0, 1701],
+		"mp": [192, 0, 0, 0, 0, 282],
+		"physical_attack": [137, 0, 0, 0, 0, 384],
+		"magic_attack": [475, 0, 0, 0, 0, 1195],
+		"defense": [133, 0, 0, 0, 0, 355],
+		"strength": [137, 0, 0, 0, 0, 384],
+		"endurance": [133, 0, 0, 0, 0, 355],
+		"dexterity": [222, 0, 0, 0, 0, 574],
+		"agility": [276, 0, 0, 0, 0, 751],
+		"magic": [475, 0, 0, 0, 0, 1195]
+	},
+	"skills": {
+		"special": {
+			"name": "Special Placeholder",
+			"effects": [
+				{
+					"target": "self",
+					"attribute": "strength",
+					"modifier": "+0%"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Skill 1 Placeholder",
+				"effects": [
+					{
+						"target": "self",
+						"attribute": "strength",
+						"modifier": "+0%"
+					}
+				]
+			}, {
+				"name": "Skill 2 Placeholder",
+				"effects": [
+					{
+						"target": "self",
+						"attribute": "strength",
+						"modifier": "+0%"
+					}
+				]
+			}, {
+				"name": "Skill 3 Placeholder",
+				"effects": [
+					{
+						"target": "self",
+						"attribute": "strength",
+						"modifier": "+0%"
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Placeholder: I",
+				"effects": [
+					{
+						"attribute": "dexterity",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "PlaceholderTwo: I",
+				"effects": [
+					{
+						"attribute": "agility",
+						"modifier": "+10%"
+					}
+				]
+			}
+		]
+	}
+}

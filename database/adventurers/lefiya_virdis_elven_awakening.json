@@ -1,0 +1,128 @@
+{
+	"id": "lefiya_virdis_elven_awakening",
+	"title": "Elven Awakening",
+	"name": "Lefiya Virdis",
+	"type": "magic_type",
+	"stars": 4,
+	"limited": false,
+	"stats": {
+		"hp": [1582, 1766, 1962, 2170, 2392, 2632],
+		"mp": [181, 197, 213, 231, 251, 271],
+		"physical_attack": [130, 212, 293, 375, 375, 375],
+		"magic_attack": [539, 627, 803, 979, 1155, 1331],
+		"defense": [147, 228, 228, 228, 310, 391],
+		"strength": [130, 212, 293, 375, 375, 375],
+		"endurance": [147, 228, 228, 228, 310, 391],
+		"dexterity": [213, 301, 389, 477, 565, 565],
+		"agility": [272, 352, 431, 510, 589, 748],
+		"magic": [539, 627, 803, 979, 1155, 1331]
+	},
+	"skills": {
+		"special": {
+			"name": "Eternal Burst",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "light_magic_attack"
+				}, {
+					"target": "foes",
+					"attribute": "seal",
+					"modifier": "30%"
+				}, {
+					"target": "skill",
+					"attribute": "magic",
+					"modifier": "boost"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Lumen Keorn",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "light_magic_attack"
+					}, {
+						"target": "skill",
+						"attribute": "magic",
+						"modifier": "boost"
+					}
+				]
+			}, {
+				"name": "Lumen Solum",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "light_magic_attack"
+					}, {
+						"target": "skill",
+						"attribute": "magic",
+						"modifier": "boost"
+					}
+				]
+			}, {
+				"name": "Alvis Kairos",
+				"effects": [
+					{
+						"target": "self",
+						"attribute": "mp_heal",
+						"modifier": "15%"
+					}, {
+						"target": "self",
+						"attribute": "ailment_cure",
+						"modifier": ""
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Wisdom: I",
+				"effects": [
+					{
+						"attribute": "all_status",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Magic Resistance: I",
+				"effects": [
+					{
+						"attribute": "magic_resist",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Spirit Healing: I",
+				"effects": [
+					{
+						"attribute": "mp_regen",
+						"modifier": "+3%"
+					}
+				]
+			}, {
+				"name": "Status Resist: I",
+				"effects": [
+					{
+						"attribute": "ailment_resist",
+						"modifier": "+15%"
+					}
+				]
+			}, {
+				"name": "Spirit Killer",
+				"effects": [
+					{
+						"attribute": "spirit_killer",
+						"modifier": "+50%"
+					}
+				]
+			}
+		]
+	}
+}

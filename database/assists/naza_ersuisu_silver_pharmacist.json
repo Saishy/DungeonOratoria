@@ -1,0 +1,40 @@
+{
+	"id": "naza_ersuisu_silver_pharmacist",
+	"title": "Silver Pharmacist",
+	"name": "Naza Ersuisu",
+	"stars": 3,
+	"limited": false,
+	"stats": {
+		"hp": [658, 0, 0, 0, 0, 1118],
+		"mp": [67, 0, 0, 0, 0, 107],
+		"physical_attack": [195, 0, 0, 0, 0, 321],
+		"magic_attack": [66, 0, 0, 0, 0, 120],
+		"defense": [91, 0, 0, 0, 0, 161],
+		"strength": [195, 0, 0, 0, 0, 321],
+		"endurance": [91, 0, 0, 0, 0, 161],
+		"dexterity": [113, 0, 0, 0, 0, 185],
+		"agility": [128, 0, 0, 0, 0, 213],
+		"magic": [66, 0, 0, 0, 0, 120]
+	},
+	"skills": [
+		{
+			"name": "Child of the MediGod+",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "hp_regen",
+					"modifier": "+8%"
+				}
+			]
+		}, {
+			"name": "Child of the MediGod++",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "hp_regen",
+					"modifier": "+10%"
+				}
+			]
+		}
+	]
+}

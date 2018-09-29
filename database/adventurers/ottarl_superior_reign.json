@@ -1,0 +1,142 @@
+{
+	"id": "ottarl_superior_reign",
+	"title": "Superior Reign",
+	"name": "Ottarl",
+	"type": "physical_type",
+	"stars": 4,
+	"limited": false,
+	"stats": {
+		"hp": [1602, 1786, 1982, 2190, 2412, 2652],
+		"mp": [126, 138, 150, 162, 174, 186],
+		"physical_attack": [639, 738, 837, 936, 1134, 1431],
+		"magic_attack": [107, 177, 247, 317, 317, 317],
+		"defense": [184, 248, 312, 376, 440, 440],
+		"strength": [639, 738, 837, 936, 1134, 1431],
+		"endurance": [184, 248, 312, 376, 440, 440],
+		"dexterity": [232, 314, 397, 479, 562, 562],
+		"agility": [267, 350, 434, 518, 601, 768],
+		"magic": [107, 177, 247, 317, 317, 317]
+	},
+	"skills": {
+		"special": {
+			"id": "fangs_of_apocalypse",
+			"name": "Fangs of Apocalypse",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "physical_attack"
+				}, {
+					"target": "skill",
+					"attribute": "strength",
+					"modifier": "boost"
+				}
+			]
+		},
+		"combat": [
+			{
+				"id": "edge_of_moment",
+				"name": "Edge of Moment",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "physical_attack"
+					}, {
+						"target": "foes",
+						"attribute": "endurance",
+						"modifier": "-15%",
+						"duration": 2
+					}, {
+						"target": "skill",
+						"attribute": "strength",
+						"modifier": "boost"
+					}
+				]
+			}, {
+				"id": "rupture_of_annihilation",
+				"name": "Rupture of Annihilation",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "physical_attack"
+					}, {
+						"target": "foes",
+						"attribute": "slow",
+						"modifier": "15%"
+					}, {
+						"target": "skill",
+						"attribute": "strength",
+						"modifier": "boost"
+					}
+				]
+			}, {
+				"id": "mighty_power_slash",
+				"name": "Mighty Power Slash",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "physical_attack"
+					}, {
+						"target": "foe",
+						"attribute": "stun",
+						"modifier": "30%"
+					}, {
+						"target": "skill",
+						"attribute": "strength",
+						"modifier": "boost"
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Saboteur: I",
+				"effects": [
+					{
+						"attribute": "dexterity",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Acceleration: I",
+				"effects": [
+					{
+						"attribute": "agility",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Tough: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Swordsman: I",
+				"effects": [
+					{
+						"attribute": "strength",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Status Resist: I",
+				"effects": [
+					{
+						"attribute": "ailment_resist",
+						"modifier": "+15%"
+					}
+				]
+			}
+		]
+	}
+}

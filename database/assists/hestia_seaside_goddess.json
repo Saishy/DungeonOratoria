@@ -1,0 +1,40 @@
+{
+	"id": "hestia_seaside_goddess",
+	"title": "Seaside Goddess",
+	"name": "Hestia",
+	"stars": 4,
+	"limited": true,
+	"stats": {
+		"hp": [618, 0, 0, 0, 0, 0],
+		"mp": [104, 0, 0, 0, 0, 0],
+		"physical_attack": [295, 0, 0, 0, 0, 0],
+		"magic_attack": [126, 0, 0, 0, 0, 0],
+		"defense": [161, 0, 0, 0, 0, 0],
+		"strength": [295, 0, 0, 0, 0, 0],
+		"endurance": [161, 0, 0, 0, 0, 0],
+		"dexterity": [172, 0, 0, 0, 0, 0],
+		"agility": [204, 0, 0, 0, 0, 0],
+		"magic": [126, 0, 0, 0, 0, 0]
+	},
+	"skills": [
+		{
+			"name": "Bouncing Blessing+",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "strength",
+					"modifier": "-15%"
+				}
+			]
+		}, {
+			"name": "Bouncing Blessing++",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "strength",
+					"modifier": "-20%"
+				}
+			]
+		}
+	]
+}

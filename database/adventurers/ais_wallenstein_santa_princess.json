@@ -1,0 +1,81 @@
+{
+	"id": "ais_wallenstein_santa_princess",
+	"title": "Santa Princess",
+	"name": "Ais Wallenstein",
+	"type": "magic_type",
+	"stars": 4,
+	"limited": false,
+	"stats": {
+		"hp": [1530, 0, 0, 0, 0, 2580],
+		"mp": [176, 0, 0, 0, 0, 266],
+		"physical_attack": [135, 0, 0, 0, 0, 357],
+		"magic_attack": [520, 0, 0, 0, 0, 1319],
+		"defense": [140, 0, 0, 0, 0, 380],
+		"strength": [135, 0, 0, 0, 0, 357],
+		"endurance": [140, 0, 0, 0, 0, 380],
+		"dexterity": [196, 0, 0, 0, 0, 516],
+		"agility": [280, 0, 0, 0, 0, 755],
+		"magic": [520, 0, 0, 0, 0, 1319]
+	},
+	"skills": {
+		"special": {
+			"name": "Special Placeholder",
+			"effects": [
+				{
+					"target": "self",
+					"attribute": "strength",
+					"modifier": "+0%"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Skill 1 Placeholder",
+				"effects": [
+					{
+						"target": "self",
+						"attribute": "strength",
+						"modifier": "+0%"
+					}
+				]
+			}, {
+				"name": "Skill 2 Placeholder",
+				"effects": [
+					{
+						"target": "self",
+						"attribute": "strength",
+						"modifier": "+0%"
+					}
+				]
+			}, {
+				"name": "Skill 3 Placeholder",
+				"effects": [
+					{
+						"target": "self",
+						"attribute": "strength",
+						"modifier": "+0%"
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Placeholder: I",
+				"effects": [
+					{
+						"attribute": "dexterity",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "PlaceholderTwo: I",
+				"effects": [
+					{
+						"attribute": "agility",
+						"modifier": "+10%"
+					}
+				]
+			}
+		]
+	}
+}

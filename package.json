@@ -1,0 +1,24 @@
+{
+  "name": "dungeon-oratoria",
+  "version": "1.0.0",
+  "description": "Holds data about the DanMachi Memoria Freese mobile game.",
+  "main": "index.js",
+  "dependencies": {
+    "discord.js": "^11.3.2",
+    "pm2": "^2.10.3",
+    "redis": "^2.8.0",
+    "uws": "^9.148.0",
+    "zlib-sync": "^0.1.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "memoria",
+    "freese",
+    "danmachi"
+  ],
+  "author": "Saishy",
+  "license": "Personal"
+}

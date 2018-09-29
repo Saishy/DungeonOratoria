@@ -1,0 +1,123 @@
+{
+	"id": "filvis_challia_cute_elf",
+	"title": "Cute Elf",
+	"name": "Filvis Challia",
+	"type": "magic_type",
+	"stars": 4,
+	"limited": false,
+	"stats": {
+		"hp": 				[1550, 	1734, 	1930, 	2138, 	2360, 	2600],
+		"mp": 				[189, 	205, 	221, 	239, 	259, 	279],
+		"physical_attack": 	[114, 	188, 	262, 	336, 	336, 	336],
+		"magic_attack": 	[533, 	621, 	797, 	973, 	1149, 	1325],
+		"defense":			[146, 	227, 	227, 	227, 	309, 	390],
+		"strength": 		[114, 	188, 	262, 	336, 	336, 	336],
+		"endurance": 		[146, 	227, 	227, 	227, 	309, 	390],
+		"dexterity": 		[218, 	306, 	394, 	482, 	570, 	570],
+		"agility": 			[279, 	358, 	437, 	517, 	596, 	754],
+		"magic": 			[533, 	621, 	797, 	973, 	1149, 	1325]
+	},
+	"skills": {
+		"special": {
+			"name": "Electrocute",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "thunder_magic_attack"
+				}, {
+					"target": "skill",
+					"attribute": "magic",
+					"modifier": "boost"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Trueno Natura",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "thunder_magic_attack"
+					}, {
+						"target": "foe",
+						"attribute": "thunder_resist",
+						"modifier": "-40%",
+						"duration": 2
+					}
+				]
+			}, {
+				"name": "Ardor Fulmen",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "thunder_magic_attack"
+					}, {
+						"target": "foe",
+						"attribute": "thunder_resist",
+						"modifier": "-30%",
+						"duration": 2
+					}
+				]
+			}, {
+				"name": "Cor Exaltatio",
+				"effects": [
+					{
+						"target": "self",
+						"attribute": "guard_rate",
+						"modifier": "+45%",
+						"duration": 3
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Crafter: I",
+				"effects": [
+					{
+						"attribute": "dexterity",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Insane Speed: I",
+				"effects": [
+					{
+						"attribute": "agility",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Unbreakable: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Mage: H",
+				"effects": [
+					{
+						"attribute": "magic",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Status Resist: I",
+				"effects": [
+					{
+						"attribute": "ailment_resist",
+						"modifier": "+15%"
+					}
+				]
+			}
+		]
+	}
+}

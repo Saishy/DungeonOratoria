@@ -1,0 +1,121 @@
+{
+	"id": "liliruca_arde_lovely_travel",
+	"title": "Lovely Travel",
+	"name": "Liliruca Arde",
+	"type": "magic_type",
+	"stars": 4,
+	"limited": false,
+	"stats": {
+		"hp": [1466, 1650, 1846, 2054, 2276, 2516],
+		"mp": [210, 226, 242, 260, 280, 300],
+		"physical_attack": [115, 189, 263, 337, 337, 337],
+		"magic_attack": [531, 619, 795, 971, 1147, 1323],
+		"defense": [140, 222, 222, 222, 303, 385],
+		"strength": [115, 189, 263, 337, 337, 337],
+		"endurance": [140, 222, 222, 222, 303, 385],
+		"dexterity": [204, 292, 380, 468, 556, 556],
+		"agility": [300, 379, 458, 537, 617, 775],
+		"magic": [531, 619, 795, 971, 1147, 1323]
+	},
+	"skills": {
+		"special": {
+			"name": "Shining Explosion",
+			"effects": [
+				{
+					"target": "foe",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "light_magic_attack"
+				}, {
+					"target": "skill",
+					"attribute": "magic",
+					"modifier": "boost"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Sparkle Circle",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "low",
+						"type": "light_magic_attack"
+					}
+				]
+			}, {
+				"name": "Light Magic-Sword",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "light_magic_attack"
+					}, {
+						"target": "skill",
+						"attribute": "magic",
+						"modifier": "boost"
+					}, {
+						"target": "foes",
+						"attribute": "magic_resist",
+						"modifier": "-20%",
+						"duration": 2
+					}
+				]
+			}, {
+				"name": "Shining Howling",
+				"effects": [
+					{
+						"target": "self",
+						"attribute": "null_physical_attack_no_special",
+						"modifier": "x2"
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Crafter: I",
+				"effects": [
+					{
+						"attribute": "dexterity",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Acceleration: I",
+				"effects": [
+					{
+						"attribute": "agility",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Unbreakable: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Enlightenment: I",
+				"effects": [
+					{
+						"attribute": "magic",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Status Resist: I",
+				"effects": [
+					{
+						"attribute": "ailment_resist",
+						"modifier": "+15%"
+					}
+				]
+			}
+		]
+	}
+}
