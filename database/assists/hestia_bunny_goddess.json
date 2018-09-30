@@ -1,0 +1,40 @@
+{
+	"id": "hestia_bunny_goddess",
+	"title": "Bunny Goddess",
+	"name": "Hestia",
+	"stars": 4,
+	"limited": false,
+	"stats": {
+		"hp":				[622, 678, 734, 794, 858, 922],
+		"mp":				[ 98, 106, 114, 124, 136, 148],
+		"physical_attack":	[169, 207, 245, 283, 321, 321],
+		"magic_attack":		[189, 222, 255, 288, 321, 321],
+		"defense":			[130, 157, 184, 211, 211, 238],
+		"strength":			[169, 207, 245, 283, 321, 321],
+		"endurance":		[130, 157, 184, 211, 211, 238],
+		"dexterity":		[279, 312, 345, 378, 444, 510],
+		"agility":			[189, 222, 255, 278, 309, 340],
+		"magic":			[189, 222, 255, 288, 321, 321]
+	},
+	"skills": [
+		{
+			"name": "Happiness Fever+",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "hp_regen",
+					"modifier": "+14%"
+				}
+			]
+		}, {
+			"name": "Happiness Fever++",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "hp_regen",
+					"modifier": "+18%"
+				}
+			]
+		}
+	]
+}

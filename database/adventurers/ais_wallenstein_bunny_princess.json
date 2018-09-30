@@ -1,0 +1,125 @@
+{
+	"id": "ais_wallenstein_sparkle_princess",
+	"title": "Bunny Princess",
+	"name": "Ais Wallenstein",
+	"type": "physical_type",
+	"stars": 4,
+	"limited": false,
+	"stats": {
+		"hp":				[1578, 1762, 1958, 2166, 2399, 2628],
+		"mp":				[132, 144, 156, 168, 180, 192],
+		"physical_attack":	[581, 676, 770, 865, 1054, 1377],
+		"magic_attack":		[118, 188, 258, 328, 328, 328],
+		"defense":			[169, 229, 290, 351, 412, 412],
+		"strength":			[581, 676, 770, 865, 1054, 1377],
+		"endurance":		[169, 229, 290, 351, 412, 412],
+		"dexterity":		[220, 299, 378, 456, 535, 535],
+		"agility":			[280, 360, 439, 519, 599, 759],
+		"magic":			[118, 188, 258, 328, 328, 328]
+	},
+	"skills": {
+		"special": {
+			"name": "Jackpot Lil Rafaga",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "physical_attack"
+				}, {
+					"target": "skill",
+					"attribute": "strength",
+					"modifier": "boost"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Lucky Strike",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "physical_attack"
+					}, {
+						"target": "skill",
+						"attribute": "strength",
+						"modifier": "boost"
+					}
+				]
+			}, {
+				"name": "Lucky Chain",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "physical_attack"
+					}, {
+						"target": "skill",
+						"attribute": "strength",
+						"modifier": "boost"
+					}
+				]
+			}, {
+				"name": "Good Luck",
+				"effects": [
+					{
+						"target": "self",
+						"attribute": "mp_regen",
+						"modifier": "15%"
+					}, {
+						"target": "self",
+						"attribute": "ailment_resist",
+						"modifier": "+60%",
+						"duration": 4
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Saboteur: I",
+				"effects": [
+					{
+						"attribute": "dexterity",
+						"modifier": "+5%"
+					}
+				]
+			}, {
+				"name": "Hunter: G",
+				"effects": [
+					{
+						"attribute": "agility",
+						"modifier": "+5%"
+					}
+				]
+			}, {
+				"name": "Tough: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+5%"
+					}
+				]
+			}, {
+				"name": "Sword Fighter: I",
+				"effects": [
+					{
+						"attribute": "strength",
+						"modifier": "+5%"
+					}
+				]
+			}, {
+				"name": "Status Resist: I",
+				"effects": [
+					{
+						"attribute": "ailment_resist",
+						"modifier": "+15%"
+					}
+				]
+			}
+		]
+	}
+}
