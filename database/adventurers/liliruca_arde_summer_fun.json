@@ -1,0 +1,140 @@
+{
+	"id": "liliruca_arde_summer_fun",
+	"title": "Summer Fun",
+	"name": "Liliruca Arde",
+	"type": "magic_type",
+	"stars": 4,
+	"limited": true,
+	"stats": {
+		"hp":				[1578, 1762, 1958, 2166, 2388, 2628],
+		"mp":				[182, 198, 214, 232, 252, 272],
+		"physical_attack":	[114, 188, 262, 336, 336, 336],
+		"magic_attack":		[537, 629, 813, 997, 1181, 1365],
+		"defense":			[151, 233, 233, 233, 314, 396],
+		"strength":			[114, 188, 262, 336, 336, 336],
+		"endurance":		[151, 233, 233, 233, 314, 396],
+		"dexterity":		[229, 317, 405, 493, 581, 581],
+		"agility":			[282, 361, 441, 520, 599, 757],
+		"magic":			[537, 629, 813, 997, 1181, 1365]
+	},
+	"skills": {
+		"special": {
+			"name": "Dolphin Army",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "water_magic_attack"
+				}, {
+					"target": "skill",
+					"attribute": "magic",
+					"modifier": "boost"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Calamity Water",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "water_magic_attack"
+					}, {
+						"target": "foes",
+						"attribute": "magic_buff_removal_no_assist",
+						"modifier": ""
+					}
+				]
+			}, {
+				"name": "Water Magic Sword",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "water_magic_attack"
+					}, {
+						"target": "skill",
+						"attribute": "magic",
+						"modifier": "boost"
+					}, {
+						"target": "foes",
+						"attribute": "status_debuff",
+						"modifier": "+1 turn"
+					}
+				]
+			}, {
+				"name": "Frozen Water",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "water_magic_attack"
+					}, {
+						"target": "skill",
+						"attribute": "magic",
+						"modifier": "boost"
+					}, {
+						"target": "foes",
+						"attribute": "magic_resist",
+						"modifier": "-15%",
+						"duration": 3
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Mind's Eye: I",
+				"effects": [
+					{
+						"attribute": "magic",
+						"modifier": "+15%"
+					}
+				]
+			}, {
+				"name": "Strike: I",
+				"effects": [
+					{
+						"attribute": "critical_damage",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Fire Resistance: I",
+				"effects": [
+					{
+						"attribute": "fire_resist",
+						"modifier": "+35%"
+					}
+				]
+			}, {
+				"name": "Rigid: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+10%"
+					}, {
+						"attribute": "agility",
+						"modifier": "+10%"
+					}, {
+						"attribute": "dexterity",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Status Resist: I",
+				"effects": [
+					{
+						"attribute": "ailment_resist",
+						"modifier": "+15%"
+					}
+				]
+			}
+		]
+	}
+}
