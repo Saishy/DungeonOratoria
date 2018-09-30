@@ -6,16 +6,16 @@
 	"stars": 4,
 	"limited": true,
 	"stats": {
-		"hp": [1246, 1410, 1589, 1785, 1999, 2231],
-		"mp": [158, 174, 190, 206, 222, 238],
-		"physical_attack": [167, 245, 323, 400, 478, 478],
-		"magic_attack": [404, 492, 580, 756, 932, 1020],
-		"defense": [116, 185, 254, 254, 254, 323],
-		"strength": [167, 245, 323, 400, 478, 478],
-		"endurance": [116, 185, 254, 254, 254, 323],
-		"dexterity": [294, 378, 462, 545, 629, 796],
-		"agility": [243, 326, 410, 493, 577, 661],
-		"magic": [404, 492, 580, 756, 932, 1020]
+		"hp":				[1246, 1410, 1589, 1785, 1999, 2231],
+		"mp":				[158, 174, 190, 206, 222, 238],
+		"physical_attack":	[151, 221, 291, 361, 431, 431],
+		"magic_attack":		[448, 546, 643, 839, 1034, 1132],
+		"defense":			[116, 185, 254, 254, 254, 323],
+		"strength":			[151, 221, 291, 361, 431, 431],
+		"endurance":		[116, 185, 254, 254, 254, 323],
+		"dexterity":		[294, 378, 462, 545, 629, 796],
+		"agility":			[243, 326, 410, 493, 577, 661],
+		"magic":			[448, 546, 643, 839, 1034, 1132]
 	},
 	"skills": {
 		"special": {
@@ -50,7 +50,7 @@
 						"target": "foe",
 						"attribute": "damage",
 						"modifier": "low",
-						"type": "physical_attack"
+						"type": "light_magic_attack"
 					}, {
 						"target": "foe",
 						"attribute": "sleep",
@@ -63,38 +63,37 @@
 					{
 						"target": "allies",
 						"attribute": "magic_resist",
-						"modifier": "+10%",
+						"modifier": "+20%",
 						"duration": 4
-					}, {
-						"target": "allies",
-						"attribute": "heal",
-						"modifier": "slight"
 					}
 				]
 			}
 		],
 		"development": [
 			{
-				"name": "Supporter's Strength: I",
+				"name": "Enlightenment: I",
 				"effects": [
 					{
-						"attribute": "strength",
-						"modifier": "+5.5%"
+						"attribute": "magic",
+						"modifier": "+11%"
 					}
 				]
 			}, {
-				"name": "Crafter: I",
+				"name": "Instinct: I",
 				"effects": [
 					{
+						"attribute": "agility",
+						"modifier": "+10%"
+					}, {
 						"attribute": "dexterity",
 						"modifier": "+10%"
 					}
 				]
 			}, {
-				"name": "Acceleration: I",
+				"name": "Defense: I",
 				"effects": [
 					{
-						"attribute": "agility",
+						"attribute": "physical_resist",
 						"modifier": "+10%"
 					}
 				]
@@ -107,11 +106,11 @@
 					}
 				]
 			}, {
-				"name": "Crush: I",
+				"name": "Magic Resistance: I",
 				"effects": [
 					{
-						"attribute": "strength",
-						"modifier": "+5.5%"
+						"attribute": "magic_resist",
+						"modifier": "+10%"
 					}
 				]
 			}
