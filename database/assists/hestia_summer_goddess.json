@@ -1,0 +1,48 @@
+{
+	"id": "hestia_summer_goddess",
+	"title": "Summer Goddess",
+	"name": "Hestia",
+	"stars": 4,
+	"limited": true,
+	"stats": {
+		"hp":				[650, 706, 762, 822, 886, 950],
+		"mp":				[ 91,  99, 107, 117, 129, 141],
+		"physical_attack":	[174, 209, 244, 279, 279, 314],
+		"magic_attack":		[174, 209, 244, 279, 279, 314],
+		"defense":			[174, 143, 168, 193, 218, 218],
+		"strength":			[174, 209, 244, 279, 279, 314],
+		"endurance":		[142, 167, 192, 217, 242, 242],
+		"dexterity":		[215, 248, 281, 314, 380, 380],
+		"agility":			[272, 308, 344, 380, 452, 524],
+		"magic":			[174, 209, 244, 279, 279, 314]
+	},
+	"skills": [
+		{
+			"name": "Summer Holiday!+",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "slow",
+					"modifier": "+60%"
+				}, {
+					"target": "allies",
+					"attribute": "critical_rate",
+					"modifier": "+8%"
+				}
+			]
+		}, {
+			"name": "Summer Holiday!++",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "slow",
+					"modifier": "+90%"
+				}, {
+					"target": "allies",
+					"attribute": "critical_rate",
+					"modifier": "+10%"
+				}
+			]
+		}
+	]
+}

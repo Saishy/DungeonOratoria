@@ -1,0 +1,48 @@
+{
+	"id": "misha_flot_summer_break",
+	"title": "Summer Break",
+	"name": "Misha Flot",
+	"stars": 4,
+	"limited": true,
+	"stats": {
+		"hp":				[650, 706, 762, 822, 886, 950],
+		"mp":				[ 91,  99, 107, 117, 129, 141],
+		"physical_attack":	[174, 209, 244, 279, 279, 314],
+		"magic_attack":		[174, 209, 244, 279, 279, 314],
+		"defense":			[142, 167, 192, 217, 242, 242],
+		"strength":			[174, 209, 244, 279, 279, 314],
+		"endurance":		[142, 167, 192, 217, 242, 242],
+		"dexterity":		[191, 224, 257, 290, 356, 356],
+		"agility":			[272, 308, 344, 380, 452, 524],
+		"magic":			[174, 209, 244, 279, 279, 314]
+	},
+	"skills": [
+		{
+			"name": "Happy Vacation+",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "slow_resist",
+					"modifier": "+75%"
+				}, {
+					"target": "allies",
+					"attribute": "agility",
+					"modifier": "+8%"
+				}
+			]
+		}, {
+			"name": "Happy Vacation++",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "slow_resist",
+					"modifier": "+100%"
+				}, {
+					"target": "allies",
+					"attribute": "agility",
+					"modifier": "+10%"
+				}
+			]
+		}
+	]
+}

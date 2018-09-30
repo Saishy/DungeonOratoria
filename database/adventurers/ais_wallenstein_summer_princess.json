@@ -1,0 +1,140 @@
+{
+	"id": "ais_wallenstein_summer_princess",
+	"title": "Summer Princess",
+	"name": "Ais Wallenstein",
+	"type": "physical_type",
+	"stars": 4,
+	"limited": true,
+	"stats": {
+		"hp":				[1598, 1782, 1978, 2186, 2408, 2648],
+		"mp":				[127, 139, 151, 163, 175, 187],
+		"physical_attack":	[652, 755, 859, 962, 1169, 1480],
+		"magic_attack":		[118, 188, 258, 328, 328, 328],
+		"defense":			[183, 247, 311, 375, 438, 438],
+		"strength":			[652, 755, 859, 962, 1169, 1480],
+		"endurance":		[183, 247, 311, 375, 438, 438],
+		"dexterity":		[211, 293, 376, 458, 541, 541],
+		"agility":			[292, 376, 459, 543, 627, 794],
+		"magic":			[118, 188, 258, 328, 328, 328]
+	},
+	"skills": {
+		"special": {
+			"name": "Tidal Lil Rafaga",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "water_physical_attack"
+				}, {
+					"target": "skill",
+					"attribute": "strength",
+					"modifier": "boost"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Aqua Blade",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "water_physical_attack"
+					}, {
+						"target": "foes",
+						"attribute": "str_buff_removal_no_assist",
+						"modifier": ""
+					}
+				]
+			}, {
+				"name": "Cobalt Edge",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "water_physical_attack"
+					}, {
+						"target": "skill",
+						"attribute": "strength",
+						"modifier": "boost"
+					}, {
+						"target": "foes",
+						"attribute": "status_buff",
+						"modifier": "-1 turn"
+					}
+				]
+			}, {
+				"name": "Aqua Bite",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "water_physical_attack"
+					}, {
+						"target": "skill",
+						"attribute": "strength",
+						"modifier": "boost"
+					}, {
+						"target": "foes",
+						"attribute": "physical_resist",
+						"modifier": "-15%",
+						"duration": 3
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Sword Fighter: I",
+				"effects": [
+					{
+						"attribute": "strength",
+						"modifier": "+15%"
+					}
+				]
+			}, {
+				"name": "Strike: I",
+				"effects": [
+					{
+						"attribute": "critical_damage",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Fire Resistance: I",
+				"effects": [
+					{
+						"attribute": "fire_resist",
+						"modifier": "+35%"
+					}
+				]
+			}, {
+				"name": "Rigid: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+10%"
+					}, {
+						"attribute": "agility",
+						"modifier": "+10%"
+					}, {
+						"attribute": "dexterity",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Status Resist: I",
+				"effects": [
+					{
+						"attribute": "ailment_resist",
+						"modifier": "+15%"
+					}
+				]
+			}
+		]
+	}
+}
