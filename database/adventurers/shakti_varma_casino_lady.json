@@ -1,0 +1,135 @@
+{
+	"id": "shakti_varma_casino_lady",
+	"title": "Casino Lady",
+	"name": "Shakti Varma",
+	"type": "balance_type",
+	"stars": 4,
+	"limited": false,
+	"stats": {
+		"hp":				[1412, 	1588, 	1782, 	1994, 	2224, 	2472],
+		"mp":				[160, 	172, 	184, 	196, 	208, 	220],
+		"physical_attack":	[407,	618,	723,	829,	935,	1040],
+		"magic_attack":		[405,	501,	597,	693,	789,	981],
+		"defense":			[183,	183,	239,	295,	352,	408],
+		"strength":			[407,	618,	723,	829,	935,	1040],
+		"endurance":		[183,	183,	239,	295,	352,	408],
+		"dexterity":		[238, 	316, 	394, 	472, 	550, 	628],
+		"agility":			[181, 	257, 	333, 	409, 	485,	485],
+		"magic":			[405,	501,	597,	693,	789,	981]
+	},
+	"skills": {
+		"special": {
+			"name": "Patatrin Naga",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "physical_attack"
+				}, {
+					"target": "foes",
+					"attribute": "stun",
+					"modifier": "30%"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Suzila",
+				"effects": [
+					{
+						"target": "allies",
+						"attribute": "guard_rate",
+						"modifier": "+35%",
+						"duration": 3
+					}, {
+						"target": "allies",
+						"attribute": "physical_resist",
+						"modifier": "+35%",
+						"duration": 3
+					}
+				]
+			}, {
+				"name": "Durbalata",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "physical_attack"
+					}, {
+						"target": "foes",
+						"attribute": "strength",
+						"modifier": "-35%",
+						"duration": 3
+					}, {
+						"target": "foes",
+						"attribute": "critical_rate",
+						"modifier": "-35%",
+						"duration": 3
+					}
+				]
+			}, {
+				"name": "Askanda",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "physical_attack"
+					}, {
+						"target": "skill",
+						"attribute": "strength",
+						"modifier": "boost"
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Fist Strike: I",
+				"effects": [
+					{
+						"attribute": "strength",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Protection: I",
+				"effects": [
+					{
+						"attribute": "physical_resist",
+						"modifier": "+10%"
+					}, {
+						"attribute": "magic_resist",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Unbreakable: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Leap: I",
+				"effects": [
+					{
+						"attribute": "agility",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Status Resist: I",
+				"effects": [
+					{
+						"attribute": "ailment_resist",
+						"modifier": "+15%"
+					}
+				]
+			}
+		]
+	}
+}
