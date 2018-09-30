@@ -1,0 +1,138 @@
+{
+	"id": "ryu_lion_gale_disguised",
+	"title": "Gale Disguised",
+	"name": "Ryu Lion",
+	"type": "balance_type",
+	"stars": 4,
+	"limited": false,
+	"stats": {
+		"hp": 				[1412, 	1588, 	1782, 	1994, 	2224, 	2472],
+		"mp": 				[160, 	172, 	184, 	196, 	208, 	220],
+		"physical_attack": 	[327,	519,	615,	711,	807,	903],
+		"magic_attack": 	[495,	600,	706,	811,	917,	1128],
+		"defense":			[181,	181,	237,	293,	349,	405],
+		"strength": 		[327,	519,	615,	711,	807,	903],
+		"endurance": 		[181,	181,	237,	293,	349,	405],
+		"dexterity": 		[265, 	350, 	436, 	522, 	608, 	694],
+		"agility": 			[178, 	254, 	330, 	405, 	481,	481],
+		"magic": 			[495,	600,	706,	811,	917,	1128]
+	},
+	"skills": {
+		"special": {
+			"name": "Luminous Vortex",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "wind_magic_attack"
+				}, {
+					"target": "foes",
+					"attribute": "stun",
+					"modifier": "30%"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Stormbolt",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "wind_magic_attack"
+					}, {
+						"target": "skill",
+						"attribute": "magic",
+						"modifier": "boost"
+					}
+				]
+			}, {
+				"name": "Stellaris",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "low",
+						"type": "wind_magic_attack",
+						"speed": "fast"
+					}, {
+						"target": "foes",
+						"attribute": "strength",
+						"modifier": "-30%",
+						"duration": 4
+					}, {
+						"target": "foes",
+						"attribute": "magic",
+						"modifier": "-30%",
+						"duration": 4
+					}
+				]
+			}, {
+				"name": "Downburst",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "wind_magic_attack"
+					}, {
+						"target": "foes",
+						"attribute": "poison",
+						"modifier": "10%"
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Mind's Eye: I",
+				"effects": [
+					{
+						"attribute": "magic",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Unbreakable: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Concentrate: I",
+				"effects": [
+					{
+						"attribute": "agility",
+						"modifier": "+10%"
+					}, {
+						"attribute": "dexteriry",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Protection: I",
+				"effects": [
+					{
+						"attribute": "physical_resist",
+						"modifier": "+10%"
+					}, {
+						"attribute": "magic_resist",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Status Resist: I",
+				"effects": [
+					{
+						"attribute": "ailment_resist",
+						"modifier": "+15%"
+					}
+				]
+			}
+		]
+	}
+}
