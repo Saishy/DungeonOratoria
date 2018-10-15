@@ -6,16 +6,16 @@
 	"stars": 4,
 	"limited": true,
 	"stats": {
-		"hp": [1560, 1744, 1940, 2148, 2370, 2610],
-		"mp": [118, 130, 142, 154, 166, 178],
-		"physical_attack": [473, 565, 657, 842, 1027, 1212],
-		"magic_attack": [109, 179, 249, 249, 249, 319],
-		"defense": [155, 216, 278, 339, 401, 401],
-		"strength": [473, 565, 657, 842, 1027, 1212],
-		"endurance": [155, 216, 278, 339, 401, 401],
-		"dexterity": [190, 265, 340, 415, 490, 490],
-		"agility": [287, 370, 454, 537, 621, 788],
-		"magic": [109, 179, 249, 249, 249, 319]
+		"hp":				[1560, 1744, 1940, 2148, 2370, 2610],
+		"mp":				[118, 130, 142, 154, 166, 178],
+		"physical_attack":	[537, 642, 747, 957, 1167, 1377],
+		"magic_attack":		[109, 179, 249, 249, 249, 319],
+		"defense":			[155, 216, 278, 339, 401, 401],
+		"strength":			[537, 642, 747, 957, 1167, 1377],
+		"endurance":		[155, 216, 278, 339, 401, 401],
+		"dexterity":		[190, 265, 340, 415, 490, 490],
+		"agility":			[287, 370, 454, 537, 621, 788],
+		"magic":			[109, 179, 249, 249, 249, 319]
 	},
 	"skills": {
 		"special": {
@@ -27,34 +27,52 @@
 					"attribute": "damage",
 					"modifier": "ultra",
 					"type": "physical_attack"
+				}, {
+					"target": "skill",
+					"attribute": "strength",
+					"modifier": "boost"
 				}
 			]
 		},
 		"combat": [
 			{
-				"id": "furious_espada",
-				"name": "Furious Espada",
+				"id": "gritar_amor",
+				"name": "Gritar Amor",
 				"effects": [
 					{
 						"target": "foe",
 						"attribute": "damage",
 						"modifier": "high",
 						"type": "physical_attack"
+					}, {
+						"target": "foe",
+						"attribute": "seal",
+						"modifier": "30%"
 					}
 				]
 			}, {
-				"id": "list_iorum",
-				"name": "List Iorum",
+				"id": "amor_rampage",
+				"name": "Amor Rampage",
 				"effects": [
 					{
 						"target": "foes",
-						"attribute": "seal",
-						"modifier": "15%"
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "physical_attack"
+					}, {
+						"target": "skill",
+						"attribute": "strength",
+						"modifier": "boost"
+					}, {
+						"target": "foes",
+						"attribute": "ailment_resist",
+						"modifier": "-40%",
+						"duration": 2
 					}
 				]
 			}, {
-				"id": "rampage_grans",
-				"name": "Rampage Grans",
+				"id": "lindo_pastel",
+				"name": "Lindo Pastel",
 				"effects": [
 					{
 						"target": "foes",
@@ -65,17 +83,22 @@
 						"target": "foes",
 						"attribute": "taunt",
 						"modifier": "50%"
+					}, {
+						"target": "self",
+						"attribute": "endurance",
+						"modifier": "40%",
+						"duration": 4
 					}
 				]
 			}
 		],
 		"development": [
 			{
-				"name": "First Strike: G",
+				"name": "First Strike: I",
 				"effects": [
 					{
 						"attribute": "strength",
-						"modifier": "+10%"
+						"modifier": "+25%"
 					}
 				]
 			}, {
@@ -87,18 +110,24 @@
 					}
 				]
 			}, {
-				"name": "Insane Speed: I",
+				"name": "Climb: I",
 				"effects": [
 					{
+						"attribute": "endurance",
+						"modifier": "+10%"
+					}, {
 						"attribute": "agility",
 						"modifier": "+10%"
 					}
 				]
 			}, {
-				"name": "Tough: I",
+				"name": "Protection: I",
 				"effects": [
 					{
-						"attribute": "endurance",
+						"attribute": "physical_resist",
+						"modifier": "+10%"
+					}, {
+						"attribute": "magical_resist",
 						"modifier": "+10%"
 					}
 				]

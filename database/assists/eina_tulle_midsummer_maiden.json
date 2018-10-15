@@ -1,0 +1,40 @@
+{
+	"id": "eina_tulle_midsummer_maiden",
+	"title": "Midsummer Maiden",
+	"name": "Eina Tulle",
+	"stars": 4,
+	"limited": true,
+	"stats": {
+		"hp":				[660, 740, 820, 912, 1016, 1120],
+		"mp":				[ 94, 102, 110, 118, 126, 134],
+		"physical_attack":	[156, 192, 228, 264, 300, 300],
+		"magic_attack":		[156, 192, 228, 264, 264, 300],
+		"defense":			[239, 256, 273, 290, 324, 358],
+		"strength":			[156, 192, 228, 264, 300, 300],
+		"endurance":		[239, 256, 273, 290, 324, 358],
+		"dexterity":		[177, 200, 223, 246, 269, 292],
+		"agility":			[146, 164, 182, 200, 218, 218],
+		"magic": 			[156, 192, 228, 264, 300, 300]
+	},
+	"skills": [
+		{
+			"name": "Summer Fling+",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "water_resist",
+					"modifier": "-10%"
+				}
+			]
+		}, {
+			"name": "Summer Fling++",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "water_resist",
+					"modifier": "-15%"
+				}
+			]
+		}
+	]
+}

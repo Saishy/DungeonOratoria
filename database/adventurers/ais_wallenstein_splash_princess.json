@@ -1,3 +1,125 @@
-{"id":"ais_wallenstein_splash_princess","title":"Splash Princess","name":"Ais Wallenstein","type":"balance_type","stars":4,"limited":false,"stats":{"hp":[1426,0,0,0,0,2486],"mp":[138,0,0,0,0,198],"physical_attack":[277,0,0,0,0,695],"magic_attack":[191,0,0,0,0,571],"defense":[182,0,0,0,0,463],"strength":[277,0,0,0,0,695],"endurance":[182,0,0,0,0,463],"dexterity":[254,0,0,0,0,644],"agility":[226,0,0,0,0,606],"magic":[191,0,0,0,0,571]},"skills":{"special":{"name":"Special Placeholder","effects":[{"target":"self","attribute":"strength","modifier":"+0%"}]},
-	"combat":[{"name":"Skill 1 Placeholder","effects":[{"target":"self","attribute":"strength","modifier":"+0%"}]},{"name":"Skill 2 Placeholder","effects":[{"target":"self","attribute":"strength","modifier":"+0%"}]},{"name":"Skill 3 Placeholder","effects":[{"target":"self","attribute":"strength","modifier":"+0%"}]}],
-	"development":[{"name":"Placeholder: I","effects":[{"attribute":"dexterity","modifier":"+10%"}]},{"name":"PlaceholderTwo: I","effects":[{"attribute":"agility","modifier":"+10%"}]}]}}
+{
+	"id": "ais_wallenstein_splash_princess",
+	"title": "Splash Princess",
+	"name": "Ais Wallenstein",
+	"type": "balance_type",
+	"stars": 4,
+	"limited": true,
+	"stats": {
+		"hp":				[1426,	1602,	1796,	2008,	2238,	2486],
+		"mp":				[138,	150,	162,	174,	186,	198],
+		"physical_attack":	[277,	360,	444,	528,	611,	695],
+		"magic_attack":		[372,	520,	668,	817,	965,	1113],
+		"defense":			[182,	238,	294,	350,	407,	463],
+		"strength":			[277,	360,	444,	528,	611,	695],
+		"endurance":		[182,	238,	294,	350,	407,	463],
+		"dexterity":		[279, 	365,	451,	536,	622,	708],
+		"agility":			[226, 	302,	378,	454,	530,	606],
+		"magic":			[372,	520,	668,	817,	965,	1113]
+	},
+	"skills": {
+		"special": {
+			"name": "Illumines Lil Rafaga",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "light_magic_attack",
+					"modifier": "ultra"
+				}, {
+					"target": "foes",
+					"attribute": "seal",
+					"modifier": "20%"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Échthra Piercer",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "light_magic_attack",
+						"modifier": "medium",
+						"speed": "fast"
+					}
+				]
+			},
+			{
+				"name": "Contempt Mech",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "light_magic_attack",
+						"modifier": "high"
+					}, {
+						"target": "skill",
+						"attribute": "magic",
+						"modifier": "boost"
+					}
+				]
+			},
+			{
+				"name": "Prevent Wind",
+				"effects": [
+					{
+						"target": "allies",
+						"attribute": "guard_rate",
+						"modifier": "+30%",
+						"duration": 4
+					}, {
+						"target": "allies",
+						"attribute": "endurance",
+						"modifier": "+30%",
+						"duration": 4
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Wisdom: I",
+				"effects": [
+					{
+						"attribute": "all_status",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Protection: I",
+				"effects": [
+					{
+						"attribute": "physical_resist",
+						"modifier": "+10%"
+					}, {
+						"attribute": "magic_resist",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Enlightenment: I",
+				"effects": [
+					{
+						"attribute": "magic",
+						"modifier": "+85%"
+					}
+				]
+			}, {
+				"name": "Status Resist: G",
+				"effects": [
+					{
+						"attribute": "ailment_resist",
+						"modifier": "+15%"
+					}
+				]
+			}, {
+				"name": "Spirit Healing: I",
+				"effects": [
+					{
+						"attribute": "mp_regen",
+						"modifier": "+1%"
+					}
+				]
+			}
+		]
+	}
+}

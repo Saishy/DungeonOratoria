@@ -1,0 +1,136 @@
+{
+	"id": "amid_teasanare_beach_saint",
+	"title": "Beach Saint",
+	"name": "Amid Teasanare",
+	"type": "balance_type",
+	"stars": 4,
+	"limited": true,
+	"stats": {
+		"hp":				[1412, 1588, 1782, 1994, 2224, 2472],
+		"mp":				[160, 172, 184, 196, 208, 220],
+		"physical_attack":	[327, 519, 615, 711, 807, 903],
+		"magic_attack":		[510, 621, 731, 841, 952, 1173],
+		"defense":			[185, 185, 242, 298, 354, 410],
+		"strength":			[327, 519, 615, 711, 807, 903],
+		"endurance":		[185, 185, 242, 298, 354, 410],
+		"dexterity":		[251, 337, 423, 509, 595, 680],
+		"agility":			[193, 269, 345, 421, 497, 497],
+		"magic":			[510, 621, 731, 841, 952, 1173]
+	},
+	"skills": {
+		"special": {
+			"name": "Shining Halation",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "heal",
+					"modifier": "high"
+				}, {
+					"target": "allies",
+					"attribute": "ailment_cure",
+					"modifier": ""
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Flooding Water",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "water_magic_attack"
+					}, {
+						"target": "foes",
+						"attribute": "water_resist",
+						"modifier": "-30%",
+						"duration": 3
+					}, {
+						"target": "foes",
+						"attribute": "agility",
+						"modifier": "-30%",
+						"duration": 3
+					}
+				]
+			}, {
+				"name": "Clear Water Potion",
+				"effects": [
+					{
+						"target": "allies",
+						"attribute": "hp_regen",
+						"modifier": "+15%",
+						"duration": 3
+					}, {
+						"target": "allies",
+						"attribute": "water_attack",
+						"modifier": "+35%",
+						"duration": 3
+					}
+				]
+			}, {
+				"name": "Cure Stream Potion",
+				"effects": [
+					{
+						"target": "allies",
+						"attribute": "heal",
+						"modifier": "medium"
+					}, {
+						"target": "allies",
+						"attribute": "curse_cure",
+						"modifier": ""
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Mind's Eye: I",
+				"effects": [
+					{
+						"attribute": "magic",
+						"modifier": "+15%"
+					}
+				]
+			}, {
+				"name": "Strike: I",
+				"effects": [
+					{
+						"attribute": "critical_damage",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Fire Resistance: I",
+				"effects": [
+					{
+						"attribute": "fire_resist",
+						"modifier": "+35%"
+					}
+				]
+			}, {
+				"name": "Rigid: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+10%"
+					}, {
+						"attribute": "agility",
+						"modifier": "+10%"
+					}, {
+						"attribute": "dexterity",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Status Resist: I",
+				"effects": [
+					{
+						"attribute": "ailment_resist",
+						"modifier": "+15%"
+					}
+				]
+			}
+		]
+	}
+}

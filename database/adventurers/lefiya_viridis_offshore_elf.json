@@ -1,0 +1,132 @@
+{
+	"id": "lefiya_viridis_offshore_elf",
+	"title": "Offshore Elf",
+	"name": "Lefiya Viridis",
+	"type": "magic_type",
+	"stars": 4,
+	"limited": true,
+	"stats": {
+		"hp":				[1594, 1778, 1974, 2182, 2404, 2644],
+		"mp":				[178, 194, 210, 228, 248, 268],
+		"physical_attack":	[114, 188, 262, 336, 336, 336],
+		"magic_attack":		[550, 642, 826, 1010, 1194, 1378],
+		"defense":			[144, 225, 225, 225, 306, 388],
+		"strength":			[114, 188, 262, 336, 336, 336],
+		"endurance":		[144, 225, 225, 225, 306, 388],
+		"dexterity":		[222, 310, 398, 486, 574, 574],
+		"agility":			[284, 364, 443, 522, 601, 760],
+		"magic":			[550, 642, 826, 1010, 1194, 1378]
+	},
+	"skills": {
+		"special": {
+			"name": "Aquatic Tornado",
+			"effects": [
+				{
+					"target": "foe",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "water_magic_attack"
+				}, {
+					"target": "skill",
+					"attribute": "magic",
+					"modifier": "boost"
+				}, {
+					"target": "skill",
+					"attribute": "penetration_rate",
+					"modifier": "ultra"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Aquatic Nova",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "water_magic_attack"
+					}, {
+						"target": "skill",
+						"attribute": "magic",
+						"modifier": "boost"
+					}
+				]
+			}, {
+				"name": "Aquatic Lure",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "water_magic_attack"
+					}
+				]
+			}, {
+				"name": "Aquatic Ray",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "low",
+						"type": "water_magic_attack"
+					}, {
+						"target": "self",
+						"attribute": "magic",
+						"modifier": "+75%",
+						"duration": 4
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Mage: H",
+				"effects": [
+					{
+						"attribute": "magic",
+						"modifier": "+15%"
+					}
+				]
+			}, {
+				"name": "Strike: I",
+				"effects": [
+					{
+						"attribute": "critical_damage",
+						"modifier": "+20%"
+					}
+				]
+			}, {
+				"name": "Fire Resistance: I",
+				"effects": [
+					{
+						"attribute": "fire_resist",
+						"modifier": "+35%"
+					}
+				]
+			}, {
+				"name": "Rigid: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+10%"
+					}, {
+						"attribute": "agility",
+						"modifier": "+10%"
+					}, {
+						"attribute": "dexterity",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Status Resist: I",
+				"effects": [
+					{
+						"attribute": "ailment_resist",
+						"modifier": "+15%"
+					}
+				]
+			}
+		]
+	}
+}
