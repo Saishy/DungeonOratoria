@@ -6,16 +6,16 @@
 	"stars": 4,
 	"limited": false,
 	"stats": {
-		"hp": [1530, 1714, 1910, 2118, 2340, 2580],
-		"mp": [126, 138, 150, 162, 174, 186],
-		"physical_attack": [602, 701, 800, 899, 1097, 1394],
-		"magic_attack": [113, 183, 253, 323, 323, 323],
-		"defense": [168, 232, 295, 359, 423, 423],
-		"strength": [602, 701, 800, 899, 1097, 1394],
-		"endurance": [168, 232, 295, 359, 423, 423],
-		"dexterity": [181, 256, 331, 406, 481, 481],
-		"agility": [287, 370, 454, 537, 621, 788],
-		"magic": [113, 183, 253, 323, 323, 323]
+		"hp":				[1530, 1714, 1910, 2118, 2340, 2580],
+		"mp":				[126, 138, 150, 162, 174, 186],
+		"physical_attack":	[602, 701, 800, 899, 1097, 1394],
+		"magic_attack":		[113, 183, 253, 323, 323, 323],
+		"defense":			[168, 232, 295, 359, 423, 423],
+		"strength":			[602, 701, 800, 899, 1097, 1394],
+		"endurance":		[168, 232, 295, 359, 423, 423],
+		"dexterity":		[181, 256, 331, 406, 481, 481],
+		"agility":			[287, 370, 454, 537, 621, 788],
+		"magic":			[113, 183, 253, 323, 323, 323]
 	},
 	"skills": {
 		"special": {
@@ -29,12 +29,12 @@
 					"type": "physical_attack"
 				}, {
 					"target": "skill",
-					"attribute": "indexed_to",
-					"modifier": "strength"
-				}, {
-					"target": "skill",
 					"attribute": "penetration_rate",
 					"modifier": "ultra"
+				}, {
+					"target": "skill",
+					"attribute": "boost",
+					"modifier": "strength"
 				}
 			]
 		},
@@ -46,8 +46,13 @@
 					{
 						"target": "foes",
 						"attribute": "damage",
-						"modifier": "low",
+						"modifier": "medium",
 						"type": "physical_attack"
+					}, {
+						"target": "foes",
+						"attribute": "physical_resist",
+						"modifier": "-10%",
+						"duration": 2
 					}
 				]
 			}, {
@@ -61,7 +66,7 @@
 						"duration": "only when hp >= 20%"
 					}, {
 						"target": "skill",
-						"attribute": "speed",
+						"attribute": "",
 						"modifier": "fast"
 					}
 				]
@@ -77,7 +82,8 @@
 					}, {
 						"target": "foe",
 						"attribute": "physical_resist",
-						"modifier": "-20%"
+						"modifier": "-20%",
+						"duration": 2
 					}, {
 						"target": "skill",
 						"attribute": "strength",
@@ -88,27 +94,30 @@
 		],
 		"development": [
 			{
-				"name": "Crush: I",
+				"name": "Nimble: I",
 				"effects": [
 					{
 						"attribute": "strength",
-						"modifier": "+5%"
-					}
-				]
-			}, {
-				"name": "Acceleration: I",
-				"effects": [
-					{
+						"modifier": "+10%"
+					}, {
 						"attribute": "agility",
 						"modifier": "+10%"
 					}
 				]
 			}, {
-				"name": "Swordsman: I",
+				"name": "Magic Resistance: I",
 				"effects": [
 					{
-						"attribute": "strength",
-						"modifier": "+5%"
+						"attribute": "magic_resist",
+						"modifier": "+8%"
+					}
+				]
+			}, {
+				"name": "Status Resist: I",
+				"effects": [
+					{
+						"attribute": "ailment_resist",
+						"modifier": "+15%"
 					}
 				]
 			}, {
