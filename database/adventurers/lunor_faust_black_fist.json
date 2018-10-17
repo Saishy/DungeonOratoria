@@ -1,0 +1,147 @@
+{
+	"id": "lunor_faust_black_fist",
+	"title": "Black Fist",
+	"name": "Lunor Faust",
+	"type": "physical_type",
+	"stars": 4,
+	"limited": false,
+	"stats": {
+		"hp":				[1590, 1774, 1970, 2178, 2400, 2640],
+		"mp":				[129, 141, 153, 165, 177, 189],
+		"physical_attack":	[646, 749, 853, 956, 1163, 1474],
+		"magic_attack":		[118, 188, 258, 328, 328, 328],
+		"defense":			[172, 236, 300, 364, 427, 427],
+		"strength":			[646, 749, 853, 956, 1163, 1474],
+		"endurance":		[172, 236, 300, 364, 427, 427],
+		"dexterity":		[204, 287, 369, 452, 534, 534],
+		"agility":			[315, 399, 482, 566, 650, 817],
+		"magic":			[118, 188, 258, 328, 328, 328]
+	},
+	"skills": {
+		"special": {
+			"name": "Assault Strike",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "dark_physical_attack"
+				}, {
+					"target": "skill",
+					"attribute": "strength",
+					"modifier": "boost"
+				}, {
+					"target": "skill",
+					"attribute": "unguard_rate",
+					"modifier": "ultra"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Danger Detection",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "low",
+						"type": "dark_physical_attack"
+					}, {
+						"target": "foes",
+						"attribute": "str_buff_removal_no_assist",
+						"modifier": ""
+					}
+				]
+			},
+			{
+				"name": "Thorough Destruction",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "dark_physical_attack"
+					}, {
+						"target": "skill",
+						"attribute": "strength",
+						"modifier": "boost"
+					}, {
+						"target": "foes",
+						"attribute": "agility",
+						"modifier": "-20%",
+						"duration": 4
+					}
+				]
+			},
+			{
+				"name": "Black Fist Crush",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "dark_physical_attack"
+					}, {
+						"target": "skill",
+						"attribute": "strength",
+						"modifier": "boost"
+					}, {
+						"target": "foes",
+						"attribute": "physical_resist",
+						"modifier": "-15%",
+						"duration": 3
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Crush: I",
+				"effects": [
+					{
+						"attribute": "strength",
+						"modifier": "+15%"
+					}
+				]
+			}, {
+				"name": "Strike: I",
+				"effects": [
+					{
+						"attribute": "critical_damage",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Light Resistance: I",
+				"effects": [
+					{
+						"attribute": "light_resist",
+						"modifier": "+35%"
+					}
+				]
+			}, {
+				"name": "Rigid: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+10"
+					}, {
+						"attribute": "agility",
+						"modifier": "+10%"
+					}, {
+						"attribute": "dexteriry",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Status Resist: I",
+				"effects": [
+					{
+						"attribute": "ailment_resist",
+						"modifier": "+15%"
+					}
+				]
+			}
+		]
+	}
+}
