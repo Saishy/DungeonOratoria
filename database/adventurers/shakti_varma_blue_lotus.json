@@ -1,0 +1,132 @@
+{
+	"id": "shakti_varma_blue_lotus",
+	"title": "Blue Lotus",
+	"name": "Shakti Varma",
+	"type": "physical_type",
+	"stars": 4,
+	"limited": true,
+	"stats": {
+		"hp":				[1606, 1709, 1986, 2194, 2416, 2656],
+		"mp":				[125, 137, 149, 161, 173, 184],
+		"physical_attack":	[528, 592, 656, 730, 848, 1040],
+		"magic_attack":		[118, 174, 230, 286, 286, 286],
+		"defense":			[188, 247, 306, 364, 423, 423],
+		"strength":			[528, 592, 656, 730, 848, 1040],
+		"endurance":		[188, 247, 306, 364, 423, 423],
+		"dexterity":		[213, 279, 345, 411, 477, 477],
+		"agility":			[271, 339, 403, 469, 535, 667],
+		"magic":			[118, 174, 230, 286, 286, 286]
+	},
+	"skills": {
+		"special": {
+			"name": "Ambra Ugrata",
+			"effects": [
+				{
+					"target": "foe",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "thunder_physical_attack"
+				}, {
+					"target": "skill",
+					"attribute": "strength",
+					"modifier": "boost"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Vidyut",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "thunder_physical_attack"
+					}, {
+						"target": "foe",
+						"attribute": "magic",
+						"modifier": "-25%"
+					}
+				]
+			}, {
+				"name": "Ek Garjana",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "thunder_physical_attack"
+					}, {
+						"target": "foe",
+						"attribute": "magic_buff_removal_no_assist",
+						"modifier": ""
+					}
+				]
+			}, {
+				"name": "Vajrapaat",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "low",
+						"type": "thunder_physical_attack"
+					}, {
+						"target": "self",
+						"attribute": "strength",
+						"modifier": "+65%",
+						"duration": 4
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Train: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+10%"
+					}, {
+						"attribute": "dexterity",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Solid: I",
+				"effects": [
+					{
+						"attribute": "guard_rate",
+						"modifier": "+30%"
+					}
+				]
+			}, {
+				"name": "Water Resistance: I",
+				"effects": [
+					{
+						"attribute": "water_resist",
+						"modifier": "+35%"
+					}
+				]
+			}, {
+				"name": "Climb: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+10%"
+					}, {
+						"attribute": "agility",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Status Resist: I",
+				"effects": [
+					{
+						"attribute": "ailment_resist",
+						"modifier": "+15%"
+					}
+				]
+			}
+		]
+	}
+}

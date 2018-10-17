@@ -1,0 +1,48 @@
+{
+	"id": "hephaistios_black_rose",
+	"title": "Black Rose",
+	"name": "Hephaistios",
+	"stars": 4,
+	"limited": false,
+	"stats": {
+		"hp":				[630, 686, 742, 802, 866, 930],
+		"mp":				[96, 104, 112, 122, 134, 146],
+		"physical_attack":	[294, 332, 370, 408, 484, 560],
+		"magic_attack":		[113, 146, 379, 212, 212, 212],
+		"defense":			[166, 192, 218, 244, 270, 296],
+		"strength":			[294, 332, 370, 408, 484, 560],
+		"endurance":		[166, 192, 218, 244, 270, 296],
+		"dexterity":		[181, 217, 253, 289, 325, 325],
+		"agility":			[210, 244, 278, 312, 346, 380],
+		"magic":			[113, 146, 379, 212, 212, 212]
+	},
+	"skills": [
+		{
+			"name": "Thunder Steel+",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "physical_resist",
+					"modifier": "-10%"
+				}, {
+					"target": "foes",
+					"attribute": "guard_rate",
+					"modifier": "-8%"
+				}
+			]
+		}, {
+			"name": "Thunder Steel++",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "physical_resist",
+					"modifier": "-15%"
+				}, {
+					"target": "foes",
+					"attribute": "guard_rate",
+					"modifier": "-10%"
+				}
+			]
+		}
+	]
+}
