@@ -1,3 +1,139 @@
-{"id":"chloe_lolo_black_cat","title":"Black Cat","name":"Chloe Lolo","type":"balance_type","stars":4,"limited":false,"stats":{"hp":[1366,0,0,0,0,2426],"mp":[149,0,0,0,0,209],"physical_attack":[222,0,0,0,0,602],"magic_attack":[196,0,0,0,0,576],"defense":[168,0,0,0,0,448],"strength":[222,0,0,0,0,602],"endurance":[168,0,0,0,0,448],"dexterity":[244,0,0,0,0,634],"agility":[220,0,0,0,0,599],"magic":[196,0,0,0,0,576]},"skills":{"special":{"name":"Special Placeholder","effects":[{"target":"self","attribute":"strength","modifier":"+0%"}]},
-	"combat":[{"name":"Skill 1 Placeholder","effects":[{"target":"self","attribute":"strength","modifier":"+0%"}]},{"name":"Skill 2 Placeholder","effects":[{"target":"self","attribute":"strength","modifier":"+0%"}]},{"name":"Skill 3 Placeholder","effects":[{"target":"self","attribute":"strength","modifier":"+0%"}]}],
-	"development":[{"name":"Placeholder: I","effects":[{"attribute":"dexterity","modifier":"+10%"}]},{"name":"PlaceholderTwo: I","effects":[{"attribute":"agility","modifier":"+10%"}]}]}}
+{
+	"id": "chloe_lolo_black_cat",
+	"title": "Black Cat",
+	"name": "Chloe Lolo",
+	"type": "balance_type",
+	"stars": 4,
+	"limited": false,
+	"stats": {
+		"hp":				[1366, 1542, 1736, 1948, 2178, 2426],
+		"mp":				[149, 161, 173, 185, 197, 209],
+		"physical_attack":	[410, 551, 691, 832, 973, 1113],
+		"magic_attack":		[196, 272, 348, 424, 500, 576],
+		"defense":			[168, 224, 280, 336, 392, 448],
+		"strength":			[410, 551, 691, 832, 973, 1113],
+		"endurance":		[168, 224, 280, 336, 392, 448],
+		"dexterity":		[244, 322, 400, 478, 556, 634],
+		"agility":			[220, 295, 371, 447, 523, 599],
+		"magic":			[196, 272, 348, 424, 500, 576]
+	},
+	"skills": {
+		"special": {
+			"name": "Felesculus",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "null_physical_attack_no_special",
+					"modifier": "x2"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Fierce Dagger",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "dark_physical_attack"
+					}, {
+						"target": "foes",
+						"attribute": "poison",
+						"modifier": "10%"
+					}
+				]
+			},
+			{
+				"name": "Siecle Thief",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "dark_physical_attack"
+					}, {
+						"target": "foes",
+						"attribute": "agility",
+						"modifier": "-35%",
+						"duration": 2
+					}, {
+						"target": "foes",
+						"attribute": "dark_resist",
+						"modifier": "-35%",
+						"duration": 2
+					}
+				]
+			},
+			{
+				"name": "Nox Haze",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "dark_physical_attack"
+					}, {
+						"target": "skill",
+						"attribute": "uncounter_rate",
+						"modifier": "ultra"
+					}, {
+						"target": "foes",
+						"attribute": "dexterity",
+						"modifier": "-35%",
+						"duration": 3
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Climb: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+10%"
+					}, {
+						"attribute": "agility",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Protection: I",
+				"effects": [
+					{
+						"attribute": "physical_resist",
+						"modifier": "+8%"
+					}, {
+						"attribute": "magic_resist",
+						"modifier": "+8%"
+					}
+				]
+			}, {
+				"name": "Status Resist: I",
+				"effects": [
+					{
+						"attribute": "ailment_resist",
+						"modifier": "+15%"
+					}
+				]
+			}, {
+				"name": "Light Resistance: I",
+				"effects": [
+					{
+						"attribute": "light_resist",
+						"modifier": "+20%"
+					}
+				]
+			}, {
+				"name": "Sword Fighter: I",
+				"effects": [
+					{
+						"attribute": "strength",
+						"modifier": "+85%"
+					}
+				]
+			}
+		]
+	}
+}

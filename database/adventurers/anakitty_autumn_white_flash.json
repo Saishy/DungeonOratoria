@@ -1,0 +1,139 @@
+{
+	"id": "anakitty_autumn_white_flash",
+	"title": "White Flash",
+	"name": "Anakitty Autumn",
+	"type": "balance_type",
+	"stars": 4,
+	"limited": false,
+	"stats": {
+		"hp":				[1412, 1588, 1782, 1994, 2224, 2472],
+		"mp":				[160, 172, 184, 196, 208, 220],
+		"physical_attack":	[426, 647, 757, 868, 978, 1089],
+		"magic_attack":		[405, 501, 597, 693, 789, 981],
+		"defense":			[184, 184, 240, 297, 353, 409],
+		"strength":			[426, 647, 757, 868, 978, 1089],
+		"endurance":		[184, 184, 240, 297, 353, 409],
+		"dexterity":		[258, 344, 430, 515, 601, 687],
+		"agility":			[182, 258, 334, 410, 486, 486],
+		"magic":			[405, 501, 597, 693, 789, 981]
+	},
+	"skills": {
+		"special": {
+			"name": "Splashing Barrage",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "water_physical_attack"
+				}, {
+					"target": "foes",
+					"attribute": "seal",
+					"modifier": "30%"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Breezy Blade",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "water_physical_attack"
+					}, {
+						"target": "foes",
+						"attribute": "strength",
+						"modifier": "-35%",
+						"duration": 3
+					}, {
+						"target": "foes",
+						"attribute": "magic",
+						"modifier": "-35%",
+						"duration": 3
+					}
+				]
+			},
+			{
+				"name": "Sword Stream",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "water_physical_attack"
+					}, {
+						"target": "skill",
+						"attribute": "strength",
+						"modifier": "boost"
+					}
+				]
+			},
+			{
+				"name": "Water Spike",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "water_physical_attack"
+					}, {
+						"target": "skill",
+						"attribute": "strength",
+						"modifier": "boost"
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Crush: I",
+				"effects": [
+					{
+						"attribute": "strength",
+						"modifier": "+15%"
+					}
+				]
+			}, {
+				"name": "Strike: I",
+				"effects": [
+					{
+						"attribute": "critical_damage",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Fire Resistance: I",
+				"effects": [
+					{
+						"attribute": "fire_resist",
+						"modifier": "+35%"
+					}
+				]
+			}, {
+				"name": "Light Resistance: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+10%"
+					}, {
+						"attribute": "agility",
+						"modifier": "+10%"
+					}, {
+						"attribute": "dexterity",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Status Resist: I",
+				"effects": [
+					{
+						"attribute": "ailment_resist",
+						"modifier": "+15%"
+					}
+				]
+			}
+		]
+	}
+}
