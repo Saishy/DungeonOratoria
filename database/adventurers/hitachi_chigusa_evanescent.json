@@ -1,3 +1,106 @@
-{"id":"hitachi_chigusa_evanescent","title":"Evanescent","name":"Hitachi Chigusa","type":"healer_type","stars":3,"limited":false,"stats":{"hp":[1186,0,0,0,0,2171],"mp":[155,0,0,0,0,235],"physical_attack":[113,0,0,0,0,257],"magic_attack":[262,0,0,0,0,608],"defense":[88,0,0,0,0,205],"strength":[113,0,0,0,0,257],"endurance":[88,0,0,0,0,205],"dexterity":[204,0,0,0,0,468],"agility":[151,0,0,0,0,331],"magic":[262,0,0,0,0,608]},"skills":{"special":{"name":"Special Placeholder","effects":[{"target":"self","attribute":"strength","modifier":"+0%"}]},
-	"combat":[{"name":"Skill 1 Placeholder","effects":[{"target":"self","attribute":"strength","modifier":"+0%"}]},{"name":"Skill 2 Placeholder","effects":[{"target":"self","attribute":"strength","modifier":"+0%"}]},{"name":"Skill 3 Placeholder","effects":[{"target":"self","attribute":"strength","modifier":"+0%"}]}],
-	"development":[{"name":"Placeholder: I","effects":[{"attribute":"dexterity","modifier":"+10%"}]},{"name":"PlaceholderTwo: I","effects":[{"attribute":"agility","modifier":"+10%"}]}]}}
+{
+	"id": "hitachi_chigusa_evanescent",
+	"title": "Evanescent",
+	"name": "Hitachi Chigusa",
+	"type": "healer_type",
+	"stars": 3,
+	"limited": true,
+	"stats": {
+		"hp":				[1186, 1350, 1529, 1725, 1939, 2171],
+		"mp":				[155, 171, 187, 203, 219, 235],
+		"physical_attack":	[113, 149, 185, 221, 257, 257],
+		"magic_attack":		[262, 311, 361, 410, 509, 608],
+		"defense":			[ 88, 127, 166, 205, 205, 205],
+		"strength":			[113, 149, 185, 221, 257, 257],
+		"endurance":		[ 88, 127, 166, 205, 205, 205],
+		"dexterity":		[204, 292, 336, 380, 424, 468],
+		"agility":			[151, 151, 187, 223, 259, 331],
+		"magic":			[262, 311, 361, 410, 509, 608]
+	},
+	"skills": {
+		"special": {
+			"name": "Chigusa Senbu",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "high",
+					"type": "physical_attack"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Breath of Spring",
+				"effects": [
+					{
+						"target": "allies",
+						"attribute": "heal",
+						"modifier": "low"
+					}
+				]
+			}, {
+				"name": "Purifying Water",
+				"effects": [
+					{
+						"target": "allies",
+						"attribute": "ailment_cure",
+						"modifier": ""
+					}
+				]
+			}, {
+				"name": "Anti-Spell Circle",
+				"effects": [
+					{
+						"target": "allies",
+						"attribute": "magic_resist",
+						"modifier": "+10%"
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Abnomal Resistance: ?",
+				"effects": [
+					{
+						"attribute": "ailment_resist",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Tough: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+4%"
+					}
+				]
+			}, {
+				"name": "Mind's Eye: I",
+				"effects": [
+					{
+						"attribute": "magic",
+						"modifier": "+7.5%"
+					}
+				]
+			}, {
+				"name": "Saboteur: I",
+				"effects": [
+					{
+						"attribute": "dexterity",
+						"modifier": "+7.5%"
+					}
+				]
+			}, {
+				"name": "Unbreakable: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+4%"
+					}
+				]
+			}
+		]
+	}
+}
