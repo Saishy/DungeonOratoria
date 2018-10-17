@@ -4,75 +4,127 @@
 	"name": "Bell Cranel",
 	"type": "magic_type",
 	"stars": 4,
-	"limited": false,
+	"limited": true,
 	"stats": {
-		"hp": [1390, 0, 0, 0, 0, 2450],
-		"mp": [140, 0, 0, 0, 0, 200],
-		"physical_attack": [321, 0, 0, 0, 0, 848],
-		"magic_attack": [338, 0, 0, 0, 0, 829],
-		"defense": [142, 0, 0, 0, 0, 390],
-		"strength": [321, 0, 0, 0, 0, 848],
-		"endurance": [142, 0, 0, 0, 0, 390],
-		"dexterity": [115, 0, 0, 0, 0, 354],
-		"agility": [358, 0, 0, 0, 0, 878],
-		"magic": [338, 0, 0, 0, 0, 829]
+		"hp":				[1390, 1566, 1760, 1972, 2202, 2450],
+		"mp":				[140, 152, 164, 176, 188, 200],
+		"physical_attack":	[321, 409, 497, 584, 672, 848],
+		"magic_attack":		[518, 644, 769, 895, 1020, 1271],
+		"defense":			[142, 204, 266, 328, 390, 390],
+		"strength":			[321, 409, 497, 584, 672, 848],
+		"endurance":		[142, 204, 266, 328, 390, 390],
+		"dexterity":		[122, 122, 122, 206, 290, 354],
+		"agility":			[358, 531, 704, 791, 787, 878],
+		"magic":			[518, 644, 769, 895, 1020, 1271]
 	},
 	"skills": {
 		"special": {
-			"name": "Special Placeholder",
+			"name": "Firebolt Fireworks",
 			"effects": [
 				{
-					"target": "self",
-					"attribute": "strength",
-					"modifier": "+0%"
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "fire_magic_attack"
+				}, {
+					"target": "skill",
+					"attribute": "magic",
+					"modifier": "boost"
 				}
 			]
 		},
 		"combat": [
 			{
-				"name": "Skill 1 Placeholder",
+				"name": "Firebolt",
 				"effects": [
 					{
-						"target": "self",
-						"attribute": "strength",
-						"modifier": "+0%"
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "fire_magic_attack"
+					}, {
+						"target": "skill",
+						"attribute": "magic",
+						"modifier": "boost"
+					}, {
+						"target": "skill",
+						"attribute": "",
+						"modifier": "fast"
 					}
 				]
 			}, {
-				"name": "Skill 2 Placeholder",
+				"name": "Rapid Firebolt",
 				"effects": [
 					{
-						"target": "self",
-						"attribute": "strength",
-						"modifier": "+0%"
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "fire_magic_attack"
+					}, {
+						"target": "skill",
+						"attribute": "",
+						"modifier": "fast"
 					}
 				]
 			}, {
-				"name": "Skill 3 Placeholder",
+				"name": "Preparation",
 				"effects": [
 					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "low",
+						"type": "fire_magic_attack"
+					}, {
 						"target": "self",
-						"attribute": "strength",
-						"modifier": "+0%"
+						"attribute": "magic",
+						"modifier": "+50%",
+						"duration": 4
 					}
 				]
 			}
 		],
 		"development": [
 			{
-				"name": "Placeholder: I",
+				"name": "Liaris Freese",
 				"effects": [
 					{
-						"attribute": "dexterity",
-						"modifier": "+10%"
+						"attribute": "fast_growth",
+						"modifier": ""
+					}, {
+						"attribute": "null_charm",
+						"modifier": ""
 					}
 				]
 			}, {
-				"name": "PlaceholderTwo: I",
+				"name": "Wind Resistance: I",
 				"effects": [
 					{
-						"attribute": "agility",
-						"modifier": "+10%"
+						"attribute": "wind_resist",
+						"modifier": "+20%"
+					}
+				]
+			}, {
+				"name": "Status Resist: I",
+				"effects": [
+					{
+						"attribute": "ailment_resist",
+						"modifier": "+15%"
+					}
+				]
+			}, {
+				"name": "Enlightenment: I",
+				"effects": [
+					{
+						"attribute": "magic",
+						"modifier": "+50%"
+					}
+				]
+			}, {
+				"name": "Luck: I",
+				"effects": [
+					{
+						"attribute": "all_status",
+						"modifier": "+11%"
 					}
 				]
 			}
