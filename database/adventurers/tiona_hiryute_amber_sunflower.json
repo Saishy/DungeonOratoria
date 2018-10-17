@@ -1,0 +1,143 @@
+{
+	"id": "tiona_hiryute_amber_sunflower",
+	"title": "Amber Sunflower",
+	"name": "Tiona Hiryute",
+	"type": "balance_type",
+	"stars": 4,
+	"limited": false,
+	"stats": {
+		"hp":				[1480, 1656, 1850, 2062, 2292, 2540],
+		"mp":				[143, 155, 167, 179, 191, 203],
+		"physical_attack":	[439, 660, 770, 880, 991, 1101],
+		"magic_attack":		[405, 501, 597, 693, 789, 981],
+		"defense":			[178, 178, 234, 290, 346, 402],
+		"strength":			[439, 660, 770, 880, 991, 1101],
+		"endurance":		[178, 178, 234, 290, 346, 402],
+		"dexterity":		[256, 342, 427, 513, 599, 685],
+		"agility":			[179, 255, 331, 407, 482, 482],
+		"magic":			[405, 501, 597, 693, 789, 981]
+	},
+	"skills": {
+		"special": {
+			"name": "Shattering Onslaught",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "thunder_physical_attack"
+				}, {
+					"target": "foes",
+					"attribute": "thunder_resist",
+					"modifier": "-50%",
+					"duration": 1
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Static State",
+				"effects": [
+					{
+						"target": "allies",
+						"attribute": "taunt_resist",
+						"modifier": "+100%",
+						"duration": 4
+					}, {
+						"target": "allies",
+						"attribute": "endurance",
+						"modifier": "+30%",
+						"duration": 4
+					}, {
+						"target": "skill",
+						"attribute": "",
+						"modifier": "fast"
+					}
+				]
+			}, {
+				"name": "Breaking Point",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "thunder_physical_attack"
+					}, {
+						"target": "foes",
+						"attribute": "heal_modifier",
+						"modifier": "-35%",
+						"duration": 3
+					}, {
+						"target": "foes",
+						"attribute": "guard_rate",
+						"modifier": "-35%",
+						"duration": 3
+					}
+				]
+			}, {
+				"name": "Lightning Slash",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "thunder_physical_attack"
+					}, {
+						"target": "skill",
+						"attribute": "strength",
+						"modifier": "boost"
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Crush: I",
+				"effects": [
+					{
+						"attribute": "strength",
+						"modifier": "+15%"
+					}
+				]
+			}, {
+				"name": "Solid: I",
+				"effects": [
+					{
+						"attribute": "guard_rate",
+						"modifier": "+30%"
+					}
+				]
+			}, {
+				"name": "Water Resistance: I",
+				"effects": [
+					{
+						"attribute": "water_resist",
+						"modifier": "+35%"
+					}
+				]
+			}, {
+				"name": "Rigid: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+10%"
+					}, {
+						"attribute": "agility",
+						"modifier": "+10%"
+					}, {
+						"attribute": "desterity",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Status Resist: G",
+				"effects": [
+					{
+						"attribute": "ailment_resist",
+						"modifier": "+15%"
+					}
+				]
+			}
+		]
+	}
+}

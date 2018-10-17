@@ -26,6 +26,7 @@
 	"magic_attack": "M.Attack",
 	"water_attack": "Water Attack",
 	"water_physical_attack": "Water P. Attack",
+	"thunder_physical_attack": "Thunder P. Attack",
 	"light_magic_attack": "Light M.Attack",
 	"fire_magic_attack": "Fire M.Attack",
 	"dark_magic_attack": "Dark M.Attack",

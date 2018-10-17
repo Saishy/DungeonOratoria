@@ -1,0 +1,133 @@
+{
+	"id": "tione_hiryute_crimson_dahlia",
+	"title": "Crimson Dahlia",
+	"name": "Tione Hiryute",
+	"type": "physical_type",
+	"stars": 4,
+	"limited": false,
+	"stats": {
+		"hp":				[1586, 1770, 1966, 2174, 2396, 2636],
+		"mp":				[130, 142, 154, 166, 178, 190],
+		"physical_attack":	[650, 754, 857, 961, 1168, 1478],
+		"magic_attack":		[118, 188, 258, 328, 328, 328],
+		"defense":			[179, 243, 306, 370, 434, 434],
+		"strength":			[650, 754, 857, 961, 1168, 1478],
+		"endurance":		[179, 243, 306, 370, 434, 434],
+		"dexterity":		[214, 297, 379, 462, 544, 544],
+		"agility":			[294, 378, 462, 545, 629, 796],
+		"magic":			[118, 188, 258, 328, 328, 328]
+	},
+	"skills": {
+		"special": {
+			"name": "Galvanic Ravager",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "thunder_physical_attack"
+				}, {
+					"target": "skill",
+					"attribute": "Dmg. +15% per 1 [Self] Regen/Str. Buff Skill",
+					"modifier": ""
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Roll of Thunder",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "low",
+						"type": "thunder_physical_attack"
+					}, {
+						"target": "self",
+						"attribute": "strength",
+						"modifier": "+75%",
+						"duration": 4
+					}
+				]
+			}, {
+				"name": "Volt Charge",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "thunder_physical_attack"
+					}, {
+						"target": "skill",
+						"attribute": "hp_regen",
+						"modifier": "+25%",
+						"duration": 4
+					}
+				]
+			}, {
+				"name": "Unstable Thunder",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "thunder_physical_attack"
+					}, {
+						"target": "skill",
+						"attribute": "Dmg. +25% per 1 [Self] Regen/Str. Buff Skill",
+						"modifier": ""
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Fist Strike: G",
+				"effects": [
+					{
+						"attribute": "strength",
+						"modifier": "+15%"
+					}
+				]
+			}, {
+				"name": "Solid: I",
+				"effects": [
+					{
+						"attribute": "guard_rate",
+						"modifier": "+30%"
+					}
+				]
+			}, {
+				"name": "Water Resistance: I",
+				"effects": [
+					{
+						"attribute": "water_resist",
+						"modifier": "+35%"
+					}
+				]
+			}, {
+				"name": "Rigid: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+10%"
+					}, {
+						"attribute": "agility",
+						"modifier": "+10%"
+					}, {
+						"attribute": "desterity",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Status Resist: G",
+				"effects": [
+					{
+						"attribute": "ailment_resist",
+						"modifier": "+15%"
+					}
+				]
+			}
+		]
+	}
+}
