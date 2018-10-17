@@ -1,0 +1,48 @@
+{
+	"id": "hestia_bunny_goddess",
+	"title": "Kunoichi Goddess",
+	"name": "Hestia",
+	"stars": 4,
+	"limited": true,
+	"stats": {
+		"hp":				[650, 706, 762, 822, 886, 950],
+		"mp":				[ 91,  99, 107, 117, 129, 141],
+		"physical_attack":	[289, 327, 365, 403, 479, 555],
+		"magic_attack":		[114, 147, 180, 213, 213, 213],
+		"defense":			[166, 192, 218, 244, 270, 296],
+		"strength":			[289, 327, 365, 403, 479, 555],
+		"endurance":		[166, 192, 218, 244, 270, 296],
+		"dexterity":		[185, 221, 257, 293, 329, 329],
+		"agility":			[210, 244, 278, 312, 346, 380],
+		"magic":			[114, 147, 180, 213, 213, 213]
+	},
+	"skills": [
+		{
+			"name": "Goddess Aura+",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "strength",
+					"modifier": "+8%"
+				}, {
+					"target": "allies",
+					"attribute": "hp_regen",
+					"modifier": "+10%"
+				}
+			]
+		}, {
+			"name": "Goddess Aura++",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "strength",
+					"modifier": "+10%"
+				}, {
+					"target": "allies",
+					"attribute": "hp_regen",
+					"modifier": "+15%"
+				}
+			]
+		}
+	]
+}
