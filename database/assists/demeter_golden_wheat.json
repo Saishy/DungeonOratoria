@@ -1,0 +1,48 @@
+{
+	"id": "demeter_golden_wheat",
+	"title": "Golden Wheat",
+	"name": "Demeter",
+	"stars": 4,
+	"limited": false,
+	"stats": {
+		"hp":				[646, 702, 758, 818, 882, 946],
+		"mp":				[ 92, 100, 108, 118, 130, 142],
+		"physical_attack":	[113, 145, 177, 209, 209, 209],
+		"magic_attack":		[323, 356, 389, 455, 521, 587],
+		"defense":			[139, 164, 189, 189, 214, 239],
+		"strength":			[113, 145, 177, 209, 209, 209],
+		"endurance":		[139, 164, 189, 189, 214, 239],
+		"dexterity":		[200, 232, 264, 296, 360, 360],
+		"agility":			[145, 178, 211, 244, 244, 277],
+		"magic":			[323, 356, 389, 455, 521, 587]
+	},
+	"skills": [
+		{
+			"name": "Gentle Gaze+",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "magic_resist",
+					"modifier": "-10%"
+				}, {
+					"target": "foes",
+					"attribute": "guard_rate",
+					"modifier": "-8%"
+				}
+			]
+		}, {
+			"name": "Gentle Gaze++",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "magic_resist",
+					"modifier": "-15%"
+				}, {
+					"target": "foes",
+					"attribute": "guard_rate",
+					"modifier": "-10%"
+				}
+			]
+		}
+	]
+}
