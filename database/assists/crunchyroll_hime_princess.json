@@ -1,0 +1,48 @@
+{
+	"id": "crunchyroll_hime_princess",
+	"title": "Princess",
+	"name": "Crunchyroll-Hime",
+	"stars": 4,
+	"limited": true,
+	"stats": {
+		"hp":				[630, 686, 742, 802, 866, 930],
+		"mp":				[ 96, 104, 112, 122, 134, 146],
+		"physical_attack":	[113, 145, 177, 209, 209, 209],
+		"magic_attack":		[326, 359, 392, 458, 524, 590],
+		"defense":			[146, 171, 196, 196, 221, 246],
+		"strength":			[113, 145, 177, 209, 209, 209],
+		"endurance":		[146, 171, 196, 196, 221, 246],
+		"dexterity":		[184, 216, 248, 280, 344, 344],
+		"agility":			[151, 184, 217, 250, 250, 283],
+		"magic":			[326, 359, 392, 458, 524, 590]
+	},
+	"skills": [
+		{
+			"name": "Elemental Aura+",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "magic",
+					"modifier": "+10%"
+				}, {
+					"target": "foes",
+					"attribute": "stun",
+					"modifier": "30%"
+				}
+			]
+		}, {
+			"name": "Elemental Aura++",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "magic",
+					"modifier": "+15%"
+				}, {
+					"target": "foes",
+					"attribute": "stun",
+					"modifier": "45%"
+				}
+			]
+		}
+	]
+}
