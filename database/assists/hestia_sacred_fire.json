@@ -1,0 +1,48 @@
+{
+	"id": "hestia_sacred_fire",
+	"title": "Sacred Fire",
+	"name": "Hestia",
+	"stars": 4,
+	"limited": false,
+	"stats": {
+		"hp":				[598, 654, 701, 770, 834, 898],
+		"mp":				[104, 112, 120, 130, 142, 154],
+		"physical_attack":	[181, 216, 251, 286, 286, 321],
+		"magic_attack":		[181, 216, 251, 286, 286, 321],
+		"defense":			[124, 149, 174, 199, 224, 224],
+		"strength":			[181, 216, 251, 286, 286, 321],
+		"endurance":		[124, 149, 174, 199, 224, 224],
+		"dexterity":		[199, 232, 265, 298, 364, 364],
+		"agility":			[268, 304, 340, 376, 448, 520],
+		"magic":			[181, 216, 251, 286, 286, 321]
+	},
+	"skills": [
+		{
+			"name": "Mysterious Bonfire+",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "all_damage_resist",
+					"modifier": "-10%"
+				}, {
+					"target": "allies",
+					"attribute": "agility",
+					"modifier": "8%"
+				}
+			]
+		}, {
+			"name": "Mysterious Bonfire++",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "all_damage_resist",
+					"modifier": "-15%"
+				}, {
+					"target": "allies",
+					"attribute": "agility",
+					"modifier": "10%"
+				}
+			]
+		}
+	]
+}
