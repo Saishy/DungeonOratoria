@@ -4,75 +4,122 @@
 	"name": "Liliruca Arde",
 	"type": "magic_type",
 	"stars": 4,
-	"limited": false,
+	"limited": true,
 	"stats": {
-		"hp": [1081, 0, 0, 0, 0, 1701],
-		"mp": [192, 0, 0, 0, 0, 282],
-		"physical_attack": [137, 0, 0, 0, 0, 384],
-		"magic_attack": [475, 0, 0, 0, 0, 1195],
-		"defense": [133, 0, 0, 0, 0, 355],
-		"strength": [137, 0, 0, 0, 0, 384],
-		"endurance": [133, 0, 0, 0, 0, 355],
-		"dexterity": [222, 0, 0, 0, 0, 574],
-		"agility": [276, 0, 0, 0, 0, 751],
-		"magic": [475, 0, 0, 0, 0, 1195]
+		"hp":				[1081, 1193, 1311, 1435, 1565, 1701],
+		"mp":				[192, 208, 224, 242, 262, 282],
+		"physical_attack":	[124, 198, 272, 346, 346, 346],
+		"magic_attack":		[522, 610, 698, 786, 962, 1314],
+		"defense":			[133, 207, 281, 355, 355, 355],
+		"strength":			[124, 198, 272, 346, 346, 346],
+		"endurance":		[133, 207, 281, 355, 355, 355],
+		"dexterity":		[222, 310, 398, 486, 574, 574],
+		"agility":			[276, 355, 434, 513, 672, 751],
+		"magic":			[522, 610, 698, 786, 962, 1314]
 	},
 	"skills": {
 		"special": {
-			"name": "Special Placeholder",
+			"name": "Trick or Sweet",
 			"effects": [
 				{
-					"target": "self",
-					"attribute": "strength",
-					"modifier": "+0%"
+					"target": "allies",
+					"attribute": "heal_modifier",
+					"modifier": "ultra"
+				}, {
+					"target": "allies",
+					"attribute": "hp_regen",
+					"modifier": "+20%",
+					"duration": 4
 				}
 			]
 		},
 		"combat": [
 			{
-				"name": "Skill 1 Placeholder",
+				"name": "Sweet Prank",
 				"effects": [
 					{
-						"target": "self",
-						"attribute": "strength",
-						"modifier": "+0%"
+						"target": "foes",
+						"attribute": "mp_drain",
+						"modifier": "10%"
+					}, {
+						"target": "foes",
+						"attribute": "sleep",
+						"modifier": "30%"
 					}
 				]
 			}, {
-				"name": "Skill 2 Placeholder",
+				"name": "Magical Wand",
 				"effects": [
 					{
-						"target": "self",
-						"attribute": "strength",
-						"modifier": "+0%"
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "dark_magic_attack"
+					}, {
+						"target": "foes",
+						"attribute": "status_debuff",
+						"modifier": "+1 turn"
 					}
 				]
 			}, {
-				"name": "Skill 3 Placeholder",
+				"name": "Bad Trick",
 				"effects": [
 					{
-						"target": "self",
-						"attribute": "strength",
-						"modifier": "+0%"
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "dark_magic_attack"
+					}, {
+						"target": "foes",
+						"attribute": "endurance",
+						"modifier": "-30%",
+						"duration": 3
 					}
 				]
 			}
 		],
 		"development": [
 			{
-				"name": "Placeholder: I",
+				"name": "Enlightenment: I",
 				"effects": [
 					{
+						"attribute": "magic",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Strike: I",
+				"effects": [
+					{
+						"attribute": "critical_damage",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Instinct: I",
+				"effects": [
+					{
+						"attribute": "agility",
+						"modifier": "+10%"
+					}, {
 						"attribute": "dexterity",
 						"modifier": "+10%"
 					}
 				]
 			}, {
-				"name": "PlaceholderTwo: I",
+				"name": "Status Resist: I",
 				"effects": [
 					{
-						"attribute": "agility",
-						"modifier": "+10%"
+						"attribute": "ailment_resist",
+						"modifier": "+15%"
+					}
+				]
+			}, {
+				"name": "Light Resistance: I",
+				"effects": [
+					{
+						"attribute": "light_resist",
+						"modifier": "+20%"
 					}
 				]
 			}

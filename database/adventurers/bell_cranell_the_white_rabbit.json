@@ -1,3 +1,136 @@
-{"id":"bell_cranel_the_white_rabbit","title":"The White Rabbit","name":"Bell Cranel","type":"magic_type","stars":4,"limited":false,"stats":{"hp":[1388,0,0,0,0,2448],"mp":[143,0,0,0,0,203],"physical_attack":[146,0,0,0,0,392],"magic_attack":[501,0,0,0,0,1257],"defense":[136,0,0,0,0,382],"strength":[146,0,0,0,0,392],"endurance":[136,0,0,0,0,382],"dexterity":[210,0,0,0,0,546],"agility":[279,0,0,0,0,759],"magic":[501,0,0,0,0,1257]},"skills":{"special":{"name":"Special Placeholder","effects":[{"target":"self","attribute":"strength","modifier":"+0%"}]},
-	"combat":[{"name":"Skill 1 Placeholder","effects":[{"target":"self","attribute":"strength","modifier":"+0%"}]},{"name":"Skill 2 Placeholder","effects":[{"target":"self","attribute":"strength","modifier":"+0%"}]},{"name":"Skill 3 Placeholder","effects":[{"target":"self","attribute":"strength","modifier":"+0%"}]}],
-	"development":[{"name":"Placeholder: I","effects":[{"attribute":"dexterity","modifier":"+10%"}]},{"name":"PlaceholderTwo: I","effects":[{"attribute":"agility","modifier":"+10%"}]}]}}
+{
+	"id": "bell_cranel_the_white_rabbit",
+	"title": "The White Rabbit",
+	"name": "Bell Cranel",
+	"type": "magic_type",
+	"stars": 4,
+	"limited": true,
+	"stats": {
+		"hp":				[1388, 1564, 1758, 1970, 2200, 2448],
+		"mp":				[143, 155, 167, 179, 191, 203],
+		"physical_attack":	[138, 216, 294, 371, 371, 371],
+		"magic_attack":		[525, 613, 701, 789, 965, 1317],
+		"defense":			[136, 218, 300, 382, 382, 382],
+		"strength":			[138, 216, 294, 371, 371, 371],
+		"endurance":		[136, 218, 300, 382, 382, 382],
+		"dexterity":		[210, 294, 378, 462, 546, 546],
+		"agility":			[279, 359, 439, 519, 679, 759],
+		"magic":			[525, 613, 701, 789, 965, 1317]
+	},
+	"skills": {
+		"special": {
+			"name": "Luna Traviesa",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "light_magic_attack"
+				}, {
+					"target": "foes",
+					"attribute": "sleep",
+					"modifier": "30%"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Reverie Reps",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "low",
+						"type": "light_magic_attack"
+					}, {
+						"target": "foes",
+						"attribute": "sleep",
+						"modifier": "15%"
+					}
+				]
+			}, {
+				"name": "Fortis Spes",
+				"effects": [
+					{
+						"target": "self",
+						"attribute": "magic",
+						"modifier": "+75%",
+						"duration": 4
+					}, {
+						"target": "self",
+						"attribute": "agility",
+						"modifier": "+75%",
+						"duration": 4
+					}
+				]
+			}, {
+				"name": "Pierce Firebolt",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "fire_magic_attack"
+					}, {
+						"target": "skill",
+						"attribute": "penetration_rate",
+						"modifier": "ultra"
+					}, {
+						"target": "skill",
+						"attribute": "",
+						"modifier": "fast"
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Liaris Freese",
+				"effects": [
+					{
+						"attribute": "fast_growth",
+						"modifier": ""
+					}, {
+						"attribute": "null_charm",
+						"modifier": ""
+					}
+				]
+			}, {
+				"name": "Climb: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+6%"
+					}, {
+						"attribute": "agility",
+						"modifier": "+6%"
+					}
+				]
+			}, {
+				"name": "Status Resist: I",
+				"effects": [
+					{
+						"attribute": "ailment_resist",
+						"modifier": "+15%"
+					}
+				]
+			}, {
+				"name": "Enlightenment: I",
+				"effects": [
+					{
+						"attribute": "magic",
+						"modifier": "+5%"
+					}
+				]
+			}, {
+				"name": "Luck: I",
+				"effects": [
+					{
+						"attribute": "all_status",
+						"modifier": "+5%"
+					}
+				]
+			}
+		]
+	}
+}
