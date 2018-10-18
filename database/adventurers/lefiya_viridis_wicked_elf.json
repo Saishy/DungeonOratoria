@@ -1,0 +1,142 @@
+{
+	"id": "lefiya_viridis_wicked_elf",
+	"title": "Wicked Elf",
+	"name": "Lefiya Viridis",
+	"type": "magic_type",
+	"stars": 4,
+	"limited": true,
+	"stats": {
+		"hp": 				[1506, 1690, 1886, 2094, 2316, 2556],
+		"mp": 				[200, 216, 232, 250, 270, 290],
+		"physical_attack": 	[119, 193, 267, 341, 341, 341],
+		"magic_attack": 	[547, 639, 823, 1007, 1191, 1375],
+		"defense":			[138, 220, 220, 220, 301, 382],
+		"strength": 		[119, 193, 267, 341, 341, 341],
+		"endurance": 		[138, 220, 220, 220, 301, 382],
+		"dexterity": 		[212, 300, 388, 476, 564, 564],
+		"agility": 			[298, 377, 456, 535, 614, 773],
+		"magic": 			[547, 639, 823, 1007, 1191, 1375]
+	},
+	"skills": {
+		"special": {
+			"name": "Spikey Avalanche",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "dark_magic_attack"
+				}, {
+					"target": "skill",
+					"attribute": "magic",
+					"modifier": "boost"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Black Brand",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "low",
+						"type": "dark_magic_attack"
+					}, {
+						"target": "self",
+						"attribute": "dark_attack",
+						"modifier": "+60%",
+						"duration": 4
+					}
+				]
+			}, {
+				"name": "Amplify Agony",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "dark_magic_attack"
+					}, {
+						"target": "skill",
+						"attribute": "magic",
+						"modifier": "boost"
+					}, {
+						"target": "foes",
+						"attribute": "magic_resist",
+						"modifier": "-15%",
+						"duration": 3
+					}
+				]
+			}, {
+				"name": "Shadow Feeder",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "dark_magic_attack"
+					}, {
+						"target": "skill",
+						"attribute": "magic",
+						"modifier": "boost"
+					}, {
+						"target": "foes",
+						"attribute": "counter_rate",
+						"modifier": "-25%",
+						"duration": 3
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Mage: H",
+				"effects": [
+					{
+						"attribute": "magic",
+						"modifier": "+15%"
+					}
+				]
+			}, {
+				"name": "Strike: I",
+				"effects": [
+					{
+						"attribute": "critical_damage",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Light Resistance: I",
+				"effects": [
+					{
+						"attribute": "light_resist",
+						"modifier": "+35%"
+					}
+				]
+			}, {
+				"name": "Rigid: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+10%"
+					}, {
+						"attribute": "agility",
+						"modifier": "+10%"
+					}, {
+						"attribute": "dexterity",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Status Resist: I",
+				"effects": [
+					{
+						"attribute": "ailment_resist",
+						"modifier": "+15%"
+					}
+				]
+			}
+		]
+	}
+}

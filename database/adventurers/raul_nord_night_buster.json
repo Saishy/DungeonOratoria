@@ -1,0 +1,132 @@
+{
+	"id": "raul_nord_night_buster",
+	"title": "Night Buster",
+	"name": "Raul Nord",
+	"type": "balance_type",
+	"stars": 4,
+	"limited": true,
+	"stats": {
+		"hp": 				[1328, 1504, 1698, 1910, 2140, 2388],
+		"mp": 				[181, 193, 205, 217, 229, 241],
+		"physical_attack": 	[327, 519, 615, 711, 807, 903],
+		"magic_attack": 	[500, 610, 721, 831, 941, 1162],
+		"defense":			[187, 187, 243, 299, 355, 411],
+		"strength": 		[327, 519, 615, 711, 807, 903],
+		"endurance": 		[187, 187, 243, 299, 355, 411],
+		"dexterity": 		[291, 377, 463, 548, 634, 720],
+		"agility": 			[162, 238, 314, 390, 466, 466],
+		"magic": 			[500, 610, 721, 831, 941, 1162]
+	},
+	"skills": {
+		"special": {
+			"name": "Voltage Emission",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "thunder_magic_attack"
+				}, {
+					"target": "skill",
+					"attribute": "Dmg. +50% per 1 [Self] Regen/All Attack Dmg. Reduction Skill",
+					"modifier": ""
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Negative Electrode",
+				"effects": [
+					{
+						"target": "allies",
+						"attribute": "all_damage_resist",
+						"modifier": "+30%",
+						"duration": 3
+					}, {
+						"target": "skill",
+						"attribute": "",
+						"modifier": "fast"
+					}
+				]
+			}, {
+				"name": "Positive Electrode",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "thunder_magic_attack"
+					}, {
+						"target": "self",
+						"attribute": "hp_regen",
+						"modifier": "+30%",
+						"duration": 4
+					}
+				]
+			}, {
+				"name": "Polarity Repulsion",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "thunder_magic_attack"
+					}, {
+						"target": "skill",
+						"attribute": "Dmg. +60% per 1 [Self] Regen/All Attack Dmg. Reduction Skill",
+						"modifier": ""
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Mind's Eye: I",
+				"effects": [
+					{
+						"attribute": "magic",
+						"modifier": "+15%"
+					}
+				]
+			}, {
+				"name": "Solid: I",
+				"effects": [
+					{
+						"attribute": "guard_rate",
+						"modifier": "+30%"
+					}
+				]
+			}, {
+				"name": "Water Resistance: I",
+				"effects": [
+					{
+						"attribute": "water_resist",
+						"modifier": "+35%"
+					}
+				]
+			}, {
+				"name": "Rigid: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+10%"
+					}, {
+						"attribute": "agility",
+						"modifier": "+10%"
+					}, {
+						"attribute": "dexterity",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Status Resist: I",
+				"effects": [
+					{
+						"attribute": "ailment_resist",
+						"modifier": "+15%"
+					}
+				]
+			}
+		]
+	}
+}

@@ -5,22 +5,26 @@
 	"stars": 4,
 	"limited": true,
 	"stats": {
-		"hp": [658, 0, 0, 0, 0, 958],
-		"mp": [104, 0, 0, 0, 0, 154],
-		"physical_attack": [201, 0, 0, 0, 0, 366],
-		"magic_attack": [159, 0, 0, 0, 0, 291],
-		"defense": [220, 0, 0, 0, 0, 402],
-		"strength": [201, 0, 0, 0, 0, 266],
-		"endurance": [220, 0, 0, 0, 0, 402],
-		"dexterity": [187, 0, 0, 0, 0, 342],
-		"agility": [130, 0, 0, 0, 0, 232],
-		"magic": [159, 0, 0, 0, 0, 291]
+		"hp":				[658, 714, 770, 830, 894, 958],
+		"mp":				[104, 112, 120, 130, 142, 154],
+		"physical_attack":	[201, 234, 267, 300, 333, 366],
+		"magic_attack":		[159, 225, 258, 291, 291, 291],
+		"defense":			[220, 246, 272, 298, 350, 402],
+		"strength":			[201, 234, 267, 300, 333, 366],
+		"endurance":		[220, 246, 272, 298, 350, 402],
+		"dexterity":		[187, 218, 249, 280, 311, 342],
+		"agility":			[130, 130, 164, 198, 232, 232],
+		"magic":			[159, 225, 258, 291, 291, 291]
 	},
 	"skills": [
 		{
 			"name": "Angelic Fertility+",
 			"effects": [
 				{
+					"target": "foes",
+					"attribute": "counter_rate",
+					"modifier": "-8%"
+				}, {
 					"target": "allies",
 					"attribute": "magic",
 					"modifier": "+10%"
@@ -30,6 +34,10 @@
 			"name": "Angelic Fertility++",
 			"effects": [
 				{
+					"target": "foes",
+					"attribute": "counter_rate",
+					"modifier": "-10%"
+				}, {
 					"target": "allies",
 					"attribute": "magic",
 					"modifier": "+15%"

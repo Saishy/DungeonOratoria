@@ -1,3 +1,109 @@
-{"id":"yamato_mikoto_snow_white","title":"Snow White","name":"Yamato Mikoto","type":"balance_type","stars":3,"limited":false,"stats":{"hp":[1256,0,0,0,0,2316],"mp":[141,0,0,0,0,201],"physical_attack":[1669,0,0,0,0,400],"magic_attack":[145,0,0,0,0,355],"defense":[122,0,0,0,0,291],"strength":[169,0,0,0,0,400],"endurance":[122,0,0,0,0,291],"dexterity":[183,0,0,0,0,436],"agility":[138,0,0,0,0,333],"magic":[145,0,0,0,0,355]},"skills":{"special":{"name":"Special Placeholder","effects":[{"target":"self","attribute":"strength","modifier":"+0%"}]},
-	"combat":[{"name":"Skill 1 Placeholder","effects":[{"target":"self","attribute":"strength","modifier":"+0%"}]},{"name":"Skill 2 Placeholder","effects":[{"target":"self","attribute":"strength","modifier":"+0%"}]},{"name":"Skill 3 Placeholder","effects":[{"target":"self","attribute":"strength","modifier":"+0%"}]}],
-	"development":[{"name":"Placeholder: I","effects":[{"attribute":"dexterity","modifier":"+10%"}]},{"name":"PlaceholderTwo: I","effects":[{"attribute":"agility","modifier":"+10%"}]}]}}
+{
+	"id": "yamato_mikoto_snow_white",
+	"title": "Snow White",
+	"name": "Yamato Mikoto",
+	"type": "balance_type",
+	"stars": 3,
+	"limited": true,
+	"stats": {
+		"hp":				[1256, 1432, 1626, 1838, 2068, 2316],
+		"mp":				[141, 153, 165, 177, 189, 201],
+		"physical_attack":	[169, 216, 262, 354, 400, 400],
+		"magic_attack":		[145, 187, 229, 229, 271, 355],
+		"defense":			[122, 155, 189, 223, 257, 291],
+		"strength":			[169, 216, 262, 354, 400, 400],
+		"endurance":		[122, 155, 189, 223, 257, 291],
+		"dexterity":		[183, 234, 284, 335, 385, 436],
+		"agility":			[138, 177, 216, 255, 294, 333],
+		"magic":			[145, 187, 229, 229, 271, 355]
+	},
+	"skills": {
+		"special": {
+			"name": "Futsunomitama",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "high",
+					"type": "dark_magic_attack"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Samidare-Giri",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "low",
+						"type": "physical_attack"
+					}
+				]
+			}, {
+				"name": "Fuma-jin Nishiki",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "magic",
+						"modifier": "-15%",
+						"duration": 4
+					}
+				]
+			}, {
+				"name": "Yoroi-kuzushii Nishiki",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "guard_rate",
+						"modifier": "-15%",
+						"duration": 4
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Status Resist: I",
+				"effects": [
+					{
+						"attribute": "ailment_resist",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Crafter: I",
+				"effects": [
+					{
+						"attribute": "dexterity",
+						"modifier": "+7.5%"
+					}
+				]
+			}, {
+				"name": "Tough: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+4.5%"
+					}
+				]
+			}, {
+				"name": "Sword Fighter: I",
+				"effects": [
+					{
+						"attribute": "strength",
+						"modifier": "+7.5%"
+					}
+				]
+			}, {
+				"name": "Indomitable: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+4.5%"
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,48 @@
+{
+	"id": "bell_cranel_living_dead_child",
+	"title": "Living Dead Child",
+	"name": "Bell Cranel",
+	"stars": 4,
+	"limited": true,
+	"stats": {
+		"hp": 				[668, 748, 828, 920, 1024, 1128],
+		"mp": 				[ 92, 100, 108, 116, 124, 132],
+		"physical_attack": 	[193, 229, 265, 301, 337, 337],
+		"magic_attack": 	[193, 229, 265, 301, 301, 337],
+		"defense":			[201, 218, 235, 252, 286, 320],
+		"strength": 		[193, 229, 265, 301, 337, 337],
+		"endurance": 		[201, 218, 235, 252, 286, 320],
+		"dexterity": 		[176, 199, 222, 245, 268, 291],
+		"agility": 			[111, 129, 147, 165, 183, 183],
+		"magic": 			[193, 229, 265, 301, 301, 337]
+	},
+	"skills": [
+		{
+			"name": "Outbreak+",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "dark_resist",
+					"modifier": "-8%"
+				}, {
+					"target": "allies",
+					"attribute": "critical_rate",
+					"modifier": "+8%"
+				}
+			]
+		}, {
+			"name": "Outbreak++",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "dark_resist",
+					"modifier": "-10%"
+				}, {
+					"target": "allies",
+					"attribute": "critical_rate",
+					"modifier": "+10%"
+				}
+			]
+		}
+	]
+}

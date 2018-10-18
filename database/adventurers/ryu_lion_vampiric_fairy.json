@@ -1,3 +1,140 @@
-{"id":"ryu_lion_vampiric_fairy","title":"Vampiric Fairy","name":"Ryu Lion","type":"defense_type","stars":4,"limited":false,"stats":{"hp":[1744,0,0,0,0,3114],"mp":[130,0,0,0,0,190],"physical_attack":[137,0,0,0,0,347],"magic_attack":[337,0,0,0,0,827],"defense":[288,0,0,0,0,756],"strength":[137,0,0,0,0,347],"endurance":[288,0,0,0,0,756],"dexterity":[190,0,0,0,0,540],"agility":[127,0,0,0,0,358],"magic":[337,0,0,0,0,827]},"skills":{"special":{"name":"Special Placeholder","effects":[{"target":"self","attribute":"strength","modifier":"+0%"}]},
-	"combat":[{"name":"Skill 1 Placeholder","effects":[{"target":"self","attribute":"strength","modifier":"+0%"}]},{"name":"Skill 2 Placeholder","effects":[{"target":"self","attribute":"strength","modifier":"+0%"}]},{"name":"Skill 3 Placeholder","effects":[{"target":"self","attribute":"strength","modifier":"+0%"}]}],
-	"development":[{"name":"Placeholder: I","effects":[{"attribute":"dexterity","modifier":"+10%"}]},{"name":"PlaceholderTwo: I","effects":[{"attribute":"agility","modifier":"+10%"}]}]}}
+{
+	"id": "ryu_lion_vampiric_fairy",
+	"title": "Vampiric Fairy",
+	"name": "Ryu Lion",
+	"type": "defense_type",
+	"stars": 4,
+	"limited": true,
+	"stats": {
+		"hp":				[1744, 1976, 2229, 2503, 2798, 3114],
+		"mp":				[130, 142, 154, 166, 178, 190],
+		"physical_attack":	[137, 207, 277, 277, 347, 347],
+		"magic_attack":		[337, 435, 533, 631, 729, 827],
+		"defense":			[288, 340, 392, 496, 600, 756],
+		"strength":			[137, 207, 277, 277, 347, 347],
+		"endurance":		[288, 340, 392, 496, 600, 756],
+		"dexterity":		[190, 260, 330, 400, 470, 540],
+		"agility":			[127, 204, 281, 358, 358, 358],
+		"magic":			[337, 435, 533, 631, 729, 827]
+	},
+	"skills": {
+		"special": {
+			"name": "Vampiric Drain",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "dark_magic_attack"
+				}, {
+					"target": "skill",
+					"attribute": "indexed_to",
+					"modifier": "endurance"
+				}, {
+					"target": "skill",
+					"attribute": "life_steal",
+					"modifier": "20%"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Insite Wind",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "taunt",
+						"modifier": "50%"
+					}, {
+						"target": "self",
+						"attribute": "endurance",
+						"modifier": "+40%",
+						"duration": 4
+					}
+				]
+			}, {
+				"name": "Fairy Vamp",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "dark_magic_attack"
+					}, {
+						"target": "skill",
+						"attribute": "indexed_to",
+						"modifier": "endurance"
+					}, {
+						"target": "skill",
+						"attribute": "life_steal",
+						"modifier": "50%"
+					}
+				]
+			}, {
+				"name": "Vind Chaos",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "dark_magic_attack"
+					}, {
+						"target": "skill",
+						"attribute": "indexed_to",
+						"modifier": "endurance"
+					}, {
+						"target": "skill",
+						"attribute": "endurance",
+						"modifier": "boost"
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Magic Resistance: I",
+				"effects": [
+					{
+						"attribute": "magic_resist",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Light Resistance: I",
+				"effects": [
+					{
+						"attribute": "light_resist",
+						"modifier": "+20%"
+					}
+				]
+			}, {
+				"name": "Strike: I",
+				"effects": [
+					{
+						"attribute": "critical_damage",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Vision: I",
+				"effects": [
+					{
+						"attribute": "magic",
+						"modifier": "+10%"
+					}, {
+						"attribute": "agility",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Status Resist: G",
+				"effects": [
+					{
+						"attribute": "ailment_resist",
+						"modifier": "+15%"
+					}
+				]
+			}
+		]
+	}
+}
