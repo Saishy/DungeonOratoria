@@ -16,16 +16,16 @@ for (const file of commandFiles) {
 	client.commands.set(command.name, command);
 }
 
-const events = require('./methods/events.js');
+const events = process.env.EVENTS ? require('./methods/events.js') : false;
 
 // when the client is ready, run this code
 // this event will trigger whenever your bot:
 // - finishes logging in
 // - reconnects after disconnecting
 client.on('ready', () => {
-	//if (process.env.NODE_ENV === 'production') {
+	if (process.env.EVENTS) {
 		events.initialize(client);
-	//}
+	}
 	process.send('ready');
 	client.user.setUsername(process.env.NICKNAME);
 	console.log('Ready!');
@@ -52,6 +52,10 @@ client.on('message', message => {
 
 	if (!command) return;
 
+	if (command.name === 'event' && !process.env.EVENTS) {
+		return;
+	}
+	
 	if (command.guildOnly && message.channel.type !== 'text') {
 		return message.reply('I can\'t execute that command inside DMs!');
 	}
@@ -78,7 +82,9 @@ client.on('message', message => {
 process.on('unhandledRejection', error => console.error(`Uncaught Promise Rejection:\n${error}`));
 
 process.on('SIGINT', function() {
-	events.quit();
+	if (process.env.EVENTS) {
+		events.quit();
+	}
 	process.exit();
 });
 
