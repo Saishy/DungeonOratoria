@@ -1,0 +1,146 @@
+{
+	"id": "bete_loga_moonlit_wolf",
+	"title": "Moonlit Wolf",
+	"name": "Bete Loga",
+	"type": "physical_type",
+	"stars": 4,
+	"limited": true,
+	"stats": {
+		"hp": 				[1646, 1830, 2026, 2234, 2456, 2696],
+		"mp": 				[115, 127, 139, 151, 163, 175],
+		"physical_attack": 	[662, 765, 869, 972, 1179, 1490],
+		"magic_attack": 	[118, 188, 258, 328, 328, 328],
+		"defense":			[176, 239, 303, 367, 431, 431],
+		"strength": 		[662, 765, 869, 972, 1179, 1490],
+		"endurance": 		[176, 239, 303, 367, 431, 431],
+		"dexterity": 		[203, 286, 368, 451, 533, 533],
+		"agility": 			[298, 381, 465, 548, 632, 799],
+		"magic": 			[118, 188, 258, 328, 328, 328]
+	},
+	"skills": {
+		"special": {
+			"name": "Vertilgen Wolf",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "fire_physical_attack"
+				}, {
+					"target": "skill",
+					"attribute": "strength",
+					"modifier": "boost"
+				}, {
+					"target": "self",
+					"attribute": "hp_regen",
+					"modifier": "+50%",
+					"duration": 1
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Lethality",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "low",
+						"type": "fire_physical_attack"
+					}, {
+						"target": "self",
+						"attribute": "fire_attack",
+						"modifier": "+60%",
+						"duration": 4
+					}
+				]
+			}, {
+				"name": "Bloodboil",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "fire_physical_attack"
+					}, {
+						"target": "skill",
+						"attribute": "strength",
+						"modifier": "boost"
+					}, {
+						"target": "self",
+						"attribute": "counter_rate",
+						"modifier": "+50%",
+						"duration": 4
+					}
+				]
+			}, {
+				"name": "Eternal Thirst",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "fire_physical_attack"
+					}, {
+						"target": "skill",
+						"attribute": "life_steal",
+						"modifier": "10%"
+					}, {
+						"target": "self",
+						"attribute": "status_buff",
+						"modifier": "+1 turn"
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Fist Strike: G",
+				"effects": [
+					{
+						"attribute": "strength",
+						"modifier": "+15%"
+					}
+				]
+			}, {
+				"name": "Counter-attack: I",
+				"effects": [
+					{
+						"attribute": "counter_damage",
+						"modifier": "+50%"
+					}
+				]
+			}, {
+				"name": "Wind Resistance: I",
+				"effects": [
+					{
+						"attribute": "wind_resist",
+						"modifier": "+35%"
+					}
+				]
+			}, {
+				"name": "Rigid: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+10%"
+					}, {
+						"attribute": "agility",
+						"modifier": "+10%"
+					}, {
+						"attribute": "dexterity",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Status Resist: I",
+				"effects": [
+					{
+						"attribute": "ailment_resist",
+						"modifier": "+15%"
+					}
+				]
+			}
+		]
+	}
+}

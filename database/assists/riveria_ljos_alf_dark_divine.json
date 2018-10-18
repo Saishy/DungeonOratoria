@@ -1,0 +1,48 @@
+{
+	"id": "riveria_ljos_alf_dark_divine",
+	"title": "Dark Divine",
+	"name": "Riveria Ljos Alf",
+	"stars": 4,
+	"limited": true,
+	"stats": {
+		"hp": 				[614, 670, 726, 786, 850, 914],
+		"mp": 				[100, 108, 116, 126, 138, 150],
+		"physical_attack": 	[113, 145, 177, 209, 209, 209],
+		"magic_attack": 	[337, 370, 403, 469, 535, 601],
+		"defense":			[120, 145, 170, 170, 195, 220],
+		"strength": 		[113, 145, 177, 209, 209, 209],
+		"endurance": 		[120, 145, 170, 170, 195, 220],
+		"dexterity": 		[190, 222, 254, 286, 350, 350],
+		"agility": 			[160, 193, 226, 259, 259, 292],
+		"magic": 			[337, 370, 403, 469, 535, 601]
+	},
+	"skills": [
+		{
+			"name": "Mastery Lightning+",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "thunder_resist",
+					"modifier": "-10%"
+				}, {
+					"target": "allies",
+					"attribute": "hp_regen",
+					"modifier": "+10%"
+				}
+			]
+		}, {
+			"name": "Mastery Lightning++",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "thunder_resist",
+					"modifier": "-15%"
+				}, {
+					"target": "allies",
+					"attribute": "hp_regen",
+					"modifier": "+15%"
+				}
+			]
+		}
+	]
+}
