@@ -1,0 +1,48 @@
+{
+	"id": "loki_tricksters_truth",
+	"title": "Trickster's Truth",
+	"name": "Loki",
+	"stars": 4,
+	"limited": false,
+	"stats": {
+		"hp":				[602, 658, 714, 774, 838, 902],
+		"mp":				[103, 111, 119, 129, 141, 153],
+		"physical_attack":	[113, 145, 177, 209, 209, 209],
+		"magic_attack":		[335, 368, 401, 467, 533, 599],
+		"defense":			[125, 150, 175, 175, 200, 225],
+		"strength":			[113, 145, 177, 209, 209, 209],
+		"endurance":		[125, 150, 175, 175, 200, 225],
+		"dexterity":		[194, 226, 258, 290, 354, 354],
+		"agility":			[153, 186, 219, 252, 252, 285],
+		"magic":			[335, 368, 401, 467, 533, 599]
+	},
+	"skills": [
+		{
+			"name": "Amusing Agitation+",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "critical_rate",
+					"modifier": "+10%"
+				}, {
+					"target": "allies",
+					"attribute": "penetration_rate",
+					"modifier": "+8%"
+				}
+			]
+		}, {
+			"name": "Amusing Agitation++",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "critical_rate",
+					"modifier": "+15%"
+				}, {
+					"target": "allies",
+					"attribute": "penetration_rate",
+					"modifier": "+10%"
+				}
+			]
+		}
+	]
+}

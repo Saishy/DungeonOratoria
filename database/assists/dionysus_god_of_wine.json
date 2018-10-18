@@ -1,0 +1,48 @@
+{
+	"id": "dionysus_god_of_wine",
+	"title": "God of Wine",
+	"name": "Dionysus",
+	"stars": 4,
+	"limited": false,
+	"stats": {
+		"hp":				[658, 714, 770, 830, 894, 958],
+		"mp":				[ 89,  97, 105, 115, 127, 139],
+		"physical_attack":	[294, 332, 370, 408, 484, 560],
+		"magic_attack":		[113, 146, 179, 212, 212, 212],
+		"defense":			[147, 173, 199, 225, 251, 277],
+		"strength":			[294, 332, 370, 408, 484, 560],
+		"endurance":		[147, 173, 199, 225, 251, 277],
+		"dexterity":		[160, 196, 232, 268, 304, 304],
+		"agility":			[250, 284, 318, 352, 386, 420],
+		"magic":			[113, 146, 179, 212, 212, 212]
+	},
+	"skills": [
+		{
+			"name": "Winding Intoxication+",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "poison",
+					"modifier": "8%"
+				}, {
+					"target": "foes",
+					"attribute": "heal_modifier",
+					"modifier": "-20%"
+				}
+			]
+		}, {
+			"name": "Winding Intoxication++",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "poison",
+					"modifier": "10%"
+				}, {
+					"target": "foes",
+					"attribute": "heal_modifier",
+					"modifier": "-25%"
+				}
+			]
+		}
+	]
+}

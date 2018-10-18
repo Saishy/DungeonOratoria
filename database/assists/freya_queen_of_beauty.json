@@ -1,0 +1,48 @@
+{
+	"id": "freya_queen_of_beauty",
+	"title": "Queen of Beauty",
+	"name": "Freya",
+	"stars": 4,
+	"limited": false,
+	"stats": {
+		"hp":				[646, 702, 758, 818, 882, 946],
+		"mp":				[ 92, 100, 108, 118, 130, 142],
+		"physical_attack":	[113, 145, 177, 209, 209, 209],
+		"magic_attack":		[336, 369, 402, 468, 534, 600],
+		"defense":			[112, 137, 162, 162, 187, 212],
+		"strength":			[113, 145, 177, 209, 209, 209],
+		"endurance":		[112, 137, 162, 162, 187, 212],
+		"dexterity":		[220, 252, 284, 316, 380, 380],
+		"agility":			[139, 172, 205, 238, 238, 271],
+		"magic":			[336, 369, 402, 468, 534, 600]
+	},
+	"skills": [
+		{
+			"name": "Beauty Worship+",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "all_damage_resist",
+					"modifier": "+8%"
+				}, {
+					"target": "allies",
+					"attribute": "magic",
+					"modifier": "+10%"
+				}
+			]
+		}, {
+			"name": "Beauty Worship++",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "all_damage_resist",
+					"modifier": "+10%"
+				}, {
+					"target": "allies",
+					"attribute": "magic",
+					"modifier": "+15%"
+				}
+			]
+		}
+	]
+}
