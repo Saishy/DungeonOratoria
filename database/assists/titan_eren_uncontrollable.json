@@ -1,0 +1,48 @@
+{
+	"id": "titan_eren_uncontrollable",
+	"title": "Uncontrollable",
+	"name": "Titan Eren",
+	"stars": 4,
+	"limited": true,
+	"stats": {
+		"hp":				[658, 714, 770, 730, 894, 958],
+		"mp":				[ 89,  97, 105, 115, 127, 139],
+		"physical_attack":	[314, 352, 390, 428, 504, 580],
+		"magic_attack":		[113, 146, 179, 212, 212, 212],
+		"defense":			[185, 211, 237, 263, 289, 315],
+		"strength":			[314, 352, 390, 428, 504, 580],
+		"endurance":		[185, 211, 237, 263, 289, 315],
+		"dexterity":		[159, 195, 231, 267, 303, 303],
+		"agility":			[193, 227, 261, 295, 329, 363],
+		"magic":			[113, 146, 179, 212, 212, 212]
+	},
+	"skills": [
+		{
+			"name": "Titan's Roar+",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "stun",
+					"modifier": "30%"
+				}, {
+					"target": "foes",
+					"attribute": "physical_resist",
+					"modifier": "-10%"
+				}
+			]
+		}, {
+			"name": "Titan's Roar++",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "stun",
+					"modifier": "45%"
+				}, {
+					"target": "foes",
+					"attribute": "physical_resist",
+					"modifier": "-15%"
+				}
+			]
+		}
+	]
+}

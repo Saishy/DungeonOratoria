@@ -1,0 +1,48 @@
+{
+	"id": "armin_arlert_sharp_thinker",
+	"title": "Sharp Thinker",
+	"name": "Armin Arlert",
+	"stars": 4,
+	"limited": true,
+	"stats": {
+		"hp":				[610, 666, 722, 782, 846, 910],
+		"mp":				[101, 109, 117, 127, 139, 151],
+		"physical_attack":	[170, 205, 240, 275, 275, 310],
+		"magic_attack":		[170, 205, 240, 275, 275, 310],
+		"defense":			[115, 140, 165, 190, 215, 215],
+		"strength":			[170, 205, 240, 275, 275, 310],
+		"endurance":		[115, 140, 165, 190, 215, 215],
+		"dexterity":		[203, 236, 269, 302, 368, 368],
+		"agility":			[295, 331, 367, 403, 475, 547],
+		"magic":			[170, 205, 240, 275, 275, 310]
+	},
+	"skills": [
+		{
+			"name": "Great Vision+",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "strength",
+					"modifier": "-10%"
+				}, {
+					"target": "allies",
+					"attribute": "guard_rate",
+					"modifier": "+10%"
+				}
+			]
+		}, {
+			"name": "Great Vision++",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "strength",
+					"modifier": "-15%"
+				}, {
+					"target": "allies",
+					"attribute": "guard_rate",
+					"modifier": "+15%"
+				}
+			]
+		}
+	]
+}

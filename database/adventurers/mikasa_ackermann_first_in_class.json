@@ -1,0 +1,130 @@
+{
+	"id": "mikasa_ackermann_first_in_class",
+	"title": "First in Class",
+	"name": "Mikasa Ackermann",
+	"type": "physical_type",
+	"stars": 4,
+	"limited": true,
+	"stats": {
+		"hp":				[1618, 1802, 1998, 2206, 2428, 2668],
+		"mp":				[122, 134, 146, 158, 170, 182],
+		"physical_attack":	[656, 760, 863, 967, 1174, 1484],
+		"magic_attack":		[118, 188, 258, 328, 328, 328],
+		"defense":			[166, 224, 282, 340, 398, 398],
+		"strength":			[656, 760, 863, 967, 1174, 1484],
+		"endurance":		[166, 224, 282, 340, 398, 398],
+		"dexterity":		[204, 290, 377, 463, 549, 549],
+		"agility":			[277, 353, 429, 505, 581, 733],
+		"magic":			[118, 188, 258, 328, 328, 328]
+	},
+	"skills": {
+		"special": {
+			"name": "ODM Attacks",
+			"effects": [
+				{
+					"target": "foe",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "dark_physical_attack"
+				}, {
+					"target": "skill",
+					"attribute": "strength",
+					"modifier": "boost"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Cartwheel Attack",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "low",
+						"type": "dark_physical_attack"
+					}, {
+						"target": "self",
+						"attribute": "strength",
+						"modifier": "+75%",
+						"duration": 4
+					}
+				]
+			}, {
+				"name": "Ascending Attack",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "dark_physical_attack"
+					}, {
+						"target": "self",
+						"attribute": "dark_attack",
+						"modifier": "+60%",
+						"duration": 4
+					}
+				]
+			}, {
+				"name": "Non-Stop",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "dark_physical_attack"
+					}, {
+						"target": "foe",
+						"attribute": "magic_buff_removal_no_assist",
+						"modifier": ""
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Battle Arts: I",
+				"effects": [
+					{
+						"attribute": "strength",
+						"modifier": "+15%"
+					},  {
+						"attribute": "dexterity",
+						"modifier": "+15%"
+					}
+				]
+			}, {
+				"name": "Strike: I",
+				"effects": [
+					{
+						"attribute": "critical_damage",
+						"modifier": "+20%"
+					}
+				]
+			}, {
+				"name": "Light Resistance: I",
+				"effects": [
+					{
+						"attribute": "light_resist",
+						"modifier": "+35%"
+					}
+				]
+			}, {
+				"name": "Giant Killer: I",
+				"effects": [
+					{
+						"attribute": "giant_killer",
+						"modifier": "+50%"
+					}
+				]
+			}, {
+				"name": "Status Resist: I",
+				"effects": [
+					{
+						"attribute": "ailment_resist",
+						"modifier": "+15%"
+					}
+				]
+			}
+		]
+	}
+}
