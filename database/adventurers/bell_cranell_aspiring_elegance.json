@@ -1,0 +1,130 @@
+{
+	"id": "bell_cranell_aspiring_elegance",
+	"title": "Aspiring Elegance",
+	"name": "Bell Cranel",
+	"type": "magic_type",
+	"stars": 4,
+	"limited": true,
+	"stats": {
+		"hp":				[1424, 1600, 1794, 1226, 2236, 2484],
+		"mp":				[142, 154, 166, 178, 190, 202],
+		"physical_attack":	[125, 206, 288, 369, 369, 369],
+		"magic_attack":		[561, 653, 837, 1021, 1205, 1389],
+		"defense":			[133, 214, 214, 214, 296, 377],
+		"strength":			[125, 206, 288, 369, 369, 369],
+		"endurance":		[133, 214, 214, 214, 296, 377],
+		"dexterity":		[229, 317, 405, 493, 581, 581],
+		"agility":			[278, 357, 436, 515, 595, 753],
+		"magic":			[561, 653, 837, 1021, 1205, 1389]
+	},
+	"skills": {
+		"special": {
+			"name": "Firebolt Igniter",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "fire_magic_attack"
+				}, {
+					"target": "skill",
+					"attribute": "magic",
+					"modifier": "boost"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Seething",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "low",
+						"type": "fire_magic_attack"
+					}, {
+						"target": "self",
+						"attribute": "fire_attack",
+						"modifier": "+75%",
+						"duration": 4
+					}
+				]
+			}, {
+				"name": "Fiery Courage",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "fire_magic_attack"
+					}, {
+						"target": "self",
+						"attribute": "magic",
+						"modifier": "+60%",
+						"duration": 4
+					}
+				]
+			}, {
+				"name": "Noble Firebolt",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "fire_magic_attack"
+					}, {
+						"target": "skill",
+						"attribute": "uncounter_rate",
+						"modifier": "Ultra"
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Liaris Freese",
+				"effects": [
+					{
+						"attribute": "fast_growth",
+						"modifier": ""
+					}, {
+						"attribute": "null_charm",
+						"modifier": ""
+					}
+				]
+			}, {
+				"name": "Solid: I",
+				"effects": [
+					{
+						"attribute": "guard_rate",
+						"modifier": "+30%"
+					}
+				]
+			}, {
+				"name": "Wind Resistance: I",
+				"effects": [
+					{
+						"attribute": "wind_resist",
+						"modifier": "+35%"
+					}
+				]
+			}, {
+				"name": "Enlightenment: I",
+				"effects": [
+					{
+						"attribute": "magic",
+						"modifier": "+5%"
+					}
+				]
+			}, {
+				"name": "Luck: I",
+				"effects": [
+					{
+						"attribute": "all_status",
+						"modifier": "+10%"
+					}
+				]
+			}
+		]
+	}
+}
