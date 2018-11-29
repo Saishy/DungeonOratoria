@@ -1,0 +1,133 @@
+{
+	"id": "ais_wallenstein_regiment_princess",
+	"title": "Regiment Princess",
+	"name": "Ais Wallenstein",
+	"type": "physical_type",
+	"stars": 4,
+	"limited": true,
+	"stats": {
+		"hp":				[1650, 1835, 2030, 2238, 2460, 2700],
+		"mp":				[114, 126, 138, 150, 162, 174],
+		"physical_attack":	[665, 769, 872, 976, 1183, 1493],
+		"magic_attack":		[118, 188, 258, 328, 328, 328],
+		"defense":			[167, 231, 294, 358, 422, 422],
+		"strength":			[665, 769, 872, 976, 1183, 1493],
+		"endurance":		[167, 231, 294, 358, 422, 422],
+		"dexterity":		[191, 273, 356, 438, 521, 521],
+		"agility":			[315, 399, 482, 566, 650, 817],
+		"magic":			[118, 188, 258, 328, 328, 328]
+	},
+	"skills": {
+		"special": {
+			"name": "Solid Lil Rafaga",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "wind_physical_attack"
+				}, {
+					"target": "skill",
+					"attribute": "strength",
+					"modifier": "boost"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Air Combination",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "low",
+						"type": "wind_physical_attack"
+					}, {
+						"target": "self",
+						"attribute": "wind_attack",
+						"modifier": "+60%",
+						"duration": 4
+					}
+				]
+			}, {
+				"name": "Tornado Break",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "wind_physical_attack"
+					}, {
+						"target": "skill",
+						"attribute": "strength",
+						"modifier": "boost"
+					}
+				]
+			}, {
+				"name": "Revelation Cyclone",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "wind_physical_attack"
+					}, {
+						"target": "foes",
+						"attribute": "all_damage_resist",
+						"modifier": "-15%",
+						"duration": 3
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Sword Fighter: I",
+				"effects": [
+					{
+						"attribute": "strength",
+						"modifier": "+15%"
+					}
+				]
+			}, {
+				"name": "Strike: I",
+				"effects": [
+					{
+						"attribute": "critical_damage",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Earth Resistance: I",
+				"effects": [
+					{
+						"attribute": "earth_resist",
+						"modifier": "+35%"
+					}
+				]
+			}, {
+				"name": "Rigid: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+10%"
+					}, {
+						"attribute": "agility",
+						"modifier": "+10%"
+					}, {
+						"attribute": "dexterity",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Status Resist: I",
+				"effects": [
+					{
+						"attribute": "ailment_resist",
+						"modifier": "+15%"
+					}
+				]
+			}
+		]
+	}
+}

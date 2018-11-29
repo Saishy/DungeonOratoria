@@ -1,0 +1,133 @@
+{
+	"id": "levi_strongest_soldier",
+	"title": "Strongest Soldier",
+	"name": "Levi",
+	"type": "physical_type",
+	"stars": 4,
+	"limited": true,
+	"stats": {
+		"hp":				[1630, 1814, 2010, 2218, 2440, 2680],
+		"mp":				[119, 131, 143, 155, 147, 179],
+		"physical_attack":	[662, 766, 869, 973, 1180, 1490],
+		"magic_attack":		[118, 188, 258, 328, 328, 328],
+		"defense":			[146, 204, 262, 320, 378, 378],
+		"strength":			[662, 766, 869, 973, 1180, 1490],
+		"endurance":		[146, 204, 262, 320, 378, 378],
+		"dexterity":		[216, 302, 388, 474, 561, 561],
+		"agility":			[324, 411, 499, 586, 673, 848],
+		"magic":			[118, 188, 258, 328, 328, 328]
+	},
+	"skills": {
+		"special": {
+			"name": "Fast Dimensional Attack",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "dark_physical_attack"
+				}, {
+					"target": "skill",
+					"attribute": "strength",
+					"modifier": "boost"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Horizontal Attack",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "low",
+						"type": "dark_physical_attack"
+					}, {
+						"target": "self",
+						"attribute": "dark_attack",
+						"modifier": "+75%",
+						"duration": 4
+					}
+				]
+			}, {
+				"name": "Slash",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "dark_physical_attack"
+					}, {
+						"target": "self",
+						"attribute": "strength",
+						"modifier": "+60%",
+						"duration": 4
+					}
+				]
+			}, {
+				"name": "Rotating Attack",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "dark_physical_attack"
+					}, {
+						"target": "skill",
+						"attribute": "uncounter_rate",
+						"modifier": "Ultra"
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Battle Arts: I",
+				"effects": [
+					{
+						"attribute": "strength",
+						"modifier": "+15%"
+					},  {
+						"attribute": "agility",
+						"modifier": "+15%"
+					},  {
+						"attribute": "dexterity",
+						"modifier": "+15%"
+					}
+				]
+			}, {
+				"name": "Strike: I",
+				"effects": [
+					{
+						"attribute": "critical_damage",
+						"modifier": "+20%"
+					}
+				]
+			}, {
+				"name": "Light Resistance: I",
+				"effects": [
+					{
+						"attribute": "light_resist",
+						"modifier": "+35%"
+					}
+				]
+			}, {
+				"name": "Giant Killer: I",
+				"effects": [
+					{
+						"attribute": "giant_killer",
+						"modifier": "+50%"
+					}
+				]
+			}, {
+				"name": "Status Resist: I",
+				"effects": [
+					{
+						"attribute": "ailment_resist",
+						"modifier": "+15%"
+					}
+				]
+			}
+		]
+	}
+}

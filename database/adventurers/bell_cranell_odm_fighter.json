@@ -1,0 +1,135 @@
+{
+	"id": "bell_cranell_odm_fighter",
+	"title": "ODM Fighter",
+	"name": "Bell Cranel",
+	"type": "magic_type",
+	"stars": 4,
+	"limited": true,
+	"stats": {
+		"hp":				[1400, 1576, 1770, 1982, 2212, 2460],
+		"mp":				[148, 160, 172, 184, 196, 208],
+		"physical_attack":	[125, 206, 288, 369, 369, 369],
+		"magic_attack":		[545, 637, 821, 1005, 1189, 1373],
+		"defense":			[125, 206, 206, 206, 288, 369],
+		"strength":			[125, 206, 288, 369, 369, 369],
+		"endurance":		[125, 206, 206, 206, 288, 369],
+		"dexterity":		[248, 336, 424, 512, 600, 600],
+		"agility":			[282, 361, 441, 520, 599, 757],
+		"magic":			[545, 637, 821, 1005, 1189, 1373]
+	},
+	"skills": {
+		"special": {
+			"name": "Argonaut Sky Chain",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "wind_magic_attack"
+				}, {
+					"target": "skill",
+					"attribute": "magic",
+					"modifier": "boost"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Blast Edge",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "low",
+						"type": "wind_magic_attack"
+					}, {
+						"target": "self",
+						"attribute": "wind_attack",
+						"modifier": "+60%",
+						"duration": 4
+					}
+				]
+			}, {
+				"name": "Wind Storm",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "wind_magic_attack"
+					}, {
+						"target": "skill",
+						"attribute": "magic",
+						"modifier": "boost"
+					}, {
+						"target": "foes",
+						"attribute": "wind_resist",
+						"modifier": "-20%",
+						"duration": 3
+					}
+				]
+			}, {
+				"name": "Gale Force",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "wind_magic_attack"
+					}, {
+						"target": "allies",
+						"attribute": "critical_rate",
+						"modifier": "+20%",
+						"duration": 3
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Liaris Freese",
+				"effects": [
+					{
+						"attribute": "fast_growth",
+						"modifier": ""
+					}, {
+						"attribute": "null_charm",
+						"modifier": ""
+					}
+				]
+			}, {
+				"name": "Strike: I",
+				"effects": [
+					{
+						"attribute": "critical_damage",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Earth Resistance: I",
+				"effects": [
+					{
+						"attribute": "earth_resist",
+						"modifier": "+35%"
+					}
+				]
+			}, {
+				"name": "Enlightenment: I",
+				"effects": [
+					{
+						"attribute": "magic",
+						"modifier": "+5%"
+					}
+				]
+			}, {
+				"name": "Luck: I",
+				"effects": [
+					{
+						"attribute": "all_status",
+						"modifier": "+10%"
+					}
+				]
+			}
+		]
+	}
+}

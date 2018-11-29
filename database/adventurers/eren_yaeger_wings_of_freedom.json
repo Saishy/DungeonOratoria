@@ -1,0 +1,128 @@
+{
+	"id": "eren_yaeger_wings_of_freedom",
+	"title": "Wings of Freedom",
+	"name": "Eren Yaeger",
+	"type": "physical_type",
+	"stars": 4,
+	"limited": true,
+	"stats": {
+		"hp":				[1546, 1730, 1926, 2134, 2356, 2596],
+		"mp":				[140, 152, 164, 176, 188, 200],
+		"physical_attack":	[611, 685, 759, 832, 979, 1200],
+		"magic_attack":		[118, 174, 230, 286, 286, 286],
+		"defense":			[184, 238, 292, 346, 400, 400],
+		"strength":			[611, 685, 759, 832, 979, 1200],
+		"endurance":		[184, 238, 292, 346, 400, 400],
+		"dexterity":		[199, 265, 331, 397, 463, 463],
+		"agility":			[269, 335, 401, 467, 533, 665],
+		"magic":			[118, 174, 230, 286, 286, 286]
+	},
+	"skills": {
+		"special": {
+			"name": "High Altitude Trajectory",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "wind_physical_attack"
+				}, {
+					"target": "skill",
+					"attribute": "strength",
+					"modifier": "boost"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Dive Attack",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "wind_physical_attack"
+					}
+				]
+			}, {
+				"name": "Focused Attack",
+				"effects": [
+					{
+						"target": "self",
+						"attribute": "strength",
+						"modifier": "+65%",
+						"duration": 4
+					}, {
+						"target": "self",
+						"attribute": "hp_regen",
+						"modifier": "+20%",
+						"duration": 4
+					}
+				]
+			}, {
+				"name": "Head-on Attack",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "wind_physical_attack"
+					}, {
+						"target": "skill",
+						"attribute": "critical_rate",
+						"modifier": "high"
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Sword Fighter: I",
+				"effects": [
+					{
+						"attribute": "strength",
+						"modifier": "+15%"
+					}
+				]
+			}, {
+				"name": "Strike: I",
+				"effects": [
+					{
+						"attribute": "critical_damage",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Earth Resistance: I",
+				"effects": [
+					{
+						"attribute": "earth_resist",
+						"modifier": "+25%"
+					}
+				]
+			}, {
+				"name": "Rigid: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+10%"
+					}, {
+						"attribute": "agility",
+						"modifier": "+10%"
+					}, {
+						"attribute": "dexterity",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Status Resist: I",
+				"effects": [
+					{
+						"attribute": "ailment_resist",
+						"modifier": "+15%"
+					}
+				]
+			}
+		]
+	}
+}
