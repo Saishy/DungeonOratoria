@@ -1,0 +1,128 @@
+{
+	"id": "chloe_lolo_holly_wreath",
+	"title": "Holly Wreath",
+	"name": "Chloe Lolo",
+	"type": "balance_type",
+	"stars": 4,
+	"limited": true,
+	"stats": {
+		"hp":				[1412, 1588, 1782, 1994, 2224, 2472],
+		"mp":				[160, 172, 184, 196, 208, 220],
+		"physical_attack":	[388, 565, 654, 742, 831, 920],
+		"magic_attack":		[327, 404, 481, 558, 635, 789],
+		"defense":			[163, 163, 209, 254, 299, 344],
+		"strength":			[388, 565, 654, 742, 831, 920],
+		"endurance":		[163, 163, 209, 254, 299, 344],
+		"dexterity":		[212, 279, 346, 413, 480, 547],
+		"agility":			[258, 319, 379, 440, 500, 500],
+		"magic":			[327, 404, 481, 558, 635, 789]
+	},
+	"skills": {
+		"special": {
+			"name": "Sharp Gift",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "earth_physical_attack"
+				}, {
+					"target": "skill",
+					"attribute": "strength",
+					"modifier": "boost"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Parrying Dagger",
+				"effects": [
+					{
+						"target": "allies",
+						"attribute": "physical_resist",
+						"modifier": "+35%",
+						"duration": 3
+					}
+				]
+			}, {
+				"name": "Fend",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "earth_physical_attack"
+					}, {
+						"target": "foes",
+						"attribute": "strength",
+						"modifier": "-35%",
+						"duration": 3
+					}
+				]
+			}, {
+				"name": "Laceration",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "earth_physical_attack"
+					}, {
+						"target": "skill",
+						"attribute": "strength",
+						"modifier": "boost"
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Crush: I",
+				"effects": [
+					{
+						"attribute": "stregth",
+						"modifier": "+15%"
+					}
+				]
+			}, {
+				"name": "Piercing Strike: I",
+				"effects": [
+					{
+						"attribute": "penetration_damage",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Thunder Resistance: I",
+				"effects": [
+					{
+						"attribute": "thunder_resist",
+						"modifier": "+25%"
+					}
+				]
+			}, {
+				"name": "Rigid: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+10%"
+					}, {
+						"attribute": "agility",
+						"modifier": "+10%"
+					}, {
+						"attribute": "dexterity",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Status Resist: I",
+				"effects": [
+					{
+						"attribute": "ailment_resist",
+						"modifier": "+15%"
+					}
+				]
+			}
+		]
+	}
+}

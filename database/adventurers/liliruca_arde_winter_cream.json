@@ -1,0 +1,121 @@
+{
+	"id": "liliruca_arde_winter_cream",
+	"title": "Winter Cream",
+	"name": "Liliruca Arde",
+	"type": "balance_type",
+	"stars": 4,
+	"limited": true,
+	"stats": {
+		"hp":				[1432, 1608, 1802, 1234, 2244, 2492],
+		"mp":				[155, 167, 179, 191, 203, 215],
+		"physical_attack":	[327, 519, 615, 711, 807, 903],
+		"magic_attack":		[523, 633, 744, 854, 964, 1185],
+		"defense":			[148, 148, 199, 250, 301, 352],
+		"strength":			[327, 519, 615, 711, 807, 903],
+		"endurance":		[148, 148, 199, 250, 301, 352],
+		"dexterity":		[217, 295, 373, 451, 529, 607],
+		"agility":			[227, 307, 386, 465, 545, 545],
+		"magic":			[523, 633, 744, 854, 964, 1185]
+	},
+	"skills": {
+		"special": {
+			"name": "Flame Illusion",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "fire_magic_attack"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Bright Hearth",
+				"effects": [
+					{
+						"target": "allies",
+						"attribute": "magic",
+						"modifier": "+45%",
+						"duration": 4
+					}, {
+						"target": "allies",
+						"attribute": "heal_modifier",
+						"modifier": "+30%",
+						"duration": 4
+					}
+				]
+			}, {
+				"name": "Petit Feu",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "fire_magic_attack"
+					}
+				]
+			}, {
+				"name": "Eggnog Potion",
+				"effects": [
+					{
+						"target": "allies",
+						"attribute": "heal",
+						"modifier": "low"
+					}, {
+						"target": "allies",
+						"attribute": "hp_regen",
+						"modifier": "+35%",
+						"duration": 2
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Encouragement: I",
+				"effects": [
+					{
+						"attribute": "When countering, instead of regular attack, Lo Heals an Ally with least % HP",
+						"modifier": ""
+					}
+				]
+			}, {
+				"name": "Solid: I",
+				"effects": [
+					{
+						"attribute": "guard_rate",
+						"modifier": "+30%"
+					}
+				]
+			}, {
+				"name": "Wind Resistance: I",
+				"effects": [
+					{
+						"attribute": "wind_resist",
+						"modifier": "+35%"
+					}
+				]
+			}, {
+				"name": "Forestall: I",
+				"effects": [
+					{
+						"attribute": "magic",
+						"modifier": "+10%"
+					}, {
+						"attribute": "agility",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Status Resist: I",
+				"effects": [
+					{
+						"attribute": "ailment_resist",
+						"modifier": "+15%"
+					}
+				]
+			}
+		]
+	}
+}

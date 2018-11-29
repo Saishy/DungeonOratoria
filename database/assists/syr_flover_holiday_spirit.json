@@ -1,0 +1,56 @@
+{
+	"id": "syr_flover_holiday_spirit",
+	"title": "Holiday Spirit",
+	"name": "Syr Flover",
+	"stars": 4,
+	"limited": true,
+	"stats": {
+		"hp":				[740, 820, 900, 992, 1096, 1200],
+		"mp":				[ 74,  82,  90,  98, 106, 114],
+		"physical_attack":	[190, 223, 256, 289, 322, 355],
+		"magic_attack":		[223, 289, 322, 355, 355, 355],
+		"defense":			[201, 227, 253, 279, 331, 383],
+		"strength":			[190, 223, 256, 289, 322, 355],
+		"endurance":		[201, 227, 253, 279, 331, 383],
+		"dexterity":		[176, 207, 238, 269, 300, 331],
+		"agility":			[113, 113, 147, 181, 215, 215],
+		"magic":			[223, 289, 322, 355, 355, 355]
+	},
+	"skills": [
+		{
+			"name": "Promised Road Home+",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "slow_resist",
+					"modifier": "+75%"
+				}, {
+					"target": "allies",
+					"attribute": "seal_resist",
+					"modifier": "+75%"
+				}, {
+					"target": "allies",
+					"attribute": "endurance",
+					"modifier": "+4%"
+				}
+			]
+		}, {
+			"name": "Phantom Beast?++",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "slow_resist",
+					"modifier": "+100%"
+				}, {
+					"target": "allies",
+					"attribute": "seal_resist",
+					"modifier": "+100%"
+				}, {
+					"target": "allies",
+					"attribute": "endurance",
+					"modifier": "+5%"
+				}
+			]
+		}
+	]
+}
