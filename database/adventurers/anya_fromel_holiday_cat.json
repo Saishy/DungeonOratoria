@@ -1,0 +1,142 @@
+{
+	"id": "anya_fromel_holiday_cat",
+	"title": "Holiday Cat",
+	"name": "Anya Fromel",
+	"type": "magic_type",
+	"stars": 4,
+	"limited": true,
+	"stats": {
+		"hp":				[1550, 1734, 1930, 2138, 2360, 2600],
+		"mp":				[189, 205, 221, 239, 259, 279],
+		"physical_attack":	[114, 188, 262, 336, 336, 336],
+		"magic_attack":		[542, 634, 818, 1002, 1186, 1370],
+		"defense":			[140, 222, 222, 222, 303, 385],
+		"strength":			[114, 188, 262, 336, 336, 336],
+		"endurance":		[140, 222, 222, 222, 303, 385],
+		"dexterity":		[251, 339, 427, 515, 603, 603],
+		"agility":			[266, 345, 424, 503, 583, 741],
+		"magic":			[542, 634, 818, 1002, 1186, 1370]
+	},
+	"skills": {
+		"special": {
+			"name": "Speed Party!",
+			"effects": [
+				{
+					"target": "foe",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "earth_magic_attack"
+				}, {
+					"target": "skill",
+					"attribute": "magic",
+					"modifier": "boost"
+				}, {
+					"target": "skill",
+					"attribute": "critical_rate",
+					"modifier": "ultra"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Fraction",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "low",
+						"type": "earth_magic_attack"
+					}, {
+						"target": "self",
+						"attribute": "magic",
+						"modifier": "+75%",
+						"duration": 4
+					}
+				]
+			}, {
+				"name": "Breach",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "earth_magic_attack"
+					}, {
+						"target": "foe",
+						"attribute": "earth_resist",
+						"modifier": "-35%",
+						"duration": 3
+					}
+				]
+			}, {
+				"name": "Ferocious Piece",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "earth_magic_attack"
+					}, {
+						"target": "skill",
+						"attribute": "magic",
+						"modifier": "boost"
+					}, {
+						"target": "foe",
+						"attribute": "guard_rate",
+						"modifier": "-40%",
+						"duration": 4
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Mind's Eye: I",
+				"effects": [
+					{
+						"attribute": "magic",
+						"modifier": "+15%"
+					}
+				]
+			}, {
+				"name": "Piercing Strike: I",
+				"effects": [
+					{
+						"attribute": "penetration_damage",
+						"modifier": "+20%"
+					}
+				]
+			}, {
+				"name": "Thunder Resistance: I",
+				"effects": [
+					{
+						"attribute": "thunder_resist",
+						"modifier": "+35%"
+					}
+				]
+			}, {
+				"name": "Rigid: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+10%"
+					}, {
+						"attribute": "agility",
+						"modifier": "+10%"
+					}, {
+						"attribute": "dexterity",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Status Resist: I",
+				"effects": [
+					{
+						"attribute": "ailment_resist",
+						"modifier": "+15%"
+					}
+				]
+			}
+		]
+	}
+}

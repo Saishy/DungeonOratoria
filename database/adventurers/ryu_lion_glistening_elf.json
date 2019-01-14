@@ -1,0 +1,142 @@
+{
+	"id": "ryu_lion_glistening_elf",
+	"title": "Glistening Elf",
+	"name": "Ryu Lion",
+	"type": "magic_type",
+	"stars": 4,
+	"limited": true,
+	"stats": {
+		"hp":				[1542, 1726, 1922, 2130, 2352, 2592],
+		"mp":				[191, 207, 223, 241, 261, 281],
+		"physical_attack":	[114, 188, 262, 336, 336, 336],
+		"magic_attack":		[512, 604, 788, 972, 1156, 1340],
+		"defense":			[127, 209, 209, 209, 290, 371],
+		"strength":			[114, 188, 262, 336, 336, 336],
+		"endurance":		[127, 209, 209, 209, 290, 371],
+		"dexterity":		[204, 292, 380, 468, 556, 556],
+		"agility":			[355, 434, 513, 592, 672, 830],
+		"magic":			[512, 604, 788, 972, 1156, 1340]
+	},
+	"skills": {
+		"special": {
+			"name": "Luminous Star Gale",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "wind_magic_attack",
+					"speed": "fast"
+				}, {
+					"target": "foes",
+					"attribute": "str_buff_removal_no_assist",
+					"modifier": ""
+				}, {
+					"target": "foes",
+					"attribute": "magic_buff_removal_no_assist",
+					"modifier": ""
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Arctic",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "low",
+						"type": "wind_magic_attack"
+					}, {
+						"target": "self",
+						"attribute": "wind_attack",
+						"modifier": "+60%",
+						"duration": 4
+					}
+				]
+			}, {
+				"name": "Wind Shear",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "wind_magic_attack"
+					}, {
+						"target": "skill",
+						"attribute": "magic",
+						"modifier": "boost"
+					}, {
+						"target": "foes",
+						"attribute": "seal",
+						"modifier": "20%"
+					}
+				]
+			}, {
+				"name": "Revelation Cyclone",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "wind_magic_attack"
+					}, {
+						"target": "allies",
+						"attribute": "physical_resist",
+						"modifier": "+25%",
+						"duration": 3
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Enlightenment: I",
+				"effects": [
+					{
+						"attribute": "magic",
+						"modifier": "+15%"
+					}
+				]
+			}, {
+				"name": "Strike: I",
+				"effects": [
+					{
+						"attribute": "critical_damage",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Earth Resistance: I",
+				"effects": [
+					{
+						"attribute": "earth_resist",
+						"modifier": "+35%"
+					}
+				]
+			}, {
+				"name": "Rigid: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+10%"
+					}, {
+						"attribute": "agility",
+						"modifier": "+10%"
+					}, {
+						"attribute": "dexterity",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Status Resist: I",
+				"effects": [
+					{
+						"attribute": "ailment_resist",
+						"modifier": "+15%"
+					}
+				]
+			}
+		]
+	}
+}

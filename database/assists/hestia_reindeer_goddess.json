@@ -1,0 +1,56 @@
+{
+	"id": "hestia_reindeer_goddess",
+	"title": "Reindeer Goddess",
+	"name": "Hestia",
+	"stars": 4,
+	"limited": true,
+	"stats": {
+		"hp":				[570, 626, 682, 742, 806, 870],
+		"mp":				[111, 119, 127, 137, 149, 161],
+		"physical_attack":	[113, 145, 177, 209, 209, 209],
+		"magic_attack":		[330, 363, 396, 462, 528, 594],
+		"defense":			[124, 149, 174, 174, 199, 224],
+		"strength":			[113, 145, 177, 209, 209, 209],
+		"endurance":		[124, 149, 174, 174, 199, 224],
+		"dexterity":		[199, 231, 263, 295, 359, 359],
+		"agility":			[154, 187, 220, 253, 253, 286],
+		"magic":			[330, 363, 396, 462, 528, 594]
+	},
+	"skills": [
+		{
+			"name": "Phantom Beast?+",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "magic",
+					"modifier": "+10%"
+				}, {
+					"target": "allies",
+					"attribute": "fire_attack",
+					"modifier": "+10%"
+				}, {
+					"target": "allies",
+					"attribute": "wind_attack",
+					"modifier": "+10%"
+				}
+			]
+		}, {
+			"name": "Phantom Beast?++",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "magic",
+					"modifier": "+15%"
+				}, {
+					"target": "allies",
+					"attribute": "fire_attack",
+					"modifier": "+15%"
+				}, {
+					"target": "allies",
+					"attribute": "wind_attack",
+					"modifier": "+15%"
+				}
+			]
+		}
+	]
+}
