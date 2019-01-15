@@ -1,0 +1,138 @@
+{
+	"id": "tione_hiryute_blushing_peony",
+	"title": "Blushing Peony",
+	"name": "Tione Hiryute",
+	"type": "magic_type",
+	"stars": 4,
+	"limited": false,
+	"stats": {
+		"hp": 				[1502, 1686, 1882, 2090, 2312, 2552],
+		"mp": 				[201, 217, 233, 251, 271, 291],
+		"physical_attack": 	[114, 188, 262, 336, 336, 336],
+		"magic_attack": 	[529, 621, 805, 989, 1173, 1357],
+		"defense":			[158, 239, 239, 239, 321, 402],
+		"strength": 		[114, 188, 262, 336, 336, 336],
+		"endurance": 		[158, 239, 239, 239, 321, 402],
+		"dexterity": 		[229, 317, 405, 493, 581, 581],
+		"agility": 			[283, 363, 442, 521, 600, 759],
+		"magic": 			[529, 621, 805, 989, 1173, 1357]
+	},
+	"skills": {
+		"special": {
+			"name": "Sacred Peony",
+			"effects": [
+				{
+					"target": "foe",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "light_magic_attack"
+				}, {
+					"target": "skill",
+					"attribute": "magic",
+					"modifier": "boost"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Flash Perfume",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "low",
+						"type": "light_magic_attack"
+					}, {
+						"target": "self",
+						"attribute": "light_attack",
+						"modifier": "+75%",
+						"duration": 4
+					}
+				]
+			}, {
+				"name": "Rampage Beat",
+				"effects": [
+					{
+						"target": "self",
+						"attribute": "sa_gauge_charge",
+						"modifier": "+100%",
+						"duration": 4
+					}, {
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "low",
+						"type": "light_magic_attack"
+					}
+				]
+			}, {
+				"name": "Heavenly Blow",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "light_magic_attack"
+					}, {
+						"target": "skill",
+						"attribute": "magic",
+						"modifier": "boost"
+					}, {
+						"target": "foe",
+						"attribute": "light_resist",
+						"modifier": "-25%",
+						"duration": 3
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Crush: I",
+				"effects": [
+					{
+						"attribute": "strength",
+						"modifier": "+15%"
+					}
+				]
+			}, {
+				"name": "Piercing Strike: I",
+				"effects": [
+					{
+						"attribute": "penetration_damage",
+						"modifier": "+20%"
+					}
+				]
+			}, {
+				"name": "Dark Resistance: I",
+				"effects": [
+					{
+						"attribute": "dark_resist",
+						"modifier": "+35%"
+					}
+				]
+			}, {
+				"name": "Rigid: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+10%"
+					}, {
+						"attribute": "dexterity",
+						"modifier": "+10%"
+					}, {
+						"attribute": "agility",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Beast Killer",
+				"effects": [
+					{
+						"attribute": "beast_killer",
+						"modifier": "+50%"
+					}
+				]
+			}
+		]
+	}
+}
