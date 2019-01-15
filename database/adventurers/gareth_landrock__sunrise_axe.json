@@ -1,3 +1,132 @@
-{"id":"gareth_landrock__sunrise_axe","title":"Sunrise Axe","name":"Gareth Landrock ","type":"defense_type","stars":4,"limited":false,"stats":{"hp":[1784,0,0,0,0,3154],"mp":[126,0,0,0,0,186],"physical_attack":[333,0,0,0,0,822],"magic_attack":[139,0,0,0,0,349],"defense":[310,0,0,0,0,797],"strength":[333,0,0,0,0,822],"endurance":[310,0,0,0,0,797],"dexterity":[188,0,0,0,0,538],"agility":[109,0,0,0,0,319],"magic":[139,0,0,0,0,349]},"skills":{"special":{"name":"Special Placeholder","effects":[{"target":"self","attribute":"strength","modifier":"+0%"}]},
-	"combat":[{"name":"Skill 1 Placeholder","effects":[{"target":"self","attribute":"strength","modifier":"+0%"}]},{"name":"Skill 2 Placeholder","effects":[{"target":"self","attribute":"strength","modifier":"+0%"}]},{"name":"Skill 3 Placeholder","effects":[{"target":"self","attribute":"strength","modifier":"+0%"}]}],
-	"development":[{"name":"Placeholder: I","effects":[{"attribute":"dexterity","modifier":"+10%"}]},{"name":"PlaceholderTwo: I","effects":[{"attribute":"agility","modifier":"+10%"}]}]}}
+{
+	"id": "gareth_landrock__sunrise_axe",
+	"title": "Sunrise Axe",
+	"name": "Gareth Landrock ",
+	"type": "defense_type",
+	"stars": 4,
+	"limited": true,
+	"stats": {
+		"hp": 				[1784, 2016, 2269, 2543, 2838, 3154],
+		"mp": 				[126, 138, 150, 162, 174, 186],
+		"physical_attack": 	[333, 431, 529, 627, 724, 822],
+		"magic_attack": 	[139, 209, 279, 279, 349, 349],
+		"defense": 			[310, 365, 419, 527, 635, 797],
+		"strength": 		[333, 431, 529, 627, 724, 822],
+		"endurance": 		[310, 365, 419, 527, 635, 797],
+		"dexterity": 		[188, 258, 328, 398, 468, 538],
+		"agility": 			[109, 179, 249, 319, 319, 319],
+		"magic": 			[139, 209, 279, 279, 349, 349]
+	},
+	"skills": {
+		"special": {
+			"name": "Mighty Sunrise",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "prevent_ko",
+					"modifier": "x1",
+					"duration": "only when hp>=1%"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Strong Defense",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "taunt",
+						"modifier": "75%"
+					}, {
+						"target": "foes",
+						"attribute": "penetration_rate",
+						"modifier": "-30%",
+						"duration": 4
+					}, {
+						"target": "skill",
+						"attribute": "",
+						"modifier": "fast"
+					}
+				]
+			},
+			{
+				"name": "Attack Fortress",
+				"effects": [
+					{
+						"target": "self",
+						"attribute": "counter_rate",
+						"modifier": "+50%",
+						"duration": 4
+					}, {
+						"target": "self",
+						"attribute": "guard_rate",
+						"modifier": "+50%",
+						"duration": 4
+					}
+				]
+			},
+			{
+				"name": "Scintillate Ax",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "physical_attack"
+					}, {
+						"target": "skill",
+						"attribute": "life_steal",
+						"modifier": "25%"
+					}, {
+						"target": "skill",
+						"attribute": "strength",
+						"modifier": "boost"
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Fist Strike: E",
+				"effects": [
+					{
+						"attribute": "strength",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Strong Defense: H",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+4%"
+					}
+				]
+			}, {
+				"name": "Magic Resistance: H",
+				"effects": [
+					{
+						"attribute": "magic_resist",
+						"modifier": "+8%"
+					}
+				]
+			}, {
+				"name": "Status Resist: I",
+				"effects": [
+					{
+						"attribute": "ailment_resist",
+						"modifier": "+15%"
+					}
+				]
+			}, {
+				"name": "Healing Power: I",
+				"effects": [
+					{
+						"attribute": "hp_regen",
+						"modifier": "+1%"
+					}
+				]
+			}
+		]
+	}
+}
