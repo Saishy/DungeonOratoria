@@ -1,0 +1,137 @@
+{
+	"id": "artemis_virgin_goddess",
+	"title": "Virgin Goddess",
+	"name": "Artemis",
+	"type": "balance_type",
+	"stars": 4,
+	"limited": false,
+	"stats": {
+		"hp": 				[1456, 1632, 1826, 2038, 2268, 2516],
+		"mp": 				[149, 161, 173, 185, 197, 209],
+		"physical_attack": 	[444, 674, 789, 904, 1020, 1135],
+		"magic_attack": 	[405, 501, 597, 693, 789, 981],
+		"defense":			[149, 149, 200, 251, 302, 353],
+		"strength": 		[444, 674, 789, 904, 1020, 1135],
+		"endurance": 		[149, 149, 200, 251, 302, 353],
+		"dexterity": 		[267, 361, 454, 548, 642, 735],
+		"agility": 			[227, 307, 386, 465, 545, 545],
+		"magic": 			[405, 501, 597, 693, 789, 981]
+	},
+	"skills": {
+		"special": {
+			"name": "Cascading Glint Arrow",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "light_physical_attack"
+				}, {
+					"target": "skill",
+					"attribute": "penetration_rate",
+					"modifier": "ultra"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Lightning Fletcher",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "light_physical_attack"
+					}, {
+						"target": "skill",
+						"attribute": "strength",
+						"modifier": "boost"
+					}, {
+						"target": "skill",
+						"attribute": "unguard_rate",
+						"modifier": "ultra"
+					}
+				]
+			}, {
+				"name": "Stoicism",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "low",
+						"type": "light_physical_attack"
+					}, {
+						"target": "skill",
+						"attribute": "magic_buff_removal_no_assist",
+						"modifier": ""
+					}, {
+						"target": "skill",
+						"attribute": "",
+						"modifier": "fast"
+					}
+				]
+			}, {
+				"name": "Pristine Presence",
+				"effects": [
+					{
+						"target": "allies",
+						"attribute": "strength",
+						"modifier": "+35%",
+						"duration": 4
+					}, {
+						"target": "allies",
+						"attribute": "counter_rate",
+						"modifier": "+20%",
+						"duration": 4
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Hunter: G",
+				"effects": [
+					{
+						"attribute": "agility",
+						"modifier": "+15%"
+					}
+				]
+			}, {
+				"name": "Strike: I",
+				"effects": [
+					{
+						"attribute": "critical_damage",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Dark Resistance: I",
+				"effects": [
+					{
+						"attribute": "dark_resist",
+						"modifier": "+35%"
+					}
+				]
+			}, {
+				"name": "Battle Arts: G",
+				"effects": [
+					{
+						"attribute": "strength",
+						"modifier": "+20%"
+					}, {
+						"attribute": "dexterity",
+						"modifier": "+20%"
+					}
+				]
+			}, {
+				"name": "Insect Killer",
+				"effects": [
+					{
+						"attribute": "insect_killer",
+						"modifier": "+50%"
+					}
+				]
+			}
+		]
+	}
+}
