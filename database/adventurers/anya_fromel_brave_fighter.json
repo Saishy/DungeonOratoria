@@ -1,0 +1,141 @@
+{
+	"id": "anya_fromel_brave_fighter",
+	"title": "Brave Fighter",
+	"name": "Anya Fromel",
+	"type": "balance_type",
+	"stars": 4,
+	"limited": false,
+	"stats": {
+		"hp":				[1408, 1584, 1778, 1990, 2220, 2468],
+		"mp":				[161, 173, 185, 197, 209, 221],
+		"physical_attack":	[400, 621, 731, 841, 952, 1062],
+		"magic_attack":		[405, 501, 597, 693, 789, 981],
+		"defense":			[162, 162, 218, 275, 331, 387],
+		"strength":			[400, 621, 731, 841, 952, 1062],
+		"endurance":		[162, 162, 218, 275, 331, 387],
+		"dexterity":		[238, 324, 410, 496, 581, 667],
+		"agility":			[249, 325, 401, 477, 553, 553],
+		"magic":			[405, 501, 597, 693, 789, 981]
+	},
+	"skills": {
+		"special": {
+			"name": "Ruling Rift",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "earth_physical_attack"
+				}, {
+					"target": "foes",
+					"attribute": "stun",
+					"modifier": "50%"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Lancer Inspiration",
+				"effects": [
+					{
+						"target": "allies",
+						"attribute": "guard_rate",
+						"modifier": "+35%",
+						"duration": 3
+					}, {
+						"target": "allies",
+						"attribute": "magic_resist",
+						"modifier": "+35%",
+						"duration": 3
+					}
+				]
+			}, {
+				"name": "Riddle",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "earth_physical_attack"
+					}, {
+						"target": "foes",
+						"attribute": "magic",
+						"modifier": "-35%",
+						"duration": 3
+					}, {
+						"target": "foes",
+						"attribute": "critical_rate",
+						"modifier": "-35%",
+						"duration": 3
+					}
+				]
+			}, {
+				"name": "Dismantle",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "earth_physical_attack"
+					}, {
+						"target": "foes",
+						"attribute": "hp_regen_removal_no_assist",
+						"modifier": ""
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Protection: I",
+				"effects": [
+					{
+						"attribute": "physical_resist",
+						"modifier": "+10%"
+					}, {
+						"attribute": "magic_resist",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Solid: I",
+				"effects": [
+					{
+						"attribute": "guard_rate",
+						"modifier": "+30%"
+					}
+				]
+			}, {
+				"name": "Thunder Resistance: I",
+				"effects": [
+					{
+						"attribute": "thunder_resist",
+						"modifier": "+35%"
+					}
+				]
+			}, {
+				"name": "Rigid: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+10%"
+					}, {
+						"attribute": "agility",
+						"modifier": "+10%"
+					}, {
+						"attribute": "dexterity",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Crush: I",
+				"effects": [
+					{
+						"attribute": "strength",
+						"modifier": "+15%"
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,138 @@
+{
+	"id": "chloe_lolo_gallant_fighter",
+	"title": "Gallant Fighter",
+	"name": "Chloe Lolo",
+	"type": "magic_type",
+	"stars": 4,
+	"limited": false,
+	"stats": {
+		"hp":				[1462, 1646, 1842, 2050, 2272, 2512],
+		"mp":				[211, 227, 243, 261, 281, 301],
+		"physical_attack":	[114, 188, 262, 336, 336, 336],
+		"magic_attack":		[561, 653, 837, 1021, 1205, 1389],
+		"defense":			[126, 207, 207, 207, 289, 370],
+		"strength":			[114, 188, 262, 336, 336, 336],
+		"endurance":		[126, 207, 207, 207, 289, 370],
+		"dexterity":		[253, 341, 429, 517, 605, 605],
+		"agility":			[261, 341, 420, 449, 578, 737],
+		"magic":			[561, 653, 837, 1021, 1205, 1389]
+	},
+	"skills": {
+		"special": {
+			"name": "Resonating Rift",
+			"effects": [
+				{
+					"target": "foe",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "earth_magic_attack"
+				}, {
+					"target": "skill",
+					"attribute": "magic",
+					"modifier": "boost"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Wanted Mark",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "earth_magic_attack"
+					}, {
+						"target": "skill",
+						"attribute": "magic",
+						"modifier": "boost"
+					}, {
+						"target": "foe",
+						"attribute": "single_damage_resist",
+						"modifier": "-15%",
+						"duration": 4
+					}
+				]
+			}, {
+				"name": "Land Spike",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "earth_magic_attack"
+					}, {
+						"target": "allies",
+						"attribute": "earth_attack",
+						"modifier": "+20%",
+						"duration": 3
+					}
+				]
+			}, {
+				"name": "Dagger Mastery",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "low",
+						"type": "earth_magic_attack"
+					}, {
+						"target": "self",
+						"attribute": "magic",
+						"modifier": "+75%",
+						"duration": 4
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Enlightenment: I",
+				"effects": [
+					{
+						"attribute": "magic",
+						"modifier": "+15%"
+					}
+				]
+			}, {
+				"name": "Piercing Strike: I",
+				"effects": [
+					{
+						"attribute": "penetration_damage",
+						"modifier": "+20%"
+					}
+				]
+			}, {
+				"name": "Thunder Resistance: I",
+				"effects": [
+					{
+						"attribute": "thunder_resist",
+						"modifier": "+35%"
+					}
+				]
+			}, {
+				"name": "Rigid: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+10%"
+					}, {
+						"attribute": "agility",
+						"modifier": "+10%"
+					}, {
+						"attribute": "dexterity",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Status Resist: I",
+				"effects": [
+					{
+						"attribute": "ailment_resist",
+						"modifier": "+15%"
+					}
+				]
+			}
+		]
+	}
+}
