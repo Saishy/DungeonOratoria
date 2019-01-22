@@ -4,75 +4,102 @@
 	"name": "Liliruca Arde",
 	"type": "magic_type",
 	"stars": 3,
-	"limited": false,
+	"limited": true,
 	"stats": {
-		"hp": [1360, 0, 0, 0, 0, 2410],
-		"mp": [176, 0, 0, 0, 0, 266],
-		"physical_attack": [69, 0, 0, 0, 0, 156],
-		"magic_attack": [347, 0, 0, 0, 0, 824],
-		"defense": [103, 0, 0, 0, 0, 241],
-		"strength": [69, 0, 0, 0, 0, 156],
-		"endurance": [103, 0, 0, 0, 0, 241],
-		"dexterity": [143, 0, 0, 0, 0, 315],
-		"agility": [179, 0, 0, 0, 0, 437],
-		"magic": [347, 0, 0, 0, 0, 824]
+		"hp": 				[1360, 1544, 1740, 1948, 2170, 2410],
+		"mp": 				[176, 192, 208, 226, 246, 266],
+		"physical_attack": 	[ 69,  98, 127, 156, 156, 156],
+		"magic_attack": 	[347, 453, 559, 612, 718, 824],
+		"defense": 			[103, 149, 149, 195, 241, 241],
+		"strength": 		[ 69,  98, 127, 156, 156, 156],
+		"endurance": 		[103, 149, 149, 195, 241, 241],
+		"dexterity": 		[143, 143, 186, 229, 272, 315],
+		"agility": 			[179, 222, 265, 308, 351, 437],
+		"magic": 			[347, 453, 559, 612, 718, 824]
 	},
 	"skills": {
 		"special": {
-			"name": "Special Placeholder",
+			"name": "Blizzard Rain",
 			"effects": [
 				{
-					"target": "self",
-					"attribute": "strength",
-					"modifier": "+0%"
+					"target": "foe",
+					"attribute": "damage",
+					"modifier": "high",
+					"type": "ice_magic_attack"
 				}
 			]
 		},
 		"combat": [
 			{
-				"name": "Skill 1 Placeholder",
+				"name": "Icicle Arrow",
 				"effects": [
 					{
-						"target": "self",
-						"attribute": "strength",
-						"modifier": "+0%"
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "low",
+						"type": "ice_magic_attack"
 					}
 				]
 			}, {
-				"name": "Skill 2 Placeholder",
+				"name": "Mana Stock ",
 				"effects": [
 					{
 						"target": "self",
-						"attribute": "strength",
-						"modifier": "+0%"
+						"attribute": "magic",
+						"modifier": "+50%",
+						"duration": 4
 					}
 				]
 			}, {
-				"name": "Skill 3 Placeholder",
+				"name": "Reforce Cancel",
 				"effects": [
 					{
 						"target": "self",
-						"attribute": "strength",
-						"modifier": "+0%"
+						"attribute": "null_physical_attack_no_special",
+						"modifier": "1"
 					}
 				]
 			}
 		],
 		"development": [
 			{
-				"name": "Placeholder: I",
+				"name": "Enlightenment: I",
 				"effects": [
 					{
-						"attribute": "dexterity",
-						"modifier": "+10%"
+						"attribute": "magic",
+						"modifier": "+4%"
 					}
 				]
 			}, {
-				"name": "PlaceholderTwo: I",
+				"name": "Tough: I",
 				"effects": [
 					{
-						"attribute": "agility",
-						"modifier": "+10%"
+						"attribute": "endurance",
+						"modifier": "+7.5%"
+					}
+				]
+			}, {
+				"name": "Beast Killer",
+				"effects": [
+					{
+						"attribute": "beast_killer",
+						"modifier": "+50%"
+					}
+				]
+			}, {
+				"name": "Status Resist: I",
+				"effects": [
+					{
+						"attribute": "ailment_resist",
+						"modifier": "+15%"
+					}
+				]
+			}, {
+				"name": "Mind's Eye: I",
+				"effects": [
+					{
+						"attribute": "magic",
+						"modifier": "+4%"
 					}
 				]
 			}
