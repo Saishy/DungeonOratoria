@@ -1,0 +1,134 @@
+{
+	"id": "tiona_hiryute_blustering_beauty",
+	"title": "Blustering Beauty",
+	"name": "Tiona Hiryute",
+	"type": "balance_type",
+	"stars": 4,
+	"limited": false,
+	"stats": {
+		"hp": 				[1432, 1608, 1802, 2014, 2244, 2492],
+		"mp": 				[155, 167, 179, 191, 203, 215],
+		"physical_attack": 	[376, 596, 707, 817, 928, 1038],
+		"magic_attack": 	[405, 501, 597, 693, 789, 981],
+		"defense":			[148, 148, 199, 250, 301, 352],
+		"strength": 		[376, 596, 707, 817, 928, 1038],
+		"endurance": 		[148, 148, 199, 250, 301, 352],
+		"dexterity": 		[308, 397, 487, 577, 667, 756],
+		"agility": 			[226, 305, 385, 464, 543, 543],
+		"magic": 			[405, 501, 597, 693, 789, 981]
+	},
+	"skills": {
+		"special": {
+			"name": "Gamine Prune",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "thunder_physical_attack"
+				}, {
+					"target": "foes",
+					"attribute": "stun",
+					"modifier": "50%"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Gardien Tonnerre",
+				"effects": [
+					{
+						"target": "allies",
+						"attribute": "physical_resist",
+						"modifier": "+35%",
+						"duration": 2
+					}, {
+						"target": "allies",
+						"attribute": "magic_resist",
+						"modifier": "+35%",
+						"duration": 2
+					}
+				]
+			}, {
+				"name": "Temerite Innocence",
+				"effects": [
+					{
+						"target": "allies",
+						"attribute": "agility",
+						"modifier": "+30%",
+						"duration": 3
+					}, {
+						"target": "allies",
+						"attribute": "endurance",
+						"modifier": "+30%",
+						"duration": 3
+					}
+				]
+			}, {
+				"name": "Foudre Neige",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "thunder_physical_attack"
+					}, {
+						"target": "foe",
+						"attribute": "sleep",
+						"modifier": "(put targets to)"
+					}, {
+						"target": "skill",
+						"attribute": "",
+						"modifier": "slow"
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Blessing: I",
+				"effects": [
+					{
+						"attribute": "When countering, instead of regular attack, extends Status Buffs for Allies for 1 turn",
+						"modifier": ""
+					}
+				]
+			}, {
+				"name": "Solid: I",
+				"effects": [
+					{
+						"attribute": "guard_rate",
+						"modifier": "+30%"
+					}
+				]
+			}, {
+				"name": "Water Resistance: I",
+				"effects": [
+					{
+						"attribute": "water_resist",
+						"modifier": "+35%"
+					}
+				]
+			}, {
+				"name": "Concentrate: I",
+				"effects": [
+					{
+						"attribute": "agility",
+						"modifier": "+10%"
+					}, {
+						"attribute": "dexterity",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Crush: I",
+				"effects": [
+					{
+						"attribute": "strength",
+						"modifier": "+15%"
+					}
+				]
+			}
+		]
+	}
+}

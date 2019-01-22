@@ -1,3 +1,117 @@
-{"id":"hitachi_chigusa_sparkling_crystal","title":"Sparkling Crystal","name":"Hitachi Chigusa","type":"healer_type","stars":4,"limited":false,"stats":{"hp":[1246,0,0,0,0,2231],"mp":[158,0,0,0,0,238],"physical_attack":[151,0,0,0,0,431],"magic_attack":[444,0,0,0,0,1122],"defense":[127,0,0,0,0,355],"strength":[151,0,0,0,0,431],"endurance":[127,0,0,0,0,355],"dexterity":[268,0,0,0,0,724],"agility":[243,0,0,0,0,661],"magic":[444,0,0,0,0,1122]},"skills":{"special":{"name":"Special Placeholder","effects":[{"target":"self","attribute":"strength","modifier":"+0%"}]},
-	"combat":[{"name":"Skill 1 Placeholder","effects":[{"target":"self","attribute":"strength","modifier":"+0%"}]},{"name":"Skill 2 Placeholder","effects":[{"target":"self","attribute":"strength","modifier":"+0%"}]},{"name":"Skill 3 Placeholder","effects":[{"target":"self","attribute":"strength","modifier":"+0%"}]}],
-	"development":[{"name":"Placeholder: I","effects":[{"attribute":"dexterity","modifier":"+10%"}]},{"name":"PlaceholderTwo: I","effects":[{"attribute":"agility","modifier":"+10%"}]}]}}
+{
+	"id": "hitachi_chigusa_sparkling_crystal",
+	"title": "Sparkling Crystal",
+	"name": "Hitachi Chigusa",
+	"type": "healer_type",
+	"stars": 4,
+	"limited": true,
+	"stats": {
+		"hp": 				[1246, 1410, 1589, 1785, 1999, 2231],
+		"mp": 				[158, 174, 190, 206, 222, 238],
+		"physical_attack": 	[151, 221, 291, 361, 431, 431],
+		"magic_attack": 	[444, 541, 638, 831, 1025, 1122],
+		"defense": 			[127, 203, 279, 279, 279, 355],
+		"strength": 		[608, 708, 808, 907, 1107, 1407],
+		"endurance": 		[182, 246, 310, 375, 439, 439],
+		"dexterity": 		[268, 344, 420, 496, 572, 724],
+		"agility": 			[243, 326, 410, 493, 577, 661],
+		"magic": 			[133, 206, 280, 353, 353, 353]
+	},
+	"skills": {
+		"special": {
+			"name": "Chigusa Snowfall",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "heal",
+					"modifier": "ultra"
+				}, {
+					"target": "allies",
+					"attribute": "hp_regen",
+					"modifier": "+50%",
+					"duration": 1
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Healing Waters",
+				"effects": [
+					{
+						"target": "ally",
+						"attribute": "heal",
+						"modifier": "Hi to Ally w/ least HP"
+					}, {
+						"target": "skill",
+						"attribute": "",
+						"modifier": "fast"
+					}
+				]
+			},
+			{
+				"name": "Emerald Shine",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "seal",
+						"modifier": "50%"
+					}
+				]
+			},
+			{
+				"name": "Divine Waters",
+				"effects": [
+					{
+						"target": "allies",
+						"attribute": "hp_regen",
+						"modifier": "+15%",
+						"duration": 4
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Abnormal Resistance: ?",
+				"effects": [
+					{
+						"attribute": "ailment_resist",
+						"modifier": "+15%"
+					}
+				]
+			}, {
+				"name": "Tough: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+5%"
+					}
+				]
+			}, {
+				"name": "Mind's Eye: I",
+				"effects": [
+					{
+						"attribute": "magic",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Hunter: I",
+				"effects": [
+					{
+						"attribute": "agility",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Unbreakable: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+5%"
+					}
+				]
+			}
+		]
+	}
+}

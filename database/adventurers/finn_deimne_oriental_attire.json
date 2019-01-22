@@ -1,0 +1,133 @@
+{
+	"id": "finn_deimne_oriental_attire",
+	"title": "Oriental Attire",
+	"name": "Finn Deimne",
+	"type": "balance_type",
+	"stars": 4,
+	"limited": true,
+	"stats": {
+		"hp": 				[1464, 1640, 1834, 2046, 2276, 2524],
+		"mp": 				[147, 159, 171, 183, 195, 207],
+		"physical_attack": 	[403, 580, 669, 757, 846, 934],
+		"magic_attack": 	[327, 404, 481, 558, 635, 789],
+		"defense":			[161, 161, 206, 251, 297, 342],
+		"strength": 		[403, 580, 669, 757, 846, 934],
+		"endurance": 		[161, 161, 206, 251, 297, 342],
+		"dexterity": 		[210, 277, 344, 411, 478, 545],
+		"agility": 			[248, 309, 369, 430, 490, 490],
+		"magic": 			[327, 404, 481, 558, 635, 789]
+	},
+	"skills": {
+		"special": {
+			"name": "Secourer Tenebres",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "light_physical_attack"
+				}, {
+					"target": "skill",
+					"attribute": "strength",
+					"modifier": "boost"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Void Circle",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "light_physical_attack"
+					}, {
+						"target": "foes",
+						"attribute": "strength",
+						"modifier": "-25%",
+						"duration": 4
+					}, {
+						"target": "foes",
+						"attribute": "magic",
+						"modifier": "-25%",
+						"duration": 4
+					}
+				]
+			}, {
+				"name": "Riptide Roller",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "light_physical_attack"
+					}
+				]
+			}, {
+				"name": "Crescent Abrasion",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "light_physical_attack"
+					}, {
+						"target": "skill",
+						"attribute": "strength",
+						"modifier": "boost"
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Crush",
+				"effects": [
+					{
+						"attribute": "strength",
+						"modifier": "+15%"
+					}
+				]
+			}, {
+				"name": "Strike: I",
+				"effects": [
+					{
+						"attribute": "critical_damage",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Dark Resistance: I",
+				"effects": [
+					{
+						"attribute": "dark_resist",
+						"modifier": "+25%"
+					}
+				]
+			}, {
+				"name": "Rigid: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+10%"
+					}, {
+						"attribute": "dexterity",
+						"modifier": "+10%"
+					}, {
+						"attribute": "agility",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Status Resist: I",
+				"effects": [
+					{
+						"attribute": "ailment_resist",
+						"modifier": "+15%"
+					}
+				]
+			}
+		]
+	}
+}

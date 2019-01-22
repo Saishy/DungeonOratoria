@@ -1,3 +1,123 @@
-{"id":"yamato_mikoto_the_traditional","title":"The Traditional","name":"Yamato Mikoto","type":"balance_type","stars":4,"limited":false,"stats":{"hp":[1376,0,0,0,0,2436],"mp":[141,0,0,0,0,201],"physical_attack":[343,0,0,0,0,919],"magic_attack":[473,0,0,0,0,110],"defense":[179,0,0,0,0,406],"strength":[343,0,0,0,0,919],"endurance":[179,0,0,0,0,406],"dexterity":[236,0,0,0,0,626],"agility":[170,0,0,0,0,446],"magic":[473,0,0,0,0,1100]},"skills":{"special":{"name":"Special Placeholder","effects":[{"target":"self","attribute":"strength","modifier":"+0%"}]},
-	"combat":[{"name":"Skill 1 Placeholder","effects":[{"target":"self","attribute":"strength","modifier":"+0%"}]},{"name":"Skill 2 Placeholder","effects":[{"target":"self","attribute":"strength","modifier":"+0%"}]},{"name":"Skill 3 Placeholder","effects":[{"target":"self","attribute":"strength","modifier":"+0%"}]}],
-	"development":[{"name":"Placeholder: I","effects":[{"attribute":"dexterity","modifier":"+10%"}]},{"name":"PlaceholderTwo: I","effects":[{"attribute":"agility","modifier":"+10%"}]}]}}
+{
+	"id": "yamato_mikoto_the_traditional",
+	"title": "The Traditional",
+	"name": "Yamato Mikoto",
+	"type": "balance_type",
+	"stars": 4,
+	"limited": true,
+	"stats": {
+		"hp": 				[1376, 1552, 1746, 1958, 2188, 2436],
+		"mp": 				[141, 153, 165, 177, 189, 201],
+		"physical_attack": 	[343, 535, 631, 727, 823, 919],
+		"magic_attack": 	[473, 577, 682, 786, 891, 1100],
+		"defense": 			[179, 179, 236, 293, 349, 406],
+		"strength": 		[343, 535, 631, 727, 823, 919],
+		"endurance": 		[179, 179, 236, 293, 349, 406],
+		"dexterity": 		[236, 314, 392, 470, 548, 626],
+		"agility": 			[170, 239, 308, 377, 446, 446],
+		"magic": 			[473, 577, 682, 786, 891, 1100]
+	},
+	"skills": {
+		"special": {
+			"name": "Shimenawanomitama",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "light_magic_attack"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Tora-giri",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "light_magic_attack"
+					}, {
+						"target": "foe",
+						"attribute": "light_resist",
+						"modifier": "-35%",
+						"duration": 4
+					}
+				]
+			},
+			{
+				"name": "Shining Katana",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "light_magic_attack"
+					}, {
+						"target": "foes",
+						"attribute": "slow",
+						"modifier": "15%"
+					}, {
+						"target": "skill",
+						"attribute": "",
+						"modifier": "fast"
+					}
+				]
+			},
+			{
+				"name": "Kourin-jin",
+				"effects": [
+					{
+						"target": "allies",
+						"attribute": "magic",
+						"modifier": "+45%"
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Abnormal Resistance: ?",
+				"effects": [
+					{
+						"attribute": "ailment_resist",
+						"modifier": "+15%"
+					}
+				]
+			}, {
+				"name": "Tough: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+5.5%"
+					}
+				]
+			}, {
+				"name": "Mind's Eye: I",
+				"effects": [
+					{
+						"attribute": "magic",
+						"modifier": "+9%"
+					}
+				]
+			}, {
+				"name": "Unbreakable: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+5.5%"
+					}
+				]
+			}, {
+				"name": "Giant Killer",
+				"effects": [
+					{
+						"attribute": "giant_killer",
+						"modifier": "+50%"
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,3 +1,126 @@
-{"id":"ryu_lion_holy_gale","title":"Holy Gale","name":"Ryu Lion","type":"magic_type","stars":4,"limited":false,"stats":{"hp":[1420,0,0,0,0,2470],"mp":[181,0,0,0,0,271],"physical_attack":[132,0,0,0,0,354],"magic_attack":[518,0,0,0,0,1317],"defense":[137,0,0,0,0,376],"strength":[132,0,0,0,0,354],"endurance":[137,0,0,0,0,376],"dexterity":[195,0,0,0,0,515],"agility":[290,0,0,0,0,765],"magic":[518,0,0,0,0,1317]},"skills":{"special":{"name":"Special Placeholder","effects":[{"target":"self","attribute":"strength","modifier":"+0%"}]},
-	"combat":[{"name":"Skill 1 Placeholder","effects":[{"target":"self","attribute":"strength","modifier":"+0%"}]},{"name":"Skill 2 Placeholder","effects":[{"target":"self","attribute":"strength","modifier":"+0%"}]},{"name":"Skill 3 Placeholder","effects":[{"target":"self","attribute":"strength","modifier":"+0%"}]}],
-	"development":[{"name":"Placeholder: I","effects":[{"attribute":"dexterity","modifier":"+10%"}]},{"name":"PlaceholderTwo: I","effects":[{"attribute":"agility","modifier":"+10%"}]}]}}
+{
+	"id": "ryu_lion_holy_gale",
+	"title": "Holy Gale",
+	"name": "Ryu Lion",
+	"type": "magic_type",
+	"stars": 4,
+	"limited": true,
+	"stats": {
+		"hp": 				[1420, 1604, 1800, 2008, 2230, 2470],
+		"mp": 				[181, 197, 213, 251, 251, 271],
+		"physical_attack": 	[132, 206, 280, 354, 354, 354],
+		"magic_attack": 	[518, 607, 784, 962, 1139, 1317],
+		"defense":			[137, 217, 217, 217, 297, 376],
+		"strength": 		[132, 206, 280, 354, 354, 354],
+		"endurance":		[139, 221, 221, 221, 302, 383],
+		"dexterity": 		[195, 275, 355, 435, 515, 515],
+		"agility": 			[290, 369, 448, 528, 607, 765],
+		"magic": 			[518, 607, 784, 962, 1139, 1317]
+	},
+	"skills": {
+		"special": {
+			"name": "Faye Congelation",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "ice_magic_attack"
+				}, {
+					"target": "skill",
+					"attribute": "magic",
+					"modifier": "boost"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Glacies Nivis",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "ice_magic_attack"
+					}, {
+						"target": "foes",
+						"attribute": "critical_rate",
+						"modifier": "-20%",
+						"duration": 4
+					}
+				]
+			}, {
+				"name": "Valanga Neve",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "ice_magic_attack"
+					}, {
+						"target": "foes",
+						"attribute": "strength",
+						"modifier": "-30%",
+						"duration": 4
+					}
+				]
+			}, {
+				"name": "Nous Oblio",
+				"effects": [
+					{
+						"target": "self",
+						"attribute": "prevent_ko",
+						"modifier": "x1",
+						"duration": "only when hp>=20%"
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Mind's Eye: I",
+				"effects": [
+					{
+						"attribute": "magic",
+						"modifier": "+11%"
+					}
+				]
+			}, {
+				"name": "Climb: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+10%"
+					}, {
+						"attribute": "agility",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Defense",
+				"effects": [
+					{
+						"attribute": "physical_resist",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Strike: I",
+				"effects": [
+					{
+						"attribute": "critical_damage",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Fire Resistance: I",
+				"effects": [
+					{
+						"attribute": "fire_resist",
+						"modifier": "+20%"
+					}
+				]
+			}
+		]
+	}
+}

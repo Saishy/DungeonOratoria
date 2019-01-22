@@ -1,3 +1,119 @@
-{"id":"lefiya_virdis_winter_elf","title":"Winter Elf","name":"Lefiya Virdis","type":"balance_type","stars":4,"limited":false,"stats":{"hp":[1346,0,0,0,0,2406],"mp":[144,0,0,0,0,204],"physical_attack":[343,0,0,0,0,919],"magic_attack":[485,0,0,0,0,1124],"defense":[182,0,0,0,0,402],"strength":[343,0,0,0,0,919],"endurance":[182,0,0,0,0,402],"dexterity":[236,0,0,0,0,626],"agility":[160,0,0,0,0,436],"magic":[485,0,0,0,0,1124]},"skills":{"special":{"name":"Special Placeholder","effects":[{"target":"self","attribute":"strength","modifier":"+0%"}]},
-	"combat":[{"name":"Skill 1 Placeholder","effects":[{"target":"self","attribute":"strength","modifier":"+0%"}]},{"name":"Skill 2 Placeholder","effects":[{"target":"self","attribute":"strength","modifier":"+0%"}]},{"name":"Skill 3 Placeholder","effects":[{"target":"self","attribute":"strength","modifier":"+0%"}]}],
-	"development":[{"name":"Placeholder: I","effects":[{"attribute":"dexterity","modifier":"+10%"}]},{"name":"PlaceholderTwo: I","effects":[{"attribute":"agility","modifier":"+10%"}]}]}}
+{
+	"id": "lefiya_virdis_winter_elf",
+	"title": "Winter Elf",
+	"name": "Lefiya Virdis",
+	"type": "balance_type",
+	"stars": 4,
+	"limited": true,
+	"stats": {
+		"hp": 				[1346, 1522, 1716, 1928, 2158, 2406],
+		"mp": 				[144, 156, 168, 180, 192, 204],
+		"physical_attack": 	[343, 535, 631, 727, 823, 919],
+		"magic_attack": 	[568, 692, 817, 942, 1067, 1316],
+		"defense":			[182, 182, 237, 292, 347, 402],
+		"strength": 		[343, 535, 631, 727, 823, 919],
+		"endurance":		[182, 182, 237, 292, 347, 402],
+		"dexterity": 		[236, 314, 392, 470, 548, 626],
+		"agility": 			[160, 229, 298, 367, 436, 436],
+		"magic": 			[568, 692, 817, 942, 1067, 1316]
+	},
+	"skills": {
+		"special": {
+			"name": "Crystal Deluge",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "guard_rate",
+					"modifier": "+40%",
+					"duration": 4
+				}, {
+					"target": "allies",
+					"attribute": "physical_resist",
+					"modifier": "+40%",
+					"duration": 4
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Blanc Glace",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "ice_magic_attack"
+					}, {
+						"target": "foe",
+						"attribute": "ice_resist",
+						"modifier": "-35%",
+						"duration": 4
+					}
+				]
+			}, {
+				"name": "Avalanche Neige",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "ice_magic_attack"
+					}
+				]
+			}, {
+				"name": "Elle Grace",
+				"effects": [
+					{
+						"target": "allies",
+						"attribute": "magic",
+						"modifier": "+45%",
+						"duration": 4
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Mage: H",
+				"effects": [
+					{
+						"attribute": "magic",
+						"modifier": "+30%"
+					}
+				]
+			}, {
+				"name": "Defense: I",
+				"effects": [
+					{
+						"attribute": "physical_resist",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Status Resist: I",
+				"effects": [
+					{
+						"attribute": "ailment_resist",
+						"modifier": "+15%"
+					}
+				]
+			}, {
+				"name": "Unbreakable: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+9%"
+					}
+				]
+			}, {
+				"name": "Fire Resistance: I",
+				"effects": [
+					{
+						"attribute": "fire_resist",
+						"modifier": "+20%"
+					}
+				]
+			}
+		]
+	}
+}

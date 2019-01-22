@@ -4,75 +4,118 @@
 	"name": "Ais Wallenstein",
 	"type": "magic_type",
 	"stars": 4,
-	"limited": false,
+	"limited": true,
 	"stats": {
-		"hp": [1530, 0, 0, 0, 0, 2580],
-		"mp": [176, 0, 0, 0, 0, 266],
-		"physical_attack": [135, 0, 0, 0, 0, 357],
-		"magic_attack": [520, 0, 0, 0, 0, 1319],
-		"defense": [140, 0, 0, 0, 0, 380],
-		"strength": [135, 0, 0, 0, 0, 357],
-		"endurance": [140, 0, 0, 0, 0, 380],
-		"dexterity": [196, 0, 0, 0, 0, 516],
-		"agility": [280, 0, 0, 0, 0, 755],
-		"magic": [520, 0, 0, 0, 0, 1319]
+		"hp": 				[1530, 1714, 1910, 2118, 2340, 2580],
+		"mp": 				[176, 192, 208, 226, 246, 266],
+		"physical_attack": 	[135, 209, 283, 357, 357, 357],
+		"magic_attack": 	[520, 609, 786, 964, 1142, 1319],
+		"defense":			[140, 220, 220, 220, 300, 380],
+		"strength": 		[135, 209, 283, 357, 357, 357],
+		"endurance":		[143, 224, 224, 224, 305, 387],
+		"dexterity": 		[196, 276, 356, 436, 516, 516],
+		"agility": 			[280, 359, 438, 518, 597, 755],
+		"magic": 			[520, 609, 786, 964, 1142, 1319]
 	},
 	"skills": {
 		"special": {
-			"name": "Special Placeholder",
+			"name": "Present Lil Rafaga",
 			"effects": [
 				{
-					"target": "self",
-					"attribute": "strength",
-					"modifier": "+0%"
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "ice_magic_attack"
+				}, {
+					"target": "skill",
+					"attribute": "magic",
+					"modifier": "boost"
 				}
 			]
 		},
 		"combat": [
 			{
-				"name": "Skill 1 Placeholder",
+				"name": "Kamita Mech",
 				"effects": [
 					{
-						"target": "self",
-						"attribute": "strength",
-						"modifier": "+0%"
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "ice_magic_attack"
+					}, {
+						"target": "foes",
+						"attribute": "agility",
+						"modifier": "-20%",
+						"duration": 4
 					}
 				]
 			}, {
-				"name": "Skill 2 Placeholder",
+				"name": "Varder Mech",
 				"effects": [
 					{
-						"target": "self",
-						"attribute": "strength",
-						"modifier": "+0%"
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "ice_magic_attack"
+					}, {
+						"target": "skill",
+						"attribute": "magic",
+						"modifier": "boost"
 					}
 				]
 			}, {
-				"name": "Skill 3 Placeholder",
+				"name": "Veter Grato",
 				"effects": [
 					{
 						"target": "self",
-						"attribute": "strength",
-						"modifier": "+0%"
+						"attribute": "null_physical_attack_no_special",
+						"modifier": "x2"
 					}
 				]
 			}
 		],
 		"development": [
 			{
-				"name": "Placeholder: I",
+				"name": "Enlightenment: I",
 				"effects": [
 					{
-						"attribute": "dexterity",
+						"attribute": "magic",
+						"modifier": "+11%"
+					}
+				]
+			}, {
+				"name": "Climb: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+10%"
+					}, {
+						"attribute": "agility",
 						"modifier": "+10%"
 					}
 				]
 			}, {
-				"name": "PlaceholderTwo: I",
+				"name": "Beast Killer",
 				"effects": [
 					{
-						"attribute": "agility",
+						"attribute": "beast_killer",
+						"modifier": "+50%"
+					}
+				]
+			}, {
+				"name": "Strike: I",
+				"effects": [
+					{
+						"attribute": "critical_damage",
 						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Fire Resistance: I",
+				"effects": [
+					{
+						"attribute": "fire_resist",
+						"modifier": "+20%"
 					}
 				]
 			}
