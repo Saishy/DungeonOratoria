@@ -4,75 +4,125 @@
 	"name": "Bell Cranel",
 	"type": "physical_type",
 	"stars": 4,
-	"limited": false,
+	"limited": true,
 	"stats": {
-		"hp": [1366, 0, 0, 0, 0, 2426],
-		"mp": [134, 0, 0, 0, 0, 194],
-		"physical_attack": [608, 0, 0, 0, 0, 1407],
-		"magic_attack": [133, 0, 0, 0, 0, 353],
-		"defense": [182, 0, 0, 0, 0, 439],
-		"strength": [608, 0, 0, 0, 0, 1407],
-		"endurance": [182, 0, 0, 0, 0, 439],
-		"dexterity": [204, 0, 0, 0, 0, 519],
-		"agility": [306, 0, 0, 0, 0, 812],
-		"magic": [133, 0, 0, 0, 0, 353]
+		"hp": 				[1366, 1542, 1736, 1948, 2178, 2426],
+		"mp": 				[134, 146, 158, 170, 182, 194],
+		"physical_attack": 	[608, 708, 808, 907, 1107, 1407],
+		"magic_attack": 	[133, 206, 280, 353, 353, 353],
+		"defense": 			[182, 246, 310, 375, 439, 439],
+		"strength": 		[608, 708, 808, 907, 1107, 1407],
+		"endurance": 		[182, 246, 310, 375, 439, 439],
+		"dexterity": 		[204, 283, 362, 441, 519, 519],
+		"agility": 			[306, 390, 475, 559, 643, 812],
+		"magic": 			[133, 206, 280, 353, 353, 353]
 	},
 	"skills": {
 		"special": {
-			"name": "Special Placeholder",
+			"name": "New Year's Strike",
 			"effects": [
 				{
-					"target": "self",
-					"attribute": "strength",
-					"modifier": "+0%"
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "physical_attack"
+				}, {
+					"target": "foes",
+					"attribute": "seal",
+					"modifier": "30%"
 				}
 			]
 		},
 		"combat": [
 			{
-				"name": "Skill 1 Placeholder",
+				"name": "Blast Gleam",
 				"effects": [
 					{
-						"target": "self",
-						"attribute": "strength",
-						"modifier": "+0%"
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "physical_attack"
+					}, {
+						"target": "skill",
+						"attribute": "critical_rate",
+						"modifier": "ultra"
 					}
 				]
 			}, {
-				"name": "Skill 2 Placeholder",
+				"name": "Rapid Flash",
 				"effects": [
 					{
-						"target": "self",
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "physical_attack"
+					}, {
+						"target": "foes",
+						"attribute": "seal",
+						"modifier": "15%"
+					}, {
+						"target": "skill",
 						"attribute": "strength",
-						"modifier": "+0%"
+						"modifier": "boost"
+					}, {
+						"target": "skill",
+						"attribute": "",
+						"modifier": "fast"
 					}
 				]
 			}, {
-				"name": "Skill 3 Placeholder",
+				"name": "Double Defense",
 				"effects": [
 					{
 						"target": "self",
-						"attribute": "strength",
-						"modifier": "+0%"
+						"attribute": "null_physical_attack_no_special",
+						"modifier": "x2"
 					}
 				]
 			}
 		],
 		"development": [
 			{
-				"name": "Placeholder: I",
+				"name": "Liaris Freese",
 				"effects": [
 					{
-						"attribute": "dexterity",
-						"modifier": "+10%"
+						"attribute": "fast_growth",
+						"modifier": ""
+					}, {
+						"attribute": "null_charm",
+						"modifier": ""
 					}
 				]
 			}, {
-				"name": "PlaceholderTwo: I",
+				"name": "Acceleration: I",
 				"effects": [
 					{
 						"attribute": "agility",
-						"modifier": "+10%"
+						"modifier": "+6%"
+					}
+				]
+			}, {
+				"name": "Tough: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+6%"
+					}
+				]
+			}, {
+				"name": "Crush: I",
+				"effects": [
+					{
+						"attribute": "strength",
+						"modifier": "+6%"
+					}
+				]
+			}, {
+				"name": "Luck: I",
+				"effects": [
+					{
+						"attribute": "all_status",
+						"modifier": "+5%"
 					}
 				]
 			}

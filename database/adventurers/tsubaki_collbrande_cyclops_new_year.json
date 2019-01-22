@@ -4,75 +4,111 @@
 	"name": "Tsubaki Collbrande",
 	"type": "physical_type",
 	"stars": 3,
-	"limited": false,
+	"limited": true,
 	"stats": {
-		"hp": [1450, 0, 0, 0, 0, 2500],
-		"mp": [120, 0, 0, 0, 0, 180],
-		"physical_attack": [311, 0, 0, 0, 0, 724],
-		"magic_attack": [69, 0, 0, 0, 0, 453],
-		"defense": [105, 0, 0, 0, 0, 239],
-		"strength": [311, 0, 0, 0, 0, 724],
-		"endurance": [105, 0, 0, 0, 0, 239],
-		"dexterity": [136, 0, 0, 0, 0, 331],
-		"agility": [182, 0, 0, 0, 0, 440],
-		"magic": [69, 0, 0, 0, 0, 153]
+		"hp": 				[1450, 1634, 1830, 2038, 2260, 2500],
+		"mp": 				[120, 132, 144, 156, 168, 180],
+		"physical_attack": 	[311, 363, 414, 518, 621, 724],
+		"magic_attack": 	[ 69, 111, 153, 153, 153, 453],
+		"defense": 			[105, 138, 172, 205, 239, 239],
+		"strength": 		[311, 363, 414, 518, 621, 724],
+		"endurance": 		[105, 138, 172, 205, 239, 239],
+		"dexterity": 		[136, 175, 214, 253, 292, 331],
+		"agility": 			[182, 225, 268, 311, 354, 440],
+		"magic": 			[ 69, 111, 153, 153, 153, 453]
 	},
 	"skills": {
 		"special": {
-			"name": "Special Placeholder",
+			"name": "Lepida Cyclops",
 			"effects": [
 				{
-					"target": "self",
-					"attribute": "strength",
-					"modifier": "+0%"
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "high",
+					"type": "physical_attack"
+				}, {
+					"target": "foes",
+					"attribute": "physical_resist",
+					"modifier": "-40%",
+					"duration": 1
 				}
 			]
 		},
 		"combat": [
 			{
-				"name": "Skill 1 Placeholder",
+				"name": "Kakitsubata",
 				"effects": [
 					{
-						"target": "self",
-						"attribute": "strength",
-						"modifier": "+0%"
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "low",
+						"type": "physical_attack"
+					}, {
+						"target": "foe",
+						"attribute": "stun",
+						"modifier": "30%"
 					}
 				]
 			}, {
-				"name": "Skill 2 Placeholder",
+				"name": "Rindo",
 				"effects": [
 					{
 						"target": "self",
 						"attribute": "strength",
-						"modifier": "+0%"
+						"modifier": "+50%",
+						"duration": 4
 					}
 				]
 			}, {
-				"name": "Skill 3 Placeholder",
+				"name": "Housenka",
 				"effects": [
 					{
-						"target": "self",
-						"attribute": "strength",
-						"modifier": "+0%"
+						"target": "foe",
+						"attribute": "magic_buff_removal_no_assist",
+						"modifier": ""
 					}
 				]
 			}
 		],
 		"development": [
 			{
-				"name": "Placeholder: I",
+				"name": "Tough: I",
 				"effects": [
 					{
-						"attribute": "dexterity",
-						"modifier": "+10%"
+						"attribute": "endurance",
+						"modifier": "+5%"
 					}
 				]
 			}, {
-				"name": "PlaceholderTwo: I",
+				"name": "Crush: I",
 				"effects": [
 					{
-						"attribute": "agility",
-						"modifier": "+10%"
+						"attribute": "strength",
+						"modifier": "+7.5%"
+					}
+				]
+			}, {
+				"name": "Defense: I",
+				"effects": [
+					{
+						"attribute": "physical_resist",
+						"modifier": "+8%"
+					}
+				]
+			}, {
+				"name": "Status Resist: I",
+				"effects": [
+					{
+						"attribute": "ailment_resist",
+						"modifier": "+15%"
+					}
+				]
+			}, {
+				"name": "Giant Killer",
+				"effects": [
+					{
+						"attribute": "giant_killer",
+						"modifier": "+50%"
 					}
 				]
 			}

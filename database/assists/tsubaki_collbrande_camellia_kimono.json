@@ -1,0 +1,48 @@
+{
+	"id": "tsubaki_collbrande_camellia_kimono",
+	"title": "Camellia Kimono",
+	"name": "Tsubaki Collbrande",
+	"stars": 4,
+	"limited": false,
+	"stats": {
+		"hp": 				[658, 714, 770, 830, 894, 958],
+		"mp": 				[89, 97, 105, 115, 127, 139],
+		"physical_attack": 	[151, 189, 227, 265, 303, 303],
+		"magic_attack": 	[171, 204, 237, 270, 303, 303],
+		"defense": 			[126, 153, 180, 207, 207, 234],
+		"strength": 		[151, 189, 227, 265, 303, 303],
+		"endurance": 		[126, 153, 180, 207, 207, 234],
+		"dexterity": 		[323, 356, 389, 422, 488, 554],
+		"agility": 			[181, 212, 243, 274, 305, 336],
+		"magic": 			[171, 204, 237, 270, 303, 303]
+	},
+	"skills": [
+		{
+			"name": "Head-Turner+",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "critical_rate",
+					"modifier": "-8%"
+				}, {
+					"target": "allies",
+					"attribute": "counter_rate",
+					"modifier": "+15%"
+				}
+			]
+		}, {
+			"name": "Head-Turner++",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "critical_rate",
+					"modifier": "-10%"
+				}, {
+					"target": "allies",
+					"attribute": "counter_rate",
+					"modifier": "+20%"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,56 @@
+{
+	"id": "welf_crozzo_festive_blade",
+	"title": "Festive Blade",
+	"name": "Welf Crozzo",
+	"stars": 4,
+	"limited": false,
+	"stats": {
+		"hp": 				[792, 872, 952, 1044, 1148, 1252],
+		"mp": 				[61, 69, 77, 85, 93, 101],
+		"physical_attack": 	[190, 223, 256, 289, 322, 355],
+		"magic_attack": 	[223, 289, 322, 355, 355, 355],
+		"defense": 			[201, 227, 253, 279, 331, 383],
+		"strength": 		[190, 223, 256, 289, 322, 355],
+		"endurance": 		[201, 227, 253, 279, 331, 383],
+		"dexterity": 		[176, 207, 238, 269, 300, 331],
+		"agility": 			[113, 113, 147, 181, 215, 215],
+		"magic": 			[223, 289, 322, 355, 355, 355]
+	},
+	"skills": [
+		{
+			"name": "Pose of Diligence+",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "taunt_resist",
+					"modifier": "+75%"
+				}, {
+					"target": "allies",
+					"attribute": "stun_resist",
+					"modifier": "+75%"
+				}, {
+					"target": "allies",
+					"attribute": "endurance",
+					"modifier": "+4%"
+				}
+			]
+		}, {
+			"name": "Pose of Diligence++",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "taunt_resist",
+					"modifier": "+100%"
+				}, {
+					"target": "allies",
+					"attribute": "stun_resist",
+					"modifier": "+100%"
+				}, {
+					"target": "allies",
+					"attribute": "endurance",
+					"modifier": "+5%"
+				}
+			]
+		}
+	]
+}

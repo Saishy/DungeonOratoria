@@ -1,0 +1,133 @@
+{
+	"id": "lefiya_viridis_geisha_elf",
+	"title": "Geisha Elf",
+	"name": "Lefiya Viridis",
+	"type": "magic_type",
+	"stars": 4,
+	"limited": false,
+	"stats": {
+		"hp": 				[1586, 1770, 1966, 2174, 2396, 2636],
+		"mp": 				[180, 196, 212, 230, 250, 270],
+		"physical_attack": 	[114, 188, 262, 336, 336, 336],
+		"magic_attack": 	[572, 664, 848, 1032, 1216, 1400],
+		"defense":			[147, 228, 228, 228, 310, 391],
+		"strength": 		[114, 188, 262, 336, 336, 336],
+		"endurance": 		[147, 228, 228, 228, 310, 391],
+		"dexterity": 		[214, 302, 390, 478, 566, 566],
+		"agility": 			[268, 347, 426, 506, 585, 743],
+		"magic": 			[572, 664, 848, 1032, 1216, 1400]
+	},
+	"skills": {
+		"special": {
+			"name": "Radiant Lily",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "light_magic_attack"
+				}, {
+					"target": "foes",
+					"attribute": "slow",
+					"modifier": "(make targets)"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Clear Simmer",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "low",
+						"type": "light_magic_attack"
+					}, {
+						"target": "self",
+						"attribute": "light_attack",
+						"modifier": "+75%",
+						"duration": 4
+					}
+				]
+			}, {
+				"name": "Dispel Aureole",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "light_magic_attack"
+					}, {
+						"target": "self",
+						"attribute": "magic",
+						"modifier": "+60%",
+						"duration": 4
+					}
+				]
+			}, {
+				"name": "Horoscope Ray",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "light_magic_attack"
+					}, {
+						"target": "foes",
+						"attribute": "slow",
+						"modifier": "40%"
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Mage: H",
+				"effects": [
+					{
+						"attribute": "magic",
+						"modifier": "+15%"
+					}
+				]
+			}, {
+				"name": "Piercing Strike: I",
+				"effects": [
+					{
+						"attribute": "penetration_damage",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Dark Resistance: I",
+				"effects": [
+					{
+						"attribute": "dark_resist",
+						"modifier": "+35%"
+					}
+				]
+			}, {
+				"name": "Rigid: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+10%"
+					}, {
+						"attribute": "dexterity",
+						"modifier": "+10%"
+					}, {
+						"attribute": "agility",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Status Resist: I",
+				"effects": [
+					{
+						"attribute": "ailment_resist",
+						"modifier": "+15%"
+					}
+				]
+			}
+		]
+	}
+}
