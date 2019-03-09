@@ -109,7 +109,7 @@
 						"attribute": "agility",
 						"modifier": "+10%"
 					}, {
-						"attribute": "dexteriry",
+						"attribute": "dexterity",
 						"modifier": "+10%"
 					}
 				]

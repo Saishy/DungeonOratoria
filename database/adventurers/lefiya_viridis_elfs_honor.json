@@ -45,7 +45,7 @@
 					}, {
 						"target": "self",
 						"attribute": "magic",
-						"modifier": "75%",
+						"modifier": "+75%",
 						"duration": 4
 					}
 				]
