@@ -1,0 +1,133 @@
+{
+	"id": "riveria_ljos_alf_dressed_royal",
+	"title": "Dressed Royal",
+	"name": "Riveria Ljos Alf",
+	"type": "magic_type",
+	"stars": 4,
+	"limited": false,
+	"stats": {
+		"hp":				[1558, 1742, 1938, 2146, 2368, 2608],
+		"mp":				[187, 203, 219, 237, 257, 277],
+		"physical_attack":	[114, 188, 262, 336, 336, 336],
+		"magic_attack":		[537, 633, 825, 1017, 1209, 1401],
+		"defense":			[112, 186, 186, 186, 260, 334],
+		"strength":			[114, 188, 262, 336, 336, 336],
+		"endurance":		[112, 186, 186, 186, 260, 334],
+		"dexterity":		[209, 301, 393, 485, 577, 577],
+		"agility":			[378, 461, 543, 626, 709, 875],
+		"magic":			[537, 633, 825, 1017, 1209, 1401]
+	},
+	"skills": {
+		"special": {
+			"name": "Diamond Trail",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "water_magic_attack"
+				}, {
+					"target": "skill",
+					"attribute": "magic",
+					"modifier": "boost"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Frost Nova",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "water_magic_attack"
+					}, {
+						"target": "skill",
+						"attribute": "uncounter_rate",
+						"modifier": "high"
+					}, {
+						"target": "foes",
+						"attribute": "water_resist",
+						"modifier": "-25%",
+						"duration": 3
+					}
+				]
+			}, {
+				"name": "Chilling Blast",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "water_magic_attack"
+					}, {
+						"target": "skill",
+						"attribute": "magic",
+						"modifier": "boost"
+					}
+				]
+			}, {
+				"name": "Winter's Grasp",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "water_magic_attack"
+					}, {
+						"target": "skill",
+						"attribute": "unguard_rate",
+						"modifier": "ultra"
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Mage: D",
+				"effects": [
+					{
+						"attribute": "magic",
+						"modifier": "+20%"
+					}
+				]
+			}, {
+				"name": "Strike: I",
+				"effects": [
+					{
+						"attribute": "critical_damage",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Fire Resistance: I",
+				"effects": [
+					{
+						"attribute": "fire_resist",
+						"modifier": "+35%"
+					}
+				]
+			}, {
+				"name": "Dragon Killer",
+				"effects": [
+					{
+						"attribute": "dragon_killer",
+						"modifier": "+50%"
+					}
+				]
+			}, {
+				"name": "Climb: I",
+				"effects": [
+					{
+						"attribute": "agility",
+						"modifier": "+15%"
+					}, {
+						"attribute": "dexterity",
+						"modifier": "+15%"
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,134 @@
+{
+	"id": "ryu_lion_knight_elf",
+	"title": "Knight Elf",
+	"name": "Ryu Lion",
+	"type": "physical_type",
+	"stars": 4,
+	"limited": false,
+	"stats": {
+		"hp":				[1602, 1786, 1982, 2190, 2412, 2652],
+		"mp":				[126, 138, 150, 162, 174, 186],
+		"physical_attack":	[654, 757, 861, 964, 1171, 1482],
+		"magic_attack":		[118, 188, 258, 328, 328, 328],
+		"defense":			[180, 244, 308, 371, 435, 435],
+		"strength":			[654, 757, 861, 964, 1171, 1482],
+		"endurance":		[180, 244, 308, 371, 435, 43],
+		"dexterity":		[196, 279, 361, 444, 526, 526],
+		"agility":			[308, 391, 475, 558, 642, 809],
+		"magic":			[118, 188, 258, 328, 328, 328]
+	},
+	"skills": {
+		"special": {
+			"name": "Furore Impaler",
+			"effects": [
+				{
+					"target": "foe",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "wind_physical_attack"
+				}, {
+					"target": "skill",
+					"attribute": "strength",
+					"modifier": "boost"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Velocity",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "low",
+						"type": "wind_physical_attack"
+					}, {
+						"target": "self",
+						"attribute": "strength",
+						"modifier": "+75%",
+						"duration": 4
+					}
+				]
+			}, {
+				"name": "Cyclocity",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "wind_physical_attack"
+					}, {
+						"target": "self",
+						"attribute": "wind_attack",
+						"modifier": "+60%",
+						"duration": 4
+					}
+				]
+			}, {
+				"name": "Windfury",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "wind_physical_attack"
+					}, {
+						"target": "foe",
+						"attribute": "physical_resist",
+						"modifier": "-20%",
+						"duration": 4
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Crush: I",
+				"effects": [
+					{
+						"attribute": "strength",
+						"modifier": "+15%"
+					}
+				]
+			}, {
+				"name": "Strike: I",
+				"effects": [
+					{
+						"attribute": "critical_damage",
+						"modifier": "+20%"
+					}
+				]
+			}, {
+				"name": "Earth Resistance: I",
+				"effects": [
+					{
+						"attribute": "earth_resist",
+						"modifier": "+35%"
+					}
+				]
+			}, {
+				"name": "Dragon Killer",
+				"effects": [
+					{
+						"attribute": "dragon_killer",
+						"modifier": "+50%"
+					}
+				]
+			}, {
+				"name": "Rigid: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+15%"
+					}, {
+						"attribute": "agility",
+						"modifier": "+15%"
+					}, {
+						"attribute": "dexterity",
+						"modifier": "+15%"
+					}
+				]
+			}
+		]
+	}
+}

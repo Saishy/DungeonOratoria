@@ -1,0 +1,48 @@
+{
+	"id": "eina_tulle_valorous_elf",
+	"title": "Valorous Elf",
+	"name": "Eina Tulle",
+	"stars": 4,
+	"limited": false,
+	"stats": {
+		"hp": 				[594, 650, 706, 766, 830, 894],
+		"mp": 				[105, 113, 121, 131, 143, 155],
+		"physical_attack":	[113, 145, 177, 209, 209, 209],
+		"magic_attack": 	[316, 349, 382, 448, 514, 580],
+		"defense": 			[112, 137, 162, 162, 187, 212],
+		"strength": 		[113, 145, 177, 209, 209, 209],
+		"endurance": 		[112, 137, 162, 162, 187, 212],
+		"dexterity": 		[183, 215, 247, 279, 343, 343],
+		"agility": 			[196, 229, 262, 295, 295, 328],
+		"magic":			[316, 349, 382, 448, 514, 580]
+	},
+	"skills": [
+		{
+			"name": "Sanctuary Prayer+",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "all_damage_resist",
+					"modifier": "+8%"
+				}, {
+					"target": "allies",
+					"attribute": "physical_resist",
+					"modifier": "+10%"
+				}
+			]
+		}, {
+			"name": "Sanctuary Prayer++",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "all_damage_resist",
+					"modifier": "+10%"
+				}, {
+					"target": "allies",
+					"attribute": "physical_resist",
+					"modifier": "+15%"
+				}
+			]
+		}
+	]
+}

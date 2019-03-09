@@ -1,0 +1,132 @@
+{
+	"id": "filvis_challia_blessed_elf",
+	"title": "Blessed Elf",
+	"name": "Filvis Challia",
+	"type": "balance_type",
+	"stars": 4,
+	"limited": false,
+	"stats": {
+		"hp":				[1420, 1596, 1790, 2002, 2232, 2480],
+		"mp":				[158, 170, 182, 194, 206, 218],
+		"physical_attack":	[327, 519, 615, 711, 807, 903],
+		"magic_attack":		[517, 627, 738, 848, 959, 1179],
+		"defense":			[183, 183, 239, 295, 352, 408],
+		"strength":			[327, 519, 615, 711, 807, 903],
+		"endurance":		[183, 183, 239, 295, 352, 408],
+		"dexterity":		[249, 335, 421, 507, 592, 678],
+		"agility":			[191, 267, 343, 419, 495, 495],
+		"magic":			[517, 627, 738, 848, 959, 1179]
+	},
+	"skills": {
+		"special": {
+			"name": "Blinkedge Tornado",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "wind_magic_attack"
+				}, {
+					"target": "foes",
+					"attribute": "stun",
+					"modifier": "50%"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Windforce",
+				"effects": [
+					{
+						"target": "allies",
+						"attribute": "water_attack",
+						"modifier": "+35%",
+						"duration": 4
+					}, {
+						"target": "allies",
+						"attribute": "wind_attack",
+						"modifier": "+35%",
+						"duration": 4
+					}, {
+						"target": "allies",
+						"attribute": "ailment_cure",
+						"modifier": ""
+					}
+				]
+			}, {
+				"name": "Sonic Wind",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "wind_magic_attack"
+					}, {
+						"target": "skill",
+						"attribute": "magic",
+						"modifier": "boost"
+					}
+				]
+			}, {
+				"name": "Vitalize",
+				"effects": [
+					{
+						"target": "allies",
+						"attribute": "heal",
+						"modifier": "medium"
+					}, {
+						"target": "allies",
+						"attribute": "mag_debuff_removal_no_assist",
+						"modifier": ""
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Mage: H",
+				"effects": [
+					{
+						"attribute": "magic",
+						"modifier": "+15%"
+					}
+				]
+			}, {
+				"name": "Strike: I",
+				"effects": [
+					{
+						"attribute": "critical_damage",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Earth Resistance: I",
+				"effects": [
+					{
+						"attribute": "earth_resist",
+						"modifier": "+35%"
+					}
+				]
+			}, {
+				"name": "Crafter: I",
+				"effects": [
+					{
+						"attribute": "dexterity",
+						"modifier": "+15%"
+					}
+				]
+			}, {
+				"name": "Climb: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+15%"
+					}, {
+						"attribute": "agility",
+						"modifier": "+15%"
+					}
+				]
+			}
+		]
+	}
+}
