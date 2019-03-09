@@ -53,7 +53,7 @@
 				"name": "The Art of Forging",
 				"effects": [
 					{
-						"target": "self",
+						"target": "allies",
 						"attribute": "prevent_ko",
 						"modifier": "x1",
 						"duration": "only when hp >= 10%"
