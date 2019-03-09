@@ -1,0 +1,128 @@
+{
+	"id": "yamato_mikoto_love_lesson",
+	"title": "Love Lesson",
+	"name": "Yamato Mikoto",
+	"type": "magic_type",
+	"stars": 4,
+	"limited": true,
+	"stats": {
+		"hp":				[1574, 1758, 1954, 2162, 2384, 2624],
+		"mp":				[183, 199, 215, 233, 253, 273],
+		"physical_attack":	[114, 166, 218, 270, 270, 270],
+		"magic_attack":		[539, 612, 760, 907, 1054, 1201],
+		"defense":			[126, 195, 195, 195, 265, 334],
+		"strength":			[114, 166, 218, 270, 270, 270],
+		"endurance":		[126, 195, 195, 195, 265, 334],
+		"dexterity":		[220, 292, 365, 437, 510, 510],
+		"agility":			[266, 330, 393, 457, 521, 649],
+		"magic":			[539, 612, 760, 907, 1054, 1201]
+	},
+	"skills": {
+		"special": {
+			"name": "Tiger Fire",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "earth_magic_attack"
+				}, {
+					"target": "skill",
+					"attribute": "magic",
+					"modifier": "boost"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Tetsusaisen",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "earth_magic_attack"
+					}, {
+						"target": "skill",
+						"attribute": "magic",
+						"modifier": "boost"
+					}
+				]
+			}, {
+				"name": "Chisouba",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "earth_magic_attack"
+					}
+				]
+			}, {
+				"name": "Butei Tenshin",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "low",
+						"type": "earth_magic_attack"
+					}, {
+						"target": "self",
+						"attribute": "magic",
+						"modifier": "+65%",
+						"duration": 4
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Mind's Eye: I",
+				"effects": [
+					{
+						"attribute": "magic",
+						"modifier": "+15%"
+					}
+				]
+			}, {
+				"name": "Piercing Strike: I",
+				"effects": [
+					{
+						"attribute": "penetration_damage",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Thunder Resistance: I",
+				"effects": [
+					{
+						"attribute": "thunder_resist",
+						"modifier": "+25%"
+					}
+				]
+			}, {
+				"name": "Rigid: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+10%"
+					}, {
+						"attribute": "agility",
+						"modifier": "+10%"
+					}, {
+						"attribute": "dexterity",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Status Resist: I",
+				"effects": [
+					{
+						"attribute": "ailment_resist",
+						"modifier": "+15%"
+					}
+				]
+			}
+		]
+	}
+}

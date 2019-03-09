@@ -1,0 +1,64 @@
+{
+	"id": "eina_tulle_handmade_elf",
+	"title": "Handmade Elf",
+	"name": "Eina Tulle",
+	"stars": 4,
+	"limited": true,
+	"stats": {
+		"hp":				[534, 590, 646, 706, 770, 834],
+		"mp":				[120, 128, 136, 146, 158, 170],
+		"physical_attack":	[173, 208, 243, 278, 278, 313],
+		"magic_attack":		[173, 208, 243, 278, 278, 313],
+		"defense":			[115, 140, 165, 190, 215, 215],
+		"strength":			[173, 208, 243, 278, 278, 313],
+		"endurance":		[115, 140, 165, 190, 215, 215],
+		"dexterity":		[190, 223, 256, 289, 355, 355],
+		"agility":			[302, 338, 374, 410, 482, 554],
+		"magic":			[173, 208, 243, 278, 278, 313]
+	},
+	"skills": [
+		{
+			"name": "Chocolate Advice+",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "light_resist",
+					"modifier": "-5%"
+				}, {
+					"target": "foes",
+					"attribute": "earth_resist",
+					"modifier": "-5%"
+				}, {
+					"target": "allies",
+					"attribute": "light_attack",
+					"modifier": "+10%"
+				}, {
+					"target": "allies",
+					"attribute": "earth_attack",
+					"modifier": "+10%"
+				}
+			]
+		}, {
+			"name": "Chocolate Advice++",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "light_resist",
+					"modifier": "-7%"
+				}, {
+					"target": "foes",
+					"attribute": "earth_resist",
+					"modifier": "-7%"
+				}, {
+					"target": "allies",
+					"attribute": "light_attack",
+					"modifier": "+15%"
+				}, {
+					"target": "allies",
+					"attribute": "earth_attack",
+					"modifier": "+15%"
+				}
+			]
+		}
+	]
+}
