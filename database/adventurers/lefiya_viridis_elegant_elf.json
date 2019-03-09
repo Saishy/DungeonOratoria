@@ -1,0 +1,117 @@
+{
+	"id": "lefiya_viridis_elegant_elf",
+	"title": "Elegant Elf",
+	"name": "Lefiya Viridis",
+	"type": "balance_type",
+	"stars": 4,
+	"limited": true,
+	"stats": {
+		"hp":				[1432, 1608, 1802, 2014, 2244, 2492],
+		"mp":				[155, 167, 179, 191, 203, 215],
+		"physical_attack":	[327, 481, 558, 635, 712, 789],
+		"magic_attack":		[407, 495, 584, 672, 761, 938],
+		"defense":			[143, 143, 184, 225, 266, 307],
+		"strength":			[327, 481, 558, 635, 712, 789],
+		"endurance":		[143, 143, 184, 225, 266, 307],
+		"dexterity":		[218, 288, 358, 428, 499, 569],
+		"agility":			[262, 325, 388, 451, 515, 515],
+		"magic":			[407, 495, 584, 672, 761, 938]
+	},
+	"skills": {
+		"special": {
+			"name": "Icechunk Impact",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "water_magic_attack"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Sleet Fall",
+				"effects": [
+					{
+						"target": "allies",
+						"attribute": "all_damage_resist",
+						"modifier": "+20%",
+						"duration": 4
+					}
+				]
+			}, {
+				"name": "Crushing Deluge",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "water_magic_attack"
+					}, {
+						"target": "skill",
+						"attribute": "unguard_rate",
+						"modifier": "high"
+					}
+				]
+			}, {
+				"name": "Soothing Mist",
+				"effects": [
+					{
+						"target": "allies",
+						"attribute": "heal",
+						"modifier": "low"
+					}, {
+						"target": "allies",
+						"attribute": "magic",
+						"modifier": "+25%",
+						"duration": 3
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Mage: H",
+				"effects": [
+					{
+						"attribute": "magic",
+						"modifier": "+15%"
+					}
+				]
+			}, {
+				"name": "Strike: I",
+				"effects": [
+					{
+						"attribute": "critical_damage",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Fire Resistance: I",
+				"effects": [
+					{
+						"attribute": "fire_resist",
+						"modifier": "+25%"
+					}
+				]
+			}, {
+				"name": "Chef: I",
+				"effects": [
+					{
+						"attribute": "dexterity",
+						"modifier": "+15%"
+					}
+				]
+			}, {
+				"name": "Insane Speed: I",
+				"effects": [
+					{
+						"attribute": "agility",
+						"modifier": "+15%"
+					}
+				]
+			}
+		]
+	}
+}
