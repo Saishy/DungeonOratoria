@@ -1,0 +1,143 @@
+{
+	"id": "liliruca_arde_echoing_arrow",
+	"title": "Echoing Arrow",
+	"name": "Liliruca Arde",
+	"type": "physical_type",
+	"stars": 4,
+	"limited": false,
+	"stats": {
+		"hp":				[1574, 1758, 1954, 2162, 2384, 2624],
+		"mp":				[133, 145, 157, 169, 181, 193],
+		"physical_attack":	[650, 754, 857, 961, 1168, 1478],
+		"magic_attack":		[118, 188, 258, 328, 328, 328],
+		"defense":			[169, 227, 285, 343, 401, 401],
+		"strength":			[650, 754, 857, 961, 1168, 1478],
+		"endurance":		[169, 227, 285, 343, 401, 401],
+		"dexterity":		[242, 328, 415, 501, 587, 587],
+		"agility":			[282, 370, 457, 545, 632, 807],
+		"magic":			[118, 188, 258, 328, 328, 328]
+	},
+	"skills": {
+		"special": {
+			"name": "Lightning Arcbolt",
+			"effects": [
+				{
+					"target": "foe",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "thunder_physical_attack"
+				}, {
+					"target": "skill",
+					"attribute": "strength",
+					"modifier": "boost"
+				}, {
+					"target": "skill",
+					"attribute": "penetration_rate",
+					"modifier": "ultra"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Conductivity",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "thunder_physical_attack"
+					}, {
+						"target": "skill",
+						"attribute": "strength",
+						"modifier": "boost"
+					}, {
+						"target": "foe",
+						"attribute": "single_damage_resist",
+						"modifier": "-15%",
+						"duration": 4
+					}
+				]
+			}, {
+				"name": "Enhanced Lightning",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "thunder_physical_attack"
+					}, {
+						"target": "skill",
+						"attribute": "strength",
+						"modifier": "boost"
+					}, {
+						"target": "allies",
+						"attribute": "thunder_attack",
+						"modifier": "+20%",
+						"duration": 3
+					}
+				]
+			}, {
+				"name": "Loaded Lightning",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "low",
+						"type": "thunder_physical_attack"
+					}, {
+						"target": "self",
+						"attribute": "strength",
+						"modifier": "+75%",
+						"duration": 4
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Courageous: I",
+				"effects": [
+					{
+						"attribute": "strength",
+						"modifier": "+15%"
+					}
+				]
+			}, {
+				"name": "Strike: I",
+				"effects": [
+					{
+						"attribute": "critical_damage",
+						"modifier": "+20%"
+					}
+				]
+			}, {
+				"name": "Water Resistance: I",
+				"effects": [
+					{
+						"attribute": "water_resist",
+						"modifier": "+35%"
+					}
+				]
+			}, {
+				"name": "Concentrate: I",
+				"effects": [
+					{
+						"attribute": "agility",
+						"modifier": "+15%"
+					}, {
+						"attribute": "dexterity",
+						"modifier": "+15%"
+					}
+				]
+			}, {
+				"name": "Worm Killer",
+				"effects": [
+					{
+						"attribute": "worm_killer",
+						"modifier": "+50%"
+					}
+				]
+			}
+		]
+	}
+}

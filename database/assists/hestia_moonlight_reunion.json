@@ -1,0 +1,48 @@
+{
+	"id": "hestia_moonlight_reunion",
+	"title": "Moonlight Reunion",
+	"name": "Hestia",
+	"stars": 4,
+	"limited": false,
+	"stats": {
+		"hp":				[602, 658, 714, 774, 838, 902],
+		"mp":				[103, 111, 119, 129, 141, 153],
+		"physical_attack":	[300, 338, 376, 414, 490, 566],
+		"magic_attack":		[113, 146, 179, 212, 212, 212],
+		"defense":			[149, 175, 201, 227, 253, 279],
+		"strength":			[300, 338, 376, 414, 490, 566],
+		"endurance":		[149, 175, 201, 227, 253, 279],
+		"dexterity":		[209, 245, 281, 317, 353, 353],
+		"agility":			[193, 227, 261, 295, 329, 363],
+		"magic":			[113, 146, 179, 212, 212, 212]
+	},
+	"skills": [
+		{
+			"name": "Eternal Agape+",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "single_damage_resist",
+					"modifier": "-10%"
+				}, {
+					"target": "allies",
+					"attribute": "dexterity",
+					"modifier": "+15%"
+				}
+			]
+		}, {
+			"name": "Eternal Agape++",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "single_damage_resist",
+					"modifier": "-15%"
+				}, {
+					"target": "allies",
+					"attribute": "dexterity",
+					"modifier": "+20%"
+				}
+			]
+		}
+	]
+}
