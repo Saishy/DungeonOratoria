@@ -58,7 +58,7 @@
 						"modifier": "high",
 						"type": "thunder_magic_attack"
 					}, {
-						"target": "foe",
+						"target": "foes",
 						"attribute": "thunder_resist",
 						"modifier": "-30%",
 						"duration": 2
