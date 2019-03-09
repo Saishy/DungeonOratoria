@@ -1,0 +1,141 @@
+{
+	"id": "ais_wallenstein_sweet_princess",
+	"title": "Sweet Princess",
+	"name": "Ais Wallenstein",
+	"type": "magic_type",
+	"stars": 4,
+	"limited": true,
+	"stats": {
+		"hp": 				[1542, 1726, 1922, 2130, 2352, 2592],
+		"mp": 				[191, 207, 223, 241, 261, 281],
+		"physical_attack": 	[114, 188, 262, 336, 336, 336],
+		"magic_attack": 	[550, 642, 826, 1010, 1194, 1378],
+		"defense":			[129, 211, 211, 211, 292, 374],
+		"strength": 		[114, 188, 262, 336, 336, 336],
+		"endurance": 		[129, 211, 211, 211, 292, 374],
+		"dexterity": 		[255, 343, 431, 519, 607, 607],
+		"agility": 			[266, 345, 424, 503, 583, 741],
+		"magic": 			[550, 642, 826, 1010, 1194, 1378]
+	},
+	"skills": {
+		"special": {
+			"name": "Mal Amour",
+			"effects": [
+				{
+					"target": "foe",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "light_magic_attack"
+				}, {
+					"target": "skill",
+					"attribute": "magic",
+					"modifier": "boost"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Heart Breaker",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "light_magic_attack"
+					}, {
+						"target": "skill",
+						"attribute": "magic",
+						"modifier": "boost"
+					}, {
+						"target": "foe",
+						"attribute": "magic_buff_removal_no_assist",
+						"modifier": ""
+					}
+				]
+			}, {
+				"name": "Pure Glittering Edge",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "light_magic_attack"
+					}, {
+						"target": "skill",
+						"attribute": "magic",
+						"modifier": "boost"
+					}, {
+						"target": "allies",
+						"attribute": "light_attack",
+						"modifier": "+20%",
+						"duration": 4
+					}
+				]
+			}, {
+				"name": "Passion Coordination",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "low",
+						"type": "light_magic_attack"
+					}, {
+						"target": "self",
+						"attribute": "magic",
+						"modifier": "+75%",
+						"duration": 4
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Enlightenment: I",
+				"effects": [
+					{
+						"attribute": "magic",
+						"modifier": "+15%"
+					}
+				]
+			}, {
+				"name": "Piercing Strike: I",
+				"effects": [
+					{
+						"attribute": "penetration_damage",
+						"modifier": "+20%"
+					}
+				]
+			}, {
+				"name": "Dark Resistance: I",
+				"effects": [
+					{
+						"attribute": "wdark_resist",
+						"modifier": "+35%"
+					}
+				]
+			}, {
+				"name": "Rigid: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+10%"
+					}, {
+						"attribute": "agility",
+						"modifier": "+10%"
+					}, {
+						"attribute": "dexterity",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Material Killer",
+				"effects": [
+					{
+						"attribute": "material_killer",
+						"modifier": "+50%"
+					}
+				]
+			}
+		]
+	}
+}

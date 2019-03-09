@@ -1,0 +1,48 @@
+{
+	"id": "hestia_beloved_goddess",
+	"title": "Beloved Goddess",
+	"name": "Hestia",
+	"stars": 4,
+	"limited": true,
+	"stats": {
+		"hp":				[554, 610, 666, 726, 790, 854],
+		"mp":				[115, 123, 131, 141, 153, 165],
+		"physical_attack":	[284, 322, 360, 398, 474, 550],
+		"magic_attack":		[137, 170, 203, 236, 236, 236],
+		"defense":			[155, 181, 207, 233, 259, 285],
+		"strength":			[284, 322, 360, 398, 474, 550],
+		"endurance":		[155, 181, 207, 233, 259, 285],
+		"dexterity":		[178, 214, 250, 286, 322, 322],
+		"agility":			[210, 244, 278, 312, 346, 380],
+		"magic":			[137, 170, 203, 236, 236, 236]
+	},
+	"skills": [
+		{
+			"name": "Chocolate is War+",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "counter_rate",
+					"modifier": "-10%"
+				}, {
+					"target": "allies",
+					"attribute": "magic_resist",
+					"modifier": "+10%"
+				}
+			]
+		}, {
+			"name": "Chocolate is War++",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "counter_rate",
+					"modifier": "-15%"
+				}, {
+					"target": "allies",
+					"attribute": "magic_resist",
+					"modifier": "+15%"
+				}
+			]
+		}
+	]
+}

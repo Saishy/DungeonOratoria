@@ -1,0 +1,142 @@
+{
+	"id": "ryu_lion_pretty_lady",
+	"title": "Pretty Lady",
+	"name": "Ryu Lion",
+	"type": "physical_type",
+	"stars": 4,
+	"limited": true,
+	"stats": {
+		"hp":				[1530, 1714, 1910, 2118, 2340, 2580],
+		"mp":				[144, 156, 168, 180, 192, 204],
+		"physical_attack":	[641, 745, 848, 952, 1159, 1469],
+		"magic_attack":		[118, 188, 258, 328, 328, 328],
+		"defense":			[150, 208, 266, 324, 382, 382],
+		"strength":			[641, 745, 848, 952, 1159, 1469],
+		"endurance":		[150, 208, 266, 324, 382, 382],
+		"dexterity":		[208, 294, 380, 566, 553, 553],
+		"agility":			[348, 435, 523, 610, 698, 872],
+		"magic":			[118, 188, 258, 328, 328, 328]
+	},
+	"skills": {
+		"special": {
+			"name": "Confession D'amour",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "earth_physical_attack"
+				}, {
+					"target": "skill",
+					"attribute": "strength",
+					"modifier": "boost"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Orange Veil",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "earth_physical_attack"
+					}, {
+						"target": "skill",
+						"attribute": "strength",
+						"modifier": "boost"
+					}, {
+						"target": "foes",
+						"attribute": "physical_resist",
+						"modifier": "-15%",
+						"duration": 3
+					}, {
+						"target": "foes",
+						"attribute": "earth_resist",
+						"modifier": "-15%",
+						"duration": 3
+					}
+				]
+			}, {
+				"name": "Chagrin Chanter",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "earth_physical_attack"
+					}, {
+						"target": "skill",
+						"attribute": "strength",
+						"modifier": "boost"
+					}
+				]
+			}, {
+				"name": "Gloire Tyffon",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "earth_physical_attack"
+					}, {
+						"target": "skill",
+						"attribute": "strength",
+						"modifier": "boost"
+					}, {
+						"target": "allies",
+						"attribute": "str_debuff_removal_no_assist",
+						"modifier": ""
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Battle Arts: I",
+				"effects": [
+					{
+						"attribute": "strength",
+						"modifier": "+15%"
+					}, {
+						"attribute": "dexterity",
+						"modifier": "+15%"
+					}
+				]
+			}, {
+				"name": "Piercing Strike: I",
+				"effects": [
+					{
+						"attribute": "penetration_damage",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Thunder Resistance: I",
+				"effects": [
+					{
+						"attribute": "thunder_resist",
+						"modifier": "+35%"
+					}
+				]
+			}, {
+				"name": "Hunter: G",
+				"effects": [
+					{
+						"attribute": "agility",
+						"modifier": "+15%"
+					}
+				]
+			}, {
+				"name": "Material Killer",
+				"effects": [
+					{
+						"attribute": "material_killer",
+						"modifier": "+50%"
+					}
+				]
+			}
+		]
+	}
+}
