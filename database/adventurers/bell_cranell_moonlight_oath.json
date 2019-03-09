@@ -1,0 +1,145 @@
+{
+	"id": "bell_cranel_moonlight_oath",
+	"title": "Moonlight Oath",
+	"name": "Bell Cranel",
+	"type": "physical_type",
+	"stars": 4,
+	"limited": false,
+	"stats": {
+		"hp":				[1456, 1632, 1826, 2038, 2268, 2516],
+		"mp":				[134, 146, 158, 170, 182, 194],
+		"physical_attack":	[678, 786, 894, 1002, 1218, 1542],
+		"magic_attack":		[129, 206, 283, 360, 360, 360],
+		"defense":			[166, 229, 293, 357, 421, 421],
+		"strength":			[678, 786, 894, 1002, 1218, 1542],
+		"endurance":		[166, 229, 293, 357, 421, 421],
+		"dexterity":		[204, 287, 369, 452, 534, 534],
+		"agility":			[319, 402, 486, 569, 653, 820],
+		"magic":			[129, 206, 283, 360, 360, 360]
+	},
+	"skills": {
+		"special": {
+			"name": "Sworn Strike",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "light_physical_attack"
+				}, {
+					"target": "skill",
+					"attribute": "strength",
+					"modifier": "boost"
+				}, {
+					"target": "skill",
+					"attribute": "unguard_rate",
+					"modifier": "ultra"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "True Strike",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "light_physical_attack"
+					}, {
+						"target": "skill",
+						"attribute": "penetration_rate",
+						"modifier": "ultra"
+					}, {
+						"target": "skill",
+						"attribute": "",
+						"modifier": "fast"
+					}
+				]
+			}, {
+				"name": "Glorius Aim",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "light_physical_attack"
+					}, {
+						"target": "skill",
+						"attribute": "strength",
+						"modifier": "boost"
+					}, {
+						"target": "foes",
+						"attribute": "stun",
+						"modifier": "20%"
+					}
+				]
+			}, {
+				"name": "Bright Fatality",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "light_physical_attack"
+					}, {
+						"target": "skill",
+						"attribute": "strength",
+						"modifier": "boost"
+					}, {
+						"target": "allies",
+						"attribute": "magic_resist",
+						"modifier": "+20%",
+						"duration": 3
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Liaris Freese",
+				"effects": [
+					{
+						"attribute": "fast_growth",
+						"modifier": ""
+					}, {
+						"attribute": "null_charm",
+						"modifier": ""
+					}
+				]
+			}, {
+				"name": "Courageous: I",
+				"effects": [
+					{
+						"attribute": "strength",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Dark Resistance: I",
+				"effects": [
+					{
+						"attribute": "dark_resist",
+						"modifier": "+35%"
+					}
+				]
+			}, {
+				"name": "Ox Slayer",
+				"effects": [
+					{
+						"attribute": "ox_slayer",
+						"modifier": "+100%"
+					}
+				]
+			}, {
+				"name": "Luck: I",
+				"effects": [
+					{
+						"attribute": "all_status",
+						"modifier": "+10%"
+					}
+				]
+			}
+		]
+	}
+}

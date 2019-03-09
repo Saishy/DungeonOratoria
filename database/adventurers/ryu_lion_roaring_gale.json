@@ -1,0 +1,141 @@
+{
+	"id": "ryu_lion_roaring_gale",
+	"title": "Roaring Gale",
+	"name": "Ryu Lion",
+	"type": "balance_type",
+	"stars": 4,
+	"limited": false,
+	"stats": {
+		"hp":				[1392, 1568, 1762, 1974, 2204, 2452],
+		"mp":				[165, 177, 189, 201, 213, 225],
+		"physical_attack":	[439, 660, 770, 880, 991, 1101],
+		"magic_attack":		[405, 501, 597, 693, 789, 981],
+		"defense":			[143, 143, 194, 245, 296, 347],
+		"strength":			[439, 660, 770, 880, 991, 1101],
+		"endurance":		[143, 143, 194, 245, 296, 347],
+		"dexterity":		[243, 333, 423, 512, 602, 692],
+		"agility":			[233, 312, 392, 471, 550, 550],
+		"magic":			[405, 501, 597, 693, 789, 981]
+	},
+	"skills": {
+		"special": {
+			"name": "Zephyrus Dawnbringer",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "light_physical_attack"
+				}, {
+					"target": "foes",
+					"attribute": "seal",
+					"modifier": "30%"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Flashing",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "low",
+						"type": "light_physical_attack",
+						"speed": "fast"
+					}, {
+						"target": "foes",
+						"attribute": "strength",
+						"modifier": "-35%",
+						"duration": 2
+					}, {
+						"target": "foes",
+						"attribute": "magic",
+						"modifier": "-35%",
+						"duration": 2
+					}
+				]
+			}, {
+				"name": "Oppression",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "light_physical_attack"
+					}, {
+						"target": "foes",
+						"attribute": "status_debuff",
+						"modifier": "+1 turn"
+					}
+				]
+			}, {
+				"name": "Against Bane",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "light_physical_attack"
+					}, {
+						"target": "skill",
+						"attribute": "strength",
+						"modifier": "boost"
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Transcendence: I",
+				"effects": [
+					{
+						"attribute": "When countering, instead of regular attack, [Foe] Str. & Mag. -45% for 2 turns",
+						"modifier": ""
+					}
+				]
+			}, {
+				"name": "Solid: I",
+				"effects": [
+					{
+						"attribute": "guard_rate",
+						"modifier": "+30%"
+					}
+				]
+			}, {
+				"name": "Dark Resistance: I",
+				"effects": [
+					{
+						"attribute": "dark_resist",
+						"modifier": "+35%"
+					}
+				]
+			}, {
+				"name": "Concentrate: I",
+				"effects": [
+					{
+						"attribute": "strength",
+						"modifier": "+15%"
+					}, {
+						"attribute": "agility",
+						"modifier": "+15%"
+					}, {
+						"attribute": "dexterity",
+						"modifier": "+15%"
+					}
+				]
+			}, {
+				"name": "Protection: I",
+				"effects": [
+					{
+						"attribute": "physical_resist",
+						"modifier": "+10%"
+					}, {
+						"attribute": "magic_resist",
+						"modifier": "+10%"
+					}
+				]
+			}
+		]
+	}
+}

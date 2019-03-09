@@ -1,0 +1,48 @@
+{
+	"id": "artemis_innocent_goddess",
+	"title": "Innocent Goddess",
+	"name": "Artemis",
+	"stars": 4,
+	"limited": false,
+	"stats": {
+		"hp":				[614, 670, 726, 786, 850, 914],
+		"mp":				[100, 108, 116, 126, 138, 150],
+		"physical_attack":	[309, 347, 385, 423, 499, 575],
+		"magic_attack":		[113, 146, 179, 212, 212, 212],
+		"defense":			[150, 176, 202, 228, 254, 280],
+		"strength":			[309, 347, 385, 423, 499, 575],
+		"endurance":		[150, 176, 202, 228, 254, 280],
+		"dexterity":		[161, 197, 233, 269, 305, 305],
+		"agility":			[231, 265, 299, 333, 367, 401],
+		"magic":			[113, 146, 179, 212, 212, 212]
+	},
+	"skills": [
+		{
+			"name": "Holy Bowstring+",
+			"effects": [
+				{
+					"target": "self",
+					"attribute": "strength",
+					"modifier": "+15%"
+				}, {
+					"target": "allies",
+					"attribute": "strength",
+					"modifier": "+10% (effect does not apply to [Self])"
+				}
+			]
+		}, {
+			"name": "Holy Bowstring++",
+			"effects": [
+				{
+					"target": "self",
+					"attribute": "strength",
+					"modifier": "+20%"
+				}, {
+					"target": "allies",
+					"attribute": "strength",
+					"modifier": "+15% (effect does not apply to [Self])"
+				}
+			]
+		}
+	]
+}

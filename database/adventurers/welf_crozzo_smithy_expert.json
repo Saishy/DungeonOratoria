@@ -1,0 +1,125 @@
+{
+	"id": "welf_crozzo_smithy_expert",
+	"title": "Smithy Expert",
+	"name": "Welf Crozzo",
+	"type": "balance_type",
+	"stars": 4,
+	"limited": false,
+	"stats": {
+		"hp":				[1372, 1548, 1742, 1954, 2184, 2432],
+		"mp":				[170, 182, 194, 206, 218, 230],
+		"physical_attack":	[327, 519, 615, 711, 807, 903],
+		"magic_attack":		[526, 642, 757, 872, 987, 1218],
+		"defense":			[156, 156, 207, 258, 309, 360],
+		"strength":			[327, 519, 615, 711, 807, 903],
+		"endurance":		[156, 156, 207, 258, 309, 360],
+		"dexterity":		[234, 312, 390, 468, 546, 624],
+		"agility":			[226, 309, 392, 475, 558, 558],
+		"magic":			[526, 642, 757, 872, 987, 1218]
+	},
+	"skills": {
+		"special": {
+			"name": "Thousand Flames",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "fire_magic_attack"
+				}, {
+					"target": "skill",
+					"attribute": "magic",
+					"modifier": "boost"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Name of the Flame",
+				"effects": [
+					{
+						"target": "allies",
+						"attribute": "guard_rate",
+						"modifier": "+40",
+						"duration": 2
+					}, {
+						"target": "foes",
+						"attribute": "penetration_rate",
+						"modifier": "-40",
+						"duration": 2
+					}
+				]
+			}, {
+				"name": "The Art of Forging",
+				"effects": [
+					{
+						"target": "self",
+						"attribute": "prevent_ko",
+						"modifier": "x1",
+						"duration": "only when hp >= 10%"
+					}
+				]
+			}, {
+				"name": "Spark Hammer",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "fire_magic_attack"
+					}, {
+						"target": "skill",
+						"attribute": "magic",
+						"modifier": "boost"
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Forestall: I",
+				"effects": [
+					{
+						"attribute": "magic",
+						"modifier": "+20%"
+					}, {
+						"attribute": "agility",
+						"modifier": "+20%"
+					}
+				]
+			}, {
+				"name": "Solid: I",
+				"effects": [
+					{
+						"attribute": "guard_rate",
+						"modifier": "+30%"
+					}
+				]
+			}, {
+				"name": "Wind Resistance: I",
+				"effects": [
+					{
+						"attribute": "wind_resist",
+						"modifier": "+35%"
+					}
+				]
+			}, {
+				"name": "Spirit Healing: G",
+				"effects": [
+					{
+						"attribute": "mp_regen",
+						"modifier": "5%"
+					}
+				]
+			}, {
+				"name": "Worm Killer",
+				"effects": [
+					{
+						"attribute": "worm_killer",
+						"modifier": "+50%"
+					}
+				]
+			}
+		]
+	}
+}
