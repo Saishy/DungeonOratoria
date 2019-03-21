@@ -77,6 +77,10 @@
 						"type": "water_magic_attack"
 					}, {
 						"target": "skill",
+						"attribute": "magic",
+						"modifier": "boost"
+					}, {
+						"target": "skill",
 						"attribute": "unguard_rate",
 						"modifier": "ultra"
 					}
