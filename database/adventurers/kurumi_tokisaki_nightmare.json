@@ -1,0 +1,139 @@
+{
+	"id": "kurumi_tokisaki_nightmare",
+	"title": "Nightmare",
+	"name": "Kurumi Tokisaki",
+	"type": "balance_type",
+	"stars": 4,
+	"limited": true,
+	"stats": {
+		"hp":				[1416, 1592, 1786, 1998, 2228, 2476],
+		"mp": 				[159, 171, 183, 195, 207, 219],
+		"physical_attack":	[367, 578, 684, 789, 895, 1001],
+		"magic_attack":		[405, 501, 597, 693, 789, 981],
+		"defense":			[142, 142, 193, 244, 295, 346],
+		"strength":			[367, 578, 684, 789, 895, 1001],
+		"endurance":		[142, 142, 193, 244, 295, 346],
+		"dexterity":		[221, 299, 377, 455, 533, 611],
+		"agility":			[328, 421, 514, 607, 700, 700],
+		"magic":			[405, 501, 597, 693, 789, 981]
+	},
+	"skills": {
+		"special": {
+			"name": "Eighth Bullet",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "dark_physical_attack"
+				}, {
+					"target": "skill",
+					"attribute": "strength",
+					"modifier": "boost"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Second Bullet",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "low",
+						"type": "dark_physical_attack"
+					}, {
+						"target": "foes",
+						"attribute": "dark_resist",
+						"modifier": "-35%",
+						"duration": 3
+					}, {
+						"target": "foes",
+						"attribute": "agility",
+						"modifier": "-35%",
+						"duration": 3
+					}
+				]
+			}, {
+				"name": "Fourth Bullet",
+				"effects": [
+					{
+						"target": "allies",
+						"attribute": "heal",
+						"modifier": "15%"
+					}, {
+						"target": "allies",
+						"attribute": "hp_regen",
+						"modifier": "35%",
+						"duration": 1
+					}
+				]
+			}, {
+				"name": "Seventh Bullet",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "dark_physical_attack"
+					}, {
+						"target": "foe",
+						"attribute": "stun",
+						"modifier": ""
+					}, {
+						"target": "skill",
+						"attribute": "penetration_rate",
+						"modifier": "ultra"
+					}, {
+						"target": "skill",
+						"attribute": "",
+						"modifier": "fast"
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "First Bullet",
+				"effects": [
+					{
+						"attribute": "agility",
+						"modifier": "+35%"
+					}
+				]
+			}, {
+				"name": "Piercing Strike: I",
+				"effects": [
+					{
+						"attribute": "penetration_damage",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Light Resistance: I",
+				"effects": [
+					{
+						"attribute": "light_resist",
+						"modifier": "+35%"
+					}
+				]
+			}, {
+				"name": "Crush:I ",
+				"effects": [
+					{
+						"attribute": "strength",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Spirit Killer",
+				"effects": [
+					{
+						"attribute": "spirit_killer",
+						"modifier": "+50%"
+					}
+				]
+			}
+		]
+	}
+}

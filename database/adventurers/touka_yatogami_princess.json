@@ -1,0 +1,137 @@
+{
+	"id": "touka_yatogami_princess",
+	"title": "Princess",
+	"name": "Touka Yatogami",
+	"type": "physical_type",
+	"stars": 4,
+	"limited": true,
+	"stats": {
+		"hp":				[1558, 1742, 1938, 2146, 2368, 2608],
+		"mp":				[137, 149, 161, 173, 184, 197],
+		"physical_attack":	[654, 757, 861, 964, 1171, 1482],
+		"magic_attack":		[118, 188, 258, 328, 328, 328],
+		"defense":			[159, 223, 287, 350, 414, 414],
+		"strength":			[654, 757, 861, 964, 1171, 1482],
+		"endurance":		[159, 223, 287, 350, 414, 414],
+		"dexterity":		[191, 273, 356, 438, 512, 521],
+		"agility":			[334, 418, 501, 585, 668, 836],
+		"magic":			[118, 188, 258, 328, 328, 328]
+	},
+	"skills": {
+		"special": {
+			"name": "Sword of the End",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "light_physical_attack"
+				}, {
+					"target": "skill",
+					"attribute": "strength",
+					"modifier": "boost"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Spirit Extinction Blow",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "light_physical_attack"
+					}, {
+						"target": "skill",
+						"attribute": "strength",
+						"modifier": "boost"
+					}, {
+						"target": "foes",
+						"attribute": "light_resist",
+						"modifier": "-30%",
+						"duration": 2
+					}
+				]
+			}, {
+				"name": "Aerial Glint",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "light_physical_attack"
+					}, {
+						"target": "skill",
+						"attribute": "strength",
+						"modifier": "boost"
+					}
+				]
+			}, {
+				"name": "Sword Force",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "low",
+						"type": "light_physical_attack"
+					}, {
+						"target": "allies",
+						"attribute": "light_attack",
+						"modifier": "+25%",
+						"duration": 3
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Sword Fighter: I",
+				"effects": [
+					{
+						"attribute": "strength",
+						"modifier": "+15%"
+					}
+				]
+			}, {
+				"name": "Piercing Strike: I",
+				"effects": [
+					{
+						"attribute": "penetration_damage",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Dark Resistance: I",
+				"effects": [
+					{
+						"attribute": "dark_resist",
+						"modifier": "+35%"
+					}
+				]
+			}, {
+				"name": "Rigid: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+15%"
+					}, {
+						"attribute": "agility",
+						"modifier": "+15%"
+					}, {
+						"attribute": "dexterity",
+						"modifier": "+15%"
+					}
+				]
+			}, {
+				"name": "Status Resist: I",
+				"effects": [
+					{
+						"attribute": "ailment_resist",
+						"modifier": "+15%"
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,48 @@
+{
+	"id": "hestia_chief_goddess",
+	"title": "Chief Goddess",
+	"name": "Hestia",
+	"stars": 4,
+	"limited": true,
+	"stats": {
+		"hp":				[650, 706, 762, 822, 886, 950],
+		"mp":				[ 91,  99, 107, 117, 129, 141],
+		"physical_attack":	[302, 340, 378, 416, 492, 568],
+		"magic_attack":		[113, 146, 179, 212, 212, 212],
+		"defense":			[150, 176, 202, 228, 254, 280],
+		"strength":			[302, 340, 378, 416, 492, 568],
+		"endurance":		[150, 176, 202, 228, 254, 280],
+		"dexterity":		[159, 195, 231, 267, 303, 303],
+		"agility":			[240, 274, 308, 342, 376, 410],
+		"magic":			[113, 146, 179, 212, 212, 212]
+	},
+	"skills": [
+		{
+			"name": "Date with Bell+",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "agility",
+					"modifier": "-8%"
+				}, {
+					"target": "foes",
+					"attribute": "physical_resist",
+					"modifier": "-10%"
+				}
+			]
+		}, {
+			"name": "Date with Bell++",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "agility",
+					"modifier": "-10%"
+				}, {
+					"target": "foes",
+					"attribute": "physical_resist",
+					"modifier": "-15%"
+				}
+			]
+		}
+	]
+}

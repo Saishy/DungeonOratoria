@@ -1,0 +1,48 @@
+{
+	"id": "kaguya_liliruca_berserk",
+	"title": "Berserk",
+	"name": "Kaguya & Liliruca",
+	"stars": 4,
+	"limited": true,
+	"stats": {
+		"hp": 				[792, 872, 952, 1044, 1148, 1252],
+		"mp": 				[61, 69, 77, 85, 93, 101],
+		"physical_attack": 	[178, 214, 250, 286, 322, 322],
+		"magic_attack": 	[178, 214, 250, 286, 286, 322],
+		"defense":			[202, 219, 236, 253, 287, 321],
+		"strength": 		[178, 214, 250, 286, 322, 322],
+		"endurance": 		[202, 219, 236, 253, 287, 321],
+		"dexterity": 		[178, 201, 224, 247, 270, 293],
+		"agility": 			[138, 156, 174, 192, 210, 210],
+		"magic": 			[178, 214, 250, 286, 286, 322]
+	},
+	"skills": [
+		{
+			"name": "Drilling Wind+",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "charm_resist",
+					"modifier": "+75%"
+				}, {
+					"target": "allies",
+					"attribute": "all_damage_resist",
+					"modifier": "+6%"
+				}
+			]
+		}, {
+			"name": "Drilling Wind++",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "charm_resist",
+					"modifier": "+100%"
+				}, {
+					"target": "allies",
+					"attribute": "all_damage_resist",
+					"modifier": "+7%"
+				}
+			]
+		}
+	]
+}
