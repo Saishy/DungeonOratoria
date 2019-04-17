@@ -1,0 +1,40 @@
+{
+	"id": "hestia_cunning_goddess",
+	"title": "Cunning Goddess",
+	"name": "Hestia",
+	"stars": 3,
+	"limited": true,
+	"stats": {
+		"hp": 				[520, 576, 632, 692, 756, 820],
+		"mp": 				[96, 104, 112, 122, 134, 146],
+		"physical_attack": 	[212, 232, 252, 272, 312, 352],
+		"magic_attack": 	[75, 95, 115, 135, 135, 135],
+		"defense": 			[103, 117, 131, 145, 159, 173],
+		"strength": 		[212, 232, 252, 272, 312, 352],
+		"endurance": 		[103, 117, 131, 145, 159, 173],
+		"dexterity": 		[122, 142, 162, 182, 202, 202],
+		"agility": 			[138, 157, 176, 186, 214, 133],
+		"magic": 			[75, 95, 115, 135, 135, 135]
+	},
+	"skills": [
+		{
+			"name": "Uncontrollable God+",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "dexterity",
+					"modifier": "+12%"
+				}
+			]
+		}, {
+			"name": "Uncontrollable God++",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "dexterity",
+					"modifier": "+15%"
+				}
+			]
+		}
+	]
+}

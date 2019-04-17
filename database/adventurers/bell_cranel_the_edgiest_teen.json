@@ -1,0 +1,118 @@
+{
+	"id": "bell_cranel_the_edgiest_teen",
+	"title": "The Edgiest Teen",
+	"name": "Bell Cranel",
+	"type": "balance_type",
+	"stars": 4,
+	"limited": true,
+	"stats": {
+		"hp": 				[1460, 1636, 1830, 2042, 2272, 2520],
+		"mp": 				[148, 160, 172, 184, 196, 208],
+		"physical_attack": 	[369, 531, 612, 693, 773, 854],
+		"magic_attack": 	[353, 434, 515, 596, 677, 838],
+		"defense": 			[185, 185, 228, 271, 315, 358],
+		"strength": 		[369, 531, 612, 693, 773, 854],
+		"endurance": 		[185, 185, 228, 271, 315, 358],
+		"dexterity": 		[212, 276, 340, 404, 468, 532],
+		"agility": 			[182, 240, 298, 355, 413, 413],
+		"magic": 			[353, 434, 515, 596, 677, 838]
+	},
+	"skills": {
+		"special": {
+			"name": "Darkest Doom's Edge",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "dark_physical_attack"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Slashing Atonement",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "dark_physical_attack"
+					}
+				]
+			}, {
+				"name": "Blackest Aura",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "dark_magic_attack"
+					}, {
+						"target": "foe",
+						"attribute": "stun",
+						"modifier": "30%"
+					}
+				]
+			}, {
+				"name": "Forbidden Left Arm",
+				"effects": [
+					{
+						"target": "self",
+						"attribute": "strength",
+						"modifier": "+70%",
+						"duration": 4
+					}, {
+						"target": "self",
+						"attribute": "magic",
+						"modifier": "+70%",
+						"duration": 4
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Crush?: I",
+				"effects": [
+					{
+						"attribute": "strength",
+						"modifier": "+5%"
+					}
+				]
+			}, {
+				"name": "Enlightenment?: I",
+				"effects": [
+					{
+						"attribute": "magic",
+						"modifier": "+5%"
+					}
+				]
+			}, {
+				"name": "Tough?: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+5%"
+					}
+				]
+			}, {
+				"name": "Acceleration?: I",
+				"effects": [
+					{
+						"attribute": "agility",
+						"modifier": "+5%"
+					}
+				]
+			}, {
+				"name": "Saboteur?: I",
+				"effects": [
+					{
+						"attribute": "dexterity",
+						"modifier": "+5%"
+					}
+				]
+			}
+		]
+	}
+}
