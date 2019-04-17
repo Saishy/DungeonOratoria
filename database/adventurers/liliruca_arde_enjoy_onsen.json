@@ -6,73 +6,121 @@
 	"stars": 4,
 	"limited": false,
 	"stats": {
-		"hp": [1460, 0, 0, 0, 0, 2510],
-		"mp": [180, 0, 0, 0, 0, 270],
-		"physical_attack": [123, 0, 0, 0, 0, 345],
-		"magic_attack": [521, 0, 0, 0, 0, 1313],
-		"defense": [137, 0, 0, 0, 0, 381],
-		"strength": [123, 0, 0, 0, 0, 345],
-		"endurance": [137, 0, 0, 0, 0, 381],
-		"dexterity": [216, 0, 0, 0, 0, 568],
-		"agility": [292, 0, 0, 0, 0, 767],
-		"magic": [521, 0, 0, 0, 0, 1313]
+		"hp": 				[1460, 1644, 1840, 2048, 2270, 2510],
+		"mp": 				[180, 196, 212, 230, 250, 270],
+		"physical_attack": 	[123, 197, 271, 345, 345, 345],
+		"magic_attack": 	[545, 637, 821, 1005, 1189, 1373],
+		"defense": 			[137, 218, 218, 218, 300, 381],
+		"strength": 		[123, 197, 271, 345, 345, 345],
+		"endurance": 		[137, 218, 218, 218, 300, 381],
+		"dexterity": 		[216, 304, 392, 480, 568, 568],
+		"agility": 			[292, 371, 451, 530, 609, 767],
+		"magic": 			[545, 637, 821, 1005, 1189, 1373]
 	},
 	"skills": {
 		"special": {
-			"name": "Special Placeholder",
+			"name": "Nature Blessing",
 			"effects": [
 				{
-					"target": "self",
-					"attribute": "strength",
-					"modifier": "+0%"
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "earth_magic_attack"
+				}, {
+					"target": "foes",
+					"attribute": "stun",
+					"modifier": "40%"
 				}
 			]
 		},
 		"combat": [
 			{
-				"name": "Skill 1 Placeholder",
+				"name": "Raising Arrow",
 				"effects": [
 					{
-						"target": "self",
-						"attribute": "strength",
-						"modifier": "+0%"
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "earth_magic_attack"
+					}, {
+						"target": "foes",
+						"attribute": "earth_resist",
+						"modifier": "-30%",
+						"duration": 2
 					}
 				]
 			}, {
-				"name": "Skill 2 Placeholder",
+				"name": "Through Pain",
 				"effects": [
 					{
-						"target": "self",
-						"attribute": "strength",
-						"modifier": "+0%"
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "earth_magic_attack"
+					}, {
+						"target": "foe",
+						"attribute": "earth_resist",
+						"modifier": "-40%",
+						"duration": 2
 					}
 				]
 			}, {
-				"name": "Skill 3 Placeholder",
+				"name": "Assault Potion",
 				"effects": [
 					{
 						"target": "self",
-						"attribute": "strength",
-						"modifier": "+0%"
+						"attribute": "prevent_ko",
+						"modifier": "x1",
+						"duration": "hp>=20%"
 					}
 				]
 			}
 		],
 		"development": [
 			{
-				"name": "Placeholder: I",
+				"name": "Enlightenment: I",
 				"effects": [
 					{
+						"attribute": "magic",
+						"modifier": "+15%"
+					}
+				]
+			}, {
+				"name": "Piercing Strike: I",
+				"effects": [
+					{
+						"attribute": "penetration_damage",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Thunder Resistance: I",
+				"effects": [
+					{
+						"attribute": "thunder_resist",
+						"modifier": "+20%"
+					}
+				]
+			}, {
+				"name": "Rigid: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+10%"
+					}, {
+						"attribute": "agility",
+						"modifier": "+10%"
+					}, {
 						"attribute": "dexterity",
 						"modifier": "+10%"
 					}
 				]
 			}, {
-				"name": "PlaceholderTwo: I",
+				"name": "Status Resist: I",
 				"effects": [
 					{
-						"attribute": "agility",
-						"modifier": "+10%"
+						"attribute": "ailment_resist",
+						"modifier": "+15%"
 					}
 				]
 			}

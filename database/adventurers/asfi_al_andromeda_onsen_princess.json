@@ -6,27 +6,26 @@
 	"stars": 4,
 	"limited": false,
 	"stats": {
-		"hp": [1520, 1704, 1900, 2108, 2330, 2570],
-		"mp": [129, 141, 153, 165, 177, 189],
-		"physical_attack": [609, 708, 807, 906, 1104, 1401],
-		"magic_attack": [114, 184, 254, 324, 324, 324],
-		"defense": [177, 240, 304, 368, 432, 432],
-		"strength": [609, 708, 807, 906, 1104, 1401],
-		"endurance": [177, 240, 304, 368, 432, 432],
-		"dexterity": [222, 304, 387, 469, 552, 552],
-		"agility": [306, 390, 474, 557, 641, 808],
-		"magic": [114, 184, 254, 324, 324, 324]
+		"hp": 				[1520, 1704, 1900, 2108, 2330, 2570],
+		"mp": 				[129, 141, 153, 165, 177, 189],
+		"physical_attack": 	[637, 740, 744, 947, 1154, 1465],
+		"magic_attack": 	[114, 184, 254, 324, 324, 324],
+		"defense": 			[177, 240, 304, 368, 432, 432],
+		"strength": 		[637, 740, 744, 947, 1154, 1465],
+		"endurance":		[177, 240, 304, 368, 432, 432],
+		"dexterity": 		[222, 304, 387, 469, 552, 552],
+		"agility": 			[306, 390, 474, 557, 641, 808],
+		"magic": 			[114, 184, 254, 324, 324, 324]
 	},
 	"skills": {
 		"special": {
-			"id": "crack_burst",
 			"name": "Crack Burst",
 			"effects": [
 				{
 					"target": "foes",
 					"attribute": "damage",
 					"modifier": "ultra",
-					"type": "physical_attack"
+					"type": "water_physical_attack"
 				}, {
 					"target": "skill",
 					"attribute": "strength",
@@ -36,14 +35,13 @@
 		},
 		"combat": [
 			{
-				"id": "division_knife",
-				"name": "Division Knife",
+				"name": "Spread Knife",
 				"effects": [
 					{
 						"target": "foes",
 						"attribute": "damage",
 						"modifier": "medium",
-						"type": "physical_attack"
+						"type": "water_physical_attack"
 					}, {
 						"target": "foes",
 						"attribute": "magic",
@@ -56,18 +54,17 @@
 					}
 				]
 			}, {
-				"id": "foresight_dagger",
-				"name": "Foresight Dagger",
+				"name": "Diffusion Knife",
 				"effects": [
 					{
 						"target": "foe",
 						"attribute": "damage",
-						"modifier": "medium",
-						"type": "physical_attack"
+						"modifier": "high",
+						"type": "water_physical_attack"
 					}, {
 						"target": "foe",
 						"attribute": "seal",
-						"modifier": "30%"
+						"modifier": "40%"
 					}, {
 						"target": "skill",
 						"attribute": "strength",
@@ -75,7 +72,6 @@
 					}
 				]
 			}, {
-				"id": "flash_knowledge",
 				"name": "Flash Knowledge",
 				"effects": [
 					{
@@ -96,19 +92,22 @@
 					}
 				]
 			}, {
-				"name": "Acceleration: I",
-				"effects": [
-					{
-						"attribute": "agility",
-						"modifier": "+10%"
-					}
-				]
-			}, {
 				"name": "Tough: I",
 				"effects": [
 					{
 						"attribute": "endurance",
 						"modifier": "+10%"
+					}, {
+						"attribute": "agility",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Fire Resistance: I",
+				"effects": [
+					{
+						"attribute": "fire_resist",
+						"modifier": "+20%"
 					}
 				]
 			}, {
@@ -116,7 +115,7 @@
 				"effects": [
 					{
 						"attribute": "strength",
-						"modifier": "+10%"
+						"modifier": "+15%"
 					}
 				]
 			}, {

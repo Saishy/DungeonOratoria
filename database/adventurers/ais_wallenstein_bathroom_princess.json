@@ -6,73 +6,123 @@
 	"stars": 4,
 	"limited": false,
 	"stats": {
-		"hp": [1388, 0, 0, 0, 0, 2448],
-		"mp": [140, 0, 0, 0, 0, 200],
-		"physical_attack": [329, 0, 0, 0, 0, 905],
-		"magic_attack": [484, 0, 0, 0, 0, 1117],
-		"defense": [182, 0, 0, 0, 0, 407],
-		"strength": [329, 0, 0, 0, 0, 905],
-		"endurance": [182, 0, 0, 0, 0, 407],
-		"dexterity": [258, 0, 0, 0, 0, 687],
-		"agility": [175, 0, 0, 0, 0, 451],
-		"magic": [484, 0, 0, 0, 0, 1117]
+		"hp":				[1388, 1564, 1758, 1970, 2200, 2448],
+		"mp": 				[140, 152, 164, 176, 188, 200],
+		"physical_attack": 	[329, 521, 617, 713, 809, 905],
+		"magic_attack":		[528, 643, 758, 873, 988, 1219],
+		"defense": 			[182, 182, 238, 294, 350, 407],
+		"strength": 		[329, 521, 617, 713, 809, 905],
+		"endurance": 		[182, 182, 238, 294, 350, 407],
+		"dexterity": 		[258, 344, 430, 515, 601, 687],
+		"agility": 			[175, 244, 313, 382, 451, 451],
+		"magic": 			[528, 643, 758, 873, 988, 1219]
 	},
 	"skills": {
 		"special": {
-			"name": "Special Placeholder",
+			"name": "Timidus Lil Rafaga",
 			"effects": [
 				{
-					"target": "self",
-					"attribute": "strength",
-					"modifier": "+0%"
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "wind_magic_attack"
+				}, {
+					"target": "foes",
+					"attribute": "wind_resist",
+					"modifier": "-40%",
+					"duration": 4
 				}
 			]
 		},
 		"combat": [
 			{
-				"name": "Skill 1 Placeholder",
+				"name": "Illusion Mech",
 				"effects": [
 					{
-						"target": "self",
-						"attribute": "strength",
-						"modifier": "+0%"
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "wind_magic_attack"
+					}, {
+						"target": "foes",
+						"attribute": "magic_resist",
+						"modifier": "-25%",
+						"duration": 2
+					}, {
+						"target": "foes",
+						"attribute": "heal_modifier",
+						"modifier": "-25%",
+						"duration": 2
 					}
 				]
 			}, {
-				"name": "Skill 2 Placeholder",
+				"name": "Illusion Piercer",
 				"effects": [
 					{
-						"target": "self",
-						"attribute": "strength",
-						"modifier": "+0%"
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "wind_magic_attack"
+					}, {
+						"target": "foe",
+						"attribute": "sleep",
+						"modifier": "40%"
 					}
 				]
 			}, {
-				"name": "Skill 3 Placeholder",
+				"name": "Veter Schrimm",
 				"effects": [
 					{
-						"target": "self",
-						"attribute": "strength",
-						"modifier": "+0%"
+						"target": "allies",
+						"attribute": "physical_resist",
+						"modifier": "+40%",
+						"duration": 3
 					}
 				]
 			}
 		],
 		"development": [
 			{
-				"name": "Placeholder: I",
+				"name": "Enlightenment: I",
 				"effects": [
 					{
+						"attribute": "magic",
+						"modifier": "+20%"
+					}
+				]
+			}, {
+				"name": "Train: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+10%"
+					}, {
 						"attribute": "dexterity",
 						"modifier": "+10%"
 					}
 				]
 			}, {
-				"name": "PlaceholderTwo: I",
+				"name": "Earth Resistance: I",
 				"effects": [
 					{
-						"attribute": "agility",
+						"attribute": "earth_resist",
+						"modifier": "+20%"
+					}
+				]
+			}, {
+				"name": "Defense: I",
+				"effects": [
+					{
+						"attribute": "physical_resist",
 						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Status Resist: I",
+				"effects": [
+					{
+						"attribute": "ailment_resist",
+						"modifier": "+15%"
 					}
 				]
 			}
