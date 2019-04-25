@@ -1,0 +1,113 @@
+{
+	"id": "lefiya_viridis_dark_class_act",
+	"title": "Dark Class Act",
+	"name": "Lefiya Viridis",
+	"type": "magic_type",
+	"stars": 3,
+	"limited": true,
+	"stats": {
+		"hp": 				[981, 1093, 1211, 1335, 1465, 1601],
+		"mp": 				[172, 188, 204, 222, 242, 262],
+		"physical_attack": 	[71, 106, 141, 176, 176, 176],
+		"magic_attack": 	[361, 420, 479, 538, 716, 893],
+		"defense": 			[106, 157, 209, 260, 260, 260],
+		"strength": 		[71, 106, 141, 176, 176, 176],
+		"endurance": 		[106, 157, 209, 260, 260, 260],
+		"dexterity": 		[164, 225, 286, 347, 408, 408],
+		"agility": 			[214, 266, 318, 370, 422, 526],
+		"magic": 			[361, 420, 479, 538, 716, 893]
+	},
+	"skills": {
+		"special": {
+			"name": "Aspara Illusion",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "high",
+					"type": "physical_attack"
+				}, {
+					"target": "skill",
+					"attribute": "indexed_to",
+					"modifier": "magic"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Arcs Ray?",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "low",
+						"type": "light_magic_attack"
+					}
+				]
+			}, {
+				"name": "Ether Charge?",
+				"effects": [
+					{
+						"target": "self",
+						"attribute": "magic",
+						"modifier": "+50%",
+						"duration": 4
+					}
+				]
+			}, {
+				"name": "Magias Decremento?",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "physical_resist",
+						"modifier": "-7.5%",
+						"duration": 4
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Saboteur?: I",
+				"effects": [
+					{
+						"attribute": "dexterity",
+						"modifier": "+5%"
+					}
+				]
+			}, {
+				"name": "Insane Speed?: I",
+				"effects": [
+					{
+						"attribute": "agility",
+						"modifier": "+4%"
+					}
+				]
+			}, {
+				"name": "Unbreakable?: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+3%"
+					}
+				]
+			}, {
+				"name": "Mage?: H",
+				"effects": [
+					{
+						"attribute": "strength",
+						"modifier": "+2%"
+					}
+				]
+			}, {
+				"name": "Spirit Healing?: G",
+				"effects": [
+					{
+						"attribute": "mp_regen",
+						"modifier": "+1%"
+					}
+				]
+			}
+		]
+	}
+}

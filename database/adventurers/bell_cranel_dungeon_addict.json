@@ -1,0 +1,122 @@
+{
+	"id": "bell_cranel_dungeon_addict",
+	"title": "Dungeon Addict",
+	"name": "Bell Cranel",
+	"type": "physical_type",
+	"stars": 3,
+	"limited": true,
+	"stats": {
+		"hp": 				[1395, 1579, 1775, 1983, 2205, 2445],
+		"mp": 				[119, 131, 143, 155, 167, 179],
+		"physical_attack": 	[291, 340, 389, 487, 585, 683],
+		"magic_attack": 	[68, 111, 153, 153, 153, 153],
+		"defense": 			[92, 125, 158, 191, 224, 224],
+		"strength": 		[291, 340, 389, 487, 585, 683],
+		"endurance": 		[92, 125, 158, 191, 224, 224],
+		"dexterity": 		[145, 186, 227, 268, 309, 350],
+		"agility": 			[191, 236, 280, 325, 370, 459],
+		"magic": 			[68, 111, 153, 153, 153, 153]
+	},
+	"skills": {
+		"special": {
+			"name": "Dungeon Dance",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "high",
+					"type": "physical_attack"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Firebolt?",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "fire_magic_attack"
+					}, {
+						"target": "skill",
+						"attribute": "",
+						"modifier": "fast"
+					}
+				]
+			}, {
+				"name": "Tri Slicer",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "low",
+						"type": "physical_attack"
+					}, {
+						"target": "foe",
+						"attribute": "stun",
+						"modifier": "30%"
+					}
+				]
+			}, {
+				"name": "Argonaut?",
+				"effects": [
+					{
+						"target": "self",
+						"attribute": "strength",
+						"modifier": "+50%",
+						"duration": 4
+					}, {
+						"target": "self",
+						"attribute": "magic",
+						"modifier": "+50%",
+						"duration": 4
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Saboteur?: I",
+				"effects": [
+					{
+						"attribute": "dexterity",
+						"modifier": "+5%"
+					}
+				]
+			}, {
+				"name": "Acceleration?: I",
+				"effects": [
+					{
+						"attribute": "agility",
+						"modifier": "+4%"
+					}
+				]
+			}, {
+				"name": "Tough?: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+3%"
+					}
+				]
+			}, {
+				"name": "Crush?: I",
+				"effects": [
+					{
+						"attribute": "strength",
+						"modifier": "+2%"
+					}
+				]
+			}, {
+				"name": "Enlightenment?: I",
+				"effects": [
+					{
+						"attribute": "magic",
+						"modifier": "+1%"
+					}
+				]
+			}
+		]
+	}
+}

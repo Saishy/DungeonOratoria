@@ -1,0 +1,114 @@
+{
+	"id": "ais_wallenstein_angelic_leader",
+	"title": "Angelic Leader",
+	"name": "Ais Wallenstein",
+	"type": "physical_type",
+	"stars": 4,
+	"limited": true,
+	"stats": {
+		"hp": 				[1506, 1690, 1886, 2094, 2316, 2556],
+		"mp": 				[150, 162, 174, 186, 198, 210],
+		"physical_attack": 	[546, 613, 680, 747, 882, 1083],
+		"magic_attack": 	[118, 174, 230, 286, 286, 286],
+		"defense": 			[164, 216, 267, 319, 370, 370],
+		"strength": 		[546, 613, 680, 747, 882, 1083],
+		"endurance": 		[164, 216, 267, 319, 370, 370],
+		"dexterity": 		[211, 271, 331, 391, 451, 451],
+		"agility": 			[249, 312, 375, 438, 501, 627],
+		"magic": 			[118, 174, 230, 286, 286, 286]
+	},
+	"skills": {
+		"special": {
+			"name": "Salvaging Aeriel",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "light_physical_attack"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Complete Angelic Power",
+				"effects": [
+					{
+						"target": "self",
+						"attribute": "strength",
+						"modifier": "+70%",
+						"duration": 4
+					}, {
+						"target": "self",
+						"attribute": "physical_resist",
+						"modifier": "+10%",
+						"duration": 4
+					}
+				]
+			}, {
+				"name": "Piko Hammer Slash",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "light_physical_attack"
+					}
+				]
+			}, {
+				"name": "Angelic Cut",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "light_physical_attack"
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Crush?: I",
+				"effects": [
+					{
+						"attribute": "strength",
+						"modifier": "+5%"
+					}
+				]
+			}, {
+				"name": "Tough?: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+5%"
+					}
+				]
+			}, {
+				"name": "Acceleration?: I",
+				"effects": [
+					{
+						"attribute": "agility",
+						"modifier": "+5%"
+					}
+				]
+			}, {
+				"name": "Status Resist?: I",
+				"effects": [
+					{
+						"attribute": "ailment_resist",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Spirit Healing?: I",
+				"effects": [
+					{
+						"attribute": "mp_regen",
+						"modifier": "+1%"
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,40 @@
+{
+	"id": "hestia_director_goddess",
+	"title": "Director Goddess",
+	"name": "Hestia",
+	"stars": 4,
+	"limited": true,
+	"stats": {
+		"hp": 				[748, 828, 908, 1000, 1104, 1208],
+		"mp": 				[72, 80, 88, 96, 104, 112],
+		"physical_attack": 	[176, 212, 248, 284, 320, 320],
+		"magic_attack": 	[158, 194, 230, 266, 266, 302],
+		"defense": 			[208, 225, 242, 259, 293, 327],
+		"strength": 		[176, 212, 248, 284, 320, 320],
+		"endurance": 		[208, 225, 242, 259, 293, 327],
+		"dexterity": 		[219, 242, 265, 288, 311, 334],
+		"agility": 			[113, 131, 149, 167, 185, 185],
+		"magic": 			[158, 194, 230, 266, 266, 302]
+	},
+	"skills": [
+		{
+			"name": "Yearly Revival+",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "strength",
+					"modifier": "+8%"
+				}
+			]
+		}, {
+			"name": "Yearly Revival++",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "strength",
+					"modifier": "+10%"
+				}
+			]
+		}
+	]
+}

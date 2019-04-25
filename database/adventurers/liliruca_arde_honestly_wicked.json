@@ -1,0 +1,111 @@
+{
+	"id": "liliruca_arde_honestly_wicked",
+	"title": "Honestly Wicked",
+	"name": "Liliruca Arde",
+	"type": "healer_type",
+	"stars": 3,
+	"limited": true,
+	"stats": {
+		"hp": 				[1171, 1335, 1514, 1710, 1924, 2156],
+		"mp": 				[152, 168, 184, 200, 216, 232],
+		"physical_attack": 	[111, 147, 183, 219, 255, 255],
+		"magic_attack": 	[244, 291, 338, 385, 479, 573],
+		"defense": 			[79, 116, 153, 190, 190, 190],
+		"strength": 		[111, 147, 183, 219, 255, 255],
+		"endurance": 		[79, 116, 153, 190, 190, 190],
+		"dexterity": 		[201, 287, 330, 373, 416, 459],
+		"agility": 			[150, 150, 188, 225, 263, 338],
+		"magic": 			[244, 291, 338, 385, 479, 573]
+	},
+	"skills": {
+		"special": {
+			"name": "Tumbling!",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "high",
+					"type": "physical_attack"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Cure Potion?",
+				"effects": [
+					{
+						"target": "allies",
+						"attribute": "heal",
+						"modifier": "low"
+					}
+				]
+			}, {
+				"name": "Detoxification?",
+				"effects": [
+					{
+						"target": "allies",
+						"attribute": "ailment_cure",
+						"modifier": ""
+					}
+				]
+			}, {
+				"name": "Poison Arrow?",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "low",
+						"type": "physical_attack"
+					}, {
+						"target": "foe",
+						"attribute": "poison",
+						"modifier": "+10%"
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Saboteur?: I",
+				"effects": [
+					{
+						"attribute": "dexterity",
+						"modifier": "+5%"
+					}
+				]
+			}, {
+				"name": "Acceleration?: I",
+				"effects": [
+					{
+						"attribute": "agility",
+						"modifier": "+4%"
+					}
+				]
+			}, {
+				"name": "Tough?: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+3%"
+					}
+				]
+			}, {
+				"name": "Mage?: H",
+				"effects": [
+					{
+						"attribute": "magic",
+						"modifier": "+2%"
+					}
+				]
+			}, {
+				"name": "Spirit Healing?: G",
+				"effects": [
+					{
+						"attribute": "mp_regen",
+						"modifier": "+1%"
+					}
+				]
+			}
+		]
+	}
+}

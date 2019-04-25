@@ -1,0 +1,114 @@
+{
+	"id": "ais_wallenstein_cold_princess",
+	"title": "Cold Princess",
+	"name": "Ais Wallenstein",
+	"type": "physical_type",
+	"stars": 3,
+	"limited": true,
+	"stats": {
+		"hp": 				[1405, 1589, 1785, 1993, 2215, 2455],
+		"mp": 				[119, 131, 143, 155, 167, 179],
+		"physical_attack": 	[291, 340, 389, 487, 585, 683],
+		"magic_attack": 	[66, 108, 150, 150, 150, 150],
+		"defense": 			[94, 127, 160, 193, 226, 226],
+		"strength": 		[291, 340, 389, 487, 585, 683],
+		"endurance": 		[94, 127, 160, 193, 226, 226],
+		"dexterity": 		[142, 183, 224, 265, 306, 347],
+		"agility": 			[192, 237, 281, 326, 371, 460],
+		"magic": 			[66, 108, 150, 150, 150, 150]
+	},
+	"skills": {
+		"special": {
+			"name": "Pikopiko Aerial",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "high",
+					"type": "physical_attack"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Ariel?",
+				"effects": [
+					{
+						"target": "self",
+						"attribute": "strength",
+						"modifier": "+50%",
+						"duration": 4
+					}, {
+						"target": "self",
+						"attribute": "magic_resist",
+						"modifier": "+5%",
+						"duration": 4
+					}
+				]
+			}, {
+				"name": "Tres Piercer?",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "low",
+						"type": "physical_attack"
+					}
+				]
+			}, {
+				"name": "Veter Mech?",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "low",
+						"type": "physical_attack"
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Saboteur?: G",
+				"effects": [
+					{
+						"attribute": "dexterity",
+						"modifier": "+5%"
+					}
+				]
+			}, {
+				"name": "Hunter?: G",
+				"effects": [
+					{
+						"attribute": "agility",
+						"modifier": "+4%"
+					}
+				]
+			}, {
+				"name": "Tough?: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+3%"
+					}
+				]
+			}, {
+				"name": "Sword Fighter?: I",
+				"effects": [
+					{
+						"attribute": "strength",
+						"modifier": "+2%"
+					}
+				]
+			}, {
+				"name": "Healing Power?: I",
+				"effects": [
+					{
+						"attribute": "hp_regen",
+						"modifier": "+1%"
+					}
+				]
+			}
+		]
+	}
+}
