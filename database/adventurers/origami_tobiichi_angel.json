@@ -1,0 +1,141 @@
+{
+	"id": "origami_tobiichi_angel",
+	"title": "Angel",
+	"name": "Origami Tobiichi",
+	"type": "magic_type",
+	"stars": 4,
+	"limited": true,
+	"stats": {
+		"hp":				[1570, 1754, 1950, 2158, 2380, 2620],
+		"mp": 				[184, 200, 216, 234, 254, 274],
+		"physical_attack":	[114, 188, 262, 336, 336, 336],
+		"magic_attack":		[511, 603, 787, 971, 1155, 1339],
+		"defense":			[133, 214, 214, 214, 295, 377],
+		"strength":			[114, 188, 262, 336, 336, 336],
+		"endurance":		[133, 214, 214, 214, 295, 377],
+		"dexterity":		[221, 309, 397, 485, 573, 573],
+		"agility":			[309, 388, 467, 546, 625, 784],
+		"magic":			[511, 603, 787, 971, 1155, 1339]
+	},
+	"skills": {
+		"special": {
+			"name": "Metatron",
+			"effects": [
+				{
+					"target": "foe",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "light_magic_attack"
+				}, {
+					"target": "skill",
+					"attribute": "magic",
+					"modifier": "boost"
+				}, {
+					"target": "skill",
+					"attribute": "penetration_rate",
+					"modifier": "ultra"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Heavenly Wings",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "light_magic_attack"
+					}, {
+						"target": "skill",
+						"attribute": "magic",
+						"modifier": "boost"
+					}, {
+						"target": "foes",
+						"attribute": "light_resist",
+						"modifier": "-20%",
+						"duration": 4
+					}
+				]
+			}, {
+				"name": "Sword of Light",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "light_magic_attack"
+					}, {
+						"target": "self",
+						"attribute": "magic",
+						"modifier": "+75%",
+						"duration": 4
+					}
+				]
+			}, {
+				"name": "The Sun",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "light_magic_attack"
+					}, {
+						"target": "skill",
+						"attribute": "magic",
+						"modifier": "boost"
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Enlightenment: I",
+				"effects": [
+					{
+						"attribute": "magic",
+						"modifier": "+15%"
+					}
+				]
+			}, {
+				"name": "Piercing Strike: I",
+				"effects": [
+					{
+						"attribute": "penetration_damage",
+						"modifier": "+20%"
+					}
+				]
+			}, {
+				"name": "Dark Resistance: I",
+				"effects": [
+					{
+						"attribute": "dark_resist",
+						"modifier": "+35%"
+					}
+				]
+			}, {
+				"name": "Rigid: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+15%"
+					}, {
+						"attribute": "agility",
+						"modifier": "+15%"
+					}, {
+						"attribute": "dexterity",
+						"modifier": "+15%"
+					}
+				]
+			}, {
+				"name": "Spirit Killer",
+				"effects": [
+					{
+						"attribute": "spirit_killer",
+						"modifier": "+50%"
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,138 @@
+{
+	"id": "ais_wallenstein_devil_princess",
+	"title": "Devil Princess",
+	"name": "Ais Wallenstein",
+	"type": "physical_type",
+	"stars": 4,
+	"limited": true,
+	"stats": {
+		"hp":				[1602, 1786, 1982, 2190, 2412, 2652],
+		"mp":				[126, 138, 150, 162, 174, 186],
+		"physical_attack":	[675, 778, 882, 985, 1192, 1503],
+		"magic_attack":		[118, 188, 258, 328, 328, 328],
+		"defense":			[163, 230, 296, 363, 430, 430],
+		"strength":			[675, 778, 882, 985, 1192, 1503],
+		"endurance":		[163, 230, 296, 363, 430, 430],
+		"dexterity":		[204, 287, 369, 452, 526, 534],
+		"agility":			[304, 388, 471, 555, 639, 806],
+		"magic":			[118, 188, 258, 328, 328, 328]
+	},
+	"skills": {
+		"special": {
+			"name": "Heaven's Catastrophe",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "dark_physical_attack"
+				}, {
+					"target": "skill",
+					"attribute": "strength",
+					"modifier": "boost"
+				}, {
+					"target": "foes",
+					"attribute": "status_buff",
+					"modifier": "-2 turns"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Devilish Malevolence",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "low",
+						"type": "dark_physical_attack"
+					}, {
+						"target": "allies",
+						"attribute": "dark_attack",
+						"modifier": "+25%",
+						"duration": 3
+					}
+				]
+			}, {
+				"name": "Disintegrate",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "dark_physical_attack"
+					}, {
+						"target": "skill",
+						"attribute": "strength",
+						"modifier": "boost"
+					}, {
+						"target": "foes",
+						"attribute": "poison",
+						"modifier": "25%",
+						"duration": 1
+					}
+				]
+			}, {
+				"name": "Ruthless Sword",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "dark_physical_attack"
+					}, {
+						"target": "skill",
+						"attribute": "strength",
+						"modifier": "boost"
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Sword Fighter: I",
+				"effects": [
+					{
+						"attribute": "strength",
+						"modifier": "+15%"
+					}
+				]
+			}, {
+				"name": "Strike: I",
+				"effects": [
+					{
+						"attribute": "critical_damage",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Light Resistance: I",
+				"effects": [
+					{
+						"attribute": "light_resist",
+						"modifier": "+35%"
+					}
+				]
+			}, {
+				"name": "Concentrate: I",
+				"effects": [
+					{
+						"attribute": "agility",
+						"modifier": "+15%"
+					}, {
+						"attribute": "dexterity",
+						"modifier": "+15%"
+					}
+				]
+			}, {
+				"name": "Tough: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+15%"
+					}
+				]
+			}
+		]
+	}
+}

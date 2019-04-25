@@ -1,0 +1,40 @@
+{
+	"id": "kotori_itsuka_efreet",
+	"title": "Efreet",
+	"name": "Kotori Itsuka",
+	"stars": 4,
+	"limited": true,
+	"stats": {
+		"hp":				[602, 658, 714, 774, 838, 902],
+		"mp":				[103, 111, 119, 129, 141, 153],
+		"physical_attack":	[297, 335, 373, 411, 487, 563],
+		"magic_attack":		[114, 147, 180, 213, 213, 213],
+		"defense":			[159, 185, 211, 237, 263, 289],
+		"strength":			[297, 335, 373, 411, 487, 563],
+		"endurance":		[159, 185, 211, 237, 263, 289],
+		"dexterity":		[160, 196, 232, 368, 304, 304],
+		"agility":			[234, 268, 302, 336, 370, 404],
+		"magic":			[114, 147, 180, 213, 213, 213]
+	},
+	"skills": [
+		{
+			"name": "Crimson Coat+",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "hp_regen",
+					"modifier": "+15%"
+				}
+			]
+		}, {
+			"name": "Crimson Coat++",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "hp_regen",
+					"modifier": "+20%"
+				}
+			]
+		}
+	]
+}
