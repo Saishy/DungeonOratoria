@@ -95,7 +95,7 @@
 				"name": "Mage?: H",
 				"effects": [
 					{
-						"attribute": "strength",
+						"attribute": "magic",
 						"modifier": "+2%"
 					}
 				]

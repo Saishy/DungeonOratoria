@@ -23,7 +23,7 @@
 			"effects": [
 				{
 					"target": "allies",
-					"attribute": "heal_modifier",
+					"attribute": "heal",
 					"modifier": "ultra"
 				}, {
 					"target": "allies",
