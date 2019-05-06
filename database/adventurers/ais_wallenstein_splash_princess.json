@@ -23,8 +23,9 @@
 			"effects": [
 				{
 					"target": "foes",
-					"attribute": "light_magic_attack",
-					"modifier": "ultra"
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "light_magic_attack"
 				}, {
 					"target": "foes",
 					"attribute": "seal",
@@ -38,8 +39,9 @@
 				"effects": [
 					{
 						"target": "foe",
-						"attribute": "light_magic_attack",
+						"attribute": "damage",
 						"modifier": "medium",
+						"type": "light_magic_attack",
 						"speed": "fast"
 					}
 				]
@@ -49,8 +51,9 @@
 				"effects": [
 					{
 						"target": "foes",
-						"attribute": "light_magic_attack",
-						"modifier": "high"
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "light_magic_attack"
 					}, {
 						"target": "skill",
 						"attribute": "magic",

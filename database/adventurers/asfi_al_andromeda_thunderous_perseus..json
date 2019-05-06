@@ -1,0 +1,144 @@
+{
+	"id": "asfi_al_andromeda_thunderous_perseus",
+	"title": "Thunderous Perseus",
+	"name": "Asfi Al Andromeda",
+	"type": "balance_type",
+	"stars": 4,
+	"limited": false,
+	"stats": {
+		"hp":				[1408, 1584, 1778, 1990, 2220, 2468],
+		"mp":				[161, 173, 185, 197, 209, 221],
+		"physical_attack": 	[410, 640, 756, 871, 986, 1101],
+		"magic_attack":		[405, 501, 597, 693, 789, 981],
+		"defense":			[150, 150, 201, 252, 303, 354],
+		"strength": 		[410, 640, 756, 871, 986, 1101],
+		"endurance": 		[150, 150, 201, 252, 303, 354],
+		"dexterity": 		[254, 343, 433, 523, 612, 702],
+		"agility": 			[272, 355, 438, 520, 603, 603],
+		"magic": 			[405, 501, 597, 693, 789, 981]
+	},
+	"skills": {
+		"special": {
+			"name": "Ascending Knives",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "thunder_physical_attack"
+				}, {
+					"target": "foes",
+					"attribute": "physical_resist",
+					"modifier": "-25%",
+					"duration": 2
+				}, {
+					"target": "foes",
+					"attribute": "magic_resist",
+					"modifier": "-25%",
+					"duration": 2
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Magnetic Maze",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "thunder_physical_attack"
+					}, {
+						"target": "foes",
+						"attribute": "counter_rate",
+						"modifier": "-35%",
+						"duration": 3
+					}, {
+						"target": "foes",
+						"attribute": "heal_modifier",
+						"modifier": "-35%",
+						"duration": 3
+					}
+				]
+			}, {
+				"name": "Phase Shift",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "thunder_physical_attack"
+					}, {
+						"target": "skill",
+						"attribute": "unguard_rate",
+						"modifier": "high"
+					}, {
+						"target": "allies",
+						"attribute": "null_magic_attack_no_special",
+						"modifier": "x1 with 35% Chance"
+					}
+				]
+			}, {
+				"name": "Thunder Crash",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "thunder_physical_attack"
+					}, {
+						"target": "skill",
+						"attribute": "Dmg. +60% per each Target's Heal Reduction Skill",
+						"modifier": ""
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Mystery: ?",
+				"effects": [
+					{
+						"attribute": "dexterity",
+						"modifier": "+15%"
+					}
+				]
+			}, {
+				"name": "Solid: I",
+				"effects": [
+					{
+						"attribute": "guard_rate",
+						"modifier": "+30%"
+					}
+				]
+			}, {
+				"name": "Water Resistance: I",
+				"effects": [
+					{
+						"attribute": "water_resist",
+						"modifier": "+35%"
+					}
+				]
+			}, {
+				"name": "Nimble: I",
+				"effects": [
+					{
+						"attribute": "strength",
+						"modifier": "+20%"
+					}, {
+						"attribute": "agility",
+						"modifier": "+20%"
+					}
+				]
+			}, {
+				"name": "Insect Killer",
+				"effects": [
+					{
+						"attribute": "insect_killer",
+						"modifier": "+50%"
+					}
+				]
+			}
+		]
+	}
+}
