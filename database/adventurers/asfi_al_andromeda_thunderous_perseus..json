@@ -75,8 +75,7 @@
 					}, {
 						"target": "allies",
 						"attribute": "null_magic_attack_no_special",
-						"modifier": "x1",
-						"speed": "35% Chance"
+						"modifier": "x1 with 35% Chance"
 					}
 				]
 			}, {
