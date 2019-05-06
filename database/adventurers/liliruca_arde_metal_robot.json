@@ -1,0 +1,116 @@
+{
+	"id": "liliruca_arde_metal_robot",
+	"title": "Metal Robot",
+	"name": "Liliruca Arde",
+	"type": "balance_type",
+	"stars": 4,
+	"limited": true,
+	"stats": {
+		"hp": 				[1428, 1604, 1798, 2010, 2240, 2488],
+		"mp":				[156, 168, 180, 192, 204, 216],
+		"physical_attack":	[327, 481, 558, 635, 712, 789],
+		"magic_attack":		[379, 459, 540, 621, 702, 864],
+		"defense":			[163, 163, 206, 249, 292, 336],
+		"strength":			[327, 481, 558, 635, 712, 789],
+		"endurance":		[163, 163, 206, 249, 292, 336],
+		"dexterity":		[219, 283, 347, 411, 475, 539],
+		"agility":			[198, 256, 313, 371, 429, 429],
+		"magic":			[379, 459, 540, 621, 702, 864]
+	},
+	"skills": {
+		"special": {
+			"name": "Pallum Satelite Cannon",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "thunder_magic_attack"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Emergency Maintenance",
+				"effects": [
+					{
+						"target": "allies",
+						"attribute": "heal",
+						"modifier": "low"
+					}, {
+						"target": "allies",
+						"attribute": "ailment_cure",
+						"modifier": ""
+					}
+				]
+			}, {
+				"name": "Caustic Smog",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "low",
+						"type": "thunder_magic_attack"
+					}, {
+						"target": "foe",
+						"attribute": "poison",
+						"modifier": "10%"
+					}
+				]
+			}, {
+				"name": "Robot Punch",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "thunder_magic_attack"
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Enlightenment?: I",
+				"effects": [
+					{
+						"attribute": "magic",
+						"modifier": "+5%"
+					}
+				]
+			}, {
+				"name": "Saboteur?: I",
+				"effects": [
+					{
+						"attribute": "dexterity",
+						"modifier": "+5%"
+					}
+				]
+			}, {
+				"name": "Acceleration?: I",
+				"effects": [
+					{
+						"attribute": "agility",
+						"modifier": "+5%"
+					}
+				]
+			}, {
+				"name": "Status Resist?: I",
+				"effects": [
+					{
+						"attribute": "ailment_resist",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Tough?: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+5%"
+					}
+				]
+			}
+		]
+	}
+}
