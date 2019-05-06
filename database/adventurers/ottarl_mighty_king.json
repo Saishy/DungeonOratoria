@@ -1,0 +1,144 @@
+{
+	"id": "ottarl_mighty_king",
+	"title": "Mighty King",
+	"name": "Ottarl",
+	"type": "physical_type",
+	"stars": 4,
+	"limited": false,
+	"stats": {
+		"hp": 				[1432, 1608, 1802, 2014, 2244, 2492],
+		"mp": 				[136, 148, 160, 172, 184, 196],
+		"physical_attack": 	[680, 792, 905, 1017, 1242, 1580],
+		"magic_attack":		[118, 188, 258, 328, 328, 328],
+		"defense":			[145, 203, 261, 319, 377, 377],
+		"strength": 		[680, 792, 905, 1017, 1242, 1580],
+		"endurance": 		[145, 203, 261, 319, 377, 377],
+		"dexterity": 		[325, 418, 512, 606, 700, 700],
+		"agility": 			[243, 319, 395, 471, 547, 699],
+		"magic": 			[118, 188, 258, 328, 328, 328]
+	},
+	"skills": {
+		"special": {
+			"name": "Lightning Strike",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "thunder_physical_attack"
+				}, {
+					"target": "skill",
+					"attribute": "strength",
+					"modifier": "boost"
+				}, {
+					"target": "foes",
+					"attribute": "stun",
+					"modifier": "35%"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Slash of Light",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "super",
+						"type": "thunder_physical_attack"
+					}, {
+						"target": "skill",
+						"attribute": "unguard_rate",
+						"modifier": "ultra"
+					}, {
+						"target": "foes",
+						"attribute": "taunt",
+						"modifier": "25%"
+					}
+				]
+			}, {
+				"name": "Tumultuous Zoom",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "low",
+						"type": "thunder_physical_attack"
+					}, {
+						"target": "foes",
+						"attribute": "hp_regen_removal_no_assist",
+						"modifier": ""
+					}, {
+						"target": "foes",
+						"attribute": "all_damage_resist_removal_no_assist",
+						"modifier": ""
+					}
+				]
+			}, {
+				"name": "Bolt of Destruction",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "thunder_physical_attack"
+					}, {
+						"target": "skill",
+						"attribute": "strength",
+						"modifier": "boost"
+					}, {
+						"target": "skill",
+						"attribute": "unguard_rate",
+						"modifier": "ultra"
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Resilience: I",
+				"effects": [
+					{
+						"attribute": "When countering, regular attack [Foe] with Ultra Unguard Rate",
+						"modifier": ""
+					}
+				]
+			}, {
+				"name": "Coutner-attack: I",
+				"effects": [
+					{
+						"attribute": "counter_damage",
+						"modifier": "+50%"
+					}
+				]
+			}, {
+				"name": "Water Resistance: I",
+				"effects": [
+					{
+						"attribute": "water_resist",
+						"modifier": "+35%"
+					}
+				]
+			}, {
+				"name": "Battle Arts: I",
+				"effects": [
+					{
+						"attribute": "strength",
+						"modifier": "+25%"
+					}, {
+						"attribute": "agility",
+						"modifier": "+25%"
+					}
+				]
+			}, {
+				"name": "Insect Killer",
+				"effects": [
+					{
+						"attribute": "insect_killer",
+						"modifier": "+50%"
+					}
+				]
+			}
+		]
+	}
+}

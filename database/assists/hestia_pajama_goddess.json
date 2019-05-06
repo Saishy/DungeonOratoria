@@ -1,0 +1,48 @@
+{
+	"id": "hestia_pajama_goddess",
+	"title": "Pajama Goddess",
+	"name": "Hestia",
+	"stars": 4,
+	"limited": false,
+	"stats": {
+		"hp":				[602, 658, 714, 774, 838, 902],
+		"mp":				[103, 111, 119, 129, 141, 153],
+		"physical_attack":	[295, 333, 371, 409, 485, 561],
+		"magic_attack":		[117, 150, 183, 216, 216, 216],
+		"defense":			[176, 202, 228, 254, 280, 306],
+		"strength":			[295, 333, 371, 409, 485, 561],
+		"endurance":		[176, 202, 228, 254, 280, 306],
+		"dexterity":		[165, 201, 237, 273, 309, 309],
+		"agility":			[211, 245, 279, 313, 347, 381],
+		"magic":			[117, 150, 183, 216, 216, 216]
+	},
+	"skills": [
+		{
+			"name": "Old Times+",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "sleep",
+					"modifier": "30%"
+				}, {
+					"target": "foes",
+					"attribute": "thunder_resist",
+					"modifier": "-10%"
+				}
+			]
+		}, {
+			"name": "Old Times++",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "sleep",
+					"modifier": "45%"
+				}, {
+					"target": "foes",
+					"attribute": "thunder_resist",
+					"modifier": "-15%"
+				}
+			]
+		}
+	]
+}

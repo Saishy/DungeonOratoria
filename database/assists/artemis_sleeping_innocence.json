@@ -1,0 +1,56 @@
+{
+	"id": "artemis_sleeping_innocence",
+	"title": "Sleeping Innocence",
+	"name": "Artemis",
+	"stars": 4,
+	"limited": false,
+	"stats": {
+		"hp":				[792, 872, 952, 1044, 1148, 1252],
+		"mp":				[61, 69, 77, 85, 93, 101],
+		"physical_attack":	[192, 225, 258, 291, 324, 357],
+		"magic_attack":		[225, 291, 324, 357, 357, 357],
+		"defense":			[199, 225, 251, 277, 329, 381],
+		"strength":			[192, 225, 258, 291, 324, 357],
+		"endurance":		[199, 225, 251, 277, 329, 381],
+		"dexterity":		[175, 206, 237, 268, 299, 330],
+		"agility":			[112, 112, 146, 180, 214, 214],
+		"magic":			[225, 291, 324, 357, 357, 357]
+	},
+	"skills": [
+		{
+			"name": "Until the Sunrise+",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "sleep_resist",
+					"modifier": "+75%"
+				}, {
+					"target": "allies",
+					"attribute": "taunt_resist",
+					"modifier": "+75%"
+				}, {
+					"target": "allies",
+					"attribute": "endurance",
+					"modifier": "+4%"
+				}
+			]
+		}, {
+			"name": "Until the Sunrise++",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "sleep_resist",
+					"modifier": "+100%"
+				}, {
+					"target": "allies",
+					"attribute": "taunt_resist",
+					"modifier": "+100%"
+				}, {
+					"target": "allies",
+					"attribute": "endurance",
+					"modifier": "+5%"
+				}
+			]
+		}
+	]
+}
