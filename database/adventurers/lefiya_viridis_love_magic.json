@@ -1,0 +1,118 @@
+{
+	"id": "lefiya_viridis_love_magic",
+	"title": "Love Magic",
+	"name": "Lefiya Viridis",
+	"type": "magic_type",
+	"stars": 4,
+	"limited": true,
+	"stats": {
+		"hp": 				[1526, 1710, 1906, 2114, 2336, 2576],
+		"mp":				[195, 211, 227, 245, 265, 285],
+		"physical_attack":	[174, 226, 278, 330, 330, 330],
+		"magic_attack":		[450, 517, 652, 786, 920, 1055],
+		"defense":			[98, 164, 164, 168, 231, 297],
+		"strength":			[174, 226, 278, 330, 330, 330],
+		"endurance":		[98, 164, 164, 168, 231, 297],
+		"dexterity":		[179, 248, 318, 387, 456, 456],
+		"agility":			[285, 346, 407, 468, 529, 651],
+		"magic":			[450, 517, 652, 786, 920, 1055]
+	},
+	"skills": {
+		"special": {
+			"name": "Galactica Magica",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "ultra",
+					"type": "water_magic_attack"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Shining Wizard",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "light_magic_attack"
+					}
+				]
+			}, {
+				"name": "Keep it a secret!",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "water_magic_attack"
+					}, {
+						"target": "foes",
+						"attribute": "seal",
+						"modifier": "5%"
+					}
+				]
+			}, {
+				"name": "Magic Attack",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "water_magic_attack"
+					}, {
+						"target": "foes",
+						"attribute": "magic_resist",
+						"modifier": "-5%",
+						"duration": 4
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Mage?: I",
+				"effects": [
+					{
+						"attribute": "magic",
+						"modifier": "+5%"
+					}
+				]
+			}, {
+				"name": "Saboteur?: I",
+				"effects": [
+					{
+						"attribute": "dexterity",
+						"modifier": "+5%"
+					}
+				]
+			}, {
+				"name": "Acceleration?: I",
+				"effects": [
+					{
+						"attribute": "agility",
+						"modifier": "+5%"
+					}
+				]
+			}, {
+				"name": "Status Resist?: I",
+				"effects": [
+					{
+						"attribute": "ailment_resist",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Tough?: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+5%"
+					}
+				]
+			}
+		]
+	}
+}

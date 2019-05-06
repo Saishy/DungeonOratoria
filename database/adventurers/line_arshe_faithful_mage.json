@@ -1,0 +1,139 @@
+{
+	"id": "line_arshe_faithful_mage",
+	"title": "Faithful Mage",
+	"name": "Line Arshe",
+	"type": "balance_type",
+	"stars": 4,
+	"limited": false,
+	"stats": {
+		"hp": 				[1396, 1572, 1766, 1978, 2208, 2456],
+		"mp": 				[164, 176, 188, 200, 212, 224],
+		"physical_attack":	[327, 519, 615, 711, 807, 903],
+		"magic_attack": 	[528, 643, 758, 873, 988, 1219],
+		"defense":			[181, 181, 240, 299, 357, 416],
+		"strength": 		[327, 519, 615, 711, 807, 903],
+		"endurance": 		[181, 181, 240, 299, 357, 416],
+		"dexterity": 		[273, 363, 453, 542, 632, 722],
+		"agility": 			[200, 276, 352, 427, 503, 503],
+		"magic": 			[528, 643, 758, 873, 988, 1219]
+	},
+	"skills": {
+		"special": {
+			"name": "Blinding Chant",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "heal",
+					"modifier": "ultra"
+				}, {
+					"target": "allies",
+					"attribute": "light_attack",
+					"modifier": "+65%",
+					"duration": 1
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Face Cutter",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "light_magic_attack"
+					}, {
+						"target": "foes",
+						"attribute": "strength",
+						"modifier": "-40%",
+						"duration": 4
+					}, {
+						"target": "foes",
+						"attribute": "magic",
+						"modifier": "-40%",
+						"duration": 4
+					}
+				]
+			}, {
+				"name": "Focused Will",
+				"effects": [
+					{
+						"target": "allies",
+						"attribute": "heal",
+						"modifier": "medium"
+					}, {
+						"target": "allies",
+						"attribute": "counter_rate",
+						"modifier": "+30%",
+						"duration": 2
+					}
+				]
+			}, {
+				"name": "Enlightenment",
+				"effects": [
+					{
+						"target": "allies",
+						"attribute": "sa_gauge_charge",
+						"modifier": "+33%",
+						"duration": 4
+					}, {
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "low",
+						"type": "light_magic_attack"
+					}, {
+						"target": "skill",
+						"attribute": "",
+						"modifier": "fast"
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Enlightenment: I",
+				"effects": [
+					{
+						"attribute": "magic",
+						"modifier": "+20%"
+					}
+				]
+			}, {
+				"name": "Preseverance: I",
+				"effects": [
+					{
+						"attribute": "endurance",
+						"modifier": "+15%"
+					}, {
+						"attribute": "dexterity",
+						"modifier": "+15%"
+					}
+				]
+			}, {
+				"name": "Dark Resistance: I",
+				"effects": [
+					{
+						"attribute": "dark_resist",
+						"modifier": "+35%"
+					}
+				]
+			}, {
+				"name": "Insane Speed: I",
+				"effects": [
+					{
+						"attribute": "agility",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Status Resist: I",
+				"effects": [
+					{
+						"attribute": "ailment_resist",
+						"modifier": "+15%"
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,40 @@
+{
+	"id": "loki_whoever",
+	"title": "Whoever",
+	"name": "Loki",
+	"stars": 4,
+	"limited": true,
+	"stats": {
+		"hp":				[732, 812, 892, 984, 1088, 1192],
+		"mp":				[76, 84, 92, 100, 108, 116],
+		"physical_attack":	[153, 189, 225, 261, 297, 297],
+		"magic_attack":		[191, 227, 263, 299, 299, 335],
+		"defense":			[214, 231, 248, 265, 299, 333],
+		"strength":			[153, 189, 225, 261, 297, 297],
+		"endurance":		[214, 231, 248, 265, 299, 333],
+		"dexterity":		[179, 202, 225, 248, 271, 294],
+		"agility":			[137, 155, 173, 191, 209, 209],
+		"magic":			[191, 227, 263, 299, 299, 335]
+	},
+	"skills": [
+		{
+			"name": "My time, finally+",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "magic",
+					"modifier": "+8%"
+				}
+			]
+		}, {
+			"name": "My time, finally++",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "magic",
+					"modifier": "+8%"
+				}
+			]
+		}
+	]
+}

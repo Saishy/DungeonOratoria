@@ -1,0 +1,48 @@
+{
+	"id": "hestia_day_for_exploring",
+	"title": "Day For Exploring",
+	"name": "Hestia",
+	"stars": 4,
+	"limited": true,
+	"stats": {
+		"hp":				[724, 804, 884, 976, 1080, 1184],
+		"mp":				[ 78, 86, 94, 102, 110, 118],
+		"physical_attack":	[158, 194, 230, 266, 302, 302],
+		"magic_attack":		[158, 194, 230, 266, 266, 302],
+		"defense":			[246, 263, 280, 297, 331, 365],
+		"strength":			[158, 194, 230, 266, 302, 302],
+		"endurance":		[246, 263, 280, 297, 331, 365],
+		"dexterity":		[188, 211, 234, 257, 280, 303],
+		"agility":			[124, 142, 160, 178, 196, 196],
+		"magic":			[158, 194, 230, 266, 266, 302]
+	},
+	"skills": [
+		{
+			"name": "With A Secret Map+",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "physical_resist",
+					"modifier": "-8%"
+				}, {
+					"target": "foes",
+					"attribute": "magic_resist",
+					"modifier": "-8%"
+				}
+			]
+		}, {
+			"name": "With A Secret Map++",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "physical_resist",
+					"modifier": "-10%"
+				}, {
+					"target": "foes",
+					"attribute": "magic_resist",
+					"modifier": "-10%"
+				}
+			]
+		}
+	]
+}
