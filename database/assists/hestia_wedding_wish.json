@@ -1,0 +1,48 @@
+{
+	"id": "hestia_wedding_wish",
+	"title": "Wedding Wish",
+	"name": "Hestia",
+	"stars": 4,
+	"limited": false,
+	"stats": {
+		"hp":				[654, 710, 766, 826, 890, 954],
+		"mp":				[ 90, 98, 106, 116, 128, 140],
+		"physical_attack":	[112, 144, 176, 208, 208, 208],
+		"magic_attack":		[376, 409, 442, 508, 574, 640],
+		"defense":			[110, 135, 160, 160, 185, 210],
+		"strength":			[112, 144, 176, 208, 208, 208],
+		"endurance":		[110, 135, 160, 160, 185, 210],
+		"dexterity":		[181, 213, 245, 277, 341, 341],
+		"agility":			[141, 174, 207, 240, 240, 237],
+		"magic":			[376, 409, 442, 508, 574, 640]
+	},
+	"skills": [
+		{
+			"name": "Day of the Dream+",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "magic_attack",
+					"modifier": "+15%"
+				}, {
+					"target": "allies",
+					"attribute": "critical_rate",
+					"modifier": "+8%"
+				}
+			]
+		}, {
+			"name": "Day of the Dream+",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "magic_attack",
+					"modifier": "+20%"
+				}, {
+					"target": "allies",
+					"attribute": "critical_rate",
+					"modifier": "+10%"
+				}
+			]
+		}
+	]
+}

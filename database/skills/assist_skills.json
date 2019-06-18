@@ -400,6 +400,72 @@
 					"modifier": "+20%"
 				}
 			]
-		}
+		}, {
+			"name": "Day of the Dream+",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "magic_attack",
+					"modifier": "+15%"
+				}, {
+					"target": "allies",
+					"attribute": "critical_rate",
+					"modifier": "+8%"
+				}
+			]
+		}, {
+			"name": "Day of the Dream+",
+			"effects": [
+				{
+					"target": "allies",
+					"attribute": "magic_attack",
+					"modifier": "+20%"
+				}, {
+					"target": "allies",
+					"attribute": "critical_rate",
+					"modifier": "+10%"
+				}
+			]
+		}, {
+			"name": "Heavy Promise+",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "water_resist",
+					"modifier": "-5%"
+				}, {
+					"target": "foes",
+					"attribute": "dark_resist",
+					"modifier": "-5%"
+				}, {
+					"target": "allies",
+					"attribute": "water_attack",
+					"modifier": "+10%"
+				}, {
+					"target": "allies",
+					"attribute": "dark_attack",
+					"modifier": "+10%"
+				}
+			]
+		}, {
+			"name": "Heavy Promise++",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "water_resist",
+					"modifier": "-7%"
+				}, {
+					"target": "foes",
+					"attribute": "dark_resist",
+					"modifier": "-7%"
+				}, {
+					"target": "allies",
+					"attribute": "water_attack",
+					"modifier": "+15%"
+				}, {
+					"target": "allies",
+					"attribute": "dark_attack",
+					"modifier": "+15%"
+				}
 	]
 }
