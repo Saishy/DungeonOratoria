@@ -1,0 +1,64 @@
+{
+	"id": "syr_flover_pure_bride",
+	"title": "Pure Bride",
+	"name": "Syr Flover",
+	"stars": 4,
+	"limited": false,
+	"stats": {
+		"hp":				[518, 574, 630, 690, 754, 818],
+		"mp":				[124, 132, 140, 150, 162, 174],
+		"physical_attack":	[161, 196, 231, 266, 266, 301],
+		"magic_attack":		[161, 196, 231, 266, 266, 301],
+		"defense":			[115, 140, 165, 190, 215, 215],
+		"strength":			[161, 196, 231, 266, 266, 301],
+		"endurance":		[115, 140, 165, 190, 215, 215],
+		"dexterity":		[188, 221, 254, 287, 353, 353],
+		"agility":			[328, 364, 400, 436, 508, 580],
+		"magic":			[161, 196, 231, 266, 266, 301]
+	},
+	"skills": [
+		{
+			"name": "Heavy Promise+",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "water_resist",
+					"modifier": "-5%"
+				}, {
+					"target": "foes",
+					"attribute": "dark_resist",
+					"modifier": "-5%"
+				}, {
+					"target": "allies",
+					"attribute": "water_attack",
+					"modifier": "+10%"
+				}, {
+					"target": "allies",
+					"attribute": "dark_attack",
+					"modifier": "+10%"
+				}
+			]
+		}, {
+			"name": "Heavy Promise++",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "water_resist",
+					"modifier": "-7%"
+				}, {
+					"target": "foes",
+					"attribute": "dark_resist",
+					"modifier": "-7%"
+				}, {
+					"target": "allies",
+					"attribute": "water_attack",
+					"modifier": "+15%"
+				}, {
+					"target": "allies",
+					"attribute": "dark_attack",
+					"modifier": "+15%"
+				}
+			]
+		}
+	]
+}

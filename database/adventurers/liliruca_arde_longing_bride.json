@@ -1,0 +1,152 @@
+{
+	"id": "liliruca_arde_longing_bride",
+	"title": "Longing Bride",
+	"name": "Liliruca Arde",
+	"type": "magic_type",
+	"stars": 4,
+	"limited": false,
+	"stats": {
+		"hp": [1470, 1654, 1850, 2058, 2280, 2520],
+		"mp": [209, 225, 241, 259, 279, 299],
+		"physical_attack": [114, 188, 262, 336, 336, 336],
+		"magic_attack": [553, 645, 829, 1013, 1197, 1381],
+		"defense": [123, 204, 204, 204, 286, 367],
+		"strength": [114, 188, 262, 336, 336, 336],
+		"endurance": [123, 204, 204, 204, 286, 367],
+		"dexterity": [210, 298, 386, 474, 562, 562],
+		"agility": [358, 448, 538, 628, 718, 898],
+		"magic": [553, 645, 829, 1013, 1197, 1381]
+	},
+	"skills": {
+		"special": {
+			"name": "Bubble Bloom",
+			"effects": [
+				{
+					"target": "foes",
+					"attribute": "damage",
+					"modifier": "ultra",
+          "type": "water_magic_attack"
+				}, {
+					"target": "skill",
+					"attribute": "penetration_rate",
+					"modifier": "ultra"
+				}, {
+					"target": "foes",
+					"attribute": "seal",
+					"modifier": "30%"
+				}
+			]
+		},
+		"combat": [
+			{
+				"name": "Bubble Rush",
+				"effects": [
+					{
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "water_magic_attack"
+					}, {
+						"target": "skill",
+						"attribute": "uncounter_rate",
+						"modifier": "ultra"
+					}, {
+						"target": "allies",
+						"attribute": "status_debuff",
+						"modifier": "-1 turn"
+					}
+				]
+			}, {
+				"name": "Wipe Away",
+				"effects": [
+          {
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "low",
+						"type": "water_magic_attack"
+					}, {
+						"target": "foes",
+						"attribute": "guard_rate_buff_removal_no_assist",
+						"modifier": ""
+					}, {
+						"target": "foes",
+						"attribute": "hp_buff_removal_no_assist",
+						"modifier": ""
+					}
+				]
+			}, {
+				"name": "Hydro Blast",
+				"effects": [
+          {
+						"target": "foes",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "water_magical_attack"
+					}, {
+						"target": "allies",
+						"attribute": "magic",
+						"modifier": "+30%",
+            "duration": 2
+					}, {
+						"target": "allies",
+						"attribute": "water_attack",
+						"modifier": "+30%",
+            "duration": 2
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "Forestall: I",
+				"effects": [
+					{
+						"attribute": "magic",
+						"modifier": "+15%"
+					}, {
+						"attribute": "agility",
+						"modifier": "+15%"
+					}
+				]
+			}, {
+				"name": "Strike: I",
+				"effects": [
+					{
+						"attribute": "critical_damage",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Fire Resistance: I",
+				"effects": [
+					{
+						"attribute": "fire_resist",
+						"modifier": "+35%"
+					}
+				]
+			}, {
+				"name": "Rigid: I",
+				"effects": [
+          {
+						"attribute": "endurance",
+						"modifier": "+10%"
+					}, {
+						"attribute": "agility",
+						"modifier": "+10%"
+					}, {
+						"attribute": "dexterity",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Plant Killer",
+				"effects": [
+					{
+						"attribute": "plant_killer",
+						"modifier": "+50%"
+					}
+				]
+			}
+		]
+	}
+}

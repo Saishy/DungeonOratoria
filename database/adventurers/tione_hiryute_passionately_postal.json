@@ -1,0 +1,138 @@
+{
+	"id": "tione_hiryute_passionately_postal",
+	"title": "Passionately Postal",
+	"name": "Tione Hiryute",
+	"type": "physical_type",
+	"stars": 4,
+	"limited": false,
+	"stats": {
+		"hp": [1490, 1674, 1870, 2078, 2300, 2540],
+		"mp": [154, 166, 178, 190, 202, 214],
+		"physical_attack": [684, 792, 900, 1008, 1224, 1548],
+		"magic_attack": [118, 188, 258, 328, 328, 328],
+		"defense": [180, 244, 308, 371, 435, 435],
+		"strength": [684, 330, 413, 497, 580, 664],
+		"endurance": [180, 244, 308, 371, 435, 435],
+		"dexterity": [223, 305, 388, 470, 553, 553],
+		"agility": [280, 364, 447, 531, 614, 782],
+		"magic": [118, 188, 258, 328, 328, 328]
+	},
+	"skills": {
+		"special": {
+			"name": "Unrequited Rhapsody",
+			"effects": [
+				{
+					"target": "foe",
+					"attribute": "damage",
+					"modifier": "ultra",
+          "type": "water_physical_attack"
+				}, {
+						"target": "skill",
+						"attribute": "",
+						"modifier": "Dmg+50% per each [Self] Str. Buff Skill"
+        }
+			]
+		},
+		"combat": [
+			{
+				"name": "Rumble Dance",
+				"effects": [
+					{
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "medium",
+						"type": "water_physical_attack"
+					}, {
+						"target": "self",
+						"attribute": "strength",
+						"modifier": "+50%",
+            "duration": 4
+					}, {
+						"target": "self",
+						"attribute": "water_attack",
+						"modifier": "+50%",
+            "duration": 4
+					}
+				]
+			}, {
+				"name": "Bridal Path Dash",
+				"effects": [
+          {
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "low",
+						"type": "water_physical_attack"
+					}, {
+						"target": "allies",
+						"attribute": "all_damage_resist",
+						"modifier": "+25%",
+						"duration": 2
+					}
+				]
+			}, {
+				"name": "Single-Minded Lover",
+				"effects": [
+          {
+						"target": "foe",
+						"attribute": "damage",
+						"modifier": "high",
+						"type": "water_physical_attack"
+					}, {
+						"target": "foe",
+						"attribute": "str_buff_removal_no_assist",
+						"modifier": ""
+					}
+				]
+			}
+		],
+		"development": [
+			{
+				"name": "First Strike: G",
+				"effects": [
+					{
+						"attribute": "strength",
+						"modifier": "+20%"
+					}
+				]
+			}, {
+				"name": "Strike: I",
+				"effects": [
+					{
+						"attribute": "critical_damage",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Fire Resistance: I",
+				"effects": [
+					{
+						"attribute": "fire_resist",
+						"modifier": "+35%"
+					}
+				]
+			}, {
+				"name": "Rigid: I",
+				"effects": [
+          {
+						"attribute": "endurance",
+						"modifier": "+10%"
+					}, {
+						"attribute": "agility",
+						"modifier": "+10%"
+					}, {
+						"attribute": "dexterity",
+						"modifier": "+10%"
+					}
+				]
+			}, {
+				"name": "Plant Killer",
+				"effects": [
+					{
+						"attribute": "plant_killer",
+						"modifier": "+50%"
+					}
+				]
+			}
+		]
+	}
+}
