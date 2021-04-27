@@ -6,7 +6,7 @@
   "dependencies": {
     "discord.js": "^11.3.2",
     "pm2": "^2.10.3",
-    "redis": "^2.8.0",
+    "redis": "^3.1.1",
     "uws": "^9.148.0",
     "zlib-sync": "^0.1.4"
   },
