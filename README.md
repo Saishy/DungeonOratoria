@@ -1,6 +1,9 @@
 # DungeonOratoria
 A discord bot to request data from the Memoria Freese game
 
+# SECURITY RISK
+- Do not use it, this repository is very old and not maintaned
+
 ## How to Install
 - Run **npm install** to install all required packages.
 - You will need a valid **Token** for a working **Discord Bot** from http://discordapp.com/developers/applications/me.
